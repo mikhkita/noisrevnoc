@@ -1,13 +1,84 @@
 @charset "utf-8";
 
 @font-face {
-	font-family: 'PTSans-Bold';
-	src: url('../fonts/PTSans-Bold.eot?#iefix') format('embedded-opentype'),
-		 url('../fonts/PTSans-Bold.woff') format('woff'),
-		 url('../fonts/PTSans-Bold.ttf')  format('truetype'),
-		 url('../fonts/PTSans-Bold.svg#PTSans-Bold') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family:'Gilroy-Light';
+    src: url('../fonts/Gilroy-Light.eot');
+	src: url('../fonts/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Gilroy-Light.woff2') format('woff2'),
+		url('../fonts/Gilroy-Light.woff') format('woff'),
+		url('../fonts/Gilroy-Light.ttf') format('truetype'),
+		url('../fonts/Gilroy-Light.svg#Gilroy-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-0491;
+}
+@font-face {
+    font-family:'Gilroy-Bold';
+    src: url('../fonts/Gilroy-Bold.eot');
+	src: url('../fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+		url('../fonts/Gilroy-Bold.woff') format('woff'),
+		url('../fonts/Gilroy-Bold.ttf') format('truetype'),
+		url('../fonts/Gilroy-Bold.svg#Gilroy-Bold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-0491;
+}
+@font-face {
+    font-family:'Gilroy-Heavy';
+    src: url('../fonts/Gilroy-Heavy.eot');
+	src: url('../fonts/Gilroy-Heavy.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Gilroy-Heavy.woff2') format('woff2'),
+		url('../fonts/Gilroy-Heavy.woff') format('woff'),
+		url('../fonts/Gilroy-Heavy.ttf') format('truetype'),
+		url('../fonts/Gilroy-Heavy.svg#Gilroy-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-0491;
+}
+@font-face {
+    font-family:'Gilroy-Medium';
+    src: url('../fonts/Gilroy-Medium.eot');
+	src: url('../fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+		url('../fonts/Gilroy-Medium.woff') format('woff'),
+		url('../fonts/Gilroy-Medium.ttf') format('truetype'),
+		url('../fonts/Gilroy-Medium.svg#Gilroy-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-0491;
+}
+
+@font-face {
+    font-family:'Tahoma-Bold';
+    src: url('../fonts/Tahoma-Bold.eot');
+	src: url('../fonts/Tahoma-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Tahoma-Bold.woff2') format('woff2'),
+		url('../fonts/Tahoma-Bold.woff') format('woff'),
+		url('../fonts/Tahoma-Bold.ttf') format('truetype'),
+		url('../fonts/Tahoma-Bold.svg#Tahoma-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-04E9;
+}
+
+@font-face {
+    font-family:'Tahoma-Regular';
+    src: url('../fonts/Tahoma-Regular.eot');
+	src: url('../fonts/Tahoma-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Tahoma-Regular.woff2') format('woff2'),
+		url('../fonts/Tahoma-Regular.woff') format('woff'),
+		url('../fonts/Tahoma-Regular.ttf') format('truetype'),
+		url('../fonts/Tahoma-Regular.svg#Tahoma-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-04E9;
 }
 
 html,
@@ -15,16 +86,18 @@ body {
 	position: relative;
 }
 body {
-	min-width: 1000px;
-	text-align: center;
-	font-family: 'PTSans-Bold';
+	min-width: 1140px;
+	text-align: left;
+	font-family: 'Tahoma-Regular';
 	overflow-x: hidden;
 	-webkit-text-size-adjust: none;
-	color: #472275;
+	color: #0d0d10;
+	font-size: 15px;
+	line-height: 22px;
 }
 a{
 	text-decoration: none;
-	color: #472275;
+	color: #0d0d10;
 }
 li{
 	list-style: none;
@@ -39,33 +112,8 @@ input.error,textarea.error{
 	border: 1px solid #F00 !important;
 	box-shadow: 0 0px 0px 1px #F00;
 }
-.ps-lines{
-
-}
-	.ps-lines li.v{
-		position: fixed;
-		left: 50%;
-		height: 100%;
-		width: 1px;
-		top: 0px;
-		background-color: #00ffff;
-		opacity: 0.8;
-		z-index: 9999;
-	}
-	.ps-lines li.g{
-		position: absolute;
-		left: 0px;
-		width: 100%;
-		height: 1px;
-		background-color: #00ffff;
-		opacity: 0.8;
-		z-index: 9999;
-	}
 .fancybox-inner{
 	overflow: visible !important;
-}
-.bold{
-	font-family: 'PFM';
 }
 .underline{
 	text-decoration: underline;
@@ -78,14 +126,8 @@ input.error,textarea.error{
 }
 .b-block{
 	position: relative;
-	width: 1000px;
+	width: 1140px;
 	margin: 0px auto;
-}
-.b-absolute{
-	position: absolute;
-	top: 0px;
-	left: 50%;
-	margin-left: -500px;
 }
 input::-webkit-input-placeholder {
 	color: #777;
@@ -107,17 +149,201 @@ input:-moz-placeholder {
 	-moz-osx-font-smoothing: grayscale;
 }
 .b-btn{
+	display: inline-block;
+	padding: 20px 42px 18px 42px;
+	font-size: 20px;
+	line-height: 22px;
+	color: #FFF;
+	border-radius: 100px;
+	text-align: center;
+	background-color: #ff8a00;
+	-webkit-box-shadow: 0 25px 35px rgba(255, 138, 0, 0.2);
+	-moz-box-shadow: 0 25px 35px rgba(255, 138, 0, 0.2);
+	box-shadow: 0 25px 35px rgba(255, 138, 0, 0.2);
+}
+	.b-btn p{
+		display: inline-block;
+	}
+	.b-btn .main{
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		font-family: 'Gilroy-Heavy';
+	}
+	.b-btn .small{
+		font-size: 16px;
+		line-height: 22px;
+	}
+.b-btn-orange{
 
 }
-.b-orange-btn{
-
-}
-	.b-orange-btn:hover{
+	.b-btn-orange:hover{
 		
 	}
-.b-1{
-	
+
+.orange{
+	color: #ff8a00;
 }
+
+b{
+	font-weight: normal;
+	font-family: 'Tahoma-Bold';
+}
+
+/*----------------------*/
+
+.b-header{
+	color: #FFF;
+	background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(../i/header-back.jpg);
+    background-size: cover;
+}
+	.b-header-top{
+		padding-top: 40px;
+		margin-bottom: 75px;
+		font-size: 12px;
+		line-height: 18px;
+	}
+		.b-header-top-item{
+			float: left;
+		}
+		.b-header-top-item:first-child{
+			margin-right: 255px;
+		}
+		.b-header-top-item:last-child{
+			float: right;
+			padding-right: 37px;
+		}
+		.b-header-top-item > div,
+		.b-header-top-item > p{
+			vertical-align: top;
+			display: inline-block;
+		}
+			.b-header-top-logo{
+				width: 104px;
+				height: 40px;
+				background-position: 50% 50%;
+			    background-repeat: no-repeat;
+			    background-image: url(../i/logo.png);
+			    background-size: 104px;
+				margin-right: 22px;
+			}
+			.b-header-top-course{
+				width: 34px;
+				height: 34px;
+				background-position: 50% 50%;
+			    background-repeat: no-repeat;
+			    background-image: url(../i/flag.png);
+			    background-size: 34px;
+				margin-right: 12px;
+			}
+			.b-header-top-more{
+				width: 34px;
+				height: 34px;
+				background-position: 50% 50%;
+			    background-repeat: no-repeat;
+			    background-image: url(../i/head.png);
+			    background-size: 34px;
+				margin-right: 12px;
+			}
+
+.b-header-content{
+
+}
+	.b-header-content-left{
+		padding-top: 25px;
+		display: inline-block;
+		width: 462px;
+	}
+		.b-header-content-item{
+			position: relative;
+		}
+			.b-header-content-item img{
+				position: absolute;
+				display: inline-block;
+			}
+			.b-header-content-item p{
+				width: 185px;
+				margin-left: 100px;
+				margin-bottom: 62px;
+				display: inline-block;
+			}
+			.b-header-content-item .img-mac{
+				top: 0;
+				left: -37px;
+			}
+			.b-header-content-item .img-money{
+				top: -7px;
+				left: -9px;
+			}
+			.b-header-content-item .img-tag{
+				top: -20px;
+				left: -15px;
+			}
+
+	.b-header-content-right{
+		vertical-align: top;
+		display: inline-block;
+		width: 668px;
+		font-family: 'Gilroy-Light';
+	}
+	.b-header-content-right b{
+		font-family: 'Gilroy-Bold';
+	}
+		.b-header-content-question{
+			font-size: 50px;
+			line-height: 62px;
+			margin-bottom: 27px;
+		}
+		.b-header-content-answer{
+			position: relative;
+			margin-left: 54px;
+		}
+			.orange-triangle{
+				position: absolute;
+			    top: -12px;
+			    left: -22px;
+			    border: 6px solid transparent;
+			    border-right: 6px solid #ff8a00;
+			    border-bottom: 6px solid #ff8a00;
+			}
+			.b-header-content-answer p{
+				font-size: 30px;
+				line-height: 40px;
+			}
+
+		.b-header-book-it{
+			position: relative;
+			width: 572px;
+			padding-top: 33px;
+			padding-bottom: 133px;
+		}
+			.last-time{
+				position: absolute;
+				top: -10px;
+				right: 0;
+			}
+				.last-time img{
+					padding-top: 10px;
+					margin-right: 3px;
+					display: inline-block;
+				}
+				.last-time-text{
+					display: inline-block;
+					vertical-align: top;
+				}
+				.last-time-text p b{
+					font-size: 30px;
+					line-height: 40px;
+				}
+
+			.syrgai-header{
+				position: absolute;
+				bottom: 0;
+				right: 127px;
+			}
+
+/*----------------------*/
 
 
 @media (-webkit-min-device-pixel-ratio: 1.5) {
