@@ -91,13 +91,14 @@ body {
 	font-family: 'Tahoma-Regular';
 	overflow-x: hidden;
 	-webkit-text-size-adjust: none;
+	background-color: #FFF;
 	color: #0d0d10;
 	font-size: 15px;
 	line-height: 22px;
 }
 a{
 	text-decoration: none;
-	color: #0d0d10;
+	color: #8176a9;
 }
 li{
 	list-style: none;
@@ -199,9 +200,27 @@ h2.b-title{
 	letter-spacing: 1px;
 }
 
+h3{
+	color: #0d0d10;
+	font-family: 'Gilroy-Bold';
+	font-size: 30px;
+	line-height: 40px;
+}
+
+h4{
+	color: #0d0d10;
+	font-family: 'Gilroy-Medium';
+	font-size: 20px;
+	line-height: 30px;
+}
+
 b{
 	font-weight: normal;
 	font-family: 'Tahoma-Bold';
+}
+
+.b-center{
+	text-align: center;
 }
 
 .orange-triangle{
@@ -384,6 +403,270 @@ b{
 				.b-price-item p{
 
 				}
+
+	.b-price-offer{
+		margin-bottom: 65px;
+	}
+		.b-price-offer-block{
+			position: relative;
+			float: left;
+			width: 25%;
+		}
+			.b-price-offer-triangle{
+				height: 20px;
+				width: 100%;
+				background-color: transparent;
+			}
+			.b-price-offer-triangle span{
+				float: left;
+				display: inline-block;
+				height: 100%;
+			}
+				.left-block{
+					width: 54px;
+					background-color: #FFF;
+				}
+				.triangle-block{
+					position: relative;
+					width: 40px;
+				}
+					.triangle-block:before{
+						content: " ";
+						position: absolute;
+						bottom: 0;
+						left: 0;
+						border: 10px solid transparent;
+						border-bottom: 10px solid #FFF;
+						border-left: 10px solid #FFF;
+					}
+					.triangle-block:after{
+						content: " ";
+						position: absolute;
+						bottom: 0;
+						right: 0;
+						border: 10px solid transparent;
+						border-right: 10px solid #FFF;
+						border-bottom: 10px solid #FFF;
+					}
+				.right-block{
+					width: calc(100% - 94px);
+					background-color: #FFF;
+				}
+			.b-price-offer-content{
+				width: 100%;
+				background-color: #FFF;
+				-webkit-box-shadow: 0 0 55px rgba(0, 0, 0, 0.2);
+				-moz-box-shadow: 0 0 55px rgba(0, 0, 0, 0.2);
+				box-shadow: 0 0 55px rgba(0, 0, 0, 0.2);
+				padding: 0 0 45px 0;
+			}
+			.b-price-offer-block:nth-child(1){
+				z-index: 4;
+			}
+			.b-price-offer-block:nth-child(2){
+				z-index: 3;
+			}
+			.b-price-offer-block:nth-child(3){
+				z-index: 2;
+			}
+
+				.b-price-offer-list{
+					padding: 8px 30px 0 75px;
+					margin-bottom: 50px;
+				}
+					.offer-description{
+						font-size: 12px;
+						line-height: 18px;
+						color: #b2b2b3;
+						margin-bottom: 25px;
+					}
+					.b-price-offer-item{
+						position: relative;
+						margin-bottom: 24px;
+					}
+					.b-price-offer-item:first-of-type{
+						margin-bottom: 5px;
+					}
+						.offer-img{
+							width: 50px;
+						    position: absolute;
+						    top: 0;
+						    left: -63px;
+						}
+						.offer-img.offer-img-top{
+							top: 9px;
+						}
+						.offer-img.offer-img-left-book{
+							left: -49px;
+						}
+						.offer-img.offer-img-left-graghic{
+							left: -55px;
+						}
+							.offer-img img{
+								float: right;
+							}
+						.b-price-offer-item p{
+							font-size: 12px;
+							line-height: 18px;
+						}
+				.b-price .all-modules{
+					display: inline-block;
+					font-size: 12px;
+					line-height: 18px;
+					text-decoration: underline;
+				}
+				.b-price .all-modules:hover{
+					text-decoration: none;
+				}
+
+			.cource-price{
+				font-size: 25px;
+				line-height: 35px;
+				font-family: 'Gilroy-Bold';
+			}		
+				.old-price{
+					position: relative;
+					display: inline-block;
+					font-size: 25px;
+					line-height: 35px;
+					font-family: 'Gilroy-Medium';
+					margin-bottom: 8px;
+				}
+					.old-price img{
+					    width: 99px;
+					    position: absolute;
+					    top: 15px;
+					    left: -4px;
+					}
+					.b-price-offer-block:nth-child(2) .old-price img,
+					.b-price-offer-block:nth-child(3) .old-price img,
+					.b-price-offer-block:nth-child(4) .old-price img{
+						left: -11px;
+						width: 94px;
+					}
+				.new-price{
+					font-size: 40px;
+					line-height: 40px;
+					font-family: 'Gilroy-Bold';
+					margin-bottom: 30px;
+				}
+
+			.b-price-offer-content .b-btn{
+				width: 240px;
+				padding: 14px 0 12px 0;
+			}
+				.b-price-offer-content .b-btn .main{
+					font-size: 18px;
+					line-height: 18px;
+				}
+				.b-price-offer-content .b-btn .small{
+					font-size: 14px;
+					line-height: 16px;
+				}
+				.offer-description.next-increase{
+					margin-bottom: 18px;
+				}
+
+	.places-left{
+		text-align: center;
+		margin-top: 35px;
+		font-size: 12px;
+		line-height: 18px;
+		color: #b2b2b3;
+	}
+		.places-left-count{
+			display: inline-block;
+			color: #FFF;
+			width: 20px;
+			height: 20px;
+			border-radius: 10px;
+			background-color: #5e4abb;
+		}
+
+	.b-price-offer-right{
+		position: absolute;
+		right: 0;
+		bottom: 54px;
+		width: 140px;
+		height: 607px;
+		background-color: #5e4abb;
+	}
+		.b-price-offer-horizontal{
+			position: absolute;
+			top: 0;
+			left: -144px;
+			width: 448px;
+			height: 140px;
+			background-color: #5e4abb;
+		}
+
+.b-footer{
+	color: #b2b2b3;
+}
+	.b-footer-top{	
+	    padding-bottom: 40px;
+	    font-size: 12px;
+	    line-height: 18px;
+	    border-bottom: 1px solid #f7f7f7;
+	}
+		.b-footer-top-item{
+			vertical-align: top;
+			display: inline-block;
+		}
+		.b-footer-top-item:first-child{
+			margin-right: 336px;
+		}
+		.b-footer-top-item:last-child{
+			float: right;
+		}
+			.b-footer-logo {
+			    width: 104px;
+			    height: 40px;
+			    background-position: 50% 50%;
+			    background-repeat: no-repeat;
+			    background-image: url(../i/logo-footer.png);
+			    background-size: 104px;
+			    margin-right: 22px;
+			}
+			.b-footer-top-item > div, .b-footer-top-item > p {
+			    vertical-align: top;
+			    display: inline-block;
+			}
+			.b-footer-phone{
+				padding-top: 10px;
+			}
+				.b-footer-phone img{
+					margin-top: 3px;
+				    width: 18px;
+				    height: 18px;
+				    margin-right: 7px;
+				}
+				.b-footer-phone a{
+					display: inline-block;
+				    vertical-align: top;
+				    font-family: 'Gilroy-Medium';
+				    color: #0d0d10;
+				    font-size: 20px;
+				    line-height: 22px;
+				}
+
+	.b-footer-bottom{
+		padding: 35px 0;
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	.b-footer .politics{
+		display: inline-block;
+		font-size: 15px;
+		padding-top: 10px;
+		color: #b2b2b3;
+		text-decoration: underline;
+	}
+	.b-footer .politics:hover{
+		text-decoration: none;
+	}
+
 
 /*----------------------*/
 
