@@ -86,7 +86,7 @@ body {
 	position: relative;
 }
 body {
-	min-width: 1140px;
+	min-width: 1188px;
 	text-align: left;
 	font-family: 'Tahoma-Regular';
 	overflow-x: hidden;
@@ -174,11 +174,12 @@ input:-moz-placeholder {
 		font-size: 16px;
 		line-height: 22px;
 	}
-.b-btn-orange{
 
-}
-	.b-btn-orange:hover{
-		
+	.b-btn:hover{
+		background-color: #fd6900;
+		-webkit-box-shadow: 0 25px 35px rgba(255, 138, 0, 0.35);
+		-moz-box-shadow: 0 25px 35px rgba(255, 138, 0, 0.35);
+		box-shadow: 0 25px 35px rgba(255, 138, 0, 0.35);
 	}
 
 .orange{
@@ -263,6 +264,7 @@ b{
 			display: inline-block;
 		}
 			.b-header-top-logo{
+				display: inline-block;
 				width: 104px;
 				height: 40px;
 				background-position: 50% 50%;
@@ -271,24 +273,39 @@ b{
 			    background-size: 104px;
 				margin-right: 22px;
 			}
-			.b-header-top-course{
-				width: 34px;
-				height: 34px;
-				background-position: 50% 50%;
-			    background-repeat: no-repeat;
-			    background-image: url(../i/flag.png);
-			    background-size: 34px;
-				margin-right: 12px;
+
+			.b-header-icon-cont{
+				color: #FFF;
 			}
-			.b-header-top-more{
-				width: 34px;
-				height: 34px;
-				background-position: 50% 50%;
-			    background-repeat: no-repeat;
-			    background-image: url(../i/head.png);
-			    background-size: 34px;
-				margin-right: 12px;
-			}
+
+				.b-header-icon{
+					width: 34px;
+					height: 34px;
+					background-position: 50% 50%;
+				    background-repeat: no-repeat;
+				    background-image: url(../i/flag.svg);
+				    background-size: 34px;
+					margin-right: 12px;
+					opacity: 0.25;
+					-webkit-transition: opacity 50ms ease-out;
+				    -moz-transition: opacity 50ms ease-out;
+				    -ms-transition: opacity 50ms ease-out;
+				    -o-transition: opacity 50ms ease-out;
+				    transition: opacity 50ms ease-out;
+				}
+				.b-header-top-course{
+				    background-image: url(../i/flag.svg);
+				}
+				.b-header-top-more{
+				    background-image: url(../i/academ.svg);
+				}
+
+				.b-header-icon-cont:hover .b-header-icon{
+					opacity: 1;
+				}
+				.b-header-icon-cont:hover p{
+					text-decoration: underline;
+				}
 
 .b-header-content{
 
@@ -487,24 +504,85 @@ b{
 					.b-price-offer-item:first-of-type{
 						margin-bottom: 5px;
 					}
-						.offer-img{
+						.offer-img-cont{
 							width: 50px;
 						    position: absolute;
-						    top: 0;
+						    top: 2px;
 						    left: -63px;
 						}
-						.offer-img.offer-img-top{
-							top: 9px;
-						}
-						.offer-img.offer-img-left-book{
-							left: -49px;
-						}
-						.offer-img.offer-img-left-graghic{
-							left: -55px;
-						}
-							.offer-img img{
+							.offer-img-cont .img{
 								float: right;
+								background-position: top right;
+							    background-repeat: no-repeat;
+							    background-size: contain;
 							}
+
+							.img-book .img{
+								background-image: url('../i/book.png');
+								width: 63px;
+								height: 57px;
+							}
+							.img-cards .img{
+								background-image: url('../i/cards.png');
+								width: 57px;
+    							height: 46px;
+							}
+							.img-certificate .img{
+								background-image: url('../i/certificate.png');
+								width: 36px;
+    							height: 45px;
+							}
+							.img-video .img{
+								background-image: url('../i/video.png');
+								width: 41px;
+								height: 41px;
+							}
+							.img-iPhone .img{
+								background-image: url('../i/iPhone.png');
+								width: 39px;
+								height: 56px;
+							}
+							.img-macbook .img{
+								background-image: url('../i/macbook-price.png');
+								width: 59px;
+								height: 52px;
+							}
+							.img-syrgai .img{
+								background-image: url('../i/syrgai-price.png');
+								width: 36px;
+								height: 55px;
+							}
+							.img-training .img{
+								background-image: url('../i/training.png');
+								width: 53px;
+								height: 43px;
+							}
+							.img-skype .img{
+								background-image: url('../i/skype.png');
+								width: 34px;
+								height: 34px;
+							}
+							.img-graphic .img{
+								background-image: url('../i/graphic.png');
+								width: 50px;
+								height: 49px;
+							}
+							.img-lock .img{
+								background-image: url('../i/lock.png');
+								width: 34px;
+								height: 47px;
+							}
+							.offer-img-cont.img-book{
+								left: -48px;
+							}
+							.offer-img-cont.img-training{
+								top: 11px;
+							}
+							.offer-img-cont.img-graphic{
+								top: 8px;
+								left: -58px;
+							}
+
 						.b-price-offer-item p{
 							font-size: 12px;
 							line-height: 18px;
@@ -527,20 +605,27 @@ b{
 				.old-price{
 					position: relative;
 					display: inline-block;
-					font-size: 25px;
-					line-height: 35px;
-					font-family: 'Gilroy-Medium';
 					margin-bottom: 8px;
 				}
-					.old-price img{
+					.old-price .cross-out{
 					    width: 99px;
+					    height: 12px;
 					    position: absolute;
 					    top: 15px;
 					    left: -4px;
+					    background-position: top right;
+					    background-repeat: no-repeat;
+					    background-image: url('../i/cross-out.png');
+					    background-size: contain;
 					}
-					.b-price-offer-block:nth-child(2) .old-price img,
-					.b-price-offer-block:nth-child(3) .old-price img,
-					.b-price-offer-block:nth-child(4) .old-price img{
+					.old-price p{
+						font-size: 25px;
+						line-height: 35px;
+						font-family: 'Gilroy-Medium';
+					}
+					.b-price-offer-block:nth-child(2) .old-price .cross-out,
+					.b-price-offer-block:nth-child(3) .old-price .cross-out,
+					.b-price-offer-block:nth-child(4) .old-price .cross-out{
 						left: -11px;
 						width: 94px;
 					}
@@ -620,6 +705,7 @@ b{
 			float: right;
 		}
 			.b-footer-logo {
+				display: inline-block;
 			    width: 104px;
 			    height: 40px;
 			    background-position: 50% 50%;
@@ -637,8 +723,8 @@ b{
 			}
 				.b-footer-phone img{
 					margin-top: 3px;
-				    width: 18px;
-				    height: 18px;
+				    width: 16px;
+				    height: 16px;
 				    margin-right: 7px;
 				}
 				.b-footer-phone a{
@@ -648,6 +734,7 @@ b{
 				    color: #0d0d10;
 				    font-size: 20px;
 				    line-height: 22px;
+				    letter-spacing: 0.5px;
 				}
 
 	.b-footer-bottom{
@@ -672,7 +759,42 @@ b{
 
 
 @media (-webkit-min-device-pixel-ratio: 1.5) {
-	
+	.img-book .img{
+		background-image: url('../i/book@2x.png');
+	}
+	.img-cards .img{
+		background-image: url('../i/cards@2x.png');
+	}
+	.img-certificate .img{
+		background-image: url('../i/certificate@2x.png');
+	}
+	.img-video .img{
+		background-image: url('../i/video@2x.png');
+	}
+	.img-iPhone .img{
+		background-image: url('../i/iPhone@2x.png');
+	}
+	.img-macbook .img{
+		background-image: url('../i/macbook-price@2x.png');
+	}
+	.img-syrgai .img{
+		background-image: url('../i/syrgai-price@2x.png');
+	}
+	.img-training .img{
+		background-image: url('../i/training@2x.png');
+	}
+	.img-skype .img{
+		background-image: url('../i/skype@2x.png');
+	}
+	.img-graphic .img{
+		background-image: url('../i/graphic@2x.png');
+	}
+	.img-lock .img{
+		background-image: url('../i/lock@2x.png');
+	}
+	.old-price .cross-out{
+	    background-image: url('../i/cross-out@2x.png');
+	}
 }	
 @media screen and (max-width: 1250px){
 	
