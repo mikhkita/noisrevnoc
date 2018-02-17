@@ -405,7 +405,7 @@ b{
 				}
 
 	.b-price-offer{
-		margin-bottom: 65px;
+		margin-bottom: 74px;
 	}
 		.b-price-offer-block{
 			position: relative;
@@ -553,7 +553,7 @@ b{
 
 			.b-price-offer-content .b-btn{
 				width: 240px;
-				padding: 14px 0 12px 0;
+				padding: 13px 0;
 			}
 				.b-price-offer-content .b-btn .main{
 					font-size: 18px;
@@ -587,8 +587,8 @@ b{
 		position: absolute;
 		right: 0;
 		bottom: 54px;
-		width: 140px;
-		height: 607px;
+		width: 144px;
+    	height: 628px;
 		background-color: #5e4abb;
 	}
 		.b-price-offer-horizontal{
