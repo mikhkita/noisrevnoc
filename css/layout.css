@@ -739,9 +739,11 @@ b{
 			}
 				.b-footer-phone img{
 					margin-top: 3px;
-				    width: 16px;
-				    height: 16px;
-				    margin-right: 7px;
+					width: 16px;
+					height: 16px;
+					margin-right: 7px;
+					display: inline-block;
+					vertical-align: top;
 				}
 				.b-footer-phone a{
 					display: inline-block;
