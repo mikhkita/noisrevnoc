@@ -161,6 +161,11 @@ input:-moz-placeholder {
 	-webkit-box-shadow: 0 25px 35px rgba(255, 138, 0, 0.2);
 	-moz-box-shadow: 0 25px 35px rgba(255, 138, 0, 0.2);
 	box-shadow: 0 25px 35px rgba(255, 138, 0, 0.2);
+	-webkit-transition: transform 100ms ease-out;
+    -moz-transition: transform 100ms ease-out;
+    -ms-transition: transform 100ms ease-out;
+    -o-transition: transform 100ms ease-out;
+    transition: transform 100ms ease-out;
 }
 	.b-btn p{
 		display: inline-block;
@@ -176,10 +181,21 @@ input:-moz-placeholder {
 	}
 
 	.b-btn:hover{
-		background-color: #fd6900;
-		-webkit-box-shadow: 0 25px 35px rgba(255, 138, 0, 0.35);
-		-moz-box-shadow: 0 25px 35px rgba(255, 138, 0, 0.35);
-		box-shadow: 0 25px 35px rgba(255, 138, 0, 0.35);
+		background-color: #5e4abb;
+		-webkit-box-shadow: 0 25px 35px rgba(94, 74, 187, 0.25);
+		-moz-box-shadow: 0 25px 35px rgba(94, 74, 187, 0.25);
+		box-shadow: 0 25px 35px rgba(94, 74, 187, 0.25);
+	}
+	.b-btn:active{
+		background-color: #4c3b9e;
+		-webkit-box-shadow: 0 25px 35px rgba(76, 59, 158, 0.25);
+		-moz-box-shadow: 0 25px 35px rgba(76, 59, 158, 0.25);
+		box-shadow: 0 25px 35px rgba(76, 59, 158, 0.25);
+		-webkit-transform: translateY(10px);
+	    -moz-transform: translateY(10px);
+	    -ms-transform: translateY(10px);
+	    -o-transform: translateY(10px);
+	    transform: translateY(10px);
 	}
 
 .orange{
@@ -580,6 +596,9 @@ b{
 							.offer-img-cont.img-graphic{
 								top: 8px;
 								left: -58px;
+							}
+							.offer-img-cont.img-macbook{
+								left: -59px;
 							}
 
 						.b-price-offer-item p{
