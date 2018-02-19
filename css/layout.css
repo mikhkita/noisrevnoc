@@ -517,7 +517,7 @@ b{
 						margin-bottom: 24px;
 					}
 					.b-price-offer-item:first-of-type{
-						margin-bottom: 5px;
+/* 						margin-bottom: 5px; */
 					}
 						.offer-img-cont{
 							width: 50px;
@@ -767,6 +767,7 @@ b{
 		padding-top: 10px;
 		color: #b2b2b3;
 		text-decoration: underline;
+		display: none;
 	}
 	.b-footer .politics:hover{
 		text-decoration: none;
