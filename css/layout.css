@@ -739,11 +739,17 @@ b{
 			.b-footer-phone{
 				padding-top: 10px;
 			}
-				.b-footer-phone img{
+				.b-footer-phone .phone{
+					display: inline-block;
 					margin-top: 3px;
 				    width: 16px;
 				    height: 16px;
 				    margin-right: 7px;
+				    background-position: 50% 50%;
+				    background-repeat: no-repeat;
+				    background-image: url(../i/icon-phone.png);
+				    background-size: 16px;
+				    
 				}
 				.b-footer-phone a{
 					display: inline-block;
