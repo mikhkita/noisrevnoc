@@ -413,9 +413,7 @@ b{
 				right: 127px;
 			}
 
-.b-price{
-
-}
+.b-price{overflow: hidden;}
 	.b-price-list{
 		margin-bottom: 50px;
 	}
