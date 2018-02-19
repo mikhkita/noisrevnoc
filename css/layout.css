@@ -625,8 +625,8 @@ b{
 					.b-price-offer-block:nth-child(2) .old-price .cross-out,
 					.b-price-offer-block:nth-child(3) .old-price .cross-out,
 					.b-price-offer-block:nth-child(4) .old-price .cross-out{
-						left: -11px;
-						width: 94px;
+						left: 0px;
+						width: 100%;
 					}
 				.new-price{
 					font-size: 40px;
