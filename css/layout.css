@@ -413,9 +413,7 @@ b{
 				right: 127px;
 			}
 
-.b-price{
-
-}
+.b-price{overflow: hidden;}
 	.b-price-list{
 		margin-bottom: 50px;
 	}
@@ -517,7 +515,7 @@ b{
 						margin-bottom: 24px;
 					}
 					.b-price-offer-item:first-of-type{
-						margin-bottom: 5px;
+/* 						margin-bottom: 5px; */
 					}
 						.offer-img-cont{
 							width: 50px;
@@ -644,8 +642,8 @@ b{
 					.b-price-offer-block:nth-child(2) .old-price .cross-out,
 					.b-price-offer-block:nth-child(3) .old-price .cross-out,
 					.b-price-offer-block:nth-child(4) .old-price .cross-out{
-						left: -11px;
-						width: 94px;
+						left: 0px;
+						width: 100%;
 					}
 				.new-price{
 					font-size: 40px;
@@ -741,6 +739,7 @@ b{
 			}
 				.b-footer-phone .phone{
 					display: inline-block;
+					vertical-align: top;
 					margin-top: 3px;
 				    width: 16px;
 				    height: 16px;
@@ -749,7 +748,6 @@ b{
 				    background-repeat: no-repeat;
 				    background-image: url(../i/icon-phone.png);
 				    background-size: 16px;
-				    
 				}
 				.b-footer-phone a{
 					display: inline-block;
@@ -773,6 +771,7 @@ b{
 		padding-top: 10px;
 		color: #b2b2b3;
 		text-decoration: underline;
+		display: none;
 	}
 	.b-footer .politics:hover{
 		text-decoration: none;
