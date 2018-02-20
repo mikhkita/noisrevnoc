@@ -735,15 +735,18 @@ b{
 			    display: inline-block;
 			}
 			.b-footer-phone{
+				position: relative;
 				padding-top: 10px;
+    			padding-left: 27px;
 			}
 				.b-footer-phone .phone{
+					position: absolute;
+				    left: 0;
+				    top: 13px;
 					display: inline-block;
 					vertical-align: top;
-					margin-top: 3px;
 				    width: 16px;
 				    height: 16px;
-				    margin-right: 7px;
 				    background-position: 50% 50%;
 				    background-repeat: no-repeat;
 				    background-image: url(../i/icon-phone.png);
