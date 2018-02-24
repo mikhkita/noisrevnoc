@@ -13,6 +13,20 @@
     font-stretch: normal;
     unicode-range: U+0020-0491;
 }
+
+@font-face {
+    font-family:'Gilroy-Regular';
+    src: url('../fonts/Gilroy-Regular.eot');
+	src: url('../fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+		url('../fonts/Gilroy-Regular.woff') format('woff'),
+		url('../fonts/Gilroy-Regular.ttf') format('truetype'),
+		url('../fonts/Gilroy-Regular.svg#Gilroy-Regular') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-0491;
+}
 @font-face {
     font-family:'Gilroy-Bold';
     src: url('../fonts/Gilroy-Bold.eot');
@@ -81,6 +95,17 @@
     unicode-range: U+0020-04E9;
 }
 
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?a0gcac');
+  src:  url('../fonts/icomoon.eot?a0gcac#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?a0gcac') format('truetype'),
+    url('../fonts/icomoon.woff?a0gcac') format('woff'),
+    url('../fonts/icomoon.svg?a0gcac#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html,
 body {
 	position: relative;
@@ -128,6 +153,7 @@ input.error,textarea.error{
 .b-block{
 	position: relative;
 	width: 1140px;
+	text-align: left;
 	margin: 0px auto;
 }
 input::-webkit-input-placeholder {
@@ -136,18 +162,72 @@ input::-webkit-input-placeholder {
 input:-moz-placeholder {
 	color: #777;
 }
-[class^="icon-"]:before, 
-[class*=" icon-"]:before  {
-	font-family: 'icomoon' !important;
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
 
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mouse:before {
+  content: "\e901";
+}
+.icon-monitor:before {
+  content: "\e902";
+}
+.icon-man:before {
+  content: "\e903";
+}
+.icon-flag:before {
+  content: "\e904";
+}
+.icon-check-list:before {
+  content: "\e905";
+}
+.icon-audio:before {
+  content: "\e906";
+}
+.icon-link:before {
+  content: "\e907";
+}
+.icon-algorythm:before {
+  content: "\e908";
+}
+.icon-ruble:before {
+  content: "\e909";
+}
+.icon-arrow-left:before {
+  content: "\e90a";
+}
+.icon-arrow-left-big:before {
+  content: "\e90b";
+}
+.icon-icommas:before {
+  content: "\e90c";
+}
+.icon-vk:before {
+  content: "\e90d";
+}
+.icon-arrow-right-big:before {
+  content: "\e90e";
+}
+.icon-check:before {
+  content: "\e90f";
+}
+.icon-arrow-right:before {
+  content: "\e910";
+}
+.icon-plus:before {
+  content: "\e911";
 }
 .b-btn{
 	display: inline-block;
@@ -206,7 +286,7 @@ h1.b-title{
 
 }
 
-h2.b-title{
+h2.b-title-roman{
 	color: #0d0d10;
 	text-align: center;
 	font-family: 'Gilroy-Bold';
@@ -412,6 +492,302 @@ b{
 				bottom: 0;
 				right: 127px;
 			}
+b{
+	font-family: "Gilroy-Bold";
+	font-weight: normal;
+}
+h2.b-title{
+	font-family: "Gilroy-Regular";
+	font-size: 50px;
+	line-height: 62px;
+}
+h3.b-title{
+
+}
+h5.b-small{
+
+}
+.b-purple-link{
+	display: inline-block;
+	font-size: 15px;
+	font-family: "Tahoma-Bold";
+	line-height: 22px;
+	color: #8e84b5;
+	position: relative;
+	letter-spacing: 0.32px;
+	border-bottom: 1px solid rgba(142, 132, 181, 0.3);
+}
+	.b-purple-link:before{
+		position: absolute;
+		right: -22px;
+		opacity: 0.3;
+		font-size: 16px;
+		top: 6px;
+	}
+	.b-purple-link:hover{
+		border-bottom: 1px solid transparent;
+	}
+.b-2{
+
+}
+	.b-2 .b-block{
+		position: relative;
+	}
+		.b-2 .b-man{
+			background-position: 0px;
+			background-repeat: no-repeat;
+			background-image: url('../i/2/man.svg');
+			width: 732px;
+			height: 1028px;
+			position: absolute;
+			left: -236px;
+			top: -150px;
+		}
+		.b-surgay{
+			margin-left: 469px;
+			margin-top: 88px;
+		}
+			.b-2 h2.b-title{
+				max-width: 623px;
+				letter-spacing: 1px;
+				margin-bottom: 19px;
+			}
+				.b-2 h2.b-title b{
+					font-size: 55px;
+				}
+			.b-surgay p,
+			.b-surgay .p{
+				font-size: 20px;
+				line-height: 30px;
+				margin-bottom: 10px;
+				max-width: 500px;
+				position: relative;
+				font-family: "Gilroy-Regular";
+			}
+			.b-surgay .p{
+				max-width: 408px;
+			}
+			.b-surgay .b-purple-link{
+				margin-left: 40px;
+				margin-top: 10px;
+				margin-bottom: 36px;
+			}
+			.b-140{
+				position: absolute;
+				color: #ff8a00;
+				font-family: "Gilroy-Bold";
+				right: -196px;
+				top: 18px;
+			}
+				.b-140 .b-line{
+					background-position: 50% 50%;
+					background-repeat: no-repeat;
+					background-image: url('../i/2/line-1.svg');
+					width: 80px;
+					height: 18px;
+					display: block;
+					position: absolute;
+					opacity: 0.4;
+					left: -58px;
+					top: 65px;
+				}
+				.b-140 b{
+					font-size: 90px;
+					line-height: 45px;
+				}
+				.b-140>div{
+					text-transform: uppercase;
+					font-size: 40px;
+					line-height: 54px;
+					margin-left: 13px;
+				}
+					.b-140 .icon-ruble{
+						font-size: 29px;
+						position: relative;
+						top: -1px;
+						margin-left: 2px;
+					}
+			.b-work-video{
+				position: relative;
+			}
+				.b-work-video .b-line{
+					position: absolute;
+					background-position: 50% 50%;
+					background-repeat: no-repeat;
+					background-image: url('../i/2/line-2.svg');
+					width: 70px;
+					height: 20px;
+					display: block;
+					left: 102px;
+					top: 67px;
+				}
+				.b-work-video img{
+					display: inline-block;
+					vertical-align: middle;
+					margin-left: 11px;
+				}
+				.b-work-text{
+					width: 410px;
+					display: inline-block;
+					vertical-align: top;
+					margin-left: 35px;
+					margin-top: 21px;
+				}
+					.b-work-text h3{
+						font-size: 25px;
+						line-height: 34px;
+						margin-bottom: 8px;
+					}
+					.b-work-text p{
+						font-size: 15px;
+						line-height: 22px;
+					}
+						.b-work-text p b{
+							font-family: "Tahoma-Bold";
+							letter-spacing: 0.4px;
+						}
+		.b-video-block{
+
+		}
+			.b-video-block .b-play{
+
+			}
+.b-3{
+
+}
+	.b-3 .b-block{
+
+	}
+		.b-3 h2.b-title{
+
+		}
+		.b-count{
+
+		}
+			.b-count-item{
+
+			}
+				.b-count-item .b-head{
+
+				}
+					.b-count-item .b-head img{
+
+					}
+					.b-count-item .b-head  h3{
+
+					}
+				.b-count-item p{
+
+				}
+		.b-count-butt{
+
+		}
+			.b-count-butt a{
+
+			}
+		.b-quotes-3{
+
+		}
+		.b-3 h3.b-title{
+
+		}
+		.b-3 .b-man-cont{
+
+		}
+			.b-3 .b-man-cont img.b-man{
+
+			}
+.b-4{
+
+}
+	.b-4 .b-block{
+
+	}
+		.b-4 h2.b-title{
+
+		}
+		.b-4 h5.b-small{
+
+		}
+		.b-4 .b-scheme{
+
+		}
+			.b-4 .b-scheme p{
+
+			}
+			.b-triangle-top{
+
+			}
+			.b-4 .b-scheme p.b-triangle-top{
+
+			}
+			.b-add-butt{
+
+			}
+			.b-4 .b-add-butt{
+
+			}
+		.b-4 h5.b-second{
+
+		}
+.b-5{
+
+}
+	.b-5 .b-block{
+
+	}
+		.b-5 h2.b-title{
+
+		}
+		.b-5 h5.b-small{
+
+		}
+		.b-book-cont{
+
+		}
+			.b-book{
+
+			}
+		.b-adv-list{
+
+		}
+			.b-adv{
+
+			}
+				.b-adv img{
+
+				}
+				.b-adv p{
+
+				}
+		.b-scroll-more{
+
+		}
+			.b-scroll-more p{
+
+			}
+			.b-scroll-more .icon-mouse{
+
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .b-price{overflow: hidden;}
 	.b-price-list{
