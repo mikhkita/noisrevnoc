@@ -1193,7 +1193,173 @@ h5.b-small{
 				top: -13px;
 				opacity: 0.3;
 			}
+.b-7{
 
+}
+	.b-7 .b-block{
+		position: relative;
+		z-index: 2;
+	}
+		.b-7 h2.b-title{
+			
+		}
+		.b-7 h2.b-title.b-first{
+			text-align: left;
+			max-width: 700px;
+			margin: 0px;
+			display: block;
+			padding-top: 92px;
+		}
+			.b-7 h2.b-title b{
+				font-size: 52px;
+			}
+		.b-7 .b-ipad-list{
+			position: relative;
+			height: 600px;
+			z-index: 10;
+		}
+			.b-7 .b-ipad{
+				position: absolute;
+				background-position: 50% 50%;
+				background-repeat: no-repeat;
+				width: 505px;
+				height: 248px;
+			}
+			.b-7 .b-ipad-1{
+				left: -49px;
+				top: 325px;
+				background-image: url('../i/7/ipad-1.png');
+			}
+			.b-7 .b-ipad-2{
+				left: 317px;
+				top: 196px;
+				background-image: url('../i/7/ipad-2.png');
+			}
+			.b-7 .b-ipad-3{
+				left: 683px;
+				top: 66px;
+				background-image: url('../i/7/ipad-3.png');
+			}
+				.b-7 .b-ipad .b-text{
+					width: 300px;
+					position: absolute;
+					left: 88px;
+					text-align: left;
+					bottom: 297px;
+				}
+				.b-7 .b-ipad-3 .b-text{
+					left: 97px;
+					bottom: 276px;
+				}
+					.b-7 .b-ipad .b-text h3{
+						font-size: 30px;
+						line-height: 35px;
+						letter-spacing: 0.4px;
+						margin-bottom: 23px;
+					}
+					.b-7 .b-ipad .b-text p{
+						font-family: "Gilroy-Regular";
+						font-size: 20px;
+						line-height: 25px;
+						margin-left: 43px;
+						margin-bottom: 4px;
+					}
+					.b-left-triangle{
+						position: relative;
+					}
+						.b-left-triangle:before{
+							position: absolute;
+							content: "s";
+							font-size: 0px;
+							width: 0px;
+							height: 0px;
+							left: -15px;
+							top: -8px;
+							border: 9px solid transparent;
+							border-top-color: #ff8a00;
+							-webkit-transform: rotateZ(-45deg);
+							-moz-transform: rotateZ(-45deg);
+							-ms-transform: rotateZ(-45deg);
+							-o-transform: rotateZ(-45deg);
+							transform: rotateZ(-45deg);
+						}
+					.b-7 .b-ipad .b-text h4{
+						font-size: 30px;
+						line-height: 40px;
+						margin-left: 43px;
+						font-family: "Gilroy-Bold";
+					}
+					.b-7 .b-ipad .b-text .b-line{
+						opacity: 1;
+						background-position: 50% 50%;
+						background-repeat: no-repeat;
+						background-image: url('../i/7/line-1.svg');
+						width: 65px;
+						height: 247px;
+						position: absolute;
+						left: 174px;
+						top: 87px;
+					}
+					.b-7 .b-ipad-1 .b-text .b-line{
+						left: 162px;
+						top: 119px;
+					}
+					.b-7 .b-ipad-3 .b-text .b-line{
+						left: 140px;
+						top: 87px;
+					}
+		.b-7 .b-letter-a{
+			background-position: 50% 50%;
+			background-repeat: no-repeat;
+			background-image: url('../i/7/a.svg');
+			width: 893px;
+			height: 937px;
+			position: absolute;
+			right: 50%;
+			top: 568px;
+			z-index: 1;
+			margin-right: -988px;
+		}
+		.b-7 h2.b-title.b-second{
+
+		}
+	.b-atlant-slider{
+		z-index: 10;
+		position: relative;
+	}
+		.b-atlant-slider .b-slide{
+
+		}
+			.b-atlant-slider .b-block{
+
+			}
+				.b-atlant-slider .b-imac{
+
+				}
+					.b-atlant-slider .b-screen{
+
+					}
+				.b-atlant-slider p.b-title{
+
+				}
+					.b-atlant-slider p.b-title b{
+
+					}
+				.b-7 .b-adv-list{
+
+				}
+					.b-7 .b-adv{
+
+					}
+						.b-7 .b-adv h3{
+
+						}
+						.b-7 .b-adv p{
+
+						}
+							.b-7 .b-adv p b{
+
+							}
 
 
 

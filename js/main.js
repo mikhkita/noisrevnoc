@@ -40,6 +40,16 @@ $(document).ready(function(){
         }
     }
     $.fn.placeholder();
+
+    $(".b-atlant-slider").slick({
+        dots: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,  
+        cssEase: 'ease', 
+        speed: 500,
+        arrows: false
+    }); 
     
 	// var myPlace = new google.maps.LatLng(55.754407, 37.625151);
  //    var myOptions = {
