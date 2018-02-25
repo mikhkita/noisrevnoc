@@ -105,12 +105,27 @@ $(document).ready(function(){
     }
 
     $(".b-tabs li").click(function(){
-        var $tabs = $(this).parents(".b-tabs");
+        var $tabs = $(this).parents(".b-tabs"),
+            index = $(this).index();
 
-        $tabs.find("li").removeClass("active");
-        $(this).addClass("active");
+        $(".b-land-tabs-cont .slick-dots li").eq(index).find("button").click();
 
-        calcActive();
+        if( $(".b-land-tabs-cont .slick-dots li").eq(index).hasClass("slick-active") ){
+            $tabs.find("li").removeClass("active");
+            $(this).addClass("active");
+
+            calcActive();
+        }
+    });
+
+    $(".b-land-tabs-cont").slick({
+        dots: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        cssEase: 'ease', 
+        speed: 500,
+        arrows: false
     });
     
 	// var myPlace = new google.maps.LatLng(55.754407, 37.625151);
