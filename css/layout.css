@@ -2036,29 +2036,56 @@ h5.b-small{
 		.b-lesson-tabs-cont .b-tab .b-block{
 			text-align: left;
 		}
+			.b-lesson-tabs-cont .b-left-text-cont{
+				display: table;
+				margin-left: 100px;
+			}
 			.b-lesson-tabs-cont .b-left-text{
-				height: 475px;
+				display: table-cell;
+				vertical-align: middle;
+				height: 426px;
+				padding-bottom: 10px;
 			}
 				.b-lesson-tabs-cont .b-left-text h3{
-
+					font-size: 30px;
+					line-height: 35px;
+					margin-bottom: 12px;
+					letter-spacing: 0.4px;
 				}
 				.b-lesson-tabs-cont .b-left-text h5{
-
+					font-size: 15px;
+					line-height: 22px;
+					font-family: "Tahoma-Regular";
 				}
 				.b-lesson-tabs-cont .b-left-text h4{
-
+					font-size: 20px;
+					line-height: 30px;
+					font-family: "Gilroy-Regular";
+					margin-top: 34px;
+					margin-bottom: 13px;
 				}
 				.b-lesson-tabs-cont .b-left-text .b-doc{
-
+					/* white-space: nowrap; */
+					display: inline-block;
+					margin-right: 29px;
 				}
 					.b-lesson-tabs-cont .b-left-text .b-doc img{
-
+						display: inline-block;
+						vertical-align: middle;
 					}
 					.b-lesson-tabs-cont .b-left-text .b-doc p{
-
+						display: inline-block;
+						vertical-align: middle;
+						font-size: 12px;
+						line-height: 20px;
+						letter-spacing: 0.4px;
+						margin-left: 5px;
 					}
-			.b-lesson-tabs-cont>img{
-
+			.b-lesson-tabs-cont .b-block>img{
+				position: absolute;
+				left: 50%;
+				top: 21px;
+				margin-left: -18px;
 			}
 			.b-lesson-tabs-cont .b-right-text{
 
