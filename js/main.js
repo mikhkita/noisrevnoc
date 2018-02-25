@@ -145,7 +145,8 @@ $(document).ready(function(){
         infinite: true,
         cssEase: 'ease', 
         speed: 500,
-        arrows: false
+        arrows: false,
+        adaptiveHeight: true
     });
     
 	// var myPlace = new google.maps.LatLng(55.754407, 37.625151);

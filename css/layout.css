@@ -2030,9 +2030,7 @@ h5.b-small{
 		.b-lesson-tabs-cont .slick-dots{
 			display: none !important;
 		}
-		.b-lesson-tabs-cont .b-tab{
-
-		}
+		.b-lesson-tabs-cont .b-tab{height: auto;}
 		.b-lesson-tabs-cont .b-tab .b-block{
 			text-align: left;
 		}
@@ -2088,13 +2086,62 @@ h5.b-small{
 				margin-left: -18px;
 			}
 			.b-lesson-tabs-cont .b-right-text{
-
+				position: absolute;
+				right: 50px;
+				bottom: 67px;
+				padding: 32px 51px 36px 26px;
 			}
+				.b-with-triangle{
+					background: #FFF;
+					box-shadow: 0px 35px 70px 0px rgba(13, 13, 16, 0.1), 0px 15px 75px 0px rgba(255, 138, 0, 0.05);
+				}
+					.b-with-triangle:before,
+					.b-with-triangle:after{
+						position: absolute;
+						content: "s";
+						font-size: 0px;
+						width: 14px;
+						background: #FFF;
+						left: -14px;
+					}
+					.b-with-triangle:before{
+						height: 33px;
+						top: 0px;
+					}
+					.b-with-triangle:after{
+						height: calc(100% - 61px);
+						top: 61px;
+					}
+				.b-empty-triangle{
+					position: absolute;
+					left: 0px;
+					top: 0px;
+				}
+					.b-empty-triangle:before,
+					.b-empty-triangle:after{
+						position: absolute;
+						content: "s";
+						font-size: 0px;
+						width: 0px;
+						height: 0px;
+						left: -28px;
+						border: 14px solid transparent;
+						border-right-color: #FFF;
+					}
+					.b-empty-triangle:before{
+						top: 19px;
+					}
+					.b-empty-triangle:after{
+						top: 47px;
+					}
 				.b-lesson-tabs-cont .b-right-text h4{
-
+					font-size: 18px;
+					line-height: 28px;
+					font-family: "Gilroy-Regular";
 				}
 				.b-lesson-tabs-cont .b-right-text h3{
-
+					font-size: 20px;
+					line-height: 28px;
 				}
 
 
