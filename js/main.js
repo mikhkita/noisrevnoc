@@ -99,7 +99,7 @@ $(document).ready(function(){
 
             $line.css({
                 "left" : $active.offset().left - $tabs.offset().left,
-                "width" : $active.width() + 40
+                "width" : $active.width() + $active.css("padding-left").replace(/\D+/g,"")*1 + $active.css("padding-right").replace(/\D+/g,"")*1
             });
         });
     }
@@ -108,9 +108,9 @@ $(document).ready(function(){
         var $tabs = $(this).parents(".b-tabs"),
             index = $(this).index();
 
-        $(".b-land-tabs-cont .slick-dots li").eq(index).find("button").click();
+        $($tabs.attr("data-tabs")).find(".slick-dots li").eq(index).find("button").click();
 
-        if( $(".b-land-tabs-cont .slick-dots li").eq(index).hasClass("slick-active") ){
+        if( $($tabs.attr("data-tabs")).find(".slick-dots li").eq(index).hasClass("slick-active") ){
             $tabs.find("li").removeClass("active");
             $(this).addClass("active");
 
@@ -129,13 +129,23 @@ $(document).ready(function(){
     });
 
     $(".b-sms-butt").click(function(){
-        $(".b-land-tabs-cont .b-phones div").removeClass("active");
+        $( $(this).attr("data-block") ).parent().children().removeClass("active");
         $( $(this).attr("data-block") ).addClass("active");
 
-        $(".b-sms-butt").removeClass("active");
+        $(this).parent().children().removeClass("active");
         $(this).addClass("active");
 
         return false;
+    });
+
+    $(".b-lesson-tabs-cont").slick({
+        dots: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        cssEase: 'ease', 
+        speed: 500,
+        arrows: false
     });
     
 	// var myPlace = new google.maps.LatLng(55.754407, 37.625151);
