@@ -127,6 +127,16 @@ $(document).ready(function(){
         speed: 500,
         arrows: false
     });
+
+    $(".b-sms-butt").click(function(){
+        $(".b-land-tabs-cont .b-phones div").removeClass("active");
+        $( $(this).attr("data-block") ).addClass("active");
+
+        $(".b-sms-butt").removeClass("active");
+        $(this).addClass("active");
+
+        return false;
+    });
     
 	// var myPlace = new google.maps.LatLng(55.754407, 37.625151);
  //    var myOptions = {
