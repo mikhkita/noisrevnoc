@@ -2025,24 +2025,29 @@ h5.b-small{
 					background: #5f4bbf;
 				}
 	.b-lesson-tabs-cont{
-
+		padding-top: 40px;
 	}
 		.b-lesson-tabs-cont .slick-dots{
 			display: none !important;
 		}
-		.b-lesson-tabs-cont .b-tab{height: auto;}
+		.b-lesson-tabs-cont .b-tab{
+			padding-bottom: 20px;
+			height: auto;
+		}
 		.b-lesson-tabs-cont .b-tab .b-block{
 			text-align: left;
 		}
 			.b-lesson-tabs-cont .b-left-text-cont{
 				display: table;
 				margin-left: 100px;
+				float: left;
 			}
 			.b-lesson-tabs-cont .b-left-text{
 				display: table-cell;
 				vertical-align: middle;
 				height: 426px;
 				padding-bottom: 10px;
+				max-width: 531px;
 			}
 				.b-lesson-tabs-cont .b-left-text h3{
 					font-size: 30px;
@@ -2054,18 +2059,21 @@ h5.b-small{
 					font-size: 15px;
 					line-height: 22px;
 					font-family: "Tahoma-Regular";
+					letter-spacing: 0.5px;
 				}
 				.b-lesson-tabs-cont .b-left-text h4{
 					font-size: 20px;
 					line-height: 30px;
 					font-family: "Gilroy-Regular";
 					margin-top: 34px;
-					margin-bottom: 13px;
+					margin-bottom: 0px;
 				}
 				.b-lesson-tabs-cont .b-left-text .b-doc{
 					/* white-space: nowrap; */
 					display: inline-block;
 					margin-right: 29px;
+					margin-top: 13px;
+					margin-bottom: 10px;
 				}
 					.b-lesson-tabs-cont .b-left-text .b-doc img{
 						display: inline-block;
@@ -2078,18 +2086,19 @@ h5.b-small{
 						line-height: 20px;
 						letter-spacing: 0.4px;
 						margin-left: 5px;
+						padding-bottom: 3px;
 					}
 			.b-lesson-tabs-cont .b-block>img{
 				position: absolute;
 				left: 50%;
-				top: 21px;
+				top: 0px;
 				margin-left: -18px;
 			}
 			.b-lesson-tabs-cont .b-right-text{
 				position: absolute;
-				right: 50px;
-				bottom: 67px;
-				padding: 32px 51px 36px 26px;
+				right: 70px;
+				bottom: 60px;
+				padding: 32px 40px 36px 26px;
 			}
 				.b-with-triangle{
 					background: #FFF;
@@ -2143,8 +2152,264 @@ h5.b-small{
 					font-size: 20px;
 					line-height: 28px;
 				}
+			.b-right-text.b-right-big{
+				width: 492px;
+				right: 0px;
+				bottom: auto;
+				top: 18px;
+				position: relative;
+				float: right;
+				margin-bottom: 70px;
+			}
+				.b-right-big h3{margin-top: -16px;margin-bottom: 12px;}
+				.b-right-big h4{
+					margin-bottom: 20px;
+				}
+					.b-right-list{
 
+					}
+						.b-right-list li{
+							white-space: nowrap;
+							margin-bottom: 20px;
+						}
+						.b-right-list li:last-child{
+							margin-bottom: 0px;
+						}
+							.b-right-list .b-img{
+								display: inline-block;
+								vertical-align: middle;
+								width: 75px;
+							}
+								.b-right-list img{
+									
+								}
+							.b-right-list p{
+								display: inline-block;
+								vertical-align: middle;
+								white-space: normal;
+								max-width: 365px;
+								font-size: 20px;
+								line-height: 28px;
+								font-family: "Gilroy-Regular";
+							}
+								.b-right-list b{
 
+								}
+			.slick-arrow{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				margin-top: -30px;
+				width: 60px;
+				height: 60px;
+				box-shadow: 0px 25px 70px 0px rgba(13, 13, 16, 0.1),0px 15px 75px 0px rgba(255, 138, 0, 0.05);
+				border-radius: 100px;
+				font-size: 0px;
+				border: 0px;
+				background: #FFF;
+				cursor: pointer;
+				z-index: 20;
+			}
+			.slick-arrow:hover{
+				background: #5e4abb;
+			}
+			.b-lesson-tabs-cont .slick-arrow{
+				top: 197px;
+				margin-top: 0;
+			}
+				.slick-arrow:before{
+					color: #b1b0b3;
+					opacity: 0.5;
+					font-size: 23px;
+					text-align: center;
+					line-height: 61px;
+				}
+				.slick-arrow:hover:before{
+					color: #FFF;
+					opacity: 1;
+				}
+				.slick-prev{
+					margin-left: -599px;
+				}
+					.slick-prev:before{
+						margin-left: 20px;
+					}
+				.slick-next{
+					margin-left: 540px;
+				}
+					.slick-next:before{
+						margin-left: 24px;
+					}
+			.b-btn-lessons{
+				margin-top: -14px;
+			}
+.b-10{
+	padding-top: 224px;
+}
+	.b-10 .b-block{
+
+	}
+		.b-10 h2.b-title{
+			max-width: 800px;
+			margin-bottom: 75px;
+		}
+		.b-10 h2.b-title b{
+			font-size: 52px;
+		}
+		.b-note{
+			padding: 67px 100px 61px 100px;
+			text-align: left;
+			position: relative;
+			box-shadow: -10px 25px 80px 20px rgba(13, 13, 16, 0.1),0px 15px 75px 0px rgba(255, 138, 0, 0.05);
+			margin-bottom: 110px;
+		}
+			.b-note-shadow{
+				position: absolute;
+				content: "s";
+				font-size: 0px;
+				width: calc(100% + 15px);
+				left: -25px;
+				bottom: -10px;
+				height: 10px;
+				background: #FFF;
+				opacity: 0.25;
+			}
+		.b-note.b-with-triangle{
+			margin-left: 35px;
+		}
+		.b-note.b-with-triangle:before{
+			width: 35px;
+			left: -35px;
+			height: 60px;
+		}
+		.b-note.b-with-triangle:after{
+			width: 35px;
+			left: -35px;
+			top: 130px;
+			height: calc(100% - 130px);
+		}
+			.b-note .b-empty-triangle{
+
+			}
+			.b-note .b-empty-triangle:before{
+				top: 25px;
+				border-width: 35px;
+				left: -70px;
+			}
+			.b-note .b-empty-triangle:after{
+				left: -70px;
+				border-width: 35px;
+				top: 95px;
+			}
+			.b-note h2{
+				position: relative;
+				font-size: 50px;
+				line-height: 62px;
+				font-family: "Gilroy-Bold";
+				letter-spacing: 0.4px;
+				margin-bottom: 27px;
+			}
+				.b-note h2 small{
+					font-size: 30px;
+					line-height: 40px;
+					font-family: "Gilroy-Regular";
+				}
+				.b-note h2 small span{
+					position: relative;
+					top: -10px;
+				}
+			.b-note h2:before{
+				color: #604bc0;
+				position: absolute;
+				left: -70px;
+				top: 12px;
+				font-size: 36px;
+			}
+			.b-note .icon-algorythm:before{
+				
+			}
+			.b-note .b-head-text{
+
+			}
+				.b-note .b-head-text h3{
+					width: 350px;
+					font-family: "Gilroy-Regular";
+					font-size: 30px;
+					line-height: 40px;
+					letter-spacing: 0.2px;
+					float: left;
+				}
+				.b-note .b-head-text p.b-left-triangle{
+					width: 440px;
+					margin-right: 10px;
+					float: right;
+					font-size: 20px;
+					font-family: "Gilroy-Regular";
+					line-height: 30px;
+					margin-top: 6px;
+				}
+					.b-note .b-head-text p.b-left-triangle:before{
+						top: -11px;
+						left: -19px;
+					}
+			.b-instructions{
+				margin-top: 34px;
+			}
+			.b-note-3 .b-instructions{
+				margin-left: -20px;
+			}
+				.b-instructions li{
+					vertical-align: top;
+					display: inline-block;
+					margin-right: 40px;
+				}
+				.b-note-3 .b-instructions li{
+					margin-right: 30px;
+				}
+				.b-note-4 .b-instructions li{
+					margin-right: 55px;
+				}
+				.b-note-3 .b-instructions li:last-child{
+					margin-right: 0px;
+				}
+					.b-instructions .b-img{
+						position: relative;
+						height: 165px;
+						text-align: center;
+					}
+						.b-instructions img{
+							display: inline-block;
+						}
+						.b-instructions .b-num{
+							font-size: 25px;
+							line-height: 25px;
+							position: absolute;
+							right: 5px;
+							top: -7px;
+							color: #ff8a00;
+							font-family: "Gilroy-Bold";
+						}
+					.b-instructions p{
+						text-align: center;
+						opacity: 0.5;
+					}
+			.b-note-purple{
+				text-align: center;
+				margin-top: 50px;
+			}
+				.b-note-purple .b-purple-link{
+					font-family: "Gilroy-Regular";
+					border-bottom: 1px dotted;
+				}
+					.b-note-purple .b-purple-link b{
+						font-family: "Gilroy-Bold";
+					}
+		.b-note-btn{
+			text-align: center;
+		}
+			.b-note-btn .b-btn{
+
+			}
 
 
 

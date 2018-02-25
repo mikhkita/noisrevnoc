@@ -145,7 +145,9 @@ $(document).ready(function(){
         infinite: true,
         cssEase: 'ease', 
         speed: 500,
-        arrows: false,
+        arrows: true,
+        prevArrow: '<div class="slick-arrow slick-prev icon-arrow-left-big"></div>',
+        nextArrow: '<div class="slick-arrow slick-next icon-arrow-right-big"></div>',
         adaptiveHeight: true
     });
     
