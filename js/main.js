@@ -88,6 +88,30 @@ $(document).ready(function(){
             }
         });
     }
+
+    calcActive();
+
+    function calcActive(){
+        $(".b-tabs-line").each(function(){
+            var $line = $(this).find("span"),
+                $tabs = $(this).prev(".b-tabs"),
+                $active = $tabs.find("li.active");
+
+            $line.css({
+                "left" : $active.offset().left - $tabs.offset().left,
+                "width" : $active.width() + 40
+            });
+        });
+    }
+
+    $(".b-tabs li").click(function(){
+        var $tabs = $(this).parents(".b-tabs");
+
+        $tabs.find("li").removeClass("active");
+        $(this).addClass("active");
+
+        calcActive();
+    });
     
 	// var myPlace = new google.maps.LatLng(55.754407, 37.625151);
  //    var myOptions = {
