@@ -1625,8 +1625,10 @@ h5.b-small{
 		}
 		.b-land-tabs{
 			text-align: justify;
-			padding: 0px 46px;
 			height: 43px;
+		}
+		.b-land-tabs-wrap{
+			padding: 0px 46px;
 		}
 			.b-land-tabs:after{
 			    content: '';
@@ -1671,10 +1673,13 @@ h5.b-small{
 						transition: width 200ms ease-out, left 200ms ease-out;
 			}
 	.b-tabs-cont{
-
+		padding-top: 64px;
 	}
 	.b-land-tabs-cont{
 
+	}
+	.b-land-tabs-cont .slick-dots{
+		display: none !important;
 	}
 		.b-tabs-cont .b-tab{
 
@@ -1683,28 +1688,69 @@ h5.b-small{
 
 			}
 				.b-land-tabs-cont .b-phones{
-
+					width: 517px;
+					height: 734px;
+					position: relative;
 				}
+					.b-land-tabs-cont .b-phones div{
+						position: absolute;
+						left: 0px;
+						top: 0px;
+						background-position: 50% 50%;
+						background-repeat: no-repeat;
+						width: 517px;
+						height: 734px;
+					}
 					.b-land-tabs-cont .b-phone-1{
-
+						background-image: url('../i/8/2/iphone-1.jpg');
 					}
 					.b-land-tabs-cont .b-phone-2{
-
+						background-image: url('../i/8/2/iphone-1.jpg');
 					}
 					.b-land-tabs-cont .b-phone-3{
-
+						background-image: url('../i/8/2/iphone-1.jpg');
 					}
 				.b-sms-right{
-
+					width: 481px;
+					text-align: left;
+					padding-top: 45px;
 				}
 					.b-sms-right h3{
-
+						font-size: 30px;
+						line-height: 40px;
+						font-family: "Gilroy-Regular";
+						color: #FFF;
+						margin-bottom: 41px;
 					}
 					.b-sms-butts{
 
 					}
 					.b-sms-butts a.b-sms-butt{
-
+						font-size: 15px;
+						line-height: 15px;
+						text-transform: uppercase;
+						font-family: "Gilroy-Bold";
+						text-align: center;
+						width: 330px;
+						display: block;
+						color: #FFF;
+						border-radius: 100px;
+						padding: 22px 0px;
+						margin-bottom: 29px;
+						border: 1px solid #fff;
+						-webkit-transition: background 100ms ease-out, border-color 100ms ease-out;
+						   -moz-transition: background 100ms ease-out, border-color 100ms ease-out;
+						    -ms-transition: background 100ms ease-out, border-color 100ms ease-out;
+						   	 -o-transition: background 100ms ease-out, border-color 100ms ease-out;
+								transition: background 100ms ease-out, border-color 100ms ease-out;
+					}
+					.b-sms-butts a.b-sms-butt:hover{
+						border-color: #ff8a00;
+						background: #ff8a00;
+					}
+					.b-sms-butts a.b-sms-butt.active{
+						border-color: #5e4abb;
+						background: #5e4abb;
 					}
 						.b-sms-butts a.b-sms-butt .b-line{
 
