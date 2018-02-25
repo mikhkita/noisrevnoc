@@ -41,15 +41,53 @@ $(document).ready(function(){
     }
     $.fn.placeholder();
 
+    calcHeight();
+
     $(".b-atlant-slider").slick({
         dots: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        infinite: true,  
+        infinite: true,
         cssEase: 'ease', 
         speed: 500,
         arrows: false
     }); 
+
+    $(".b-atlant-slider").on('beforeChange', function(event, slick, currentSlide, nextSlide){
+        $(".b-adv-list").removeClass("open");
+        calcHeight();
+    });
+
+    $(".b-show-adv-more").click(function(){
+        var $list = $(this).parents(".b-adv-list");
+        $list.toggleClass("open");
+
+        calcHeight();
+
+        return false;
+    });
+
+    function calcHeight(){
+        $(".b-7 .b-adv").filter(function( index ) { return $(this).index() >= 3; }).each(function(){
+            var $list = $(this).parents(".b-adv-list");
+
+            if( !$(this).parents(".open").length ){
+                $(this).css({
+                    "margin-top" : -1 * ($(this).height() + 29)
+                });
+            }else{
+                $(this).css({
+                    "margin-top" : 0
+                });
+            }
+
+            if( $list.hasClass("open") ){
+                $list.find(".b-show-adv-more div").text("Свернуть преимущества");
+            }else{
+                $list.find(".b-show-adv-more div").text("Раскрыть все преимущества");
+            }
+        });
+    }
     
 	// var myPlace = new google.maps.LatLng(55.754407, 37.625151);
  //    var myOptions = {
