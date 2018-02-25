@@ -2031,13 +2031,13 @@ h5.b-small{
 			display: none !important;
 		}
 		.b-lesson-tabs-cont .b-tab{
-			
+
 		}
 		.b-lesson-tabs-cont .b-tab .b-block{
 			text-align: left;
 		}
 			.b-lesson-tabs-cont .b-left-text{
-
+				height: 475px;
 			}
 				.b-lesson-tabs-cont .b-left-text h3{
 
