@@ -1832,18 +1832,18 @@
 
     };
 
-    Slick.prototype.resize = function() {
+    Slick.prototype.resize = function(tog) {
 
         var _ = this;
 
-        if ($(window).width() !== _.windowWidth) {
-            clearTimeout(_.windowDelay);
-            _.windowDelay = window.setTimeout(function() {
+        // if ($(window).width() !== _.windowWidth || tog === true) {
+            // clearTimeout(_.windowDelay);
+            // _.windowDelay = window.setTimeout(function() {
                 _.windowWidth = $(window).width();
                 _.checkResponsive();
                 if( !_.unslicked ) { _.setPosition(); }
-            }, 50);
-        }
+            // }, 50);
+        // }
     };
 
     Slick.prototype.removeSlide = Slick.prototype.slickRemove = function(index, removeBefore, removeAll) {

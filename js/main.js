@@ -150,6 +150,42 @@ $(document).ready(function(){
         nextArrow: '<div class="slick-arrow slick-next icon-arrow-right-big"></div>',
         adaptiveHeight: true
     });
+
+    // Блок с большими отзывами
+    var reviewsCount = $(".b-big-review").length;
+    $(".b-big-reviews-count").text("1 из "+reviewsCount);
+    $(".b-big-reviews-slider").slick({
+        dots: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        cssEase: 'ease', 
+        fade: true,
+        speed: 500,
+        arrows: true,
+        prevArrow: '<div class="slick-arrow slick-prev icon-arrow-left-big"></div>',
+        nextArrow: '<div class="slick-arrow slick-next icon-arrow-right-big"></div>',
+        adaptiveHeight: true
+    });
+
+    $(".b-big-reviews-slider").on('beforeChange', function(event, slick, currentSlide, nextSlide){
+        $(".b-big-review .b-review-right p span:not(.hidden)").parent("p").next(".b-read-more").click();
+        $(".b-big-reviews-count").text((nextSlide+1)+" из "+reviewsCount);
+    });
+
+    $(".b-read-more").click(function(){
+        var $span = $(this).prev("p").find("span");
+        $span.toggleClass("hidden");
+
+        if( $span.hasClass("hidden") ){
+            $(this).html("<b>Читать</b> дальше");
+        }else{
+            $(this).html("<b>Свернуть</b> отзыв");
+        }
+
+        $('.b-big-reviews-slider').resize();
+        return false;
+    });
     
 	// var myPlace = new google.maps.LatLng(55.754407, 37.625151);
  //    var myOptions = {
