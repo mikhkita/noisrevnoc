@@ -331,7 +331,7 @@ h2.b-title-roman{
 	font-family: 'Gilroy-Bold';
 	font-size: 52px;
 	line-height: 62px;
-	padding-top: 74px;
+	/* padding-top: 74px; */
 	margin-bottom: 56px;
 	letter-spacing: 1px;
 }
@@ -1248,7 +1248,7 @@ h5.b-small{
 				top: -13px;
 				opacity: 0.3;
 			}
-.b-7{padding-bottom: 89px;}
+.b-7{overflow: hidden;padding-bottom: 89px;}
 	.b-7 .b-block{
 		position: relative;
 		z-index: 2;
@@ -2524,6 +2524,7 @@ h5.b-small{
 .b-12{
 	padding-top: 72px;
 	padding-bottom: 106px;
+	overflow: hidden;
 }
 	.b-12 .b-block{
 
@@ -2796,7 +2797,7 @@ h5.b-small{
 				left: 0px;
 				top: 0px;
 			}
-.b-14{padding-top: 88px;height: 898px;}
+.b-14{padding-top: 88px;height: 973px;overflow: hidden;}
 	.b-14 .b-block{
 		text-align: left;
 	}
