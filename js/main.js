@@ -151,6 +151,13 @@ $(document).ready(function(){
         adaptiveHeight: true
     });
 
+    $(".b-lesson-tabs-cont").on('beforeChange', function(event, slick, currentSlide, nextSlide){
+        $(".b-lesson-tabs li.active").removeClass("active");
+        $(".b-lesson-tabs li").eq(nextSlide).addClass("active");
+
+        calcActive();
+    });
+
     // Блок с большими отзывами
     var reviewsCount = $(".b-big-review").length;
     $(".b-big-reviews-count").text("1 из "+reviewsCount);

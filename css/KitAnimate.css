@@ -84,6 +84,25 @@
 	    		transform: scale(1);
 	    opacity: 1;
 	}
+.bookUp{
+	-webkit-transition: all 800ms ease-out;
+	   -moz-transition: all 800ms ease-out;
+	    -ms-transition: all 800ms ease-out;
+	   	 -o-transition: all 800ms ease-out;
+			transition: all 800ms ease-out;
+	-webkit-transform: translateY(60px);
+	   -moz-transform: translateY(60px);
+    	-ms-transform: translateY(60px);
+    	 -o-transform: translateY(60px); 
+    		transform: translateY(60px);
+}
+	.bookUp-show{
+		-webkit-transform: translateY(0px);
+		   -moz-transform: translateY(0px);
+	    	-ms-transform: translateY(0px);
+	    	 -o-transform: translateY(0px); 
+	    		transform: translateY(0px);
+	}
 
 
 /*Кастомные анимации*/
