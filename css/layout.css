@@ -3232,25 +3232,21 @@ h5.b-small{
 			right: 18px;
 			top: 19px;
 		}
-		.b-no-money{
-
-		}
-			.b-no-money h2.b-title{
-
-			}
-			.b-no-money h3.b-title{
-
-			}
+		.b-no-money{float: right;width: 552px;margin-top: 232px;}
+			.b-no-money h2.b-title{margin-bottom: 30px;}
+			.b-no-money h3.b-title{margin-left: 62px;max-width: 450px;margin-bottom: 41px;}
 			.b-no-money-butt{
 
 			}
-				.b-no-money-butt .b-btn{
-
-				}
+				.b-no-money-butt .b-btn{width: 350px;vertical-align: top;}
 				.b-no-money-butt small{
 					font-size: 12px;
 					line-height: 20px;
 					letter-spacing: 0.2px;
+					width: 122px;
+					display: inline-block;
+					vertical-align: top;
+					margin-left: 24px;
 				}
 
 
