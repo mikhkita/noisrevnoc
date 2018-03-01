@@ -151,11 +151,19 @@ $(document).ready(function(){
         adaptiveHeight: true
     });
 
+    $(".b-lesson-tabs-cont .b-tab[data-slick-index='0']").find(".b-right-text").addClass("show");
+
     $(".b-lesson-tabs-cont").on('beforeChange', function(event, slick, currentSlide, nextSlide){
         $(".b-lesson-tabs li.active").removeClass("active");
         $(".b-lesson-tabs li").eq(nextSlide).addClass("active");
 
         calcActive();
+    });
+
+    $(".b-lesson-tabs-cont").on('afterChange', function(event, slick, currentSlide){
+        $(".b-lesson-tabs-cont .b-tab[data-slick-index!='"+currentSlide+"']").find(".b-right-text").removeClass("show");
+
+        $(".b-lesson-tabs-cont .b-tab[data-slick-index='"+currentSlide+"']").find(".b-right-text").addClass("show");
     });
 
     // Блок с большими отзывами
@@ -167,7 +175,7 @@ $(document).ready(function(){
         slidesToScroll: 1,
         infinite: true,
         cssEase: 'ease', 
-        fade: true,
+        // fade: true,
         speed: 500,
         arrows: true,
         prevArrow: '<div class="slick-arrow slick-prev icon-arrow-left-big"></div>',
