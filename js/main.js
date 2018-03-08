@@ -212,6 +212,10 @@ $(document).ready(function(){
         arrows: false,
         vertical: true
     });
+
+    $("#type").chosen({
+        disable_search_threshold : 10
+    });
     
 	// var myPlace = new google.maps.LatLng(55.754407, 37.625151);
  //    var myOptions = {
