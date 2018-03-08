@@ -215,7 +215,21 @@ $(document).ready(function(){
 
     $("#type").chosen({
         disable_search_threshold : 10
+    }).change(function(){
+        var $option = $(this).find("option[value='"+$(this).val()+"']");
+            click = $option.attr("data-click"),
+            price = $option.attr("data-price");
+        $(".b-19 h2.b-title span").text(price);
+
+        $(".b-pay-click").attr("href", $(click).attr("href"));
+        return false;
     });
+
+    $(".b-pay-click").attr("href", $(".b-start-link").attr("href"));
+
+    // $(".b-pay-click").click(function(){
+    //     $($(this).attr("data-click")).click();
+    // });
     
 	// var myPlace = new google.maps.LatLng(55.754407, 37.625151);
  //    var myOptions = {

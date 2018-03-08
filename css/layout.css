@@ -199,7 +199,7 @@ input:-moz-placeholder {
 	color: #777;
 }
 
-[class^="icon-"]:before, [class*=" icon-"]:before {
+[class^="icon-"]:before, [class*=" icon-"]:before, .b-19 .b-checkbox span:before {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: none;
@@ -259,7 +259,8 @@ input:-moz-placeholder {
 .icon-arrow-right-big:before {
   content: "\e90e";
 }
-.icon-check:before {
+.icon-check:before,
+.b-19 .b-checkbox span:before {
   content: "\e90f";
 }
 .icon-arrow-right:before {
@@ -2468,15 +2469,15 @@ h5.b-small{
 				margin-top: 34px;
 			}
 			.b-note-3 .b-instructions{
-				margin-left: -20px;
+				margin-left: -6px;
 			}
 				.b-instructions li{
 					vertical-align: top;
 					display: inline-block;
-					margin-right: 40px;
+					margin-right: 73px;
 				}
 				.b-note-3 .b-instructions li{
-					margin-right: 30px;
+					margin-right: 51px;
 				}
 				.b-note-4 .b-instructions li{
 					margin-right: 55px;
@@ -2501,9 +2502,32 @@ h5.b-small{
 							color: #ff8a00;
 							font-family: "Gilroy-Bold";
 						}
+						.b-instructions li:nth-child(1) .b-num{
+							right: -4px;
+						}
+						.b-instructions li:nth-child(2) .b-num{
+							right: -14px;
+						}
+						.b-instructions li:nth-child(3) .b-num{
+							right: -10px;
+						}
+						.b-instructions li:nth-child(4) .b-num{
+							right: -6px;
+						}
+						.b-note-3 .b-instructions li:nth-child(4) .b-num{
+							right: -18px;
+						}
+						.b-note-4 .b-instructions li:nth-child(4) .b-num{
+							right: -25px;
+						}
+						.b-instructions li:nth-child(5) .b-num{
+							right: -12px;
+						}
 					.b-instructions p{
 						text-align: center;
 						opacity: 0.5;
+						font-size: 12px;
+						line-height: 20px;
 					}
 			.b-note-purple{
 				text-align: center;
@@ -2871,11 +2895,11 @@ h5.b-small{
 				background-position: 0px;
 				background-repeat: no-repeat;
 				background-image: url('../i/13/line.svg');
-				width: 150px;
-				height: 200px;
+				width: 301px;
+				height: 343px;
 				position: absolute;
-				left: 0px;
-				top: 0px;
+				left: -60px;
+				top: 228px;
 			}
 .b-14{padding-top: 88px;height: 973px;overflow: hidden;}
 	.b-14 .b-block{
@@ -3502,44 +3526,107 @@ h5.b-small{
 				background-position: 50% 50%;
 				background-repeat: no-repeat;
 				background-image: url('../i/19/box.jpg');
-				width: 309px;
+				width: 260px;
 				height: 110px;
 				position: absolute;
-				left: 0px;
-				bottom: 0px;
+				left: -14px;
+				bottom: 89px;
+				z-index: 100;
 			}
 			.b-19 .b-chair{
-
+				background-position: 50% 100%;
+				background-repeat: no-repeat;
+				background-image: url('../i/19/chair.jpg');
+				width: 352px;
+				height: 471px;
+				position: absolute;
+				right: 69px;
+				top: 0px;
+				z-index: 1;
 			}
+				.b-19 .b-chair:before{
+					position: absolute;
+					content: "s";
+					font-size: 0px;
+					width: 189px;
+					height: 40px;
+					right: 0px;
+					top: -40px;
+					background-position: 50% 50%;
+					background-repeat: no-repeat;
+					background-image: url('../i/19/chair-top.png');
+				}
 			.b-19 .b-select-cont{
-
+				position: relative;
+				z-index: 2;
+				margin-top: 29px;
+				margin-bottom: -5px;
 			}
 				.b-19 .b-select{
-
+					margin-left: 183px;
 				}
 					.b-19 .b-select h3.b-title{
-
+						margin-bottom: 22px;
 					}
 				.b-19 .b-select-butt{
-
+					float: right;
+					margin-top: 42px;
+					margin-right: -35px;
 				}
 					.b-19 .b-select-butt .b-btn{
-
+						padding: 33px 52px 34px 52px;
 					}
 					.b-19 .b-select-butt .b-checkbox{
-
+						text-align: center;
+						padding-right: 23px;
+						margin-top: 20px;
 					}
-					.b-19 .b-select-butt input[type="checkbox"]{
-
+					.b-19 .b-checkbox input[type="checkbox"]{
+						display: none;
 					}
-					.b-19 .b-select-butt label{
-
+					.b-19 .b-checkbox label{
+						font-size: 11px;
+						color: rgba(0,0,0,0.59);
+						cursor: pointer;
 					}
-						.b-19 .b-select-butt span{
-
+						.b-19 .b-checkbox span{
+							display: inline-block;
+							width: 13px;
+							margin-bottom: -2px;
+							height: 13px;
+							border-radius: 5px;
+							border-radius: 3px;
+							border: 1px solid rgb(159, 158, 166);
+							margin-right: 10px;
+							position: relative;
 						}
-						.b-19 .b-select-butt a{
-
+							.b-19 .b-checkbox span:hover{
+								border-color: #ffc887;
+								background: #ffc887;
+							}
+							.b-19 .b-checkbox span:active{
+								border-color: #d9d4f3;
+								background: #d9d4f3;
+							}
+							.b-19 .b-checkbox span:before{
+								font-size: 18px;
+								position: absolute;
+								left: 0px;
+								top: -3px;
+								display: none;
+							}
+							.b-19 .b-checkbox input[type="checkbox"]:checked + label span:before{
+								display: block;
+							}
+						.b-19 .b-checkbox a{
+							color: rgba(0,0,0,0.59);
+							border-bottom: 1px dotted;
+						}
+						.b-19 .b-checkbox a:hover{
+							color: #ff8a00;
+						}
+						.b-19 .b-checkbox a:active{
+							color: #5e4abb;
 						}
 					.chosen-container,
 					.chosen-container *{
@@ -3569,7 +3656,7 @@ h5.b-small{
 					.chosen-container .chosen-single{
 						border: 0px;
 						border-radius: 100px;
-						padding: 10px 30px 12px;
+						padding: 10px 38px 12px;
 						display: block;
 						line-height: 49px;
 						width: 100%;
@@ -3581,11 +3668,12 @@ h5.b-small{
 					.chosen-container:hover .chosen-single{
 						border: 1px solid #5e4abb;
 					}
-					.chosen-container:hover .chosen-single{
+					.chosen-container.chosen-with-drop .chosen-single{
 						border-color: #FFF;
 						box-shadow: 0px 35px 70px 0px rgba(13, 13, 16, 0.1),0px 15px 75px 0px rgba(255, 138, 0, 0.05);
 					}
-					.chosen-container:hover .chosen-single span{
+					.chosen-container:hover .chosen-single span,
+					.chosen-container.chosen-with-drop .chosen-single span{
 						color: #5e4abb;	
 					}
 					.chosen-container .chosen-results li.result-selected{
@@ -3598,6 +3686,9 @@ h5.b-small{
 					.chosen-container .chosen-results li.active-result:hover{
 						color: #5e4abb;	
 					}
+					.chosen-container .chosen-results li{
+						padding: 15px 15px 15px 38px;
+					}
 					.chosen-container.chosen-with-drop{
 						/* border-radius: 26px 26px 0px 0px; */
 						background-image: url('../i/select-arrow-up.svg');
@@ -3605,13 +3696,76 @@ h5.b-small{
 					.chosen-container-single .chosen-drop{
 					    padding-bottom: 20px;
 						border-radius: 0px 0px 26px 26px;
+						box-shadow: 0px 35px 70px 0px rgba(13, 13, 16, 0.1),0px 15px 75px 0px rgba(255, 138, 0, 0.05);
 					}
 					.chosen-container .chosen-drop{
 						width: 100%;
 						left: 0px;
 						border-top: 0px;
 						top: 35px;
+						padding-bottom: 17px;
 						padding-top: 49px;
+					}
+					.chosen-container .chosen-results{
+						max-height: 190px;
+					}
+					.chosen-container-single .chosen-single div{
+						display: block;
+						top: 33px;
+						right: 26px;
+					}
+					.chosen-container-single .chosen-single div:before,
+					.chosen-container-single .chosen-single div:after{
+						position: absolute;
+						content: "s";
+						font-size: 0px;
+						left: 0px;
+						top: 0px;
+						width: 13px;
+						height: 5px;
+						background: #0d0d10;
+						border-radius: 1px;
+						display: block;
+						-webkit-transition: -webkit-transform 150ms ease-out;
+						   -moz-transition: transform 150ms ease-out;
+						    -ms-transition: -ms-transform 150ms ease-out;
+						   	 -o-transition: -o-transform 150ms ease-out;
+								transition: transform 150ms ease-out;
+					}
+					.chosen-container-single:hover .chosen-single div:before,
+					.chosen-container-single:hover .chosen-single div:after,
+					.chosen-container-single.chosen-with-drop .chosen-single div:before,
+					.chosen-container-single.chosen-with-drop .chosen-single div:after{
+						background: #5e4abb;
+					}
+					.chosen-container-single .chosen-single div:before{
+						-webkit-transform: rotateZ(45deg);
+						-moz-transform: rotateZ(45deg);
+						-ms-transform: rotateZ(45deg);
+						-o-transform: rotateZ(45deg);
+						transform: rotateZ(45deg);
+						left: -6px;
+					}
+					.chosen-container-single .chosen-single div:after{
+						-webkit-transform: rotateZ(-45deg);
+						   -moz-transform: rotateZ(-45deg);
+						    -ms-transform: rotateZ(-45deg);
+						   	 -o-transform: rotateZ(-45deg);
+								transform: rotateZ(-45deg);
+					}
+					.chosen-container-single.chosen-with-drop .chosen-single div:before{
+						-webkit-transform: rotateZ(-45deg) translateY(-2px) translateX(2px);
+						-moz-transform: rotateZ(-45deg) translateY(-2px) translateX(2px);
+						-ms-transform: rotateZ(-45deg) translateY(-2px) translateX(2px);
+						-o-transform: rotateZ(-45deg) translateY(-2px) translateX(2px);
+						transform: rotateZ(-45deg) translateY(-2px) translateX(2px);
+					}
+					.chosen-container-single.chosen-with-drop .chosen-single div:after{
+						-webkit-transform: rotateZ(45deg) translateY(-2px) translateX(-2px);
+						   -moz-transform: rotateZ(45deg) translateY(-2px) translateX(-2px);
+						    -ms-transform: rotateZ(45deg) translateY(-2px) translateX(-2px);
+						   	 -o-transform: rotateZ(45deg) translateY(-2px) translateX(-2px);
+								transform: rotateZ(45deg) translateY(-2px) translateX(-2px);
 					}
 
 
@@ -3637,11 +3791,12 @@ h5.b-small{
 .b-footer{
 	color: #b2b2b3;
 }
-	.b-footer-top{	
+	.b-footer-top{
 	    padding-bottom: 40px;
 	    font-size: 12px;
 	    line-height: 18px;
 	    border-bottom: 1px solid #f7f7f7;
+	    text-align: left;
 	}
 		.b-footer-top-item{
 			vertical-align: top;
@@ -3700,6 +3855,7 @@ h5.b-small{
 		padding: 35px 0;
 		font-size: 14px;
 		line-height: 18px;
+		text-align: left;
 	}
 
 	.b-footer .politics{
