@@ -317,6 +317,25 @@ input:-moz-placeholder {
 	    transform: translateY(10px);
 	}
 
+.b-btn.b-btn-blue{
+	background-color: #4b76a7;
+	-webkit-box-shadow: 0 25px 35px rgba(75, 118, 167, 0.2);
+	-moz-box-shadow: 0 25px 35px rgba(75, 118, 167, 0.2);
+	box-shadow: 0 25px 35px rgba(75, 118, 167, 0.2);
+}
+	.b-btn.b-btn-blue:hover{
+		background-color: #5e4abb;
+		-webkit-box-shadow: 0 15px 35px rgba(94, 74, 187, 0.25);
+		-moz-box-shadow: 0 15px 35px rgba(94, 74, 187, 0.25);
+		box-shadow: 0 15px 35px rgba(94, 74, 187, 0.25);
+	}
+	.b-btn.b-btn-blue:active{
+		background-color: #4c3b9e;
+		-webkit-box-shadow: 0 0px 35px rgba(76, 59, 158, 0.25);
+		-moz-box-shadow: 0 0px 35px rgba(76, 59, 158, 0.25);
+		box-shadow: 0 0px 35px rgba(76, 59, 158, 0.25);
+	}
+
 .orange{
 	color: #ff8a00;
 }
@@ -3715,6 +3734,156 @@ h5.b-small{
 	}
 
 
+/*-----------Popup-----------*/
+
+.b-popup{
+	padding: 40px 55px;
+}
+	.b-popup h2.b-title,
+	.b-popup h2.b-title b{
+		font-size: 50px;
+		line-height: 55px;
+	}
+	.b-popup h2.b-title{
+		margin-bottom: 20px;
+	}
+	.b-popup h3{
+		letter-spacing: 0.6px;
+		font-family: 'Gilroy-Regular';
+	}
+	.b-popup .content p{
+		font-size: 20px;
+		line-height: 30px;
+		font-family: 'Gilroy-Regular';
+	}
+	.b-popup-leave{
+		width: 860px;
+	}
+		.b-popup-leave .content{
+			width: 575px;
+		}
+		.b-popup-images{
+			margin-bottom: 36px;
+		}
+			.b-popup-images-left{
+				position: relative;
+				display: inline-block;
+				vertical-align: top;
+    			margin-top: 19px;
+				width: 515px;
+				height: 130px;
+			}
+				.img-video-popup{
+					position: absolute;
+					background-position: top left;
+				    background-repeat: no-repeat;
+				    background-size: contain;
+				    background-image: url('../i/popup-video.png');
+					width: 232px;
+    				height: 135px;
+					z-index: 1;
+
+				}
+				.img-video-popup:nth-child(1){
+					left: -30px;
+				}
+				.img-video-popup:nth-child(2){
+					left: 60px;
+				}
+				.img-video-popup:nth-child(3){
+					left: 150px;
+				}
+				.img-video-popup:nth-child(4){
+					left: 230px;
+				}
+
+				.b-popup .sign-plus{
+					position: absolute;
+					top: 30px;
+					right: 8px;
+					font-family: 'Gilroy-Regular';
+					display: inline-block;
+				    vertical-align: top;
+				    font-size: 128px;
+				    line-height: 60px;
+				    color: #4c3b9e;
+				}
+
+			.b-popup-images-right{
+				position: relative;
+				display: inline-block;
+			}
+				.img-book-popup{
+					display: inline-block;
+					background-position: top left;
+				    background-repeat: no-repeat;
+				    background-size: contain;
+				    background-image: url('../i/popup-book.png');
+					width: 116px;
+    				height: 150px;
+				}
+					.b-popup-images-right .b-line{
+						position: absolute;
+						bottom: 58px;
+    					left: 46px;
+    					width: 80px;
+    					height: 170px;
+						background-position: top left;
+					    background-repeat: no-repeat;
+					    background-size: contain;
+						background-image: url('../i/popup-line.png');
+					}
+					.b-popup-images-right p{
+						display: inline-block;
+						vertical-align: top;
+						text-align: center;
+						margin-top: 63px;
+						margin-left: 10px;
+						width: 100px;
+						font-size: 12px;
+						line-height: 15px;
+						color: #b2b2b3;
+					}
+
+		.b-popup-leave .b-btn{
+		    padding: 20px 32px 18px 32px;
+		    font-size: 18px;
+		}
+			.b-popup-leave .b-btn .main{
+		    	letter-spacing: 1.5px;
+			}
+
+		.b-popup-leave .b-btn:first-child{
+			float: left;
+		}
+		.b-popup-leave .b-btn:last-child{
+			float: right;
+			margin-right: 5px;
+		}
+
+.fancybox-close-small{
+	width: 50px;
+    height: 50px;
+	top: 14px;
+	right: 14px;
+}
+.fancybox-close-small:after{
+	content: '';
+	top: 10px;
+    right: 10px;
+	background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;
+	background: url('../i/close.svg');
+	background-color: transparent;
+	width: 30px;
+	height: 30px;
+}
+.fancybox-close-small:hover:after {
+    background: url('../i/close.svg');
+	background-color: transparent;
+}
+
 /*----------------------*/
 
 
@@ -3754,6 +3923,15 @@ h5.b-small{
 	}
 	.old-price .cross-out{
 	    background-image: url('../i/cross-out@2x.png');
+	}
+	.img-video-popup{
+	    background-image: url('../i/popup-video@2x.png');
+	}
+	.b-popup-images-right .b-line{
+		background-image: url('../i/popup-line@2x.png');
+	}
+	.img-book-popup{
+		background-image: url('../i/popup-book@2x.png');
 	}
 }	
 @media screen and (max-width: 1240px){
