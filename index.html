@@ -11,6 +11,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="stylesheet" href="css/reset.css" type="text/css">
 	<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css">
+	<link rel="stylesheet" href="css/chosen.css" type="text/css">
 	<link rel="stylesheet" href="css/KitAnimate.css" type="text/css">
 	<link rel="stylesheet" href="css/slick.css" type="text/css">
 	<link rel="stylesheet" href="css/layout.css" type="text/css">
@@ -29,14 +30,9 @@
 	<meta name="msapplication-TileColor" content="#FFFFFF" />
 	<meta name="msapplication-TileImage" content="favicon/mstile-144x144.png" />
 
+	<meta property="og:image" content="http://surgay.ru/images/bgr_post_game_2018.jpg"/>
 </head>
 <body>
-	<ul class="ps-lines">
-		<li class="v" style="margin-left:-571px"></li>
-		<li class="v" style="margin-left:570px"></li>
-		<li class="v" ></li>
-	</ul>
-
 	<div class="b b-header">
 		<div class="b-block">
 			<div class="b-header-top clearfix">
@@ -44,11 +40,11 @@
 					<a href="index.html" class="b-header-top-logo"></a>
 					<p>Взлом конверсии. Система<br>из 4-х прибыльных Landing Page</p>
 				</div>
-				<a href="#" class="b-header-top-item b-header-icon-cont b-go" data-block=".b-price" data-offset="-24">
+				<a href="#" class="b-header-top-item b-header-icon-cont b-go" data-block=".b-price" data-offset="75">
 					<div class="b-header-icon b-header-top-course"></div>
 					<p>Практический курс<br>для предпринимателей</p>
 				</a>
-				<a href="#" class="b-header-top-item b-header-icon-cont b-go" data-block=".b-price" data-offset="-24">
+				<a href="#" class="b-header-top-item b-header-icon-cont b-go" data-block=".b-price" data-offset="75">
 					<div class="b-header-icon b-header-top-more"></div>
 					<p><b>Больше узнать</b><br>о курсе</p>
 				</a>
@@ -75,7 +71,7 @@
 						<p>И получить <b class="orange">в 3-4 раза больше<br>заказов</b>, на долгие годы опередив<br>конкурентов</p>
 					</div>
 					<div class="b-header-book-it">
-						<a href="#" class="b-btn b-btn-orange b-go" data-block=".b-price" data-offset="-24">
+						<a href="#" class="b-btn b-btn-orange b-go" data-block=".b-price" data-offset="75">
 							<p class="main">Забронировать место</p><br>
 							<p class="small">по специальной цене</p>
 						</a>
@@ -197,7 +193,7 @@
 			<h2 class="b-title">Поэтому мы решили сделать эту технологию <b>доступной</b> для любого бизнеса</h2>
 			<h5 class="b-small">и упаковали пошаговый алгоритм её разработки в подробный курс, который позволит:</h5>
 			<div class="b-book-cont">
-				<div class="b-book"></div>
+				<div class="b-book anim bookUp" data-anim="bookUp" data-offset="700"></div>
 				<div class="b-adv-list">
 					<div class="b-adv b-adv-1">
 						<img src="i/5/1.png" alt="">
@@ -233,12 +229,12 @@
 					<div class="b-finger"></div>
 					<a href='#' class="b-play"></a>
 				</div>
-				<a href="#" class="b-btn b-btn-orange b-go" data-block=".b-price" data-offset="-24">
+				<a href="#" class="b-btn b-btn-orange b-go" data-block=".b-price" data-offset="75">
 					<p class="main">Забронировать место</p><br>
 					<p class="small">по специальной цене</p>
 				</a>
 				<div>
-					<a href="#" class="b-program-link">Смотреть программу <span class="icon-link"></span></a>
+					<a href="#" class="b-program-link b-go" data-block=".b-9"><b>Смотреть</b> программу <span class="icon-link"></span></a>
 				</div>
 			</div>
 		</div>
@@ -249,7 +245,7 @@
 			<h2 class="b-title b-first">Вы будете <b>получать любое количество заявок</b> со всех рекламных площадок благодаря</h2>
 			<div class="b-ipad-list">
 				<div class="b-ipad b-ipad-1">
-					<div class="b-text">
+					<div class="b-text anim fadeDown" data-anim="fadeDown" data-offset="300">
 						<h3>Квиз-маркетингу и опросам</h3>
 						<p class="b-left-triangle">Средняя конверсия</p>
 						<h4>10-19%</h4>
@@ -257,7 +253,7 @@
 					</div>
 				</div>
 				<div class="b-ipad b-ipad-2">
-					<div class="b-text">
+					<div class="b-text anim fadeDown" data-anim="fadeDown" data-offset="300">
 						<h3>Лендингам-взяткам</h3>
 						<p class="b-left-triangle">Средняя конверсия</p>
 						<h4>20-40%</h4>
@@ -265,7 +261,7 @@
 					</div>
 				</div>
 				<div class="b-ipad b-ipad-3">
-					<div class="b-text">
+					<div class="b-text anim fadeDown" data-anim="fadeDown" data-offset="300">
 						<h3>Лендингам-акциям</h3>
 						<p class="b-left-triangle">Средняя конверсия</p>
 						<h4>4-11%</h4>
@@ -995,7 +991,7 @@
 			</div>
 		</div>
 		<div class="b-block">
-			<a href="#" class="b-btn b-btn-orange b-go b-btn-lessons" data-block=".b-price" data-offset="-24">
+			<a href="#" class="b-btn b-btn-orange b-go b-btn-lessons" data-block=".b-price" data-offset="75">
 				<p class="main">Я хочу создать такую систему</p><br>
 				<p class="small">для своего бизнеса!</p>
 			</a>
@@ -1163,7 +1159,7 @@
 					<li>
 						<div class="b-img">
 							<img src="i/10/instruction-4.jpg" alt="">
-							<div class="b-num" style="right: -13px;">4</div>
+							<div class="b-num">4</div>
 						</div>
 						<p>Полная инструкция<br>для самоаудита LP</p>
 					</li>
@@ -1171,7 +1167,7 @@
 				<div class="b-note-shadow"></div>
 			</div>
 			<div class="b-note-btn">
-				<a href="#" class="b-btn b-btn-orange b-go" data-block=".b-price" data-offset="-24">
+				<a href="#" class="b-btn b-btn-orange b-go" data-block=".b-price" data-offset="75">
 					<p class="main">Оплатить участие</p><br>
 					<p class="small">и забрать полезные файлы</p>
 				</a>
@@ -1231,7 +1227,7 @@
 				<div class="b-big-reviews-count">1 из 10</div>
 			</div>
 			<div class="b-reviews-butt">
-				<a href="#" class="b-btn b-btn-orange b-btn-one-line b-go" data-block=".b-price" data-offset="-24">
+				<a href="#" class="b-btn b-btn-orange b-btn-one-line b-go" data-block=".b-price" data-offset="75">
 					<p class="main">Я хочу на курс!</p>
 				</a>
 			</div>
@@ -1380,7 +1376,7 @@
 								<p>200 т. р.</p>
 							</div>
 							<p class="new-price">159 т. р.</p>
-							<a href="http://tfa.e-autopay.com/buy/348965" target="_blank" class="b-btn b-btn-orange">
+							<a href="http://tfa.e-autopay.com/buy/348965" target="_blank" class="b-btn b-btn-orange b-platinum-link">
 								<p class="main">Пройти PLATINUM</p><br>
 								<p class="small">со скидкой 40%</p>
 							</a>
@@ -1453,7 +1449,7 @@
 								<p>87 000 р.</p>
 							</div>
 							<p class="new-price">69 600 р.</p>
-							<a href="http://tfa.e-autopay.com/buy/348963" target="_blank" class="b-btn b-btn-orange">
+							<a href="http://tfa.e-autopay.com/buy/348963" target="_blank" class="b-btn b-btn-orange b-vip-link">
 								<p class="main">Пройти VIP</p><br>
 								<p class="small">со скидкой 40%</p>
 							</a>
@@ -1520,7 +1516,7 @@
 								<p>47 000 р.</p>
 							</div>
 							<p class="new-price">37 600 р.</p>
-							<a href="http://tfa.e-autopay.com/buy/348966" target="_blank" class="b-btn b-btn-orange">
+							<a href="http://tfa.e-autopay.com/buy/348966" target="_blank" class="b-btn b-btn-orange b-gold-link">
 								<p class="main">Пройти GOLD</p><br>
 								<p class="small">со скидкой 40%</p>
 							</a>
@@ -1557,7 +1553,7 @@
 								<p>24 000 р.</p>
 							</div>
 							<p class="new-price">19 200 р.</p>
-							<a href="http://tfa.e-autopay.com/buy/348964" target="_blank" class="b-btn b-btn-orange">
+							<a href="http://tfa.e-autopay.com/buy/348964" target="_blank" class="b-btn b-btn-orange b-start-link">
 								<p class="main">Пройти START</p><br>
 								<p class="small">со скидкой 40%</p>
 							</a>
@@ -1584,7 +1580,7 @@
 				<h2 class="b-title">Хотите попасть на курс, но <b>не можете оплатить сразу?</b></h2>
 				<h3 class="b-title b-left-triangle">До 10 февраля воспользуйтесь беспроцентной <b>рассрочкой</b></h3>
 				<div class="b-no-money-butt clearfix">
-					<a href="#" class="b-btn b-btn-orange b-go" data-block=".b-price" data-offset="-24">
+					<a href="#" class="b-btn b-btn-orange b-go" data-block=".b-price" data-offset="75">
 						<p class="main">Внести предоплату<br>3  т. р.</p>
 					</a>
 					<small>Возможность купить курс в рассрочку без % закрывается 20 января</small>
@@ -1596,6 +1592,77 @@
 	<div class="b b-17">
 		<div class="b-block">
 			<h2 class="b-title"><b>Старт последнего потока курса 18 февраля</b></h2>
+			<div class="b-ipads clearfix">
+				<div class="b-ipad-block left">
+					<img src="i/17/pic-1.jpg" alt="">
+					<p class="b-left-triangle"><b>Формат:</b> Вечерние<br>онлайн мастер-классы<br>1 раз в неделю</p>
+				</div>
+				<div class="b-ipad-block left">
+					<img src="i/17/pic-2.jpg" alt="">
+					<p class="b-left-triangle">1 раз в месяц <b>мастер-<br>майнд</b> по ключевым темам<br>с участниками</p>
+				</div>
+				<div class="b-ipad-block left">
+					<img src="i/17/pic-3.jpg" alt="">
+					<p class="b-left-triangle">100% записей, доп.<br>материалы и задания всех<br>уроков доступны вам<br><b>навсегда</b></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="b b-18">
+		<div class="b-block">
+			<h2 class="b-title"><b>Мы уверены в эффективности</b> нашего онлайн-практикума</h2>
+			<h3 class="b-title">поэтому даем вам тройную гарантию</h3>
+			<div class="b-garant-cont">
+				<div class="b-garant-doc"></div>
+				<div class="b-garant b-garant-1">
+					<div class="b-num">1</div>
+					<p><b>Гарантия</b> 100%-й<br>окупаемости<br>курса*</p>
+				</div>
+				<div class="b-garant b-garant-2">
+					<div class="b-num">2</div>
+					<p><b>Гарантия</b> инди-<br>видуальной работы<br>до результата**</p>
+				</div>
+				<div class="b-garant b-garant-3">
+					<div class="b-num">3</div>
+					<p><b>Гарантия</b> 100%-го<br>возврата средств в те-<br>чение прохождения<br>первого модуля</p>
+					<small>Если после первых<br>2-х занятий вы решите,<br>что «Взлом конверсии»<br>не для вас, мы вернём<br>ваши деньги</small>
+				</div>
+				<div class="b-comment">*Для пакета VIP и Platinum<br>**Для пакета Platinum</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="b b-19">
+		<div class="b-block">
+			<div class="b-note b-with-triangle">
+				<span class="b-empty-triangle"></span>
+				<h3 class="b-title">Старт курса - 18 февраля</h3>
+				<h2 class="b-title icon-flag">Забронируйте сейчас<br>свое место в группе<br>по <span>19</span> т. р.</h2>
+				<div class="b-books"></div>
+				<div class="b-chair"></div>
+				<div class="b-select-cont clearfix">
+					<div class="b-select left">
+						<h3 class="b-title">Выберите пакет курса</h3>
+						<select name="type" id="type">
+							<option data-price="19" data-click=".b-start-link" value="Start">START</option>
+							<option data-price="37" data-click=".b-gold-link" value="Gold">GOLD</option>
+							<option data-price="69" data-click=".b-vip-link" value="VIP">VIP</option>
+							<option data-price="159" data-click=".b-platinum-link" value="Platinum">PLATINUM</option>
+						</select>
+					</div>
+					<div class="b-select-butt">
+						<a href="#" class="b-btn b-btn-orange b-btn-one-line b-pay-click" data-click=".b-start-link">
+							<p class="main">Забронировать место</p>
+						</a>
+						<div class="b-checkbox">
+							<input type="checkbox" checked id="polytics">
+							<label for="polytics"><span></span>Я принимаю условия <a href="#">передачи информации</a></label>
+						</div>
+					</div>
+				</div>
+				<div class="b-note-shadow"></div>
+			</div>
 		</div>
 	</div>
 
@@ -1648,6 +1715,37 @@
 			<h4>Приносим свои извинения. Пожалуйста, попробуйте отправить Вашу заявку позже.</h4>
 			<input type="submit" class="b-orange-butt" onclick="$.fancybox.close(); return false;" value="Закрыть">
 		</div>
+		<div class="b-popup b-popup-leave" id="b-popup-leave">
+			<div class="content">
+				<h2 class="b-title"><b>Думаете это сложно<br>и не для вас?</b></h2>
+				<h3>Тогда мы готовы дать вам <b class="orange">бесплатную<br>моментальную пользу -</b></h3>
+				<p>нажмите на одну из кнопок ниже и получите 4 видеоурока «Рекордная прибыль с Landing page: 5 ключевых принципов»</p>
+			</div>
+			<div class="b-popup-images clearfix">
+				<div class="b-popup-images-left">
+					<div class="img-video-popup"></div>
+					<div class="img-video-popup"></div>
+					<div class="img-video-popup"></div>
+					<div class="img-video-popup"></div>
+					<div class="sign-plus">+</div>
+				</div>
+				<div class="b-popup-images-right">
+					<div class="img-book-popup"></div>
+					<div class="b-line"></div>
+					<p>Интеллект-карта с пошаговым aлгоритмом</p>
+				</div>
+			</div>
+			<div class="b-popup-buttons clearfix">
+				<a href="#" class="b-btn b-btn-orange">
+					<p class="main">ЗАБРАТЬ ЦЕННЫЕ МАТЕРИАЛЫ</p><br>
+					<p class="small">на E-mail</p>
+				</a>
+				<a href="#" class="b-btn b-btn-blue">
+					<p class="main">ЗАБРАТЬ ЦЕННЫЕ МАТЕРИАЛЫ</p><br>
+					<p class="small">через VK.COM</p>
+				</a>
+			</div>
+		</div>
 	</div>
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
@@ -1656,6 +1754,7 @@
 	<script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
 	<script type="text/javascript" src="js/jquery.validate.min.js"></script>
 	<script type="text/javascript" src="js/slick.js"></script>
+	<script type="text/javascript" src="js/chosen.jquery.js"></script>
 	<script type="text/javascript" src="js/KitAnimate.js"></script>
 	<script type="text/javascript" src="js/KitSend.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>

@@ -151,6 +151,21 @@ $(document).ready(function(){
         adaptiveHeight: true
     });
 
+    $(".b-lesson-tabs-cont .b-tab[data-slick-index='0']").find(".b-right-text").addClass("show");
+
+    $(".b-lesson-tabs-cont").on('beforeChange', function(event, slick, currentSlide, nextSlide){
+        $(".b-lesson-tabs li.active").removeClass("active");
+        $(".b-lesson-tabs li").eq(nextSlide).addClass("active");
+
+        calcActive();
+    });
+
+    $(".b-lesson-tabs-cont").on('afterChange', function(event, slick, currentSlide){
+        $(".b-lesson-tabs-cont .b-tab[data-slick-index!='"+currentSlide+"']").find(".b-right-text").removeClass("show");
+
+        $(".b-lesson-tabs-cont .b-tab[data-slick-index='"+currentSlide+"']").find(".b-right-text").addClass("show");
+    });
+
     // Блок с большими отзывами
     var reviewsCount = $(".b-big-review").length;
     $(".b-big-reviews-count").text("1 из "+reviewsCount);
@@ -160,7 +175,7 @@ $(document).ready(function(){
         slidesToScroll: 1,
         infinite: true,
         cssEase: 'ease', 
-        fade: true,
+        // fade: true,
         speed: 500,
         arrows: true,
         prevArrow: '<div class="slick-arrow slick-prev icon-arrow-left-big"></div>',
@@ -197,6 +212,24 @@ $(document).ready(function(){
         arrows: false,
         vertical: true
     });
+
+    $("#type").chosen({
+        disable_search_threshold : 10
+    }).change(function(){
+        var $option = $(this).find("option[value='"+$(this).val()+"']");
+            click = $option.attr("data-click"),
+            price = $option.attr("data-price");
+        $(".b-19 h2.b-title span").text(price);
+
+        $(".b-pay-click").attr("href", $(click).attr("href"));
+        return false;
+    });
+
+    $(".b-pay-click").attr("href", $(".b-start-link").attr("href"));
+
+    // $(".b-pay-click").click(function(){
+    //     $($(this).attr("data-click")).click();
+    // });
     
 	// var myPlace = new google.maps.LatLng(55.754407, 37.625151);
  //    var myOptions = {
