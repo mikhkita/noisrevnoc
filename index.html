@@ -1874,7 +1874,7 @@
 			<div class="content">
 				<h2 class="b-title"><b>Думаете это сложно<br>и не для вас?</b></h2>
 				<h3>Тогда мы готовы дать вам <b class="orange">бесплатную<br>моментальную пользу -</b></h3>
-				<p>нажмите на одну из кнопок ниже и получите 4 видеоурока «Рекордная прибыль с Landing page: 5 ключевых принципов»</p>
+				<h4>нажмите на одну из кнопок ниже и получите 4 видеоурока «Рекордная прибыль с Landing page: 5 ключевых принципов»</h4>
 			</div>
 			<div class="b-popup-images clearfix">
 				<div class="b-popup-images-left">
@@ -1891,11 +1891,20 @@
 				</div>
 			</div>
 			<div class="b-popup-buttons clearfix">
-				<a href="#" class="b-btn b-btn-orange">
-					<p class="main">ЗАБРАТЬ ЦЕННЫЕ МАТЕРИАЛЫ</p><br>
-					<p class="small">на E-mail</p>
-				</a>
-				<a href="#" class="b-btn b-btn-blue">
+				<form id="b-get-email-form" class="b-get-email-form" method="post" action="kitsend.php">
+					<div class="b-input-cont">
+						<h4><b>Введите Е-mail,</b> куда отправятся<br>ценные материалы</h4>
+						<div class="b-input">
+							<input type="text" name="email" placeholder="Введите ваш E-mail" required>
+						</div>
+					</div>
+					<a href="#" class="ajax b-btn b-btn-orange b-btn-email">
+						<p class="main">ЗАБРАТЬ ЦЕННЫЕ МАТЕРИАЛЫ</p><br>
+						<p class="small">на E-mail</p>
+					</a>
+					<a href="#b-popup-success" class="b-thanks-link fancy" style="display:none;"></a>
+				</form>
+				<a href="#" class="b-btn b-btn-blue b-btn-vk">
 					<p class="main">ЗАБРАТЬ ЦЕННЫЕ МАТЕРИАЛЫ</p><br>
 					<p class="small">через VK.COM</p>
 				</a>

@@ -3909,7 +3909,7 @@ h5.b-small{
 /*-----------Popup-----------*/
 
 .b-popup{
-	padding: 40px 55px;
+	padding: 40px 55px 50px 55px;
 }
 	.b-popup h2.b-title,
 	.b-popup h2.b-title b{
@@ -3923,7 +3923,7 @@ h5.b-small{
 		letter-spacing: 0.6px;
 		font-family: 'Gilroy-Regular';
 	}
-	.b-popup .content p{
+	.b-popup h4{
 		font-size: 20px;
 		line-height: 30px;
 		font-family: 'Gilroy-Regular';
@@ -4017,21 +4017,112 @@ h5.b-small{
 						color: #b2b2b3;
 					}
 
-		.b-popup-leave .b-btn{
-		    padding: 20px 32px 18px 32px;
-		    font-size: 18px;
+		.b-popup-buttons{
+			position: relative;
+			height: 84px;
+			-webkit-transition: height 200ms ease-out;
+			   -moz-transition: height 200ms ease-out;
+			    -ms-transition: height 200ms ease-out;
+			   	 -o-transition: height 200ms ease-out;
+					transition: height 200ms ease-out;
 		}
-			.b-popup-leave .b-btn .main{
-		    	letter-spacing: 1.5px;
+		.b-popup-buttons.more-height{
+			height: 150px;
+		}
+			.b-popup-buttons h4{
+				margin-bottom: 20px;
+			}
+			.b-popup-leave .b-btn{
+			    padding: 20px 32px 18px 32px;
+			    font-size: 18px;
+			}
+				.b-popup-leave .b-btn .main{
+			    	letter-spacing: 1.5px;
+				}
+
+			.b-popup-leave .b-btn-email{
+				position: absolute;
+				left: 0;
+				top: 0;
+			}
+			.b-popup-leave .b-btn-vk{
+				float: right;
+				margin-right: 5px;
 			}
 
-		.b-popup-leave .b-btn:first-child{
-			float: left;
-		}
-		.b-popup-leave .b-btn:last-child{
-			float: right;
-			margin-right: 5px;
-		}
+			.b-input{
+				position: relative;
+			}
+
+			.b-input-cont{
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				opacity: 0;
+				visibility: hidden;
+				-webkit-transition: opacity 300ms ease-out, visibility 300ms ease-out;
+				   -moz-transition: opacity 300ms ease-out, visibility 300ms ease-out;
+				    -ms-transition: opacity 300ms ease-out, visibility 300ms ease-out;
+				   	 -o-transition: opacity 300ms ease-out, visibility 300ms ease-out;
+						transition: opacity 300ms ease-out, visibility 300ms ease-out;
+			}
+			.b-input-cont.show{
+				opacity: 1;
+				visibility: visible;
+			}
+
+			.b-btn-email{
+				-webkit-transition: left 300ms ease-out;
+				   -moz-transition: left 300ms ease-out;
+				    -ms-transition: left 300ms ease-out;
+				   	 -o-transition: left 300ms ease-out;
+						transition: left 300ms ease-out;
+			}
+			.b-btn-email.move{
+				left: 386px;
+				top: auto;
+				bottom: 0;
+			}
+
+			.b-btn-vk{
+				-webkit-transition: opacity 200ms ease-out, visibility 200ms ease-out;
+				   -moz-transition: opacity 200ms ease-out, visibility 200ms ease-out;
+				    -ms-transition: opacity 200ms ease-out, visibility 200ms ease-out;
+				   	 -o-transition: opacity 200ms ease-out, visibility 200ms ease-out;
+						transition: opacity 200ms ease-out, visibility 200ms ease-out;
+			}
+
+			.b-btn-vk.hide-opacity{
+				opacity: 0;
+				visibility: hidden;
+			}
+
+				.b-get-email-form .b-input:before{
+					position: absolute;
+					top: 28px;
+					left: 25px;
+					content: '';
+					width: 19px;
+					height: 14px;
+					background-position: top left;
+				    background-repeat: no-repeat;
+				    background-size: 19px;
+					background-image: url('../i/letter.png');
+				}
+				
+					.b-get-email-form input{
+						width: 340px;
+						padding: 25px 30px 25px 60px;
+						font-size: 16px;
+						line-height: 20px;
+						color: #0d0d10;
+						border-radius: 100px;
+						border: 1px solid rgb(219, 219, 219);
+			  			background-color: rgb(249, 247, 244);
+			  			-webkit-box-shadow: inset 1.4px 1.4px 6px 0px rgba(30, 30, 30, 0.1);
+						-moz-box-shadow: inset 1.4px 1.4px 6px 0px rgba(30, 30, 30, 0.1);
+			  			box-shadow: inset 1.4px 1.4px 6px 0px rgba(30, 30, 30, 0.1);
+					}
 
 .fancybox-close-small{
 	width: 50px;

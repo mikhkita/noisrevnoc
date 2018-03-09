@@ -254,6 +254,16 @@ $(document).ready(function(){
         return false;
     });
 
+    $(".b-btn-email").on('click', function(){
+        if(!$(this).hasClass("form-open")){
+            $(this).addClass("move form-open");
+            $(".b-popup-leave .b-input-cont").addClass("show");
+            $(".b-popup-leave .b-btn-vk").addClass("hide-opacity");
+            $(".b-popup-leave .b-popup-buttons").addClass("more-height");
+            return false;
+        }
+    });
+
     /*----------------------------------*/
 
     // $(".b-pay-click").click(function(){
