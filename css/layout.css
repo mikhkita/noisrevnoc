@@ -213,7 +213,9 @@ input:-moz-placeholder {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.icon-close:before {
+  content: "\e912";
+}
 .icon-rub:before {
   content: "\e900";
 }
