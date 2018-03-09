@@ -264,6 +264,23 @@ $(document).ready(function(){
         }
     });
 
+    /*Senler.ButtonSubscribe("senlerBtn-1518010629", { 
+        completeCallback: function ($e) { 
+            console.log('Запрос пришел успешно'); 
+        }, 
+        cancelCallback: function ($e) { 
+            console.log('Пользователь отписался'); 
+        }, 
+        successCallback: function ($e) {
+            $(".b-vk-s-link").click();
+            console.log('Пользователь подписался'); 
+        }, 
+        errorCallback: function ($e, jqXHR, textStatus, errorThrown) { 
+            $(".b-vk-e-link").click();
+            console.log('Ошибка при запросе'); 
+        } 
+    });*/
+
     /*----------------------------------*/
 
     // $(".b-pay-click").click(function(){

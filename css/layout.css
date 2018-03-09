@@ -4046,6 +4046,7 @@ h5.b-small{
 				top: 0;
 			}
 			.b-popup-leave .b-btn-vk{
+				position: relative;
 				float: right;
 				margin-right: 5px;
 			}
@@ -4123,6 +4124,28 @@ h5.b-small{
 						-moz-box-shadow: inset 1.4px 1.4px 6px 0px rgba(30, 30, 30, 0.1);
 			  			box-shadow: inset 1.4px 1.4px 6px 0px rgba(30, 30, 30, 0.1);
 					}
+
+.b-for-vk-butt {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+
+.b-vk-butt {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    -webkit-transform: scale(5);
+    -moz-transform: scale(5);
+    -ms-transform: scale(5);
+    -o-transform: scale(5);
+    transform: scale(5);
+    opacity: 0 !important;
+}
+
 
 .fancybox-close-small{
 	width: 50px;
