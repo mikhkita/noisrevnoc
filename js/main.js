@@ -227,6 +227,24 @@ $(document).ready(function(){
 
     $(".b-pay-click").attr("href", $(".b-start-link").attr("href"));
 
+    /*----------------------------------*/
+
+    $(".b-btn-500lux").on('click', function(){
+        $(".b-500lux").addClass("show");
+        $(".b-menu-overlay").addClass("show");
+        $("body").addClass("no-scroll");
+        return false;
+    });
+
+    $(".b-menu-overlay, .b-500lux-close").on('click', function(){
+        $(".b-500lux").removeClass("show");
+        $(".b-menu-overlay").removeClass("show");
+        $("body").removeClass("no-scroll");
+        return false;
+    });
+
+    /*----------------------------------*/
+
     // $(".b-pay-click").click(function(){
     //     $($(this).attr("data-click")).click();
     // });
