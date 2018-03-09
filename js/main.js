@@ -232,8 +232,10 @@ $(document).ready(function(){
     var isWindows = false;
     if (navigator.userAgent.indexOf ('Windows') != -1) isWindows = true;
 
-    $(document).mouseleave(function() {
-        console.log("123");
+    $(document).mouseleave(function(){
+        if(!$(".fancybox-slide .b-popup-leave").length){
+            $(".b-btn-leave").click();
+        }
     });
 
     $(".b-btn-500lux").on('click', function(){
@@ -244,7 +246,7 @@ $(document).ready(function(){
         return false;
     });
 
-    $(".b-menu-overlay, .b-500lux-close").on('click', function(){
+    $(".b-menu-overlay, .b-btn-close").on('click', function(){
         $(".b-500lux").removeClass("show");
         $(".b-menu-overlay").removeClass("show");
         if(isWindows)
