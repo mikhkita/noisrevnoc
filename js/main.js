@@ -229,17 +229,26 @@ $(document).ready(function(){
 
     /*----------------------------------*/
 
+    var isWindows = false;
+    if (navigator.userAgent.indexOf ('Windows') != -1) isWindows = true;
+
+    $(document).mouseleave(function() {
+        console.log("123");
+    });
+
     $(".b-btn-500lux").on('click', function(){
         $(".b-500lux").addClass("show");
         $(".b-menu-overlay").addClass("show");
-        $("body").addClass("no-scroll");
+        if(isWindows)
+            $("body").addClass("no-scroll");
         return false;
     });
 
     $(".b-menu-overlay, .b-500lux-close").on('click', function(){
         $(".b-500lux").removeClass("show");
         $(".b-menu-overlay").removeClass("show");
-        $("body").removeClass("no-scroll");
+        if(isWindows)
+            $("body").removeClass("no-scroll");
         return false;
     });
 

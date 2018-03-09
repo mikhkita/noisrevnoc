@@ -199,7 +199,10 @@ input:-moz-placeholder {
 	color: #777;
 }
 
-[class^="icon-"]:before, [class*=" icon-"]:before, .b-19 .b-checkbox span:before {
+[class^="icon-"]:before,
+[class*=" icon-"]:before,
+.b-19 .b-checkbox span:before,
+.fancybox-close-small:after{
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: none;
@@ -4033,24 +4036,20 @@ h5.b-small{
 .fancybox-close-small{
 	width: 50px;
     height: 50px;
-	top: 14px;
-	right: 14px;
+	top: 24px;
+	right: 24px;
 }
 .fancybox-close-small:after{
-	content: '';
+	content: "\e912";
+	font-size: 30px;
 	top: 10px;
     right: 10px;
-	background-position: top left;
-    background-repeat: no-repeat;
-    background-size: contain;
-	background: url('../i/close.svg');
+    color: #c8cbcf;
 	background-color: transparent;
-	width: 30px;
-	height: 30px;
 }
 .fancybox-close-small:hover:after {
-    background: url('../i/close.svg');
-	background-color: transparent;
+    color: #0d0d10;
+    background-color: transparent;
 }
 
 /*-------500-lux------*/
@@ -4095,15 +4094,18 @@ body.no-scroll{
 	}
 	.b-btn-close{
 		position: absolute;
-		top: 24px;
+		top: 14px;
 		right: 0;
-		background-position: top left;
-	    background-repeat: no-repeat;
-	    background-size: contain;
-		background: url('../i/close.svg');
 		background-color: transparent;
-		width: 30px;
-		height: 30px;
+		padding: 10px;
+	}
+	.icon-close:before{
+		color: #c8cbcf;
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.icon-close:hover:before{
+		color: #0d0d10;
 	}
 		.b-500lux-logo{
 			margin-bottom: 16px;
