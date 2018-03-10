@@ -4173,6 +4173,9 @@ body.no-scroll{
     height: 100%;
     overflow: hidden;
     position: relative;
+}
+
+body.margin-scroll{
     margin-right: 17px;
 }
 

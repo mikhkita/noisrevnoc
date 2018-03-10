@@ -249,16 +249,18 @@ $(document).ready(function(){
     $(".b-btn-research").on('click', function(){
         $(".b-research").addClass("show");
         $(".b-menu-overlay").addClass("show");
+        $("body").addClass("no-scroll");
         if(isWindows)
-            $("body").addClass("no-scroll");
+            $("body").addClass("margin-scroll");
         return false;
     });
 
     $(".b-menu-overlay, .b-btn-close").on('click', function(){
         $(".b-500lux, .b-research").removeClass("show");
         $(".b-menu-overlay").removeClass("show");
+        $("body").removeClass("no-scroll");
         if(isWindows)
-            $("body").removeClass("no-scroll");
+            $("body").removeClass("margin-scroll");
         return false;
     });
 
