@@ -229,12 +229,25 @@ $(document).ready(function(){
 
     /*----------------------------------*/
 
-    var isWindows = false;
+    var isWindows = false,
+        timerLeave = 0,
+        showLeave = true;
+
     if (navigator.userAgent.indexOf ('Windows') != -1) isWindows = true;
 
+    setInterval(function() {
+        timerLeave++;
+        if(timerLeave > 120){
+            showLeave = true;
+            timerLeave = 0;
+        }
+    }, 1000);
+
     $(document).mouseleave(function(){
-        if(!$(".fancybox-slide .b-popup-leave").length){
+        if(!$(".fancybox-slide .b-popup-leave").length && showLeave){
             $(".b-btn-leave").click();
+            showLeave = false;
+            timerLeave = 0;
         }
     });
 
