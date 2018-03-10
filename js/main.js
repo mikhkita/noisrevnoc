@@ -41,6 +41,14 @@ $(document).ready(function(){
     }
     $.fn.placeholder();
 
+    $(".b-video-block .b-play").click(function(){
+        var $cont = $(this).parents(".b-video-block");
+        $cont.addClass("play");
+        $cont.find("iframe").attr("src", $cont.find("iframe").attr("src")+"&autoplay=1"); 
+
+        return false;
+    });
+
     calcHeight();
 
     $(".b-atlant-slider").slick({
