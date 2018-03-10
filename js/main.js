@@ -232,11 +232,11 @@ $(document).ready(function(){
     var isWindows = false;
     if (navigator.userAgent.indexOf ('Windows') != -1) isWindows = true;
 
-    /*$(document).mouseleave(function(){
+    $(document).mouseleave(function(){
         if(!$(".fancybox-slide .b-popup-leave").length){
             $(".b-btn-leave").click();
         }
-    });*/
+    });
 
     $(".b-btn-500lux").on('click', function(){
         $(".b-500lux").addClass("show");
@@ -279,10 +279,8 @@ $(document).ready(function(){
             $(this).removeClass("show");
         });
         if($(".b-count-start.show").length){
-            console.log("b-count-start.show");
             $(".b-btn-count").html($(".b-btn-count").attr("data-start"));
         }else{
-            console.log("no");
             $(".b-btn-count").html($(".b-btn-count").attr("data-ext"));
         }
         return false;
