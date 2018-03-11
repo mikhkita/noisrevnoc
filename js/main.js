@@ -302,7 +302,7 @@ $(document).ready(function(){
         $noactive.children(".b-count-item").each(function(){
             $(this).removeClass("show");
         });
-        if($(".b-count-start.show").length){
+        if(!$(".b-count-ext.show").length){
             $(".b-btn-count").html($(".b-btn-count").attr("data-start"));
         }else{
             $(".b-btn-count").html($(".b-btn-count").attr("data-ext"));
