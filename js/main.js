@@ -262,8 +262,9 @@ $(document).ready(function(){
     $(".b-btn-500lux").on('click', function(){
         $(".b-500lux").addClass("show");
         $(".b-menu-overlay").addClass("show");
+        $("body").addClass("no-scroll");
         if(isWindows)
-            $("body").addClass("no-scroll");
+            $("body").addClass("margin-scroll");
         return false;
     });
 
@@ -286,16 +287,16 @@ $(document).ready(function(){
     });
 
     $(".b-btn-count").on('click', function(){
-        $(".b-count-start").toggleClass("show no-active");
+        // $(".b-count-start").toggleClass("show no-active");
         $(".b-count-ext").toggleClass("show no-active");
         var $active = $(".b-count.show");
         var $noactive = $(".b-count.no-active");
         var delay = 1;
         $active.children(".b-count-item").each(function(){
-            var el = this;
+            var $el = $(this);
             setTimeout(function(){
-                $(el).addClass("show");
-            }, 100 * delay + 200);
+                $el.addClass("show");
+            }, 100 * $el.index() + 0);
             delay++;
         });
         $noactive.children(".b-count-item").each(function(){

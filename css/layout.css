@@ -4622,10 +4622,11 @@ body.margin-scroll{
 			opacity: 0;
 			visibility: hidden;
 			-webkit-transition: opacity 300ms ease-out, visibility 300ms ease-out;
-		    -moz-transition: opacity 300ms ease-out, visibility 300ms ease-out;
-		    -ms-transition: opacity 300ms ease-out, visibility 200ms ease-out;
-		    -o-transition: opacity 300ms ease-out, visibility 300ms ease-out;
-		    transition: opacity 300ms ease-out, visibility 300ms ease-out;
+			-moz-transition: opacity 300ms ease-out, visibility 300ms ease-out;
+			-ms-transition: opacity 300ms ease-out, visibility 200ms ease-out;
+			-o-transition: opacity 300ms ease-out, visibility 300ms ease-out;
+			transition: opacity 300ms ease-out, visibility 300ms ease-out;
+			background: #FFF;
 		}
 		.b-count-item.show{
 			opacity: 1;
