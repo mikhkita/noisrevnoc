@@ -319,7 +319,7 @@ $(document).ready(function(){
         }
     });
 
-    /*Senler.ButtonSubscribe("senlerBtn-1518010629", { 
+    Senler.ButtonSubscribe("senlerBtn-1518010629", { 
         completeCallback: function ($e) { 
             console.log('Запрос пришел успешно'); 
         }, 
@@ -334,7 +334,7 @@ $(document).ready(function(){
             $(".b-vk-e-link").click();
             console.log('Ошибка при запросе'); 
         } 
-    });*/
+    });
 
     /*----------------------------------*/
 

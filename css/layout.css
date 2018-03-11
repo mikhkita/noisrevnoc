@@ -557,7 +557,7 @@ b{
 				border-radius: 120px 0px 0px 0px;
 			}
 b{
-	font-family: "Gilroy-Bold";
+	font-family: "Tahoma-Bold";
 	font-weight: normal;
 }
 h2.b-title{
@@ -2431,7 +2431,7 @@ h5.b-small{
 				bottom: -10px;
 				height: 10px;
 				background: #FFF;
-				opacity: 0.25;
+				opacity: 0.35;
 			}
 		.b-note.b-with-triangle{
 			margin-left: 35px;
@@ -3109,6 +3109,7 @@ h5.b-small{
 				-moz-box-shadow: 0 0 55px rgba(0, 0, 0, 0.2);
 				box-shadow: 0 0 55px rgba(0, 0, 0, 0.2);
 				padding: 0 0 45px 0;
+				position: relative;
 			}
 			.b-price-offer-block:nth-child(1){
 				z-index: 4;
@@ -3910,7 +3911,7 @@ h5.b-small{
 		padding-top: 10px;
 		color: #b2b2b3;
 		text-decoration: underline;
-		display: none;
+		/*display: none;*/
 	}
 	.b-footer .politics:hover{
 		text-decoration: none;
@@ -4084,11 +4085,11 @@ h5.b-small{
 			}
 
 			.b-btn-email{
-				-webkit-transition: left 300ms ease-out;
-				   -moz-transition: left 300ms ease-out;
-				    -ms-transition: left 300ms ease-out;
-				   	 -o-transition: left 300ms ease-out;
-						transition: left 300ms ease-out;
+				-webkit-transition: background-color 100ms ease-out, box-shadow 100ms ease-out, transform 100ms ease-out, left 300ms ease-out;
+				   -moz-transition: background-color 100ms ease-out, box-shadow 100ms ease-out, transform 100ms ease-out, left 300ms ease-out;
+				    -ms-transition: background-color 100ms ease-out, box-shadow 100ms ease-out, transform 100ms ease-out, left 300ms ease-out;
+				   	 -o-transition: background-color 100ms ease-out, box-shadow 100ms ease-out, transform 100ms ease-out, left 300ms ease-out;
+						transition: background-color 100ms ease-out, box-shadow 100ms ease-out, transform 100ms ease-out, left 300ms ease-out;
 			}
 			.b-btn-email.move{
 				left: 386px;
@@ -4097,11 +4098,11 @@ h5.b-small{
 			}
 
 			.b-btn-vk{
-				-webkit-transition: opacity 200ms ease-out, visibility 200ms ease-out;
-				   -moz-transition: opacity 200ms ease-out, visibility 200ms ease-out;
-				    -ms-transition: opacity 200ms ease-out, visibility 200ms ease-out;
-				   	 -o-transition: opacity 200ms ease-out, visibility 200ms ease-out;
-						transition: opacity 200ms ease-out, visibility 200ms ease-out;
+				-webkit-transition: background-color 100ms ease-out, box-shadow 100ms ease-out, transform 100ms ease-out, opacity 200ms ease-out, visibility 200ms ease-out;
+				   -moz-transition: background-color 100ms ease-out, box-shadow 100ms ease-out, transform 100ms ease-out, opacity 200ms ease-out, visibility 200ms ease-out;
+				    -ms-transition: background-color 100ms ease-out, box-shadow 100ms ease-out, transform 100ms ease-out, opacity 200ms ease-out, visibility 200ms ease-out;
+				   	 -o-transition: background-color 100ms ease-out, box-shadow 100ms ease-out, transform 100ms ease-out, opacity 200ms ease-out, visibility 200ms ease-out;
+						transition: background-color 100ms ease-out, box-shadow 100ms ease-out, transform 100ms ease-out, opacity 200ms ease-out, visibility 200ms ease-out;
 			}
 
 			.b-btn-vk.hide-opacity{
