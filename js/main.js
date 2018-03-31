@@ -46,6 +46,10 @@ $(document).ready(function(){
         $cont.addClass("play");
         $cont.find("iframe").attr("src", $cont.find("iframe").attr("src")+"&autoplay=1"); 
 
+        if( $(".b-audio-butt").hasClass("play") ){
+            $(".b-audio-butt").click();
+        }
+
         return false;
     });
 
@@ -136,6 +140,13 @@ $(document).ready(function(){
         arrows: false
     });
 
+    $(".b-land-tabs-cont").on('beforeChange', function(event, slick, currentSlide, nextSlide){
+        $(".b-land-tabs li.active").removeClass("active");
+        $(".b-land-tabs li").eq(nextSlide).addClass("active");
+
+        calcActive();
+    });
+
     $(".b-sms-butt").click(function(){
         $( $(this).attr("data-block") ).parent().children().removeClass("active");
         $( $(this).attr("data-block") ).addClass("active");
@@ -172,6 +183,23 @@ $(document).ready(function(){
         $(".b-lesson-tabs-cont .b-tab[data-slick-index!='"+currentSlide+"']").find(".b-right-text").removeClass("show");
 
         $(".b-lesson-tabs-cont .b-tab[data-slick-index='"+currentSlide+"']").find(".b-right-text").addClass("show");
+    });
+
+    $(".b-temp-tabs-cont").slick({
+        dots: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        cssEase: 'ease', 
+        speed: 500,
+        arrows: false
+    });
+
+    $(".b-temp-tabs-cont").on('beforeChange', function(event, slick, currentSlide, nextSlide){
+        $(".b-temp-tabs li.active").removeClass("active");
+        $(".b-temp-tabs li").eq(nextSlide).addClass("active");
+
+        calcActive();
     });
 
     // Блок с большими отзывами
@@ -251,13 +279,30 @@ $(document).ready(function(){
         }
     }, 1000);
 
-    $(document).mouseleave(function(){
-        if(!$(".fancybox-slide .b-popup-leave").length && showLeave){
-            $(".b-btn-leave").click();
-            showLeave = false;
-            timerLeave = 0;
+    $(window).enllax();
+
+    $(".b-audio-butt").click(function(){
+        curAudio = $(".b-audio")[0];
+
+        $(this).toggleClass("play");
+        $(this).find(".icon-audio").toggleClass("icon-pause");
+
+        if( $(this).hasClass("play") ){
+            curAudio.play();
+        }else{
+            curAudio.pause();
         }
+
+        return false;
     });
+
+    // $(document).mouseleave(function(){
+    //     if(!$(".fancybox-slide .b-popup-leave").length && showLeave){
+    //         $(".b-btn-leave").click();
+    //         showLeave = false;
+    //         timerLeave = 0;
+    //     }
+    // });
 
     $(".b-btn-500lux").on('click', function(){
         $(".b-500lux").addClass("show");
@@ -291,13 +336,11 @@ $(document).ready(function(){
         $(".b-count-ext").toggleClass("show no-active");
         var $active = $(".b-count.show");
         var $noactive = $(".b-count.no-active");
-        var delay = 1;
         $active.children(".b-count-item").each(function(){
             var $el = $(this);
             setTimeout(function(){
                 $el.addClass("show");
-            }, 100 * $el.index() + 0);
-            delay++;
+            }, 100 * $el.index());
         });
         $noactive.children(".b-count-item").each(function(){
             $(this).removeClass("show");

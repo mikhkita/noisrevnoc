@@ -1,7 +1,9 @@
 .fadeRight,
 .fadeLeft,
 .fadeIn,
-.fadeDown{
+.fadeDown,
+.fadeRightSmall,
+.fadeLeftSmall{
 	-webkit-transition: all 800ms ease-out;
 	   -moz-transition: all 800ms ease-out;
 	    -ms-transition: all 800ms ease-out;
@@ -17,7 +19,16 @@
     		transform: translateX(100px);
    	opacity: 0;
 }
-	.fadeRight-show{
+.fadeRightSmall{
+	-webkit-transform: translateX(30px);
+	   -moz-transform: translateX(30px);
+    	-ms-transform: translateX(30px);
+    	 -o-transform: translateX(30px); 
+    		transform: translateX(30px);
+   	opacity: 0;
+}
+	.fadeRight-show,
+	.fadeRightSmall-show{
 		-webkit-transform: translateX(0px);
 		   -moz-transform: translateX(0px);
 	    	-ms-transform: translateX(0px);
@@ -33,7 +44,16 @@
     		transform: translateX(-100px);
    	opacity: 0;
 }
-	.fadeLeft-show{
+.fadeLeftSmall{
+	-webkit-transform: translateX(-30px);
+	   -moz-transform: translateX(-30px);
+    	-ms-transform: translateX(-30px);
+    	 -o-transform: translateX(-30px); 
+    		transform: translateX(-30px);
+   	opacity: 0;
+}
+	.fadeLeft-show,
+	.fadeLeftSmall-show{
 		-webkit-transform: translateX(0px);
 		   -moz-transform: translateX(0px);
 	    	-ms-transform: translateX(0px);
@@ -58,17 +78,22 @@
 	    opacity: 1;
 	}	
 .fadeIn{
-   	opacity: 0;
+   	opacity: 0 !important;
+   	-webkit-transition: all 800ms ease-out !important;
+	   -moz-transition: all 800ms ease-out !important;
+	    -ms-transition: all 800ms ease-out !important;
+	   	 -o-transition: all 800ms ease-out !important;
+			transition: all 800ms ease-out !important;
 }
 	.fadeIn-show{
-	    opacity: 1;
+	    opacity: 1 !important;
 	}
 .scale{
-	-webkit-transition: all 1800ms ease-out;
-	   -moz-transition: all 1800ms ease-out;
-	    -ms-transition: all 1800ms ease-out;
-	   	 -o-transition: all 1800ms ease-out;
-			transition: all 1800ms ease-out;
+	-webkit-transition: transform 500ms ease-out, opacity 500ms ease-out;
+	   -moz-transition: transform 500ms ease-out, opacity 500ms ease-out;
+	    -ms-transition: transform 500ms ease-out, opacity 500ms ease-out;
+	   	 -o-transition: transform 500ms ease-out, opacity 500ms ease-out;
+			transition: transform 500ms ease-out, opacity 500ms ease-out;
 	-webkit-transform: scale(0);
 	   -moz-transform: scale(0);
     	-ms-transform: scale(0);
