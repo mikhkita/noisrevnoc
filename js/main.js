@@ -41,6 +41,18 @@ $(document).ready(function(){
     }
     $.fn.placeholder();
 
+    $('#player').mediaelementplayer({
+        success: function(mediaElement, originalNode, instance) {
+            // do things
+        }
+    });
+
+    $('#player2').mediaelementplayer({
+        success: function(mediaElement, originalNode, instance) {
+            // do things
+        }
+    });
+
     $(".b-video-block .b-play").click(function(){
         var $cont = $(this).parents(".b-video-block");
         $cont.addClass("play");
@@ -211,7 +223,7 @@ $(document).ready(function(){
         slidesToScroll: 1,
         infinite: true,
         cssEase: 'ease', 
-        // fade: true,
+        fade: true,
         speed: 500,
         arrows: true,
         prevArrow: '<div class="slick-arrow slick-prev icon-arrow-left-big"></div>',
@@ -322,8 +334,17 @@ $(document).ready(function(){
         return false;
     });
 
+    $(".b-btn-kind").on('click', function(){
+        $(".b-kind").addClass("show");
+        $(".b-menu-overlay").addClass("show");
+        $("body").addClass("no-scroll");
+        if(isWindows)
+            $("body").addClass("margin-scroll");
+        return false;
+    });
+
     $(".b-menu-overlay, .b-btn-close").on('click', function(){
-        $(".b-500lux, .b-research").removeClass("show");
+        $(".b-500lux, .b-research, .b-kind").removeClass("show");
         $(".b-menu-overlay").removeClass("show");
         $("body").removeClass("no-scroll");
         if(isWindows)

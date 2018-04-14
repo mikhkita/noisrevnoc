@@ -177,7 +177,7 @@ a{
 	text-decoration: none;
 	color: #8176a9;
 }
-li{
+ul li{
 	list-style: none;
 }
 h1,h2,h3,h4,h5,h6{
@@ -2218,7 +2218,7 @@ h5.b-small{
 							background-image: url('../i/8/1/ipad.jpg');
 						}
 						.b-8 .b-block>.b-ipads .b-ipad-2{
-							background-image: url('../i/8/1/ipad.jpg');
+							background-image: url('../i/8/1/ipad2.jpg');
 						}
 							.b-8 .b-ipad-text{
 								font-size: 20px;
@@ -3772,6 +3772,7 @@ h5.b-small{
 						top: -11px;
 					}
 .b-18{
+	overflow: hidden;
 	background-position: 50% 0px;
 	background-repeat: no-repeat;
 	/*background-image: url('../i/18/ellipses.svg');*/
@@ -4508,7 +4509,8 @@ body.margin-scroll{
 }
 
 .b-500lux,
-.b-research{
+.b-research,
+.b-kind{
 	position: fixed;
 	z-index: 100;
 	top: 0;
@@ -4529,14 +4531,41 @@ body.margin-scroll{
 .b-research{
 	padding: 38px 50px 50px 50px;
 }
+.b-kind-content{
+	padding: 30px 30px 50px 30px;
+}
+ol{
+	counter-reset: myCounter;
+}
+ol li{
+	position: relative;
+	list-style: none;
+	padding-left: 30px;
+}
+ol li:before {
+    counter-increment: myCounter;
+    content: counter(myCounter);
+    /*color: #3c5d9f;*/
+    display: inline-block;
+    text-align: right;
+    opacity: 0.4;
+    margin-right: 13px;
+    /* font-family: "Ubuntu-Bold"; */
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 20px;
+}
 .b-500lux.show,
-.b-research.show{
+.b-research.show,
+.b-kind.show{
 	left: 50%;
 	opacity: 1;
 	visibility: visible;
 }
 	.b-500lux-content,
-	.b-research-content{
+	.b-research-content,
+	.b-kind-content{
 		position: relative;
 		width: 520px;
 	}

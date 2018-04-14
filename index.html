@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="css/reset.css" type="text/css">
 	<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css">
 	<link rel="stylesheet" href="css/chosen.css?1" type="text/css">
+	<link rel="stylesheet" href="css/mediaelementplayer.css" type="text/css">
 	<link rel="stylesheet" href="css/KitAnimate.css?1" type="text/css">
 	<link rel="stylesheet" href="css/slick.css?1" type="text/css">
 	<link rel="stylesheet" href="css/layout.css?1" type="text/css">
@@ -97,7 +98,7 @@
 				<h2 class="b-title"><b>Здравствуйте,</b> меня зовут Владимир Сургай</h2>
 				<p>Я интернет-маркетолог и основатель агентства TFA.</p>
 				<p>С 2013 года мы с командой разработали более 140 проектов в более чем 90 сферах бизнеса. </p>
-				<a href="#" class="b-purple-link icon-arrow-right">Посмотреть все сферы бизнеса</a>
+				<a href="#" class="b-purple-link icon-arrow-right b-btn-kind">Посмотреть все сферы бизнеса</a>
 				<div class="p">Например, в 2015 году мы разработали сайт для компании 500lux, который принес нашим клиентам заказов на сумму свыше 
 					<div class="b-140 anim fadeRightSmall" data-anim="fadeRightSmall" data-offset="300">
 						<span class="b-line"></span>
@@ -251,9 +252,9 @@
 			<h5 class="b-small">а их стоимость начинается от 690 тыс руб. и доходит до 2-3 млн руб.</h5>
 			<div class="b-scheme">
 				<p class="b-triangle-top anim fadeLeftSmall" data-anim="fadeLeftSmall" data-cont=".b-4">Да, за эти деньги вы получите эффективную систему, которая будет выглядеть примерно вот так <span class="b-line"></span></p>
-				<div class="b-add-cont anim scale" data-anim="scale" data-cont=".b-4">
+				<!-- <div class="b-add-cont anim scale" data-anim="scale" data-cont=".b-4">
 					<a href="#" class="b-add-butt"><span class="icon-plus"></span></a>
-				</div>
+				</div> -->
 			</div>
 			<div class="b-letter-c" data-enllax-ratio=".12" data-enllax-type="foreground"></div>
 			<h5 class="b-small b-second">Но, к сожалению, далеко <b>не каждый бизнес может позволить</b> себе вложить столько денег в маркетинг...</h5>
@@ -498,17 +499,19 @@
 						<h4>Напоминают, утепляют и продают одновременно сотням и тысячам людей</h4>
 						<div class="b-videos">
 							<div class="b-video">
-								<div class="b-video-block" style="background-image: url('i/2/video.jpg');">
-									<iframe src="https://www.youtube.com/embed/GmbyKuzOnLw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-									<a href='#' class="b-play"></a>
-								</div>
+								<div class="media-wrapper">
+					                <audio id="player" preload="none" controls style="max-width:100%;">
+					                    <source src="audio/audio-1.wav" type="audio/wav">
+					                </audio>
+					            </div>
 								<p class="b-left-triangle">Автодозвон с оставленной заявки Пользователь понимает, что его контакты не ушли в пустоту. И знакомится с директором!</p>
 							</div>
 							<div class="b-video">
-								<div class="b-video-block" style="background-image: url('i/2/video.jpg');">
-									<iframe src="https://www.youtube.com/embed/GmbyKuzOnLw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-									<a href='#' class="b-play"></a>
-								</div>
+								<div class="media-wrapper">
+					                <audio id="player2" preload="none" controls style="max-width:100%;">
+					                    <source src="audio/audio-2.mp3" type="audio/mp3">
+					                </audio>
+					            </div>
 								<p class="b-left-triangle">Автодозвон с акционным предложением Незаменим, когда ваша база стала слишком большой.</p>
 							</div>
 						</div>
@@ -1150,25 +1153,25 @@
 				<div class="b-tabs-cont b-temp-tabs-cont">
 					<div class="b-tab">
 						<div class="b-images">
-							<div class="b-image" style="background-image: url('i/grey.jpg');"></div>
-							<div class="b-image" style="background-image: url('i/grey.jpg');"></div>
-							<div class="b-image" style="background-image: url('i/grey.jpg');"></div>
+							<a href="i/sale1.jpg" data-fancybox="sale" class="b-image fancy-img" style="background-image: url('i/sale1.jpg');"></a>
+							<a href="i/sale2.jpg" data-fancybox="sale" class="b-image fancy-img" style="background-image: url('i/sale2.jpg');"></a>
+							<a href="i/sale3.jpg" data-fancybox="sale" class="b-image fancy-img" style="background-image: url('i/sale3.jpg');"></a>
 						</div>
 						<p>И еще более 40 шаблонов всех продающих элементов ...</p>
 					</div>
 					<div class="b-tab">
 						<div class="b-images">
-							<div class="b-image" style="background-image: url('i/grey.jpg');"></div>
-							<div class="b-image" style="background-image: url('i/grey.jpg');"></div>
-							<div class="b-image" style="background-image: url('i/grey.jpg');"></div>
+							<a href="i/mail1.jpg" data-fancybox="mail" class="b-image fancy-img" style="background-image: url('i/mail1.jpg');"></a>
+							<a href="i/mail2.jpg" data-fancybox="mail" class="b-image fancy-img" style="background-image: url('i/mail2.jpg');"></a>
+							<a href="i/mail3.jpg" data-fancybox="mail" class="b-image fancy-img" style="background-image: url('i/mail3.jpg');"></a>
 						</div>
 						<p>И еще более 40 шаблонов всех продающих писем ...</p>
 					</div>
 					<div class="b-tab">
 						<div class="b-images">
-							<div class="b-image" style="background-image: url('i/grey.jpg');"></div>
-							<div class="b-image" style="background-image: url('i/grey.jpg');"></div>
-							<div class="b-image" style="background-image: url('i/grey.jpg');"></div>
+							<a href="i/video1.jpg" data-fancybox="video" class="b-image fancy-img" style="background-image: url('i/video1.jpg');"></a>
+							<a href="i/video2.jpg" data-fancybox="video" class="b-image fancy-img" style="background-image: url('i/video2.jpg');"></a>
+							<a href="i/video3.jpg" data-fancybox="video" class="b-image fancy-img" style="background-image: url('i/video3.jpg');"></a>
 						</div>
 						<p>И еще более 40 шаблонов всех сценариев для видео ...</p>
 					</div>
@@ -1302,7 +1305,6 @@
 						<div class="b-review-left">
 							<div class="b-avatar" style="background-image: url('i/12/woman.jpg');"></div>
 							<p>Татьяна Гоптарева</p>
-							<a href="http://vk.com/id1374292" class="b-vk-link icon-vk" target="_blank">vk.com/id1374292</a>
 						</div>
 						<div class="b-review-right">
 							<h3 class="b-title"><b>Такого логически выстроенного, структурированного материала сейчас нет ни у кого.</b> Более того – это завершенная система Лид-гена, полная, понятная, рабочая, с новейшими фишками, которые только только вышли на рынок.</h3>
@@ -1314,7 +1316,6 @@
 						<div class="b-review-left">
 							<div class="b-avatar" style="background-image: url('i/12/woman.jpg');"></div>
 							<p>Татьяна Гоптарева</p>
-							<a href="http://vk.com/id1374292" class="b-vk-link icon-vk" target="_blank">vk.com/id1374292</a>
 						</div>
 						<div class="b-review-right">
 							<h3 class="b-title"><b>Такого логически выстроенного, структурированного материала сейчас нет ни у кого.</b> Более того – это завершенная система Лид-гена, полная, понятная, рабочая, с новейшими фишками, которые только только вышли на рынок.</h3>
@@ -1943,6 +1944,86 @@
 		</div>
 	</div>
 
+	<div class="b-kind">
+		<div class="b-kind-content">
+			<a href="#" class="b-btn-close icon-close"></a>
+			<ol class="b-kind-list">
+				<li>Школа вокала </li>
+				<li>Уроки сольфеджио </li>
+				<li>Курсы игры на гитаре </li>
+				<li>Продажа щебня</li>
+				<li>Продажа газобетона</li>
+				<li>Продажа стойматериалов оптом</li>
+				<li>Продажа полимеров оптом</li>
+				<li>Продажа масла оптом</li>
+				<li>Дополнительное оборудование для авто</li>
+				<li>Excel-файл воронки продаж </li>
+				<li>Аналитический сервис </li>
+				<li>Сервис по подбору квартир </li>
+				<li>Стоматологические боры </li>
+				<li>Cервис по ремонту газелей </li>
+				<li>Дизайн-проекты квартир </li>
+				<li>Регистрация сделок с недвижимостью </li>
+				<li>Оптовая продажа светодиодных светильников </li>
+				<li>Полировка яхт </li>
+				<li>Шкафы-купе </li>
+				<li>Кухни </li>
+				<li>Ремонт квартир </li>
+				<li>Ремонт ванных комнат </li>
+				<li>Бензиновые электрогенераторы</li>
+				<li>Газовые электрогенераторы </li>
+				<li>Натяжные потолки </li>
+				<li>Продажа рыцарских доспехов </li>
+				<li>Продажа домов из бруса </li>
+				<li>Ликвидация ООО</li>
+				<li>Бухгалтерское обслуживание</li>
+				<li>Мебельные туры в Китай </li>
+				<li>Туры в Крым</li>
+				<li>Частные детские садики </li>
+				<li>Продажа франшизы соляных пещер </li>
+				<li>Продажа франшизы барбершопа </li>
+				<li>Соляные пещеры </li>
+				<li>Сайт для кафе </li>
+				<li>Услуга по развитию отдела продаж </li>
+				<li>Агентство интернет-маркетинга</li>
+				<li>SMM-агентство </li>
+				<li>Услуги web-разработки </li>
+				<li>Услуги по разработке IT-решений </li>
+				<li>Электропроектирование </li>
+				<li>Продажа комплексных трансформаторных подстанций </li>
+				<li>Продажа оргтехники </li>
+				<li>Поставка картиджей </li>
+				<li>Промо-сайт дизайнерские ванны-диваны </li>
+				<li>БМ Интенсив и Цех</li>
+				<li>Доставка здоровой еды</li>
+				<li>Контейнерные поставки комплектующих из Китая</li>
+				<li>Страхование родов для Спасских Ворот</li>
+				<li>Архитектурное освещение</li>
+				<li>Разработка светодизайна</li>
+				<li>Торговое освещение</li>
+				<li>Финансовый консультант</li>
+				<li>Мужской треннинг</li>
+				<li>Продажа сока алоэ</li>
+				<li>Треннинг по финансовой грамотности</li>
+				<li>Чип-тюнинг</li>
+				<li>Брендирование транспорта</li>
+				<li>Оклейка автомобилей защитной пленкой</li>
+				<li>Оклейка автомобилей цветной пленкой</li>
+				<li>Продажа икон ручной работы</li>
+				<li>Логистика</li>
+				<li>Инновация для нефтяной промышленности</li>
+				<li>Студия видео-записи классической музыки</li>
+				<li>Прототипирование Landing Page</li>
+				<li>Оптовая продажа кофе</li>
+				<li>Оптовая продажа морепродуктов</li>
+				<li>HR-услуги</li>
+				<li>EMS-тренажеры</li>
+				<li>Фильтры для воды</li>
+				<li>Винтовые сваи</li>
+			</ol>
+		</div>
+	</div>
+
 	<div class="b-menu-overlay" id="b-menu-overlay"></div>
 	<a href="#b-popup-leave" class="fancy b-btn-leave" style="display:none;"></a>
 	
@@ -2030,6 +2111,8 @@
 	<script type="text/javascript" src="js/jquery.enllax.js"></script>
 	<script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
 	<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="js/mediaelement-and-player.min.js"></script>
+	<script type="text/javascript" src="js/ru.js"></script>
 	<script type="text/javascript" src="js/slick.js"></script>
 	<script type="text/javascript" src="js/chosen.jquery.js"></script>
 	<script type="text/javascript" src="js/KitAnimate.js"></script>
