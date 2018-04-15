@@ -4587,7 +4587,7 @@ h5.b-small{
 /*--------Стоимость участия---------*/
 
 .b-cost{
-
+	margin-bottom: 80px;
 }
 	.b-cost h2.b-title-roman{
 		margin-bottom: 27px;
