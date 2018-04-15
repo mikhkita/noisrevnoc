@@ -4462,7 +4462,7 @@ h5.b-small{
 
 			.b-radio input[type="radio"]:checked + span + label:after,
 			.b-radio input[type="radio"]:checked + label:after {
-			   background-color: #6e58ac !important;
+			   background-color: #5f4db4 !important;
 			}
 
 			.b-radio input[type="radio"] + span + label:after,
