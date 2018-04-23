@@ -8,6 +8,18 @@
 	<meta name="viewport" content="width=1188">
 	<meta name="format-detection" content="telephone=no">
 
+	<script type="text/javascript" src="js/cookie.js"></script>
+	<script>
+		var type = getCookie("type");
+		if( !type ){
+			window.location.href = "http://surgay.ru/coaching/b/choose.html";
+		}else{
+			if( type == "b" ){
+				window.location.href = "http://surgay.ru/coaching/b/";	
+			}
+		}
+	</script>
+
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="stylesheet" href="css/reset.css" type="text/css">
 	<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css">
