@@ -50,7 +50,7 @@ $(document).ready(function(){
 		return rePhone.test(value);
 	});
 
-	$(".ajax").parents("form").each(function(){
+	$(".ajax, .not-ajax").parents("form").each(function(){
 		$(this).validate({
 			rules: {
 				email: 'email',
@@ -149,12 +149,16 @@ $(document).ready(function(){
 			yaCounter12345678.reachGoal($(this).attr("data-goal"));
 	});
 
-	$(".ajax").parents("form").submit(function(){
+	$(".ajax, .not-ajax").parents("form").submit(function(){
   		if( $(this).find("input.error,select.error,textarea.error").length == 0 ){
   			var $this = $(this),
   				$thanks = $($this.attr("data-block"));
 
   			$this.find(".ajax").attr("onclick", "return false;");
+
+  			if( $this.find(".not-ajax").length ){
+  				return true;
+  			}
 
   			if( $this.attr("data-beforeAjax") && customHandlers[$this.attr("data-beforeAjax")] ){
 				customHandlers[$this.attr("data-beforeAjax")]($this);
@@ -198,7 +202,7 @@ $(document).ready(function(){
   		return false;
   	});
 
-	$("body").on("click", ".ajax", function(){
+	$("body").on("click", ".ajax, .not-ajax", function(){
 		$(this).parents("form").submit();
 		return false;
 	});

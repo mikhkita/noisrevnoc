@@ -41,6 +41,10 @@ $(document).ready(function(){
     }
     $.fn.placeholder();
 
+    $("input[name='tovar_id']").change(function(){
+        $(this).parents("form").find("input[name='form_id']").val($(this).attr("data-form-id"));
+    });
+
     $('#player').mediaelementplayer({
         success: function(mediaElement, originalNode, instance) {
             // do things
@@ -53,6 +57,7 @@ $(document).ready(function(){
         }
     });
 
+    var videoScroll = false;
     $(".b-video-block .b-play").click(function(){
         var $cont = $(this).parents(".b-video-block");
         $cont.addClass("play");
@@ -62,8 +67,67 @@ $(document).ready(function(){
             $(".b-audio-butt").click();
         }
 
+        if( $(this).parents(".b-main-video-block").length ){
+            videoScroll = true;
+        }
+
         return false;
     });
+
+    $(".b-main-video-cont a.b-btn-close").click(function(){
+        videoScroll = false;
+        videoStatic();
+        return false;
+    });
+
+    $("#b-show-10").click(function(){
+        $(".b-instruct-10").each(function(){
+            var $this = $(this);
+
+            $this.css("display", "inline-block");
+            setTimeout(function(){
+                setTimeout(function(){
+                    $this.addClass($this.attr("data-anim")+"-show");
+                }, 10);
+            }, $this.attr("data-delay")*1);
+        });
+        $(this).hide();
+
+        return false;
+    });
+
+    customHandlers["onScroll"] = function(scroll){
+        // alert(scroll);
+        if( videoScroll ){
+            var videoTop = $(".b-main-video-block").offset().top,
+                videoBottom = videoTop + $(".b-main-video-block").height(),
+                scrollBottom = scroll + myHeight;
+
+            if( scroll > videoTop || scrollBottom < videoBottom ){
+                if( !isVideoFixed() ){
+                    videoFixed();
+                }
+            }else{
+                if( isVideoFixed() ){
+                    videoStatic();
+                }
+            }
+        }
+    }
+
+    function isVideoFixed(){
+        return $(".b-main-video-cont.fixed").length;
+    }
+
+    function videoFixed(){
+        $(".b-main-video-cont").addClass("fixed");
+        console.log("fixed");
+    }
+
+    function videoStatic(){
+        $(".b-main-video-cont").removeClass("fixed");
+        console.log("static");
+    }
 
     calcHeight();
 
@@ -258,22 +322,27 @@ $(document).ready(function(){
         cssEase: 'ease', 
         speed: 500,
         arrows: false,
-        vertical: true
+        vertical: true,
+        autoplay: true,
+        autoplaySpeed: 3000
     });
 
     $("#type").chosen({
         disable_search_threshold : 10
     }).change(function(){
         var $option = $(this).find("option[value='"+$(this).val()+"']");
-            click = $option.attr("data-click"),
+            click = $option.attr("data-id"),
             price = $option.attr("data-price");
         $(".b-19 h2.b-title span").text(price);
 
-        $(".b-pay-click").attr("href", $(click).attr("href"));
+        $(".b-pay-click").attr("data-id", $option.attr("data-id"));
         return false;
     });
 
-    $(".b-pay-click").attr("href", $(".b-start-link").attr("href"));
+    $(".b-pay-click").click(function(){
+        return false;
+    });
+    // $(".b-pay-click").attr("data-id", $(".b-start-link").attr("data-id"));
 
     /*----------------------------------*/
 
@@ -343,8 +412,22 @@ $(document).ready(function(){
         return false;
     });
 
+    $(".b-btn-form").on('click', function(){
+        $(".b-form").addClass("show");
+        $(".b-menu-overlay").addClass("show");
+        $("body").addClass("no-scroll");
+        if( $(this).attr("data-id") ){
+            $("#"+$(this).attr("data-id")).click();
+        }else{
+            $("#platinum-radio-1").click();
+        }
+        if(isWindows)
+            $("body").addClass("margin-scroll");
+        return false;
+    });
+
     $(".b-menu-overlay, .b-btn-close").on('click', function(){
-        $(".b-500lux, .b-research, .b-kind").removeClass("show");
+        $(".b-500lux, .b-research, .b-kind, .b-form").removeClass("show");
         $(".b-menu-overlay").removeClass("show");
         $("body").removeClass("no-scroll");
         if(isWindows)
