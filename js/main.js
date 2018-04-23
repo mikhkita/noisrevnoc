@@ -377,13 +377,13 @@ $(document).ready(function(){
         return false;
     });
 
-    // $(document).mouseleave(function(){
-    //     if(!$(".fancybox-slide .b-popup-leave").length && showLeave){
-    //         $(".b-btn-leave").click();
-    //         showLeave = false;
-    //         timerLeave = 0;
-    //     }
-    // });
+    $(document).mouseleave(function(){
+        if(!$(".fancybox-slide .b-popup-leave").length && showLeave){
+            $(".b-btn-leave").click();
+            showLeave = false;
+            timerLeave = 0;
+        }
+    });
 
     $(".b-btn-500lux").on('click', function(){
         $(".b-500lux").addClass("show");
