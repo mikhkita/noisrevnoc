@@ -8,13 +8,26 @@
 	<meta name="viewport" content="width=1188">
 	<meta name="format-detection" content="telephone=no">
 
+	<script type="text/javascript" src="js/cookie.js"></script>
+	<script>
+		var type = getCookie("type");
+		if( !type ){
+			window.location.href = "http://surgay.ru/coaching/b/choose.html";
+		}else{
+			if( type == "m" ){
+				window.location.href = "http://surgay.ru/coaching/m/";	
+			}
+		}
+	</script>
+
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="stylesheet" href="css/reset.css" type="text/css">
 	<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css">
-	<link rel="stylesheet" href="css/chosen.css" type="text/css">
-	<link rel="stylesheet" href="css/KitAnimate.css" type="text/css">
-	<link rel="stylesheet" href="css/slick.css" type="text/css">
-	<link rel="stylesheet" href="css/layout.css" type="text/css">
+	<link rel="stylesheet" href="css/chosen.css?1" type="text/css">
+	<link rel="stylesheet" href="css/mediaelementplayer.css" type="text/css">
+	<link rel="stylesheet" href="css/KitAnimate.css?1" type="text/css">
+	<link rel="stylesheet" href="css/slick.css?1" type="text/css">
+	<link rel="stylesheet" href="css/layout.css?1" type="text/css">
 
 	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="favicon/apple-touch-icon-57x57.png" />
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicon/apple-touch-icon-114x114.png" />
@@ -31,20 +44,41 @@
 	<meta name="msapplication-TileImage" content="favicon/mstile-144x144.png" />
 
 	<meta property="og:image" content="http://surgay.ru/images/bgr_post_game_2018.jpg"/>
+
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-TFJ98CS');</script>
+	<!-- End Google Tag Manager -->
+
+		<!-- Put this script tag to the <head> of your page -->
+	<script type="text/javascript" src="//vk.com/js/api/openapi.js?152"></script>
+
+	<script type="text/javascript">
+	  VK.init({apiId: 6418981, onlyWidgets: true});
+	</script>
 </head>
 <body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFJ98CS"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
 	<div class="b b-header">
 		<div class="b-block">
 			<div class="b-header-top clearfix">
 				<div class="b-header-top-item">
 					<a href="index.html" class="b-header-top-logo"></a>
+					<div class="b-rounds"><div class="b-rounds-inner"></div></div>
 					<p>Взлом конверсии. Система<br>из 4-х прибыльных Landing Page</p>
 				</div>
-				<a href="#" class="b-header-top-item b-header-icon-cont b-go" data-block=".b-price" data-offset="75">
+				<div class="b-header-top-item b-header-icon-cont">
 					<div class="b-header-icon b-header-top-course"></div>
 					<p>Практический курс<br>для предпринимателей</p>
-				</a>
-				<a href="#" class="b-header-top-item b-header-icon-cont b-go" data-block=".b-price" data-offset="75">
+				</div>
+				<a href="#" class="b-header-top-item b-header-icon-cont b-go" data-block=".b-6" data-offset="0">
 					<div class="b-header-icon b-header-top-more"></div>
 					<p><span><b>Больше узнать</b></span><br><span>о курсе</span></p>
 				</a>
@@ -71,7 +105,7 @@
 						<p>И получить <b class="orange">в 3-4 раза больше<br>заказов</b>, на долгие годы опередив<br>конкурентов</p>
 					</div>
 					<div class="b-header-book-it">
-						<a href="#" class="b-btn b-btn-orange b-go" data-block=".b-price" data-offset="75">
+						<a href="#" class="b-btn b-btn-orange b-btn-form">
 							<p class="main">Забронировать место</p><br>
 							<p class="small">по специальной цене</p>
 						</a>
@@ -96,9 +130,9 @@
 				<h2 class="b-title"><b>Здравствуйте,</b> меня зовут Владимир Сургай</h2>
 				<p>Я интернет-маркетолог и основатель агентства TFA.</p>
 				<p>С 2013 года мы с командой разработали более 140 проектов в более чем 90 сферах бизнеса. </p>
-				<a href="#" class="b-purple-link icon-arrow-right">Посмотреть все сферы бизнеса</a>
+				<a href="#" class="b-purple-link icon-arrow-right b-btn-kind">Посмотреть все сферы бизнеса</a>
 				<div class="p">Например, в 2015 году мы разработали сайт для компании 500lux, который принес нашим клиентам заказов на сумму свыше 
-					<div class="b-140">
+					<div class="b-140 anim fadeRightSmall" data-anim="fadeRightSmall" data-offset="300">
 						<span class="b-line"></span>
 						<b>140</b>
 						<div>млн <span class="icon-ruble"></span></div>
@@ -121,47 +155,47 @@
 		</div>
 	</div>
 
-	<div class="b b-3">
+	<div class="b b-3" data-offset="700">
 		<div class="b-block">
 			<h2 class="b-title">Как вы считаете, смогли бы вы увеличить <b>чистую прибыль вашего бизнеса</b> хотя бы в 2 раза, улучшив эти 6 показателей?</h2>
 			<div class="b-count-cont">
 				<div class="b-count b-count-start show">
-					<div class="b-count-item show">
+					<div class="b-count-item show anim fadeIn" data-anim="fadeIn" data-delay="0" data-cont=".b-3">
 						<div class="b-head">
 							<img src="i/3/1.jpg" alt="">
 							<h3>количество<br>заявок</h3>
 						</div>
 						<p>Вы получаете<br>столько заявок,<br>сколько хотите</p>
 					</div>
-					<div class="b-count-item show">
+					<div class="b-count-item show anim fadeIn" data-anim="fadeIn" data-delay="100" data-cont=".b-3">
 						<div class="b-head" style="    margin-top: 31px; margin-bottom: 2px;">
 							<img src="i/3/2.jpg" alt="">
 							<h3>средний<br>чек</h3>
 						</div>
 						<p>Самая платежеспособная аудитория теперь хочет работать только с вами</p>
 					</div>
-					<div class="b-count-item show">
+					<div class="b-count-item show anim fadeIn" data-anim="fadeIn" data-delay="200" data-cont=".b-3">
 						<div class="b-head">
 							<img src="i/3/3.jpg" alt="">
 							<h3>частота<br>покупок</h3>
 						</div>
 						<p>Клиентов так много, что ваш отдел продаж приходится расширять</p>
 					</div>
-					<div class="b-count-item show">
+					<div class="b-count-item show anim fadeIn" data-anim="fadeIn" data-delay="300" data-cont=".b-3">
 						<div class="b-head">
 							<img src="i/3/4.jpg" alt="" style="margin-left: -17px;">
 							<h3>увеличение конверсии в оплату</h3>
 						</div>
 						<p>Клиенты сразу приходят более горячими и готовыми купить</p>
 					</div>
-					<div class="b-count-item show">
+					<div class="b-count-item show anim fadeIn" data-anim="fadeIn" data-delay="400" data-cont=".b-3">
 						<div class="b-head">
 							<img src="i/3/5.jpg" alt="" style="margin-left: 13px;">
 							<h3 style="margin-left: 13px;">снижение стоимости заявки</h3>
 						</div>
 						<p>Расходы на рекламу в разы меньше, чем у конкурентов</p>
 					</div>
-					<div class="b-count-item show">
+					<div class="b-count-item show anim fadeIn" data-anim="fadeIn" data-delay="500" data-cont=".b-3">
 						<div class="b-head">
 							<img src="i/3/6.jpg" alt="" style="margin-left: 13px;">
 							<h3>увеличение LTV</h3>
@@ -244,39 +278,44 @@
 		<div class="b-man-cont"><img src="i/3/small-man.jpg" alt="" class="b-man"></div>
 	</div>
 
-	<div class="b b-4">
+	<div class="b b-4" data-offset="800">
 		<div class="b-block">
 			<h2 class="b-title"><b>Плохая новость</b> в том, что в России и СНГ подобные системы реализуют лишь несколько агентств,</h2>
 			<h5 class="b-small">а их стоимость начинается от 690 тыс руб. и доходит до 2-3 млн руб.</h5>
 			<div class="b-scheme">
-				<p class="b-triangle-top">Да, за эти деньги вы получите эффективную систему, которая будет выглядеть примерно вот так <span class="b-line"></span></p>
-				<a href="#" class="b-add-butt"><span class="icon-plus"></span></a>
+				<p class="b-triangle-top anim fadeLeftSmall" data-anim="fadeLeftSmall" data-cont=".b-4">Да, за эти деньги вы получите эффективную систему, которая будет выглядеть примерно вот так <span class="b-line"></span></p>
+				<!-- <div class="b-add-cont anim scale" data-anim="scale" data-cont=".b-4">
+					<a href="#" class="b-add-butt"><span class="icon-plus"></span></a>
+				</div> -->
 			</div>
+			<div class="b-letter-c" data-enllax-ratio=".12" data-enllax-type="foreground"></div>
 			<h5 class="b-small b-second">Но, к сожалению, далеко <b>не каждый бизнес может позволить</b> себе вложить столько денег в маркетинг...</h5>
 		</div>
 	</div>
 
-	<div class="b b-5">
+	<div class="b b-5" data-offset="800">
 		<div class="b-block">
 			<h2 class="b-title">Поэтому мы решили сделать эту технологию <b>доступной</b> для любого бизнеса</h2>
 			<h5 class="b-small">и упаковали пошаговый алгоритм её разработки в подробный курс, который позволит:</h5>
 			<div class="b-book-cont">
-				<div class="b-book anim bookUp" data-anim="bookUp" data-offset="700"></div>
+				<div class="b-book" data-enllax-ratio=".12" data-enllax-type="foreground">
+					<div class="b-rounds"><div class="b-rounds-inner"></div></div>
+				</div>
 				<div class="b-adv-list">
-					<div class="b-adv b-adv-1">
+					<div class="b-adv b-adv-1 anim fadeLeftSmall" data-anim="fadeLeftSmall" data-delay="0" data-cont=".b-5">
 						<img src="i/5/1.png" alt="">
 						<p>привлечь <b>любое количество клиентов</b> в ваш бизнес</p>
 					</div>
-					<div class="b-adv b-adv-2">
+					<div class="b-adv b-adv-2 anim fadeLeftSmall" data-anim="fadeLeftSmall" data-delay="200" data-cont=".b-5">
 						<img src="i/5/2.png" alt="">
 						<p>получать заявки минимум <b>в 3 раза дешевле</b> ваших конкурентов</p>
 					</div>
-					<div class="b-adv b-adv-3">
+					<div class="b-adv b-adv-3 anim fadeRightSmall" data-anim="fadeRightSmall" data-delay="400" data-cont=".b-5">
 						<img src="i/5/3.png" alt="">
 						<p>стать магнитом для <b>самых платежеспособных</b> клиентов</p>
 					</div>
 				</div>
-				<div class="b-scroll-more">
+				<div class="b-scroll-more anim fadeRightSmall" data-anim="fadeRightSmall" data-delay="600" data-cont=".b-5">
 					<p>Листайте дальше</p>
 					<span class="icon-mouse"></span>
 				</div>
@@ -288,17 +327,34 @@
 		<div class="b-block">
 			<h2 class="b-title">Уделите 3 минуты — и вы поймете, как благодаря такой системе вы получите <b>в 3-4 раза больше заказов</b></h2>
 			<h5 class="b-small">из интернета по цене ниже, чем у конкурентов</h5>
-			<a href='#' class="b-add-butt">
+			<a href='#' class="b-add-butt b-audio-butt">
 				<div class="icon-audio"></div>
+				<audio class="b-audio" src="audio/first.mp3"></audio>
 			</a>
 			<div class="b-line b-line-audio"></div>
 			<div class="b-video-cont">
-				<div class="b-video-block" style="background-image: url('i/2/video.jpg');">
-					<iframe src="https://www.youtube.com/embed/GmbyKuzOnLw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				<div class="b-video-block b-main-video-block" style="background-image: url('i/2/video.jpg');">
+					<div class="b-main-video-cont">
+						<a href="#" class="b-btn-close icon-close"></a>
+						<iframe src="https://player.vimeo.com/video/229555231?muted=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					</div>
+					<!-- <iframe src="https://www.youtube.com/embed/GmbyKuzOnLw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
 					<div class="b-finger"></div>
-					<a href='#' class="b-play"></a>
+					<a href='#' class="b-play">
+						<svg viewBox="0 0 70 70" width="260%">
+						  <path d="M35,35m-23,0a23,23 0 1,1 46,0a23,23 0 1,1 -46,0" fill="transparent" id="tophalf"/>
+						  <text fill="#FFF">
+						    <textPath xlink:href="#tophalf" startOffset="32%">2 мин.</textPath>
+						    <textPath xlink:href="#tophalf" startOffset="40%">13 сек.</textPath>
+						  </text>
+						</svg>
+						<div class="b-play-time">
+							<span>2 мин.</span>
+							<span>13 сек.</span>
+						</div>
+					</a>
 				</div>
-				<a href="#" class="b-btn b-btn-orange b-go" data-block=".b-price" data-offset="75">
+				<a href="#" class="b-btn b-btn-orange b-btn-form" data-id="bron-radio-1">
 					<p class="main">Забронировать место</p><br>
 					<p class="small">по специальной цене</p>
 				</a>
@@ -340,7 +396,7 @@
 			</div>
 			<h2 class="b-title b-second">Лицом вашей компании в Интернете станет <b>«Лендинг-Атлант»</b></h2>
 		</div>
-		<div class="b-letter-a"></div>
+		<div class="b-letter-a" data-enllax-ratio=".12" data-enllax-type="foreground"></div>
 		<div class="b-atlant-slider">
 			<div class="b-slide">
 				<div class="b-block clearfix">
@@ -447,7 +503,7 @@
 					</div>
 					<div class="b-ipads">
 						<div class="b-ipad-1 active">
-							<div class="b-ipad-text b-triangle-top">Прогреваем, показываем экспертность и усиливаем доверие<span class="b-line"></span></div>
+							<div class="b-ipad-text b-triangle-top anim fadeLeftSmall" data-anim="fadeLeftSmall" data-offset="300">Прогреваем, показываем экспертность и усиливаем доверие<span class="b-line"></span></div>
 						</div>
 						<div class="b-ipad-2">
 							<div class="b-ipad-text b-triangle-top">Прогреваем, показываем экспертность и усиливаем доверие<span class="b-line"></span></div>
@@ -479,17 +535,19 @@
 						<h4>Напоминают, утепляют и продают одновременно сотням и тысячам людей</h4>
 						<div class="b-videos">
 							<div class="b-video">
-								<div class="b-video-block" style="background-image: url('i/2/video.jpg');">
-									<iframe src="https://www.youtube.com/embed/GmbyKuzOnLw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-									<a href='#' class="b-play"></a>
-								</div>
+								<div class="media-wrapper">
+					                <audio id="player" preload="none" controls style="max-width:100%;">
+					                    <source src="audio/audio-1.wav" type="audio/wav">
+					                </audio>
+					            </div>
 								<p class="b-left-triangle">Автодозвон с оставленной заявки Пользователь понимает, что его контакты не ушли в пустоту. И знакомится с директором!</p>
 							</div>
 							<div class="b-video">
-								<div class="b-video-block" style="background-image: url('i/2/video.jpg');">
-									<iframe src="https://www.youtube.com/embed/GmbyKuzOnLw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-									<a href='#' class="b-play"></a>
-								</div>
+								<div class="media-wrapper">
+					                <audio id="player2" preload="none" controls style="max-width:100%;">
+					                    <source src="audio/audio-2.mp3" type="audio/mp3">
+					                </audio>
+					            </div>
 								<p class="b-left-triangle">Автодозвон с акционным предложением Незаменим, когда ваша база стала слишком большой.</p>
 							</div>
 						</div>
@@ -1062,7 +1120,7 @@
 			</div>
 		</div>
 		<div class="b-block">
-			<a href="#" class="b-btn b-btn-orange b-go b-btn-lessons" data-block=".b-price" data-offset="75">
+			<a href="#" class="b-btn b-btn-orange b-btn-form b-btn-lessons">
 				<p class="main">Я хочу создать такую систему</p><br>
 				<p class="small">для своего бизнеса!</p>
 			</a>
@@ -1080,28 +1138,28 @@
 					<p class="b-left-triangle">Просто открывайте исчерпывающий<br>PDF-файл и делайте шаг за шагом или делегируете сотруднику, получая на выходе 100% работающий маркетинговый инструмент.</p>
 				</div>
 				<ul class="b-instructions">
-					<li>
+					<li class="anim fadeRightSmall" data-anim="fadeRightSmall" data-offset="300" data-delay="0">
 						<div class="b-img">
 							<img src="i/10/book-1.jpg" alt="">
 							<div class="b-num">1</div>
 						</div>
 						<p>Алгоритм написания<br>+ чек-лист проверки<br>продающих тексов</p>
 					</li>
-					<li>
+					<li class="anim fadeRightSmall" data-anim="fadeRightSmall" data-offset="300" data-delay="200">
 						<div class="b-img">
 							<img src="i/10/book-2.jpg" alt="">
 							<div class="b-num">2</div>
 						</div>
 						<p>Пошаговая инструкция:<br>Как сделать идеальный<br>Call to Action</p>
 					</li>
-					<li>
+					<li class="anim fadeRightSmall" data-anim="fadeRightSmall" data-offset="300" data-delay="400">
 						<div class="b-img">
 							<img src="i/10/book-3.jpg" alt="">
 							<div class="b-num">3</div>
 						</div>
 						<p>Исчерпывающая<br>инструкция по созданию<br>квиз-лендингов</p>
 					</li>
-					<li>
+					<li class="anim fadeRightSmall" data-anim="fadeRightSmall" data-offset="300" data-delay="600">
 						<div class="b-img">
 							<img src="i/10/book-4.jpg" alt="">
 							<div class="b-num">4</div>
@@ -1117,36 +1175,43 @@
 				<div class="b-head-text clearfix">
 					<p class="b-left-triangle" style="margin-top: -49px;">Просто берите шаблон и адаптируйте<br>его под себя.</p>
 				</div>
-				<ul class="b-instructions">
-					<li>
-						<div class="b-img">
-							<img src="i/10/book-1.jpg" alt="">
-							<div class="b-num">1</div>
+
+				<div class="b-temp-tabs-wrap">
+					<ul class="b-tabs b-temp-tabs" data-tabs=".b-temp-tabs-cont">
+						<li class="active">Продающие элементы LP</li>
+						<li>Продающие письма</li>
+						<li>Сценарии для видео</li>
+					</ul>
+					<div class="b-tabs-line">
+						<span></span>
+					</div>
+				</div>
+				<div class="b-tabs-cont b-temp-tabs-cont">
+					<div class="b-tab">
+						<div class="b-images">
+							<a href="i/sale1.jpg" data-fancybox="sale" class="b-image fancy-img" style="background-image: url('i/sale1.jpg');"></a>
+							<a href="i/sale2.jpg" data-fancybox="sale" class="b-image fancy-img" style="background-image: url('i/sale2.jpg');"></a>
+							<a href="i/sale3.jpg" data-fancybox="sale" class="b-image fancy-img" style="background-image: url('i/sale3.jpg');"></a>
 						</div>
-						<p>Алгоритм написания<br>+ чек-лист проверки<br>продающих тексов</p>
-					</li>
-					<li>
-						<div class="b-img">
-							<img src="i/10/book-2.jpg" alt="">
-							<div class="b-num">2</div>
+						<p>И еще более 40 шаблонов всех продающих элементов ...</p>
+					</div>
+					<div class="b-tab">
+						<div class="b-images">
+							<a href="i/mail1.jpg" data-fancybox="mail" class="b-image fancy-img" style="background-image: url('i/mail1.jpg');"></a>
+							<a href="i/mail2.jpg" data-fancybox="mail" class="b-image fancy-img" style="background-image: url('i/mail2.jpg');"></a>
+							<a href="i/mail3.jpg" data-fancybox="mail" class="b-image fancy-img" style="background-image: url('i/mail3.jpg');"></a>
 						</div>
-						<p>Пошаговая инструкция:<br>Как сделать идеальный<br>Call to Action</p>
-					</li>
-					<li>
-						<div class="b-img">
-							<img src="i/10/book-3.jpg" alt="">
-							<div class="b-num">3</div>
+						<p>И еще более 40 шаблонов всех продающих писем ...</p>
+					</div>
+					<div class="b-tab">
+						<div class="b-images">
+							<a href="i/video1.jpg" data-fancybox="video" class="b-image fancy-img" style="background-image: url('i/video1.jpg');"></a>
+							<a href="i/video2.jpg" data-fancybox="video" class="b-image fancy-img" style="background-image: url('i/video2.jpg');"></a>
+							<a href="i/video3.jpg" data-fancybox="video" class="b-image fancy-img" style="background-image: url('i/video3.jpg');"></a>
 						</div>
-						<p>Исчерпывающая<br>инструкция по созданию<br>квиз-лендингов</p>
-					</li>
-					<li>
-						<div class="b-img">
-							<img src="i/10/book-4.jpg" alt="">
-							<div class="b-num">4</div>
-						</div>
-						<p>Инструкция по внедрению<br>email-маркетинга</p>
-					</li>
-				</ul>
+						<p>И еще более 40 шаблонов всех сценариев для видео ...</p>
+					</div>
+				</div>
 				<div class="b-note-shadow"></div>
 			</div>
 			<div class="b-note b-note-3 b-with-triangle">
@@ -1156,45 +1221,83 @@
 					<h3>Боитесь забыть все<br>нюансы проверки<br>верстки сайта?</h3>
 					<p class="b-left-triangle">Теперь наши чек-листы будут всегда у вас под рукой.</p>
 				</div>
-				<ul class="b-instructions">
-					<li>
-						<div class="b-img">
-							<img src="i/10/checklist-1.jpg" alt="">
-							<div class="b-num">1</div>
-						</div>
-						<p>Чек-лист: Анализа<br>целевой аудитории</p>
-					</li>
-					<li>
-						<div class="b-img">
-							<img src="i/10/checklist-2.jpg" alt="">
-							<div class="b-num">2</div>
-						</div>
-						<p>Чек-лист: План идеальной<br>взятки за контакты</p>
-					</li>
-					<li>
-						<div class="b-img">
-							<img src="i/10/checklist-3.jpg" alt="">
-							<div class="b-num">3</div>
-						</div>
-						<p>Чек-лист: подключение<br>Яндекс.Метрики<br>и настройка целей</p>
-					</li>
-					<li>
-						<div class="b-img">
-							<img src="i/10/checklist-4.jpg" alt="">
-							<div class="b-num">4</div>
-						</div>
-						<p>Чек-лист: Составление<br>идеальной акции</p>
-					</li>
-					<li>
-						<div class="b-img">
-							<img src="i/10/checklist-5.jpg" alt="">
-							<div class="b-num">5</div>
-						</div>
-						<p>Чек-лист: Проверки<br>тарифной сетки</p>
-					</li>
-				</ul>
-				<div class="b-note-purple">
-					<a href="#" class="b-purple-link"><b>Посмотреть</b> все 10 чек-листов</a>
+				<div class="b-instructions-cont">
+					<ul class="b-instructions">
+						<li class="anim fadeRightSmall" data-anim="fadeRightSmall" data-offset="300" data-delay="0">
+							<div class="b-img">
+								<img src="i/10/checklist-1.jpg" alt="">
+								<div class="b-num">1</div>
+							</div>
+							<p>Чек-лист: Анализа<br>целевой аудитории</p>
+						</li>
+						<li class="anim fadeRightSmall" data-anim="fadeRightSmall" data-offset="300" data-delay="200">
+							<div class="b-img">
+								<img src="i/10/checklist-2.jpg" alt="">
+								<div class="b-num">2</div>
+							</div>
+							<p>Чек-лист: План идеальной<br>взятки за контакты</p>
+						</li>
+						<li class="anim fadeRightSmall" data-anim="fadeRightSmall" data-offset="300" data-delay="400">
+							<div class="b-img">
+								<img src="i/10/checklist-3.jpg" alt="">
+								<div class="b-num">3</div>
+							</div>
+							<p>Чек-лист: подключение<br>Яндекс.Метрики<br>и настройка целей</p>
+						</li>
+						<li class="anim fadeRightSmall" data-anim="fadeRightSmall" data-offset="300" data-delay="600">
+							<div class="b-img">
+								<img src="i/10/checklist-4.jpg" alt="">
+								<div class="b-num">4</div>
+							</div>
+							<p>Чек-лист: Составление<br>идеальной акции</p>
+						</li>
+						<li class="anim fadeRightSmall" data-anim="fadeRightSmall" data-offset="300" data-delay="800">
+							<div class="b-img">
+								<img src="i/10/checklist-5.jpg" alt="">
+								<div class="b-num">5</div>
+							</div>
+							<p>Чек-лист: Проверки<br>тарифной сетки</p>
+						</li>
+
+						<li class="b-instruct-10 fadeRightSmall" data-anim="fadeRightSmall" data-delay="0">
+							<div class="b-img">
+								<img src="i/10/checklist-1.jpg" alt="">
+								<div class="b-num">6</div>
+							</div>
+							<p>Чек-лист: Анализа<br>целевой аудитории</p>
+						</li>
+						<li class="b-instruct-10 fadeRightSmall" data-anim="fadeRightSmall" data-delay="200">
+							<div class="b-img">
+								<img src="i/10/checklist-2.jpg" alt="">
+								<div class="b-num">7</div>
+							</div>
+							<p>Чек-лист: План идеальной<br>взятки за контакты</p>
+						</li>
+						<li class="b-instruct-10 fadeRightSmall" data-anim="fadeRightSmall" data-delay="400">
+							<div class="b-img">
+								<img src="i/10/checklist-3.jpg" alt="">
+								<div class="b-num">8</div>
+							</div>
+							<p>Чек-лист: подключение<br>Яндекс.Метрики<br>и настройка целей</p>
+						</li>
+						<li class="b-instruct-10 fadeRightSmall" data-anim="fadeRightSmall" data-delay="600">
+							<div class="b-img">
+								<img src="i/10/checklist-4.jpg" alt="">
+								<div class="b-num">9</div>
+							</div>
+							<p>Чек-лист: Составление<br>идеальной акции</p>
+						</li>
+						<li class="b-instruct-10 fadeRightSmall" data-anim="fadeRightSmall" data-delay="800">
+							<div class="b-img">
+								<img src="i/10/checklist-5.jpg" alt="">
+								<div class="b-num">10</div>
+							</div>
+							<p>Чек-лист: Проверки<br>тарифной сетки</p>
+						</li>
+					</ul>
+					<div class="b-note-purple">
+						<a href="#" class="b-purple-link" id="b-show-10"><b>Посмотреть</b> все 10 чек-листов</a>
+					</div>
 				</div>
 				<div class="b-note-shadow"></div>
 			</div>
@@ -1206,28 +1309,28 @@
 					<p class="b-left-triangle">Используйте выжимку нашего 5-летнего<br>опыта работы со специалистами</p>
 				</div>
 				<ul class="b-instructions">
-					<li>
+					<li class="anim fadeRightSmall" data-anim="fadeRightSmall" data-offset="300" data-delay="0">
 						<div class="b-img">
 							<img src="i/10/instruction-1.jpg" alt="">
 							<div class="b-num">1</div>
 						</div>
 						<p>Шпаргалка: Что такое<br>продающий дизайн</p>
 					</li>
-					<li>
+					<li class="anim fadeRightSmall" data-anim="fadeRightSmall" data-offset="300" data-delay="200">
 						<div class="b-img">
 							<img src="i/10/instruction-2.jpg" alt="">
 							<div class="b-num" style="right: -15px;">2</div>
 						</div>
 						<p>Чек-лист проверки<br>дизайна и верстки</p>
 					</li>
-					<li>
+					<li class="anim fadeRightSmall" data-anim="fadeRightSmall" data-offset="300" data-delay="400">
 						<div class="b-img">
 							<img src="i/10/instruction-3.jpg" alt="">
 							<div class="b-num">3</div>
 						</div>
 						<p>Инструкция: Как найти<br>хороших подрядчиков.<br>Метод бутерброда</p>
 					</li>
-					<li>
+					<li class="anim fadeRightSmall" data-anim="fadeRightSmall" data-offset="300" data-delay="600">
 						<div class="b-img">
 							<img src="i/10/instruction-4.jpg" alt="">
 							<div class="b-num">4</div>
@@ -1238,7 +1341,7 @@
 				<div class="b-note-shadow"></div>
 			</div>
 			<div class="b-note-btn">
-				<a href="#" class="b-btn b-btn-orange b-go" data-block=".b-price" data-offset="75">
+				<a href="#" class="b-btn b-btn-orange b-btn-form">
 					<p class="main">Оплатить участие</p><br>
 					<p class="small">и забрать полезные файлы</p>
 				</a>
@@ -1246,19 +1349,21 @@
 		</div>
 	</div>
 
-	<div class="b b-11">
+	<div class="b b-11" data-offset="500">
 		<div class="b-block">
 			<h2 class="b-title"><b>Или отправьте на обучение вашего сотрудника,</b> и он сделает всё за вас!</h2>
 			<div class="b-small-review clearfix">
 				<div class="b-man">
 					<img src="i/11/small-man.png" alt="">
 				</div>
-				<div class="b-review-text">
+				<div class="b-review-text anim fadeLeftSmall" data-anim="fadeLeftSmall" data-cont=".b-11" data-delay="50">
 					<p class="icon-icommas">
 						Мне показалось это слишком сложным и <b>я отправил на курс своего сотрудника.</b> Мне приходилось лишь отвечать на вопросы о своем бизнесе, всё остальное он делал сам.
 					</p>
-					<h3>Александр Иванов</h3>
-					<h4>Компания Re-Stone</h4>
+					<div class="anim fadeIn" data-anim="fadeIn" data-cont=".b-11" data-delay="1000">
+						<h3>Александр Иванов</h3>
+						<h4>Компания Re-Stone</h4>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -1267,14 +1372,13 @@
 	<div class="b b-12">
 		<div class="b-block">
 			<h2 class="b-title"><b>Посмотрите истории предпринимателей,</b> которые уже запустили такую маркетинговую систему в своём бизнесе</h2>
-			<div class="b-c"></div>
+			<div class="b-c" data-enllax-ratio=".12" data-enllax-type="foreground"></div>
 			<div class="b-big-reviews icon-icommas">
 				<div class="b-big-reviews-slider">
 					<div class="b-big-review clearfix">
 						<div class="b-review-left">
 							<div class="b-avatar" style="background-image: url('i/12/woman.jpg');"></div>
 							<p>Татьяна Гоптарева</p>
-							<a href="http://vk.com/id1374292" class="b-vk-link icon-vk" target="_blank">vk.com/id1374292</a>
 						</div>
 						<div class="b-review-right">
 							<h3 class="b-title"><b>Такого логически выстроенного, структурированного материала сейчас нет ни у кого.</b> Более того – это завершенная система Лид-гена, полная, понятная, рабочая, с новейшими фишками, которые только только вышли на рынок.</h3>
@@ -1286,7 +1390,6 @@
 						<div class="b-review-left">
 							<div class="b-avatar" style="background-image: url('i/12/woman.jpg');"></div>
 							<p>Татьяна Гоптарева</p>
-							<a href="http://vk.com/id1374292" class="b-vk-link icon-vk" target="_blank">vk.com/id1374292</a>
 						</div>
 						<div class="b-review-right">
 							<h3 class="b-title"><b>Такого логически выстроенного, структурированного материала сейчас нет ни у кого.</b> Более того – это завершенная система Лид-гена, полная, понятная, рабочая, с новейшими фишками, которые только только вышли на рынок.</h3>
@@ -1298,7 +1401,7 @@
 				<div class="b-big-reviews-count">1 из 10</div>
 			</div>
 			<div class="b-reviews-butt">
-				<a href="#" class="b-btn b-btn-orange b-btn-one-line b-go" data-block=".b-price" data-offset="75">
+				<a href="#" class="b-btn b-btn-orange b-btn-one-line b-btn-form">
 					<p class="main">Я хочу на курс!</p>
 				</a>
 			</div>
@@ -1308,7 +1411,7 @@
 	<div class="b b-13">
 		<div class="b-block clearfix">
 			<h2 class="b-title">И самое главное — <b>каждое ваше действие будет проверено экспертом</b></h2>
-			<div class="b-small-man">
+			<div class="b-small-man anim fadeDown" data-anim="fadeDown" data-cont=".b-13" data-delay="50">
 				<img src="i/13/small-man.png" alt="">
 				<p class="b-left-triangle">Вы получите <b>видео-разбор 100% ваших заданий</b> от авторов курса или кураторов</p>
 				<div class="b-line"></div>
@@ -1324,7 +1427,7 @@
 			</div>
 			<div class="b-mind-right">
 				<h2 class="b-title"><b>и обратная<br>связь</b> от сокур-<br>сников</h2>
-				<div class="b-o"></div>
+				<div class="b-o" data-enllax-ratio=".12" data-enllax-type="foreground"></div>
 				<div class="b-iphone">
 					<div class="b-iphone-slider">
 						<div class="b-slide" style="background-image: url('i/14/screen-1.jpg');"></div>
@@ -1374,9 +1477,9 @@
 								</div>
 								<p>Исчерпывающее<br>руководство по созданию<br>маркетинговой системы</p>
 							</div>
-							<div class="b-price-offer-item" style="display: none;">
+							<div class="b-price-offer-item">
 								<h4>21 модуль</h4>
-								<a href="#" class="all-modules">Посмотреть список всех модулей</a>
+								<a href="#" class="all-modules b-go" data-block=".b-9"><span>Посмотреть список</span><br><span>всех модулей</span></a>
 							</div>
 							<div class="b-price-offer-item">
 								<div class="offer-img-cont img-cards">
@@ -1447,7 +1550,7 @@
 								<p>200 т. р.</p>
 							</div>
 							<p class="new-price">159 т. р.</p>
-							<a href="http://tfa.e-autopay.com/buy/348965" target="_blank" class="b-btn b-btn-orange b-platinum-link">
+							<a href="#" class="b-btn b-btn-orange b-btn-form" data-id="platinum-radio-1">
 								<p class="main">Пройти PLATINUM</p><br>
 								<p class="small">со скидкой 40%</p>
 							</a>
@@ -1473,9 +1576,9 @@
 								</div>
 								<p>Исчерпывающее<br>руководство по созданию<br>маркетинговой системы</p>
 							</div>
-							<div class="b-price-offer-item" style="display: none;">
+							<div class="b-price-offer-item">
 								<h4>21 модуль</h4>
-								<a href="#" class="all-modules">Посмотреть список всех модулей</a>
+								<a href="#" class="all-modules b-go" data-block=".b-9"><span>Посмотреть список</span><br><span>всех модулей</span></a>
 							</div>
 							<div class="b-price-offer-item">
 								<div class="offer-img-cont img-cards">
@@ -1522,7 +1625,7 @@
 								<p>87 000 р.</p>
 							</div>
 							<p class="new-price">69 600 р.</p>
-							<a href="http://tfa.e-autopay.com/buy/348963" target="_blank" class="b-btn b-btn-orange b-vip-link">
+							<a href="#" class="b-btn b-btn-orange b-btn-form" data-id="vip-radio-1">
 								<p class="main">Пройти VIP</p><br>
 								<p class="small">со скидкой 40%</p>
 							</a>
@@ -1548,9 +1651,9 @@
 								</div>
 								<p>Исчерпывающее<br>руководство по созданию<br>маркетинговой системы</p>
 							</div>
-							<div class="b-price-offer-item" style="display: none;">
+							<div class="b-price-offer-item">
 								<h4>21 модуль</h4>
-								<a href="#" class="all-modules">Посмотреть список всех модулей</a>
+								<a href="#" class="all-modules b-go" data-block=".b-9"><span>Посмотреть список</span><br><span>всех модулей</span></a>
 							</div>
 							<div class="b-price-offer-item">
 								<div class="offer-img-cont img-cards">
@@ -1591,7 +1694,7 @@
 								<p>47 000 р.</p>
 							</div>
 							<p class="new-price">37 600 р.</p>
-							<a href="http://tfa.e-autopay.com/buy/348966" target="_blank" class="b-btn b-btn-orange b-gold-link">
+							<a href="#" class="b-btn b-btn-orange b-btn-form" data-id="gold-radio-1">
 								<p class="main">Пройти GOLD</p><br>
 								<p class="small">со скидкой 40%</p>
 							</a>
@@ -1616,9 +1719,9 @@
 								</div>
 								<p>Исчерпывающее<br>руководство по созданию<br>маркетинговой системы</p>
 							</div>
-							<div class="b-price-offer-item" style="display: none;">
+							<div class="b-price-offer-item">
 								<h4>21 модуль</h4>
-								<a href="#" class="all-modules">Посмотреть список всех модулей</a>
+								<a href="#" class="all-modules b-go" data-block=".b-9"><span>Посмотреть список</span><br><span>всех модулей</span></a>
 							</div>
 						</div>
 						<div class="b-center">
@@ -1629,7 +1732,7 @@
 								<p>24 000 р.</p>
 							</div>
 							<p class="new-price">19 200 р.</p>
-							<a href="http://tfa.e-autopay.com/buy/348964" target="_blank" class="b-btn b-btn-orange b-start-link">
+							<a href="#" class="b-btn b-btn-orange b-btn-form" data-id="start-radio-1">
 								<p class="main">Пройти START</p><br>
 								<p class="small">со скидкой 40%</p>
 							</a>
@@ -1638,26 +1741,82 @@
 					</div>
 					<div class="places-left">Осталось <span class="places-left-count">7</span>  мест</div>
 				</div>
-				<div class="b-price-offer-right">
+				<div class="b-price-offer-right" data-enllax-ratio=".12" data-enllax-type="foreground">
 					<div class="b-price-offer-horizontal"></div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="b b-16">
+	<div class="b b-cost">
+		<div class="b-block">
+			<h2 class="b-title-roman">Стоимость участия в программе<br>Взлом Конверсии</h2>
+			<form id="b-cost-form" class="b-cost-form" method="post" action="//pay.surgay.ru/buy/save_order_data.php">
+				<p>Стоимость участия:</p>
+				<ul class="b-radio">
+					<li>
+						<input id="platinum-radio" type="radio" name="tovar_id" value="364138" data-form-id="37390" checked>
+						<label for="platinum-radio">PLATINUM — 178 т.р.&#160;&#160;<span class="cost-old">200 т.р.</span></label>
+					</li>
+					<li>
+						<input id="vip-radio" type="radio" name="tovar_id" value="364142" data-form-id="37388">
+						<label for="vip-radio">VIP — 74 990 р.&#160;&#160;<span class="cost-old">78 000 р.</span></label>
+					</li>
+					<li>
+						<input id="gold-radio" type="radio" name="tovar_id" value="364141" data-form-id="37387">
+						<label for="gold-radio">GOLD — 43 990 р.&#160;&#160;<span class="cost-old">47 000 р.</span></label>
+					</li>
+					<li>
+						<input id="start-radio" type="radio" name="tovar_id" value="364139" data-form-id="37389">
+						<label for="start-radio">START — 22 990 р.&#160;&#160;<span class="cost-old">24 000 р.</span></label>
+					</li>
+					<li>
+						<input id="bron-radio" type="radio" name="tovar_id" value="364140" data-form-id="37391">
+						<label for="bron-radio">Предоплата — 2 990 р.&#160;&#160;<span class="cost-old">4 990 р.</span></label>
+					</li>
+				</ul>
+				<a href="#" class="cost-details">Узнать подробнее про пакеты</a>
+				<div class="b-center">
+					<div class="b-inputs-block">
+						<div class="b-input">
+							<div class="b-input-before">Введите ваше имя</div>
+							<input type="text" name="name" placeholder="Владимир Сургай" required>
+						</div>
+						<div class="b-input">
+							<div class="b-input-before">Введите ваш E-mail <span class="for-access">(для получения доступа)</span></div>
+							<input type="text" name="email" placeholder="surgay@gmail.com" required>
+						</div>
+						<div class="b-input">
+							<div class="b-input-before">Введите ваш телефон <span class="for-access">(для получения доступа)</span></div>
+							<input type="text" name="phone" placeholder="+7 (___) ___-__-__" required>
+						</div>
+					</div>
+
+					<input type="hidden" name="form_charset" id="form_charset" value=""><input type="hidden" name="form_id" value="37390"><input type="hidden" name="order_page_referer" id="order_page_referer" value="" />
+
+					<a href="#" class="not-ajax b-btn b-btn-orange b-cost-btn">Принять участие</a>
+					<div class="b-checkbox">
+						<input type="checkbox" checked name="polytics" id="polytics">
+						<label for="polytics"><span></span>Я принимаю условия <a href="privacy_policy.pdf" target="_blank">передачи информации</a></label>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<div class="b b-16" data-offset="700">
 		<div class="b-block">
 			<div class="b-first-step">
 				<h2 class="b-title">Сделайте первый шаг <b>прямо сейчас!</b></h2>
-				<h3 class="b-title b-left-triangle">Бронируйте место на онлайн-курс <b>по самой доступной цене!</b><div class="b-line"></div></h3>
-				<h4 class="icon-rub">Мы поднимем цену на онлайн-курс <b>с 17 декабря</b><br>– и дальше она будет расти каждую неделю</h4>
+				<h3 class="b-title b-left-triangle">Бронируйте место на онлайн-курс <b>по самой доступной цене!</b><div class="b-line anim fadeDown" data-anim="fadeDown" data-cont=".b-16" data-delay="0"></div></h3>
+				<h4 class="icon-rub anim fadeDown" data-anim="fadeDown" data-cont=".b-16" data-delay="0">Мы поднимем цену на онлайн-курс <b>с 17 декабря</b><br>– и дальше она будет расти каждую неделю</h4>
 			</div>
 			<div class="b-graph"></div>
 			<div class="b-no-money">
 				<h2 class="b-title">Хотите попасть на курс, но <b>не можете оплатить сразу?</b></h2>
 				<h3 class="b-title b-left-triangle">До 10 февраля воспользуйтесь беспроцентной <b>рассрочкой</b></h3>
 				<div class="b-no-money-butt clearfix">
-					<a href="http://tfa.e-autopay.com/buy/353725" class="b-btn b-btn-orange" target="_blank">
+					<a href="#" class="b-btn b-btn-orange b-btn-form" data-id="bron-radio-1" >
 						<p class="main">Внести предоплату<br>3  т. р.</p>
 					</a>
 					<small>Возможность купить курс в рассрочку без % закрывается 20 января</small>
@@ -1666,19 +1825,19 @@
 		</div>
 	</div>
 
-	<div class="b b-17">
+	<div class="b b-17" data-offset="600">
 		<div class="b-block">
 			<h2 class="b-title"><b>Старт последнего потока курса 18 февраля</b></h2>
 			<div class="b-ipads clearfix">
-				<div class="b-ipad-block left">
+				<div class="b-ipad-block left anim fadeDown" data-anim="fadeDown" data-cont=".b-17" data-delay="0">
 					<img src="i/17/pic-1.jpg" alt="">
 					<p class="b-left-triangle"><b>Формат:</b> Вечерние<br>онлайн мастер-классы<br>1 раз в неделю</p>
 				</div>
-				<div class="b-ipad-block left">
+				<div class="b-ipad-block left anim fadeDown" data-anim="fadeDown" data-cont=".b-17" data-delay="200">
 					<img src="i/17/pic-2.jpg" alt="">
 					<p class="b-left-triangle">1 раз в месяц <b>мастер-<br>майнд</b> по ключевым темам<br>с участниками</p>
 				</div>
-				<div class="b-ipad-block left">
+				<div class="b-ipad-block left anim fadeDown" data-anim="fadeDown" data-cont=".b-17" data-delay="400">
 					<img src="i/17/pic-3.jpg" alt="">
 					<p class="b-left-triangle">100% записей, доп.<br>материалы и задания всех<br>уроков доступны вам<br><b>навсегда</b></p>
 				</div>
@@ -1686,21 +1845,22 @@
 		</div>
 	</div>
 
-	<div class="b b-18">
+	<div class="b b-18" data-offset="800">
 		<div class="b-block">
 			<h2 class="b-title"><b>Мы уверены в эффективности</b> нашего онлайн-практикума</h2>
 			<h3 class="b-title">поэтому даем вам тройную гарантию</h3>
 			<div class="b-garant-cont">
+				<div class="b-rounds"><div class="b-rounds-inner"></div></div>
 				<div class="b-garant-doc"></div>
-				<div class="b-garant b-garant-1">
+				<div class="b-garant b-garant-1 anim fadeLeftSmall" data-anim="fadeLeftSmall" data-cont=".b-18" data-delay="0">
 					<div class="b-num">1</div>
 					<p><b>Гарантия</b> 100%-й<br>окупаемости<br>курса*</p>
 				</div>
-				<div class="b-garant b-garant-2">
+				<div class="b-garant b-garant-2 anim fadeLeftSmall" data-anim="fadeLeftSmall" data-cont=".b-18" data-delay="200">
 					<div class="b-num">2</div>
 					<p><b>Гарантия</b> инди-<br>видуальной работы<br>до результата**</p>
 				</div>
-				<div class="b-garant b-garant-3">
+				<div class="b-garant b-garant-3 anim fadeRightSmall" data-anim="fadeRightSmall" data-cont=".b-18" data-delay="400">
 					<div class="b-num">3</div>
 					<p><b>Гарантия</b> 100%-го<br>возврата средств в те-<br>чение прохождения<br>первого модуля</p>
 					<small>Если после первых<br>2-х занятий вы решите,<br>что «Взлом конверсии»<br>не для вас, мы вернём<br>ваши деньги</small>
@@ -1722,18 +1882,18 @@
 					<div class="b-select left">
 						<h3 class="b-title">Выберите пакет курса</h3>
 						<select name="type" id="type">
-							<option data-price="19" data-click=".b-start-link" value="Start">START</option>
-							<option data-price="37" data-click=".b-gold-link" value="Gold">GOLD</option>
-							<option data-price="69" data-click=".b-vip-link" value="VIP">VIP</option>
-							<option data-price="159" data-click=".b-platinum-link" value="Platinum">PLATINUM</option>
+							<option data-price="19" data-id="start-radio-1" value="Start">START</option>
+							<option data-price="37" data-id="gold-radio-1" value="Gold">GOLD</option>
+							<option data-price="69" data-id="vip-radio-1" value="VIP">VIP</option>
+							<option data-price="159" data-id="platinum-radio-1" value="Platinum">PLATINUM</option>
 						</select>
 					</div>
 					<div class="b-select-butt">
-						<a href="#" class="b-btn b-btn-orange b-btn-one-line b-pay-click" data-click=".b-start-link">
+						<a href="#" class="b-btn b-btn-orange b-btn-one-line b-btn-form b-pay-click" data-id="start-radio-1">
 							<p class="main">Забронировать место</p>
 						</a>
 						<div class="b-checkbox">
-							<input type="checkbox" checked id="polytics">
+							<input type="checkbox" checked name="polytics" id="polytics">
 							<label for="polytics"><span></span>Я принимаю условия <a href="privacy_policy.pdf" target="_blank">передачи информации</a></label>
 						</div>
 					</div>
@@ -1743,7 +1903,33 @@
 		</div>
 	</div>
 
-	<div class="b b-footer">
+	<!--Комментарии-->
+	<div class="webinar_soc" style="width: 1000px; margin: auto; padding: 0px 0 30px 0; text-align: center; overflow:auto;">
+	
+	<!-- Put this div tag to the place, where the Comments block will be -->		
+	<div class="vk_block" style="float: left;">
+			<div id="vk_comments"></div>
+				<script type="text/javascript">
+				VK.Widgets.Comments("vk_comments", {limit: 20, width: "450", attach: "*"});
+				</script>
+	</div>
+
+	<!-- Facebook Comments -->
+	<div class="fb_block" style="float: right;">
+				<div id="fb-root" ></div>
+				<script>(function(d, s, id) {
+						var js, fjs = d.getElementsByTagName(s)[0];
+						if (d.getElementById(id)) return;
+						js = d.createElement(s); js.id = id;
+	js.src = 'https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.12&appId=485063448502725&autoLogAppEvents=1';
+					fjs.parentNode.insertBefore(js, fjs);
+					}(document, 'script', 'facebook-jssdk'));</script>
+
+
+				<div class="fb-comments" data-order-by="time" data-href="https://www.facebook.com/groups/1996793010569700/"  data-width="450" data-numposts="5" ></div>
+	</div>
+
+	<!-- <div class="b b-footer">
 		<div class="b-block">
 			<div class="b-footer-top">
 				<div class="b-footer-top-item">
@@ -1760,7 +1946,7 @@
 				<p>© TFA 2018. Все права защищены</p>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	<div class="b-500lux">
 		<div class="b-500lux-content">
@@ -1893,7 +2079,7 @@
 				<h3>Хотели бы вы <span class="orange">повторить<br>историю успеха</span> компании 500lux<br>и получать многомиллионные<br>заказы с Интернета?</h3>
 				<p>Жмите на кнопку «Забронировать место в программе» и начните получать заявки на свой продукт уже после первой недели.</p>
 				<div class="b-line"></div>
-				<a href="#" class="b-btn b-btn-orange">
+				<a href="#" class="b-btn b-btn-orange b-btn-form">
 					<p class="main">Забронировать место</p><br>
 					<p class="small">в программе</p>
 				</a>
@@ -1911,6 +2097,143 @@
 			</div>
 			<p class="b-research-y">Landing Pages</p>
 			<h3>Чем больше у вас Landing Page,<br>тем больше у вас продаж</h3>
+		</div>
+	</div>
+
+	<div class="b-form">
+		<div class="b-form-content">
+			<a href="#" class="b-btn-close icon-close"></a>
+			<h3>Стоимость участия в программе<br>Взлом Конверсии</h3>
+			<form id="b-cost-form" class="b-cost-form" method="post" action="//pay.surgay.ru/buy/save_order_data.php">
+				<p>Стоимость участия:</p>
+				<ul class="b-radio">
+					<li>
+						<input id="platinum-radio-1" type="radio" name="tovar_id" value="364138" data-form-id="37390" checked>
+						<label for="platinum-radio-1">PLATINUM — 178 т.р.&#160;&#160;<span class="cost-old">200 т.р.</span></label>
+					</li>
+					<li>
+						<input id="vip-radio-1" type="radio" name="tovar_id" value="364142" data-form-id="37388">
+						<label for="vip-radio-1">VIP — 74 990 р.&#160;&#160;<span class="cost-old">78 000 р.</span></label>
+					</li>
+					<li>
+						<input id="gold-radio-1" type="radio" name="tovar_id" value="364141" data-form-id="37387">
+						<label for="gold-radio-1">GOLD — 43 990 р.&#160;&#160;<span class="cost-old">47 000 р.</span></label>
+					</li>
+					<li>
+						<input id="start-radio-1" type="radio" name="tovar_id" value="364139" data-form-id="37389">
+						<label for="start-radio-1">START — 22 990 р.&#160;&#160;<span class="cost-old">24 000 р.</span></label>
+					</li>
+					<li>
+						<input id="bron-radio-1" type="radio" name="tovar_id" value="364140" data-form-id="37391">
+						<label for="bron-radio-1">Предоплата — 2 990 р.&#160;&#160;<span class="cost-old">4 990 р.</span></label>
+					</li>
+				</ul>
+				<a href="#" class="cost-details">Узнать подробнее про пакеты</a>
+				<div class="b-center">
+					<div class="b-inputs-block">
+						<div class="b-input">
+							<div class="b-input-before">Введите ваше имя</div>
+							<input type="text" name="name" placeholder="Владимир Сургай" required>
+						</div>
+						<div class="b-input">
+							<div class="b-input-before">Введите ваш E-mail <span class="for-access">(для получения доступа)</span></div>
+							<input type="text" name="email" placeholder="surgay@gmail.com" required>
+						</div>
+						<div class="b-input">
+							<div class="b-input-before">Введите ваш телефон <span class="for-access">(для получения доступа)</span></div>
+							<input type="text" name="phone" placeholder="+7 (___) ___-__-__" required>
+						</div>
+					</div>
+
+					<input type="hidden" name="form_charset" id="form_charset" value=""><input type="hidden" name="form_id" value="37390"><input type="hidden" name="order_page_referer" id="order_page_referer" value="" />
+
+					<a href="#" class="not-ajax b-btn b-btn-orange b-cost-btn">Принять участие</a>
+					<div class="b-checkbox">
+						<input type="checkbox" checked name="polytics" id="polytics-1">
+						<label for="polytics-1"><span></span>Я принимаю условия <a href="privacy_policy.pdf" target="_blank">передачи информации</a></label>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<div class="b-kind">
+		<div class="b-kind-content">
+			<a href="#" class="b-btn-close icon-close"></a>
+			<ol class="b-kind-list">
+				<li>Школа вокала </li>
+				<li>Уроки сольфеджио </li>
+				<li>Курсы игры на гитаре </li>
+				<li>Продажа щебня</li>
+				<li>Продажа газобетона</li>
+				<li>Продажа стойматериалов оптом</li>
+				<li>Продажа полимеров оптом</li>
+				<li>Продажа масла оптом</li>
+				<li>Дополнительное оборудование для авто</li>
+				<li>Excel-файл воронки продаж </li>
+				<li>Аналитический сервис </li>
+				<li>Сервис по подбору квартир </li>
+				<li>Стоматологические боры </li>
+				<li>Cервис по ремонту газелей </li>
+				<li>Дизайн-проекты квартир </li>
+				<li>Регистрация сделок с недвижимостью </li>
+				<li>Оптовая продажа светодиодных светильников </li>
+				<li>Полировка яхт </li>
+				<li>Шкафы-купе </li>
+				<li>Кухни </li>
+				<li>Ремонт квартир </li>
+				<li>Ремонт ванных комнат </li>
+				<li>Бензиновые электрогенераторы</li>
+				<li>Газовые электрогенераторы </li>
+				<li>Натяжные потолки </li>
+				<li>Продажа рыцарских доспехов </li>
+				<li>Продажа домов из бруса </li>
+				<li>Ликвидация ООО</li>
+				<li>Бухгалтерское обслуживание</li>
+				<li>Мебельные туры в Китай </li>
+				<li>Туры в Крым</li>
+				<li>Частные детские садики </li>
+				<li>Продажа франшизы соляных пещер </li>
+				<li>Продажа франшизы барбершопа </li>
+				<li>Соляные пещеры </li>
+				<li>Сайт для кафе </li>
+				<li>Услуга по развитию отдела продаж </li>
+				<li>Агентство интернет-маркетинга</li>
+				<li>SMM-агентство </li>
+				<li>Услуги web-разработки </li>
+				<li>Услуги по разработке IT-решений </li>
+				<li>Электропроектирование </li>
+				<li>Продажа комплексных трансформаторных подстанций </li>
+				<li>Продажа оргтехники </li>
+				<li>Поставка картиджей </li>
+				<li>Промо-сайт дизайнерские ванны-диваны </li>
+				<li>БМ Интенсив и Цех</li>
+				<li>Доставка здоровой еды</li>
+				<li>Контейнерные поставки комплектующих из Китая</li>
+				<li>Страхование родов для Спасских Ворот</li>
+				<li>Архитектурное освещение</li>
+				<li>Разработка светодизайна</li>
+				<li>Торговое освещение</li>
+				<li>Финансовый консультант</li>
+				<li>Мужской треннинг</li>
+				<li>Продажа сока алоэ</li>
+				<li>Треннинг по финансовой грамотности</li>
+				<li>Чип-тюнинг</li>
+				<li>Брендирование транспорта</li>
+				<li>Оклейка автомобилей защитной пленкой</li>
+				<li>Оклейка автомобилей цветной пленкой</li>
+				<li>Продажа икон ручной работы</li>
+				<li>Логистика</li>
+				<li>Инновация для нефтяной промышленности</li>
+				<li>Студия видео-записи классической музыки</li>
+				<li>Прототипирование Landing Page</li>
+				<li>Оптовая продажа кофе</li>
+				<li>Оптовая продажа морепродуктов</li>
+				<li>HR-услуги</li>
+				<li>EMS-тренажеры</li>
+				<li>Фильтры для воды</li>
+				<li>Винтовые сваи</li>
+			</ol>
 		</div>
 	</div>
 
@@ -1998,12 +2321,15 @@
 	<script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
 	<!--<script type="text/javascript" src="//maps.google.com/maps/api/js?sensor=false&key=AIzaSyD6Sy5r7sWQAelSn-4mu2JtVptFkEQ03YI"></script>-->
 	<script type="text/javascript" src="js/jquery.touch.min.js"></script>
+	<script type="text/javascript" src="js/jquery.enllax.js"></script>
 	<script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
 	<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="js/mediaelement-and-player.min.js"></script>
+	<script type="text/javascript" src="js/ru.js"></script>
 	<script type="text/javascript" src="js/slick.js"></script>
 	<script type="text/javascript" src="js/chosen.jquery.js"></script>
 	<script type="text/javascript" src="js/KitAnimate.js"></script>
-	<script type="text/javascript" src="js/KitSend.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/KitSend.js?1"></script>
+	<script type="text/javascript" src="js/main.js?1"></script>
 </body>
 </html>

@@ -41,13 +41,93 @@ $(document).ready(function(){
     }
     $.fn.placeholder();
 
+    $("input[name='tovar_id']").change(function(){
+        $(this).parents("form").find("input[name='form_id']").val($(this).attr("data-form-id"));
+    });
+
+    $('#player').mediaelementplayer({
+        success: function(mediaElement, originalNode, instance) {
+            // do things
+        }
+    });
+
+    $('#player2').mediaelementplayer({
+        success: function(mediaElement, originalNode, instance) {
+            // do things
+        }
+    });
+
+    var videoScroll = false;
     $(".b-video-block .b-play").click(function(){
         var $cont = $(this).parents(".b-video-block");
         $cont.addClass("play");
         $cont.find("iframe").attr("src", $cont.find("iframe").attr("src")+"&autoplay=1"); 
 
+        if( $(".b-audio-butt").hasClass("play") ){
+            $(".b-audio-butt").click();
+        }
+
+        if( $(this).parents(".b-main-video-block").length ){
+            videoScroll = true;
+        }
+
         return false;
     });
+
+    $(".b-main-video-cont a.b-btn-close").click(function(){
+        videoScroll = false;
+        videoStatic();
+        return false;
+    });
+
+    $("#b-show-10").click(function(){
+        $(".b-instruct-10").each(function(){
+            var $this = $(this);
+
+            $this.css("display", "inline-block");
+            setTimeout(function(){
+                setTimeout(function(){
+                    $this.addClass($this.attr("data-anim")+"-show");
+                }, 10);
+            }, $this.attr("data-delay")*1);
+        });
+        $(this).hide();
+
+        return false;
+    });
+
+    customHandlers["onScroll"] = function(scroll){
+        // alert(scroll);
+        if( videoScroll ){
+            var videoTop = $(".b-main-video-block").offset().top,
+                videoBottom = videoTop + $(".b-main-video-block").height(),
+                scrollBottom = scroll + myHeight;
+
+            if( scroll > videoTop || scrollBottom < videoBottom ){
+                if( !isVideoFixed() ){
+                    videoFixed();
+                }
+            }else{
+                if( isVideoFixed() ){
+                    videoStatic();
+                }
+            }
+        }
+    }
+
+    function isVideoFixed(){
+        return $(".b-main-video-cont.fixed").length;
+    }
+
+    function videoFixed(){
+        $(".b-main-video-cont").addClass("fixed");
+        console.log("fixed");
+    }
+
+    function videoStatic(){
+        $(".b-main-video-cont").removeClass("fixed");
+        console.log("static");
+    }
 
     calcHeight();
 
@@ -136,6 +216,13 @@ $(document).ready(function(){
         arrows: false
     });
 
+    $(".b-land-tabs-cont").on('beforeChange', function(event, slick, currentSlide, nextSlide){
+        $(".b-land-tabs li.active").removeClass("active");
+        $(".b-land-tabs li").eq(nextSlide).addClass("active");
+
+        calcActive();
+    });
+
     $(".b-sms-butt").click(function(){
         $( $(this).attr("data-block") ).parent().children().removeClass("active");
         $( $(this).attr("data-block") ).addClass("active");
@@ -174,6 +261,23 @@ $(document).ready(function(){
         $(".b-lesson-tabs-cont .b-tab[data-slick-index='"+currentSlide+"']").find(".b-right-text").addClass("show");
     });
 
+    $(".b-temp-tabs-cont").slick({
+        dots: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        cssEase: 'ease', 
+        speed: 500,
+        arrows: false
+    });
+
+    $(".b-temp-tabs-cont").on('beforeChange', function(event, slick, currentSlide, nextSlide){
+        $(".b-temp-tabs li.active").removeClass("active");
+        $(".b-temp-tabs li").eq(nextSlide).addClass("active");
+
+        calcActive();
+    });
+
     // Блок с большими отзывами
     var reviewsCount = $(".b-big-review").length;
     $(".b-big-reviews-count").text("1 из "+reviewsCount);
@@ -183,7 +287,7 @@ $(document).ready(function(){
         slidesToScroll: 1,
         infinite: true,
         cssEase: 'ease', 
-        // fade: true,
+        fade: true,
         speed: 500,
         arrows: true,
         prevArrow: '<div class="slick-arrow slick-prev icon-arrow-left-big"></div>',
@@ -218,22 +322,27 @@ $(document).ready(function(){
         cssEase: 'ease', 
         speed: 500,
         arrows: false,
-        vertical: true
+        vertical: true,
+        autoplay: true,
+        autoplaySpeed: 3000
     });
 
     $("#type").chosen({
         disable_search_threshold : 10
     }).change(function(){
         var $option = $(this).find("option[value='"+$(this).val()+"']");
-            click = $option.attr("data-click"),
+            click = $option.attr("data-id"),
             price = $option.attr("data-price");
         $(".b-19 h2.b-title span").text(price);
 
-        $(".b-pay-click").attr("href", $(click).attr("href"));
+        $(".b-pay-click").attr("data-id", $option.attr("data-id"));
         return false;
     });
 
-    $(".b-pay-click").attr("href", $(".b-start-link").attr("href"));
+    $(".b-pay-click").click(function(){
+        return false;
+    });
+    // $(".b-pay-click").attr("data-id", $(".b-start-link").attr("data-id"));
 
     /*----------------------------------*/
 
@@ -250,6 +359,23 @@ $(document).ready(function(){
             timerLeave = 0;
         }
     }, 1000);
+
+    $(window).enllax();
+
+    $(".b-audio-butt").click(function(){
+        curAudio = $(".b-audio")[0];
+
+        $(this).toggleClass("play");
+        $(this).find(".icon-audio").toggleClass("icon-pause");
+
+        if( $(this).hasClass("play") ){
+            curAudio.play();
+        }else{
+            curAudio.pause();
+        }
+
+        return false;
+    });
 
     $(document).mouseleave(function(){
         if(!$(".fancybox-slide .b-popup-leave").length && showLeave){
@@ -277,8 +403,31 @@ $(document).ready(function(){
         return false;
     });
 
+    $(".b-btn-kind").on('click', function(){
+        $(".b-kind").addClass("show");
+        $(".b-menu-overlay").addClass("show");
+        $("body").addClass("no-scroll");
+        if(isWindows)
+            $("body").addClass("margin-scroll");
+        return false;
+    });
+
+    $(".b-btn-form").on('click', function(){
+        $(".b-form").addClass("show");
+        $(".b-menu-overlay").addClass("show");
+        $("body").addClass("no-scroll");
+        if( $(this).attr("data-id") ){
+            $("#"+$(this).attr("data-id")).click();
+        }else{
+            $("#platinum-radio-1").click();
+        }
+        if(isWindows)
+            $("body").addClass("margin-scroll");
+        return false;
+    });
+
     $(".b-menu-overlay, .b-btn-close").on('click', function(){
-        $(".b-500lux, .b-research").removeClass("show");
+        $(".b-500lux, .b-research, .b-kind, .b-form").removeClass("show");
         $(".b-menu-overlay").removeClass("show");
         $("body").removeClass("no-scroll");
         if(isWindows)
@@ -291,13 +440,11 @@ $(document).ready(function(){
         $(".b-count-ext").toggleClass("show no-active");
         var $active = $(".b-count.show");
         var $noactive = $(".b-count.no-active");
-        var delay = 1;
         $active.children(".b-count-item").each(function(){
             var $el = $(this);
             setTimeout(function(){
                 $el.addClass("show");
-            }, 100 * $el.index() + 0);
-            delay++;
+            }, 100 * $el.index());
         });
         $noactive.children(".b-count-item").each(function(){
             $(this).removeClass("show");
