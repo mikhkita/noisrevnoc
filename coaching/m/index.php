@@ -1372,405 +1372,6 @@ require_once("prices.php");
 		</div>
 	</div>
 
-	<div class="b b-price">
-		<div class="b-block">
-			<h2 class="b-title-roman">Так сколько же это стоит<br>и чему вы научитесь?</h2>
-			<!-- <div class="b-price-list clearfix">
-				<div class="b-price-item">
-					<div class="orange-triangle"></div>
-					<p><b>Получить минимум<br>3-х кратное преимущество</b><br> перед конкурентами</p>
-				</div>
-				<div class="b-price-item">
-					<div class="orange-triangle"></div>
-					<p><b>Cтать лидером рынка</b><br> в глазах покупателей</p>
-				</div>
-				<div class="b-price-item">
-					<div class="orange-triangle"></div>
-					<p><b>Привлечь любое<br> количество клиентов</b><br> в свой бизнес</p>
-				</div>
-				<div class="b-price-item">
-					<div class="orange-triangle"></div>
-					<p><b>Стать магнитом</b> для<br> самых платежеспособных<br> клиентов</p>
-				</div>
-			</div> -->
-			<div class="b b-price-offer clearfix">
-				<div class="b-price-offer-block">
-					<div class="b-price-offer-triangle">
-						<span class="left-block"></span>
-						<span class="triangle-block"></span>
-						<span class="right-block"></span>
-					</div>
-					<div class="b-price-offer-content">
-						<div class="b-price-offer-list">
-							<h4 class="b-orange">Пакет</h4>
-							<h3><?=$prices["364139"]["NAME"]?></h3>
-							<h5><b>Необходимая база для<br>запуска стартапа</b> и освоения востребованной профессии прототипировщика</h5>
-							<p class="offer-description">2 месяца занятий без обратной<br>связи и без PDF доп. материалов</p>
-							<div class="b-price-offer-item with-border">
-								<p><b>Модуль 1.</b> Анализ Целевой аудитории.<br>Цепляем платежеспособную аудиторию</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>Модуль 2.</b> Правильный анализ<br>компании. Лендинги мини-тесты:<br>для вашей ниши с конверсией 5-30%<br>за 2 часа?</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>Модуль 3.</b> Взрывной копирайтинг.<br>Формула идеальной выгоды</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>Модуль 4.</b> Анализ конкурентов<br>без ошибок</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>Модуль 5.</b> Разработка УТП<br>и психология влияния на пользователей</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>Модуль 6.</b> Этапы принятия решения.<br>Когда 4U не работает. Другие формулы</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>Модуль 7.</b> Как доносить смысл?<br>Заголовки 2-го и 3-го уровня.<br>Продающая структура Landing Page</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>Модуль 8.</b> Мультилендинги<br>и гиперсементация трафика</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>Модуль 9.</b> Составление<br>лендингов-акций</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>Модуль 10</b> Идеальный Call to Action:<br>как генерировать горячих клиентов<br>из Интернета</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>Модуль 11.</b> Старт блока<br>по прототипированию. Правильное<br>оформление 1-го и 2-го экранов</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>Модуль 12.</b> Идеальное оформление<br>отзывов. Как доносить продающие<br>посылы</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>Модуль 13.</b> Финал блока<br>по прототипированию. Арсенал блоков<br>для прототипа. Правильное оформление<br>тарифов и цен на LP</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>Модуль 14.</b> Запуск лендинга<br>на конструкторе. От теории к практике</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>Модуль 15.</b> Безошибочная реализация<br>лендинга на конструкторе Tilda</p>
-							</div>
-						</div>
-						<div>
-							<p class="new-price"><?=$prices["364139"]["VIEW_PRICE"]?></p>
-							<div class="old-price">
-								<div class="cross-out"></div>
-								<p><?=$prices["364139"]["OLD_VIEW_PRICE"]?></p>
-							</div>
-							<a href="#" class="b-btn b-btn-orange b-btn-form" data-id="<?=$prices["364139"]["ID"]?>-radio-1">
-								<p class="main">Выбрать</p>
-							</a>
-						</div>
-						<div class="b-note-shadow"></div>
-					</div>
-					<div class="places-left">Осталось <span class="places-left-count">358</span>  мест</div>
-					<div class="b-note-shadow"></div>
-				</div>
-				<div class="b-price-offer-block">
-					<div class="b-price-offer-triangle">
-						<span class="left-block"></span>
-						<span class="triangle-block"></span>
-						<span class="right-block"></span>
-					</div>
-					<div class="b-price-offer-content">
-						<div class="b-price-offer-list">
-							<h4 class="b-orange">Пакет</h4>
-							<h3><?=$prices["364141"]["NAME"]?></h3>
-							<h5><b>Полный курс и 3 месяца<br>обратной связи</b> по 30 минут<br>Результаты с 3-го занятия!</h5>
-							<h5 class="b-price-plus"><b>+ Пакет «Прототипировщик»</b></h5>
-							<p class="offer-description">3 месяца занятий + 24 чек-листа,<br>более 50 шаблонов, закрытые чаты,<br>закрытые группы</p>
-							<div class="b-price-offer-item with-border">
-								<p><b>Модуль 16.</b> Трафик-менеджмент</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>Модуль 17.</b> Автоворонка для<br>маркетологов. Как гарантированно<br>продавать себя в соц.сетях</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>Модуль 18.</b> Составление скрипта<br>продаж. Как продавать с конверсией<br>80% с заявки?</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>Модуль 19.</b> 6-ти кратный рост<br>конверсии через кивз-лендинги. Часть 1</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>Модуль 20.</b> Утепляющие квиз-лендинги. <br>Реализация без ошибок. Часть 2</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>Модуль 21.</b> Создание идеального<br>лид-магнита: как выжать из трафика всё</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>Модуль 22.</b> Email-стратегия<br>на 150 000 рублей. Автоматический<br>прогрев</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>Модуль 23.</b> Управление проектами: <br>Как отличить хороший дизайн<br>от просто Д… Проверка дизайна<br>и верстки</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>Модуль 24.</b> Продающее фото<br>и создание сценария продающего видео.<br>А/В-тесты и оптимизация системы</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>Модуль 25.</b> Пошаговое внедрение <br>CRM-системы для бизнеса</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>30 шаблонов</b> по прототипированию<br>1-х экранов и других блоков в Moqups <br>для любой ниши</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>Чек-листы и скринкасты</b><br>по выполнению задач</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>Доступ</b> в закрытую группу<br>с материалами и чатом</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>24 ценных файла:</b> чек-листы,<br>шаблоны и скрин-касты для быстрого<br>анализа, прототипирования, написания<br>текстов и контроля подрядчиков</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>Аттестация</b> и официальный<br>сертификат прохождения курса</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>100% проверка домашних<br>заданий</b> кураторами</p>
-							</div>
-						</div>
-						<div>
-							<p class="new-price"><?=$prices["364141"]["VIEW_PRICE"]?></p>
-							<div class="old-price">
-								<div class="cross-out"></div>
-								<p><?=$prices["364141"]["OLD_VIEW_PRICE"]?></p>
-							</div>
-							<a href="#" class="b-btn b-btn-orange b-btn-form" data-id="<?=$prices["364141"]["ID"]?>-radio-1">
-								<p class="main">Выбрать</p>
-							</a>
-						</div>
-						<div class="b-note-shadow"></div>
-					</div>
-					<div class="places-left">Осталось <span class="places-left-count">42</span>  места</div>
-					<div class="b-note-shadow"></div>
-				</div>
-				<div class="b-price-offer-block">
-					<div class="b-price-offer-triangle">
-						<span class="left-block"></span>
-						<span class="triangle-block"></span>
-						<span class="right-block"></span>
-					</div>
-					<div class="b-price-offer-content">
-						<div class="b-price-offer-list">
-							<h4 class="b-orange">Пакет</h4>
-							<h3><?=$prices["364142"]["NAME"]?></h3>
-							<h5><b>Полный курс и 4 месяца<br>обратной связи до 60 минут</b><br>(Вы + 1 сотрудник)</h5>
-							<h5 class="b-price-plus"><b>+ Пакет «Бизнес»</b></h5>
-							<div class="b-price-offer-item with-border">
-								<p><b>3 мастер-майнда,</b> разбор вопросов<br>и обратная связь в мини-группах<br>на темы: УТП, СТА и структуры<br>Landing Page</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>Чек-листы</b> как ставить<br>и принимать задачи</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>Доведение до результата</b><br>полной окупаемости</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>Доступ в закрытый чат,</b> где мы<br>обсуждаем новинки, делимся<br>советами, контактами и находим<br>партнёров</p>
-							</div>
-						</div>
-						<div>
-							<p class="new-price"><?=$prices["364142"]["VIEW_PRICE"]?></p>
-							<div class="old-price">
-								<div class="cross-out"></div>
-								<p><?=$prices["364142"]["OLD_VIEW_PRICE"]?></p>
-							</div>
-							<a href="#" class="b-btn b-btn-orange b-btn-form" data-id="<?=$prices["364142"]["ID"]?>-radio-1">
-								<p class="main">Выбрать</p>
-							</a>
-						</div>
-						<div class="b-note-shadow"></div>
-					</div>
-					<div class="places-left">Осталось <span class="places-left-count">13</span>  мест</div>
-				</div>
-				<div class="b-price-offer-block">
-					<div class="b-price-offer-triangle">
-						<span class="left-block"></span>
-						<span class="triangle-block"></span>
-						<span class="right-block"></span>
-					</div>
-					<div class="b-price-offer-content">
-						<div class="b-price-offer-list">
-							<h4 class="b-orange">Пакет</h4>
-							<h3><?=$prices["364138"]["NAME"]?></h3>
-							<h5><b>Личный коучинг<br>для Вашего бизнеса</b><br>(до 6 сотрудников)</h5>
-							<h5 class="b-price-plus"><b>+ Пакет «Vip»</b></h5>
-							<div class="b-price-offer-item with-border">
-								<p><b>Скайп-сессия</b> раз в неделю<br>1 на 1 стомостью 9 000 руб.<br>(до 30 сессий)</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>Личное кураторство<br>вашего проекта В. Сургаем</b><br>до результата</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>Доступы к списку</b><br>из 17 проверенных недорогих<br>подрядчиков</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>Выезд специалиста маркетолога</b><br>на 1 день к вам в офис для<br>разбора точек роста</p>
-							</div>
-							<div class="b-price-offer-item">
-								<p><b>Поддержка от маркетингового<br>агентства TFA</b> (разработка<br>прототипа, дизайна, верстки)</p>
-							</div>
-						</div>
-						<div>
-							<p class="new-price"><?=$prices["364138"]["VIEW_PRICE"]?></p>
-							<div class="old-price">
-								<div class="cross-out"></div>
-								<p><?=$prices["364138"]["OLD_VIEW_PRICE"]?></p>
-							</div>
-							<a href="#" class="b-btn b-btn-orange b-btn-form" data-id="<?=$prices["364138"]["ID"]?>-radio-1">
-								<p class="main">Выбрать</p>
-							</a>
-						</div>
-						<div class="b-note-shadow"></div>
-					</div>
-					<div class="places-left">Осталось <span class="places-left-count">13</span>  мест</div>
-				</div>
-				<div class="b-price-offer-right" data-enllax-ratio=".12" data-enllax-type="foreground">
-					<div class="b-price-offer-horizontal"></div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<? /* ?>
-	<div class="b b-cost">
-		<div class="b-block">
-			<h2 class="b-title-roman">Стоимость участия в программе<br>Взлом Конверсии</h2>
-			<form id="b-cost-form" class="b-cost-form" method="post" action="kitsend.php">
-				<p>Стоимость участия:</p>
-				<ul class="b-radio">
-					<? foreach ($prices as $value => $arPrice): ?>
-					<li>
-						<input id="<?=$arPrice["ID"]?>-radio" type="radio" name="tovar_id" value="<?=$value?>" data-form-id="37390" <? if( $arPrice["CHECKED"] ): ?>checked<? endif; ?>>
-						<label for="<?=$arPrice["ID"]?>-radio"><?=$arPrice["NAME"]?> — <?=$arPrice["VIEW_PRICE"]?>&#160;&#160;<span class="cost-old"><?=$arPrice["OLD_VIEW_PRICE"]?></span></label>
-					</li>
-					<? endforeach; ?>
-				</ul>
-				<a href="#" class="cost-details">Узнать подробнее про пакеты</a>
-				<div class="b-center">
-					<div class="b-inputs-block">
-						<div class="b-input">
-							<div class="b-input-before">Введите ваше имя</div>
-							<input type="text" name="name" placeholder="Владимир Сургай" required>
-						</div>
-						<div class="b-input">
-							<div class="b-input-before">Введите ваш E-mail <span class="for-access">(для получения доступа)</span></div>
-							<input type="text" name="email" placeholder="surgay@gmail.com" required>
-						</div>
-						<div class="b-input">
-							<div class="b-input-before">Введите ваш телефон <span class="for-access">(для получения доступа)</span></div>
-							<input type="text" name="phone" placeholder="+7 (___) ___-__-__" required>
-						</div>
-					</div>
-
-					<input type="hidden" name="form_charset" id="form_charset" value=""><input type="hidden" name="form_id" value="37390"><input type="hidden" name="order_page_referer" id="order_page_referer" value="" />
-					<input type="hidden" name="subject" value="Заявка на бронирование курса">
-					<a href="#" class="not-ajax b-btn b-btn-orange b-cost-btn">Принять участие</a>
-					<div class="b-checkbox">
-						<input type="checkbox" checked name="polytics" id="polytics">
-						<label for="polytics"><span></span>Я принимаю условия <a href="privacy_policy.pdf" target="_blank">передачи информации</a></label>
-					</div>
-				</div>
-			</form>
-		</div>
-	</div>
-	<? */ ?>
-
-	<div class="b b-16" data-offset="700">
-		<div class="b-block">
-			<div class="b-first-step">
-				<h2 class="b-title">Сделайте первый шаг <b>прямо сейчас!</b></h2>
-				<h3 class="b-title b-left-triangle">Бронируйте место на онлайн-курс <b>по самой доступной цене!</b><div class="b-line anim fadeDown" data-anim="fadeDown" data-cont=".b-16" data-delay="0"></div></h3>
-				<h4 class="icon-rub anim fadeDown" data-anim="fadeDown" data-cont=".b-16" data-delay="0">Мы поднимем цену на онлайн-курс <b>с 17 декабря</b><br>– и дальше она будет расти каждую неделю</h4>
-			</div>
-			<div class="b-graph"></div>
-			<div class="b-no-money">
-				<h2 class="b-title">Хотите попасть на курс, но <b>не можете оплатить сразу?</b></h2>
-				<h3 class="b-title b-left-triangle">До 10 февраля воспользуйтесь беспроцентной <b>рассрочкой</b></h3>
-				<div class="b-no-money-butt clearfix">
-					<a href="#" class="b-btn b-btn-orange b-btn-form" data-id="bron-radio-1" >
-						<p class="main">Внести предоплату<br>3  т. р.</p>
-					</a>
-					<small>Возможность купить курс в рассрочку без % закрывается 20 января</small>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	<div class="b-overflow">
-		<div class="b b-18" data-offset="800">
-			<div class="b-block">
-				<h2 class="b-title"><b>Мы уверены в эффективности</b> нашего онлайн-практикума</h2>
-				<h3 class="b-title">поэтому даем вам тройную гарантию</h3>
-				<div class="b-garant-cont">
-					<div class="b-rounds"><div class="b-rounds-inner"></div></div>
-					<div class="b-garant-doc"></div>
-					<div class="b-garant b-garant-1 anim fadeLeftSmall" data-anim="fadeLeftSmall" data-cont=".b-18" data-delay="0">
-						<div class="b-num">1</div>
-						<p><b>Гарантия</b> 100%-й<br>окупаемости<br>курса*</p>
-					</div>
-					<div class="b-garant b-garant-2 anim fadeLeftSmall" data-anim="fadeLeftSmall" data-cont=".b-18" data-delay="200">
-						<div class="b-num">2</div>
-						<p><b>Гарантия</b> инди-<br>видуальной работы<br>до результата**</p>
-					</div>
-					<div class="b-garant b-garant-3 anim fadeRightSmall" data-anim="fadeRightSmall" data-cont=".b-18" data-delay="400">
-						<div class="b-num">3</div>
-						<p><b>Гарантия</b> 100%-го<br>возврата средств в те-<br>чение прохождения<br>первого модуля</p>
-						<small>Если после первых<br>2-х занятий вы решите,<br>что «Взлом конверсии»<br>не для вас, мы вернём<br>ваши деньги</small>
-					</div>
-					<div class="b-comment">*Для пакета VIP и Platinum<br>**Для пакета Platinum</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="b b-18-a">
-			<div class="b-block">
-				<h2 class="b-title"><b>Любите коллектив?</b> Поможем<br>с трудоустройством в крутом агентстве или... </h2>
-				<div class="b-sert-cont clearfix">
-					<div class="b-diploma" data-enllax-ratio=".12" data-enllax-type="foreground"></div>
-					<div class="b-sert-right">
-						<h5 class="b-small">Успешно сдайте экзамены, <b>и мы порекомендуем вас в агентства наших друзей и партнёров:</b></h5>
-						<div class="b-logos"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="b b-19">
-		<div class="b-block">
-			<div class="b-note b-with-triangle">
-				<span class="b-empty-triangle"></span>
-				<h3 class="b-title">Старт курса - 18 февраля</h3>
-				<h2 class="b-title icon-flag">Забронируйте сейчас<br>свое место в группе<br>за <span><?=$prices["364139"]["VIEW_PRICE"]?></span></h2>
-				<div class="b-books"></div>
-				<div class="b-chair"></div>
-				<div class="b-select-cont clearfix">
-					<div class="b-select left">
-						<h3 class="b-title">Выберите пакет курса</h3>
-						<select name="type" id="type">
-							<? foreach ($prices as $value => $arPrice): ?>
-							<li>
-								<option data-price="<?=$arPrice["VIEW_PRICE"]?>" data-id="<?=$arPrice["ID"]?>-radio-1" value="<?=$arPrice["NAME"]?>" <? if($value == "364139"): ?>selected<? endif; ?>><?=$arPrice["NAME"]?></option>
-							</li>
-							<? endforeach; ?>
-						</select>
-					</div>
-					<div class="b-select-butt">
-						<a href="#" class="b-btn b-btn-orange b-btn-one-line b-btn-form b-pay-click" data-id="start-radio-1">
-							<p class="main">Забронировать место</p>
-						</a>
-						<div class="b-checkbox">
-							<input type="checkbox" checked name="polytics" id="polytics">
-							<label for="polytics"><span></span>Я принимаю условия <a href="privacy_policy.pdf" target="_blank">передачи информации</a></label>
-						</div>
-					</div>
-				</div>
-				<div class="b-note-shadow"></div>
-			</div>
-		</div>
-	</div>
-
 	<div class="b b-new-price">
 		<div class="b-block">
 			<h2 class="b-title"><b>Так сколько же стоит...</b></h2>
@@ -1782,25 +1383,25 @@ require_once("prices.php");
 			<div class="b-new-price-content">
 				<div class="b-new-price-header">
 					<div class="price-header-item">
-						<h3>Platinum</h3>
+						<h3><?=$prices["364138"]["NAME"]?></h3>
 						<h4>Полный курс и доведение<br>до 100%-й окупаемости</h4>
 						<p>(Вы + 3 сотрудника)</p>
 						<small>Личная докрута каждого<br>шага Владимиром</small>
 					</div>
 					<div class="price-header-item">
-						<h3>VIP. Агентство</h3>
+						<h3><?=$prices["364142"]["NAME"]?></h3>
 						<h4>Полный курс и 4 месяца<br>обратной связи<br>по 60 минут</h4>
 						<p>(Вы + 1 сотрудника)</p>
 						<small>VIP мини-группа<br>3 разбора от Владимира</small>
 					</div>
 					<div class="price-header-item">
-						<h3>Бизнес</h3>
+						<h3><?=$prices["364141"]["NAME"]?></h3>
 						<h4>Полный курс и 3 месяца<br>обратной связи<br>по 30 минут</h4>
 						<p>Результаты с 3-го занятия</p>
 						<small>3 месяца занятий<br>+ 24 чек-листа, более<br>50 шаблонов, закрытый чат<br>+  доступ в сообщество</small>
 					</div>
 					<div class="price-header-item">
-						<h3>Прототипировщик</h3>
+						<h3><?=$prices["364139"]["NAME"]?></h3>
 						<h4>Запустите прибыльный<br>сайт на конструкторе!</h4>
 						<p>Необходимая база для<br>получения профессии<br>прототипировщика</p>
 						<small>2 месяца занятий без<br>обратной связи и без PDF<br>доп. материалов</small>
@@ -2276,44 +1877,44 @@ require_once("prices.php");
 				</div>
 				<div class="b-new-price-bottom clearfix">
 					<div class="price-bottom-item price-bottom-item-1">
-						<p class="price-bottom-new-price">195 000 руб.</p>
-						<a href="#" class="b-btn b-btn-orange b-btn-form">
+						<p class="price-bottom-new-price"><?=$prices["364138"]["VIEW_PRICE"]?></p>
+						<a href="#" class="b-btn b-btn-orange b-btn-form" data-id="<?=$prices["364138"]["ID"]?>-radio-1">
 							<p class="main">Выбрать пакет</p>
 							<p class="small">шаг 1 из 3</p>
 						</a>
 					</div>
 					<div class="box-shadow-cont">
 						<div class="price-bottom-item">
-							<div class="price-bottom-old-price"><div class="red-line"></div><p>127 000 руб.</p></div>
-							<p class="price-bottom-new-price">110 990 руб.</p>
+							<div class="price-bottom-old-price"><div class="red-line"></div><p><?=$prices["364142"]["OLD_VIEW_PRICE"]?></p></div>
+							<p class="price-bottom-new-price"><?=$prices["364142"]["VIEW_PRICE"]?></p>
 							<div class="arrow-next"></div>
 							<small>Далее 10 пакетов </small>
-							<p class="next-price">118 700 руб.</p>
-							<a href="#" class="b-btn b-btn-orange b-btn-form">
+							<p class="next-price"><?=$prices["364142"]["FUTURE_PRICE"]?></p>
+							<a href="#" class="b-btn b-btn-orange b-btn-form" data-id="<?=$prices["364142"]["ID"]?>-radio-1">
 								<p class="main">Выбрать пакет</p>
 								<p class="small">шаг 1 из 3</p>
 							</a>
 							<div class="price-remainder">Осталось <span class="number-packs">7</span> пакетов<br>по этой цене</div>
 						</div>
 						<div class="price-bottom-item">
-							<div class="price-bottom-old-price"><div class="red-line"></div><p>57 000 руб.</p></div>
-							<p class="price-bottom-new-price">49 990 руб.</p>
+							<div class="price-bottom-old-price"><div class="red-line"></div><p><?=$prices["364141"]["OLD_VIEW_PRICE"]?></p></div>
+							<p class="price-bottom-new-price"><?=$prices["364141"]["VIEW_PRICE"]?></p>
 							<div class="arrow-next"></div>
 							<small>Далее 20 пакетов </small>
-							<p class="next-price">53 700 руб.</p>
-							<a href="#" class="b-btn b-btn-orange b-btn-form">
+							<p class="next-price"><?=$prices["364141"]["FUTURE_PRICE"]?></p>
+							<a href="#" class="b-btn b-btn-orange b-btn-form" data-id="<?=$prices["364141"]["ID"]?>-radio-1">
 								<p class="main">Выбрать пакет</p>
 								<p class="small">шаг 1 из 3</p>
 							</a>
 							<div class="price-remainder">Осталось <span class="number-packs">12</span> пакетов<br>по этой цене</div>
 						</div>
 						<div class="price-bottom-item">
-							<div class="price-bottom-old-price"><div class="red-line"></div><p>30 000 руб.</p></div>
-							<p class="price-bottom-new-price">24 300 руб.</p>
+							<div class="price-bottom-old-price"><div class="red-line"></div><p><?=$prices["364139"]["OLD_VIEW_PRICE"]?></p></div>
+							<p class="price-bottom-new-price"><?=$prices["364139"]["VIEW_PRICE"]?></p>
 							<div class="arrow-next"></div>
 							<small>Далее 25 пакетов </small>
-							<p class="next-price">28 700 руб.</p>
-							<a href="#" class="b-btn b-btn-orange b-btn-form">
+							<p class="next-price"><?=$prices["364139"]["FUTURE_PRICE"]?></p>
+							<a href="#" class="b-btn b-btn-orange b-btn-form" data-id="<?=$prices["364139"]["ID"]?>-radio-1">
 								<p class="main">Выбрать пакет</p>
 								<p class="small">шаг 1 из 3</p>
 							</a>
@@ -2346,6 +1947,405 @@ require_once("prices.php");
 			<a href="#" class="b-btn b-btn-orange b-btn-one-line">
 				<p class="main">Получить коммерческое предложение</p>
 			</a>
+		</div>
+	</div>
+	
+	<? /* ?>
+	<div class="b b-price">
+		<div class="b-block">
+			<h2 class="b-title-roman">Так сколько же это стоит<br>и чему вы научитесь?</h2>
+			<!-- <div class="b-price-list clearfix">
+				<div class="b-price-item">
+					<div class="orange-triangle"></div>
+					<p><b>Получить минимум<br>3-х кратное преимущество</b><br> перед конкурентами</p>
+				</div>
+				<div class="b-price-item">
+					<div class="orange-triangle"></div>
+					<p><b>Cтать лидером рынка</b><br> в глазах покупателей</p>
+				</div>
+				<div class="b-price-item">
+					<div class="orange-triangle"></div>
+					<p><b>Привлечь любое<br> количество клиентов</b><br> в свой бизнес</p>
+				</div>
+				<div class="b-price-item">
+					<div class="orange-triangle"></div>
+					<p><b>Стать магнитом</b> для<br> самых платежеспособных<br> клиентов</p>
+				</div>
+			</div> -->
+			<div class="b b-price-offer clearfix">
+				<div class="b-price-offer-block">
+					<div class="b-price-offer-triangle">
+						<span class="left-block"></span>
+						<span class="triangle-block"></span>
+						<span class="right-block"></span>
+					</div>
+					<div class="b-price-offer-content">
+						<div class="b-price-offer-list">
+							<h4 class="b-orange">Пакет</h4>
+							<h3><?=$prices["364139"]["NAME"]?></h3>
+							<h5><b>Необходимая база для<br>запуска стартапа</b> и освоения востребованной профессии прототипировщика</h5>
+							<p class="offer-description">2 месяца занятий без обратной<br>связи и без PDF доп. материалов</p>
+							<div class="b-price-offer-item with-border">
+								<p><b>Модуль 1.</b> Анализ Целевой аудитории.<br>Цепляем платежеспособную аудиторию</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>Модуль 2.</b> Правильный анализ<br>компании. Лендинги мини-тесты:<br>для вашей ниши с конверсией 5-30%<br>за 2 часа?</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>Модуль 3.</b> Взрывной копирайтинг.<br>Формула идеальной выгоды</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>Модуль 4.</b> Анализ конкурентов<br>без ошибок</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>Модуль 5.</b> Разработка УТП<br>и психология влияния на пользователей</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>Модуль 6.</b> Этапы принятия решения.<br>Когда 4U не работает. Другие формулы</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>Модуль 7.</b> Как доносить смысл?<br>Заголовки 2-го и 3-го уровня.<br>Продающая структура Landing Page</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>Модуль 8.</b> Мультилендинги<br>и гиперсементация трафика</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>Модуль 9.</b> Составление<br>лендингов-акций</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>Модуль 10</b> Идеальный Call to Action:<br>как генерировать горячих клиентов<br>из Интернета</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>Модуль 11.</b> Старт блока<br>по прототипированию. Правильное<br>оформление 1-го и 2-го экранов</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>Модуль 12.</b> Идеальное оформление<br>отзывов. Как доносить продающие<br>посылы</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>Модуль 13.</b> Финал блока<br>по прототипированию. Арсенал блоков<br>для прототипа. Правильное оформление<br>тарифов и цен на LP</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>Модуль 14.</b> Запуск лендинга<br>на конструкторе. От теории к практике</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>Модуль 15.</b> Безошибочная реализация<br>лендинга на конструкторе Tilda</p>
+							</div>
+						</div>
+						<div>
+							<p class="new-price"><?=$prices["364139"]["VIEW_PRICE"]?></p>
+							<div class="old-price">
+								<div class="cross-out"></div>
+								<p><?=$prices["364139"]["OLD_VIEW_PRICE"]?></p>
+							</div>
+							<a href="#" class="b-btn b-btn-orange b-btn-form" data-id="<?=$prices["364139"]["ID"]?>-radio-1">
+								<p class="main">Выбрать</p>
+							</a>
+						</div>
+						<div class="b-note-shadow"></div>
+					</div>
+					<div class="places-left">Осталось <span class="places-left-count">358</span>  мест</div>
+					<div class="b-note-shadow"></div>
+				</div>
+				<div class="b-price-offer-block">
+					<div class="b-price-offer-triangle">
+						<span class="left-block"></span>
+						<span class="triangle-block"></span>
+						<span class="right-block"></span>
+					</div>
+					<div class="b-price-offer-content">
+						<div class="b-price-offer-list">
+							<h4 class="b-orange">Пакет</h4>
+							<h3><?=$prices["364141"]["NAME"]?></h3>
+							<h5><b>Полный курс и 3 месяца<br>обратной связи</b> по 30 минут<br>Результаты с 3-го занятия!</h5>
+							<h5 class="b-price-plus"><b>+ Пакет «Прототипировщик»</b></h5>
+							<p class="offer-description">3 месяца занятий + 24 чек-листа,<br>более 50 шаблонов, закрытые чаты,<br>закрытые группы</p>
+							<div class="b-price-offer-item with-border">
+								<p><b>Модуль 16.</b> Трафик-менеджмент</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>Модуль 17.</b> Автоворонка для<br>маркетологов. Как гарантированно<br>продавать себя в соц.сетях</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>Модуль 18.</b> Составление скрипта<br>продаж. Как продавать с конверсией<br>80% с заявки?</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>Модуль 19.</b> 6-ти кратный рост<br>конверсии через кивз-лендинги. Часть 1</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>Модуль 20.</b> Утепляющие квиз-лендинги. <br>Реализация без ошибок. Часть 2</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>Модуль 21.</b> Создание идеального<br>лид-магнита: как выжать из трафика всё</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>Модуль 22.</b> Email-стратегия<br>на 150 000 рублей. Автоматический<br>прогрев</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>Модуль 23.</b> Управление проектами: <br>Как отличить хороший дизайн<br>от просто Д… Проверка дизайна<br>и верстки</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>Модуль 24.</b> Продающее фото<br>и создание сценария продающего видео.<br>А/В-тесты и оптимизация системы</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>Модуль 25.</b> Пошаговое внедрение <br>CRM-системы для бизнеса</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>30 шаблонов</b> по прототипированию<br>1-х экранов и других блоков в Moqups <br>для любой ниши</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>Чек-листы и скринкасты</b><br>по выполнению задач</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>Доступ</b> в закрытую группу<br>с материалами и чатом</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>24 ценных файла:</b> чек-листы,<br>шаблоны и скрин-касты для быстрого<br>анализа, прототипирования, написания<br>текстов и контроля подрядчиков</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>Аттестация</b> и официальный<br>сертификат прохождения курса</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>100% проверка домашних<br>заданий</b> кураторами</p>
+							</div>
+						</div>
+						<div>
+							<p class="new-price"><?=$prices["364141"]["VIEW_PRICE"]?></p>
+							<div class="old-price">
+								<div class="cross-out"></div>
+								<p><?=$prices["364141"]["OLD_VIEW_PRICE"]?></p>
+							</div>
+							<a href="#" class="b-btn b-btn-orange b-btn-form" data-id="<?=$prices["364141"]["ID"]?>-radio-1">
+								<p class="main">Выбрать</p>
+							</a>
+						</div>
+						<div class="b-note-shadow"></div>
+					</div>
+					<div class="places-left">Осталось <span class="places-left-count">42</span>  места</div>
+					<div class="b-note-shadow"></div>
+				</div>
+				<div class="b-price-offer-block">
+					<div class="b-price-offer-triangle">
+						<span class="left-block"></span>
+						<span class="triangle-block"></span>
+						<span class="right-block"></span>
+					</div>
+					<div class="b-price-offer-content">
+						<div class="b-price-offer-list">
+							<h4 class="b-orange">Пакет</h4>
+							<h3><?=$prices["364142"]["NAME"]?></h3>
+							<h5><b>Полный курс и 4 месяца<br>обратной связи до 60 минут</b><br>(Вы + 1 сотрудник)</h5>
+							<h5 class="b-price-plus"><b>+ Пакет «Бизнес»</b></h5>
+							<div class="b-price-offer-item with-border">
+								<p><b>3 мастер-майнда,</b> разбор вопросов<br>и обратная связь в мини-группах<br>на темы: УТП, СТА и структуры<br>Landing Page</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>Чек-листы</b> как ставить<br>и принимать задачи</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>Доведение до результата</b><br>полной окупаемости</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>Доступ в закрытый чат,</b> где мы<br>обсуждаем новинки, делимся<br>советами, контактами и находим<br>партнёров</p>
+							</div>
+						</div>
+						<div>
+							<p class="new-price"><?=$prices["364142"]["VIEW_PRICE"]?></p>
+							<div class="old-price">
+								<div class="cross-out"></div>
+								<p><?=$prices["364142"]["OLD_VIEW_PRICE"]?></p>
+							</div>
+							<a href="#" class="b-btn b-btn-orange b-btn-form" data-id="<?=$prices["364142"]["ID"]?>-radio-1">
+								<p class="main">Выбрать</p>
+							</a>
+						</div>
+						<div class="b-note-shadow"></div>
+					</div>
+					<div class="places-left">Осталось <span class="places-left-count">13</span>  мест</div>
+				</div>
+				<div class="b-price-offer-block">
+					<div class="b-price-offer-triangle">
+						<span class="left-block"></span>
+						<span class="triangle-block"></span>
+						<span class="right-block"></span>
+					</div>
+					<div class="b-price-offer-content">
+						<div class="b-price-offer-list">
+							<h4 class="b-orange">Пакет</h4>
+							<h3><?=$prices["364138"]["NAME"]?></h3>
+							<h5><b>Личный коучинг<br>для Вашего бизнеса</b><br>(до 6 сотрудников)</h5>
+							<h5 class="b-price-plus"><b>+ Пакет «Vip»</b></h5>
+							<div class="b-price-offer-item with-border">
+								<p><b>Скайп-сессия</b> раз в неделю<br>1 на 1 стомостью 9 000 руб.<br>(до 30 сессий)</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>Личное кураторство<br>вашего проекта В. Сургаем</b><br>до результата</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>Доступы к списку</b><br>из 17 проверенных недорогих<br>подрядчиков</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>Выезд специалиста маркетолога</b><br>на 1 день к вам в офис для<br>разбора точек роста</p>
+							</div>
+							<div class="b-price-offer-item">
+								<p><b>Поддержка от маркетингового<br>агентства TFA</b> (разработка<br>прототипа, дизайна, верстки)</p>
+							</div>
+						</div>
+						<div>
+							<p class="new-price"><?=$prices["364138"]["VIEW_PRICE"]?></p>
+							<div class="old-price">
+								<div class="cross-out"></div>
+								<p><?=$prices["364138"]["OLD_VIEW_PRICE"]?></p>
+							</div>
+							<a href="#" class="b-btn b-btn-orange b-btn-form" data-id="<?=$prices["364138"]["ID"]?>-radio-1">
+								<p class="main">Выбрать</p>
+							</a>
+						</div>
+						<div class="b-note-shadow"></div>
+					</div>
+					<div class="places-left">Осталось <span class="places-left-count">13</span>  мест</div>
+				</div>
+				<div class="b-price-offer-right" data-enllax-ratio=".12" data-enllax-type="foreground">
+					<div class="b-price-offer-horizontal"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="b b-cost">
+		<div class="b-block">
+			<h2 class="b-title-roman">Стоимость участия в программе<br>Взлом Конверсии</h2>
+			<form id="b-cost-form" class="b-cost-form" method="post" action="kitsend.php">
+				<p>Стоимость участия:</p>
+				<ul class="b-radio">
+					<? foreach ($prices as $value => $arPrice): ?>
+					<li>
+						<input id="<?=$arPrice["ID"]?>-radio" type="radio" name="tovar_id" value="<?=$value?>" data-form-id="37390" <? if( $arPrice["CHECKED"] ): ?>checked<? endif; ?>>
+						<label for="<?=$arPrice["ID"]?>-radio"><?=$arPrice["NAME"]?> — <?=$arPrice["VIEW_PRICE"]?>&#160;&#160;<span class="cost-old"><?=$arPrice["OLD_VIEW_PRICE"]?></span></label>
+					</li>
+					<? endforeach; ?>
+				</ul>
+				<a href="#" class="cost-details">Узнать подробнее про пакеты</a>
+				<div class="b-center">
+					<div class="b-inputs-block">
+						<div class="b-input">
+							<div class="b-input-before">Введите ваше имя</div>
+							<input type="text" name="name" placeholder="Владимир Сургай" required>
+						</div>
+						<div class="b-input">
+							<div class="b-input-before">Введите ваш E-mail <span class="for-access">(для получения доступа)</span></div>
+							<input type="text" name="email" placeholder="surgay@gmail.com" required>
+						</div>
+						<div class="b-input">
+							<div class="b-input-before">Введите ваш телефон <span class="for-access">(для получения доступа)</span></div>
+							<input type="text" name="phone" placeholder="+7 (___) ___-__-__" required>
+						</div>
+					</div>
+
+					<input type="hidden" name="form_charset" id="form_charset" value=""><input type="hidden" name="form_id" value="37390"><input type="hidden" name="order_page_referer" id="order_page_referer" value="" />
+					<input type="hidden" name="subject" value="Заявка на бронирование курса">
+					<a href="#" class="not-ajax b-btn b-btn-orange b-cost-btn">Принять участие</a>
+					<div class="b-checkbox">
+						<input type="checkbox" checked name="polytics" id="polytics">
+						<label for="polytics"><span></span>Я принимаю условия <a href="privacy_policy.pdf" target="_blank">передачи информации</a></label>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<? */ ?>
+
+	<div class="b b-16" data-offset="700">
+		<div class="b-block">
+			<div class="b-first-step">
+				<h2 class="b-title">Сделайте первый шаг <b>прямо сейчас!</b></h2>
+				<h3 class="b-title b-left-triangle">Бронируйте место на онлайн-курс <b>по самой доступной цене!</b><div class="b-line anim fadeDown" data-anim="fadeDown" data-cont=".b-16" data-delay="0"></div></h3>
+				<h4 class="icon-rub anim fadeDown" data-anim="fadeDown" data-cont=".b-16" data-delay="0">Мы поднимем цену на онлайн-курс <b>с 17 декабря</b><br>– и дальше она будет расти каждую неделю</h4>
+			</div>
+			<div class="b-graph"></div>
+			<div class="b-no-money">
+				<h2 class="b-title">Хотите попасть на курс, но <b>не можете оплатить сразу?</b></h2>
+				<h3 class="b-title b-left-triangle">До 10 февраля воспользуйтесь беспроцентной <b>рассрочкой</b></h3>
+				<div class="b-no-money-butt clearfix">
+					<a href="#" class="b-btn b-btn-orange b-btn-form" data-id="bron-radio-1" >
+						<p class="main">Внести предоплату<br>3  т. р.</p>
+					</a>
+					<small>Возможность купить курс в рассрочку без % закрывается 20 января</small>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="b-overflow">
+		<div class="b b-18" data-offset="800">
+			<div class="b-block">
+				<h2 class="b-title"><b>Мы уверены в эффективности</b> нашего онлайн-практикума</h2>
+				<h3 class="b-title">поэтому даем вам тройную гарантию</h3>
+				<div class="b-garant-cont">
+					<div class="b-rounds"><div class="b-rounds-inner"></div></div>
+					<div class="b-garant-doc"></div>
+					<div class="b-garant b-garant-1 anim fadeLeftSmall" data-anim="fadeLeftSmall" data-cont=".b-18" data-delay="0">
+						<div class="b-num">1</div>
+						<p><b>Гарантия</b> 100%-й<br>окупаемости<br>курса*</p>
+					</div>
+					<div class="b-garant b-garant-2 anim fadeLeftSmall" data-anim="fadeLeftSmall" data-cont=".b-18" data-delay="200">
+						<div class="b-num">2</div>
+						<p><b>Гарантия</b> инди-<br>видуальной работы<br>до результата**</p>
+					</div>
+					<div class="b-garant b-garant-3 anim fadeRightSmall" data-anim="fadeRightSmall" data-cont=".b-18" data-delay="400">
+						<div class="b-num">3</div>
+						<p><b>Гарантия</b> 100%-го<br>возврата средств в те-<br>чение прохождения<br>первого модуля</p>
+						<small>Если после первых<br>2-х занятий вы решите,<br>что «Взлом конверсии»<br>не для вас, мы вернём<br>ваши деньги</small>
+					</div>
+					<div class="b-comment">*Для пакета VIP и Platinum<br>**Для пакета Platinum</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="b b-18-a">
+			<div class="b-block">
+				<h2 class="b-title"><b>Любите коллектив?</b> Поможем<br>с трудоустройством в крутом агентстве или... </h2>
+				<div class="b-sert-cont clearfix">
+					<div class="b-diploma" data-enllax-ratio=".12" data-enllax-type="foreground"></div>
+					<div class="b-sert-right">
+						<h5 class="b-small">Успешно сдайте экзамены, <b>и мы порекомендуем вас в агентства наших друзей и партнёров:</b></h5>
+						<div class="b-logos"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="b b-19">
+		<div class="b-block">
+			<div class="b-note b-with-triangle">
+				<span class="b-empty-triangle"></span>
+				<h3 class="b-title">Старт курса - 18 февраля</h3>
+				<h2 class="b-title icon-flag">Забронируйте сейчас<br>свое место в группе<br>за <span><?=$prices["364139"]["VIEW_PRICE"]?></span></h2>
+				<div class="b-books"></div>
+				<div class="b-chair"></div>
+				<div class="b-select-cont clearfix">
+					<div class="b-select left">
+						<h3 class="b-title">Выберите пакет курса</h3>
+						<select name="type" id="type">
+							<? foreach ($prices as $value => $arPrice): ?>
+							<li>
+								<option data-price="<?=$arPrice["VIEW_PRICE"]?>" data-id="<?=$arPrice["ID"]?>-radio-1" value="<?=$arPrice["NAME"]?>" <? if($value == "364139"): ?>selected<? endif; ?>><?=$arPrice["NAME"]?></option>
+							</li>
+							<? endforeach; ?>
+						</select>
+					</div>
+					<div class="b-select-butt">
+						<a href="#" class="b-btn b-btn-orange b-btn-one-line b-btn-form b-pay-click" data-id="start-radio-1">
+							<p class="main">Забронировать место</p>
+						</a>
+						<div class="b-checkbox">
+							<input type="checkbox" checked name="polytics" id="polytics">
+							<label for="polytics"><span></span>Я принимаю условия <a href="privacy_policy.pdf" target="_blank">передачи информации</a></label>
+						</div>
+					</div>
+				</div>
+				<div class="b-note-shadow"></div>
+			</div>
 		</div>
 	</div>
 
