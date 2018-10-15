@@ -499,6 +499,17 @@ $(document).ready(function(){
         } 
     });
 
+    $(".price-add").slideUp();
+
+    $(".price-left").click(function(){
+        var $target = $(this).parents(".b-new-price-item").find(".price-add");
+        if($target.hasClass("show")){
+            $target.removeClass("show").slideUp();
+        }else{
+            $target.addClass("show").slideDown();
+        }
+    });
+
     /*----------------------------------*/
 
     // $(".b-pay-click").click(function(){
