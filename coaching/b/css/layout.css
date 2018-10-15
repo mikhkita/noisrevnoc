@@ -768,7 +768,7 @@ h5.b-small{
 		.b-2 .b-man{
 			background-position: 0px;
 			background-repeat: no-repeat;
-			background-image: url('../i/2/man.svg');
+			background-image: url('../i/2/man.png');
 			width: 732px;
 			height: 1028px;
 			position: absolute;
@@ -1370,7 +1370,7 @@ h5.b-small{
 				width: 823px;
 				height: 854px;
 			}
-				.b-book:before{
+				/*.b-book:before{
 					position: absolute;
 					content: "s";
 					font-size: 0px;
@@ -1382,15 +1382,15 @@ h5.b-small{
 					background-repeat: no-repeat;
 					background-image: url('../i/5/hands.png');
 					z-index: 10;
-				}
+				}*/
 				.b-book:after{
 					position: absolute;
 					content: "s";
 					font-size: 0px;
-					width: 351px;
-					height: 491px;
-					left: 50%;
-					bottom: 291px;
+					width: 1370px;
+					height: 826px;
+				    left: -123px;
+    				bottom: 53px;
 					background-position: 50% 0%;
 					background-repeat: no-repeat;
 					background-image: url('../i/5/book.jpg');
@@ -1405,17 +1405,17 @@ h5.b-small{
 				width: 210px;
 			}
 			.b-5 .b-adv-1{
-				left: -20px;
-				top: 304px;
+				left: 72px;
+    			top: 325px;
 				width: 192px;
 			}
 			.b-5 .b-adv-2{
-				left: 94px;
-				top: 43px;
+		 	    left: 55px;
+   			 	top: 63px;
 			}
 			.b-5 .b-adv-3{
-				left: 805px;
-				top: 51px;
+			    left: 866px;
+    			top: 72px;
 			}
 				.b-5 .b-adv img{
 
@@ -1440,6 +1440,10 @@ h5.b-small{
 			width: 100px;
 			left: 991px;
 			top: 647px;
+		}
+		.b-book-cont .b-scroll-more{
+			left: 920px;
+    		top: 666px;
 		}
 			.b-scroll-more p{
 				width: 100px;
@@ -2931,6 +2935,58 @@ h5.b-small{
 				}
 					.b-note-purple .b-purple-link b{
 					}
+			.b-note-show-all{
+				max-height: 0px;
+				opacity: 0;
+				position: relative;
+				background-color: #f2f2f3;
+			    margin: 60px auto 0;
+				max-width: 860px;
+				-webkit-transition: max-height .3s, opacity .3s ;
+				-moz-transition: max-height .3s, opacity .3s ;
+				-ms-transition: max-height .3s, opacity .3s ;
+				transition: max-height .3s, opacity .3s ;
+			}
+			.b-note-show-all.show-note{
+				max-height: 591px;
+				opacity: 1;
+			}
+				.b-show-all-block{
+					display: inline-block;
+					width: calc(100%/2 - 12px);
+					vertical-align: top;
+			        padding: 35px 0px 24px 31px;
+				}
+				.b-show-all-block:nth-child(2){
+					margin-left: 17px;
+				}
+					.b-show-all-block li{
+						font-family: 'Gilroy-Regular';
+						font-size: 15px;
+					    line-height: 20px;
+    					margin-bottom: 10px;
+					}
+				.b-note-show-all .b-note-purple{
+					margin-top: 0;
+					padding-bottom: 39px;
+				}
+					.b-note-show-all .b-purple-link{
+						font-family: "Tahoma-Regular";
+						text-align: center;
+					}
+			.b-note-show-all:after{
+				position: absolute;
+				background-color: #f2f2f3;
+				content: "";
+				width: 20px;
+				height: 20px;
+				left: 50%;
+				top: -10px;
+				-webkit-transform: translateX(-50%) rotate(45deg);
+				-moz-transform: translateX(-50%) rotate(45deg);
+				-ms-transform: translateX(-50%) rotate(45deg);
+				transform: translateX(-50%) rotate(45deg);
+			}
 		.b-note-btn{
 			text-align: center;
 		}
@@ -3807,12 +3863,13 @@ h5.b-small{
 					margin-left: 24px;
 				}
 .b-17{
-	padding-top: 91px;
+	/*padding-top: 91px;*/
+	padding-bottom: 116px;
 }
 	.b-17 .b-block{
 
 	}
-		.b-17 h2.b-title{max-width: 800px;}
+		.b-17 h2.b-title{max-width: 1020px;}
 			.b-17 h2.b-title b{
 				font-size: 52px;
 			}
@@ -4687,7 +4744,56 @@ h5.b-small{
     color: #0d0d10;
     background-color: transparent;
 }
-
+/*-----------b-popup-commerce-------------*/
+.b-popup-commerce{
+    width: 910px;
+    padding-bottom: 84px;
+}
+	.b-popup-commerce .b-form-content{
+		width: 100%;
+	}
+		.b-popup-commerce .b-form-content h3{
+			margin-top: 46px;
+			margin-bottom: 18px;
+			font-size: 50px;
+			line-height: 62px;
+			text-align: center;
+			font-family: 'Gilroy-Regular';
+		}
+		.b-popup-commerce p{
+			font-size: 15px;
+			line-height: 25px;
+		    text-align: center;
+		}
+			.b-popup-commerce .b-cost-form .b-input{
+				margin-bottom: 23px;
+			}
+			.b-popup-commerce .b-input-before{
+				margin-left: 30px;
+			}
+			.b-popup-commerce .b-input .b-input-before{
+				font-family: 'Tahoma-Regular';
+				font-size: 12px;
+				line-height: 18px;
+			}
+		.b-popup-commerce label{
+			font-size: 10.5px;
+			line-height: 15px;
+		}
+	.b-popup-commerce .b-cost-form{
+		width: 350px;
+	}
+		.b-popup-commerce .b-cost-form .b-checkbox{
+			margin-top: 10px;
+		}
+			.b-popup-commerce .b-checkbox input{
+				width: 30px;
+			}
+	.b-popup-commerce .fancybox-close-small:after{
+	    font-size: 18px;
+	    top: -1px;
+    	right: -7px;
+	}
 /*--------Стоимость участия---------*/
 
 .b-cost{
@@ -4733,7 +4839,8 @@ h5.b-small{
 		.b-cost-form .b-cost-btn{
 			width: 100%;
 			padding: 33px 42px 34px 42px;
-			font-family: "Tahoma-Bold";
+			font-family: "Gilroy-Heavy";
+			letter-spacing: 1px;
 			text-transform: uppercase;
 		}
 		.b-cost-form .b-checkbox{

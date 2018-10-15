@@ -80,7 +80,7 @@ require_once("prices.php");
 					<div class="b-header-icon b-header-top-course"></div>
 					<p>Практический курс<br>для маркетологов, веб-дизайнеров</p>
 				</div>
-				<a href="#" class="b-header-top-item b-header-icon-cont b-go" data-block=".b-6" data-offset="0">
+				<a href="#" class="b-header-top-item b-header-icon-cont b-go" data-block=".b-2" data-offset="0">
 					<div class="b-header-icon b-header-top-more"></div>
 					<p><span><b>Больше узнать</b></span><br><span>о курсе</span></p>
 				</a>
@@ -231,7 +231,7 @@ require_once("prices.php");
 		</div>
 	</div>
 
-	<div class="b b-6">
+	<!-- <div class="b b-6">
 		<div class="b-block">
 			<h2 class="b-title">Уделите 3 минуты — и вы поймете, почему предприниматели готовы платить вам 600 000 и даже <b>более 1 000 000 <span class="icon-ruble"></span></b></h2>
 			<h5 class="b-small">за разработку такой системы</h5>
@@ -270,7 +270,7 @@ require_once("prices.php");
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	<div class="b b-7">
 		<div class="b-block">
@@ -1106,11 +1106,11 @@ require_once("prices.php");
 
 	<div class="b b-17" data-offset="600">
 		<div class="b-block">
-			<h2 class="b-title"><b>Старт последнего потока курса 18 февраля</b></h2>
+			<h2 class="b-title"><b>Удобный формат.</b> Проходите программу в комфортном для вас темпе!</h2>
 			<div class="b-ipads clearfix">
 				<div class="b-ipad-block left anim fadeDown" data-anim="fadeDown" data-cont=".b-17" data-delay="0">
 					<img src="i/17/pic-1.jpg" alt="">
-					<p class="b-left-triangle"><b>Формат:</b> Вечерние<br>онлайн мастер-классы<br>1 раз в неделю</p>
+					<p class="b-left-triangle"><b>Формат:</b> Автотренинг<br>с проверкой 100% заданий<br>в видео-формате.</p>
 				</div>
 				<div class="b-ipad-block left anim fadeDown" data-anim="fadeDown" data-cont=".b-17" data-delay="200">
 					<img src="i/17/pic-2.jpg" alt="">
@@ -1215,7 +1215,7 @@ require_once("prices.php");
 			</div>
 			<div class="b-note b-note-3 b-with-triangle">
 				<span class="b-empty-triangle"></span>
-				<h2 class="icon-check-list">10 чек-листов, инструкций и схем</h2>
+				<h2 class="icon-check-list">Десятки чек-листов,<br>инструкций и схем</h2>
 				<div class="b-head-text clearfix">
 					<h3>Боитесь забыть все<br>нюансы проверки<br>верстки сайта?</h3>
 					<p class="b-left-triangle">Теперь наши чек-листы будут всегда у вас под рукой.</p>
@@ -1257,45 +1257,44 @@ require_once("prices.php");
 							</div>
 							<p>Чек-лист: Проверки<br>тарифной сетки</p>
 						</li>
-
-						<li class="b-instruct-10 fadeRightSmall" data-anim="fadeRightSmall" data-delay="0">
-							<div class="b-img">
-								<img src="i/10/checklist-1.jpg" alt="">
-								<div class="b-num">6</div>
-							</div>
-							<p>Чек-лист: Анализа<br>целевой аудитории</p>
-						</li>
-						<li class="b-instruct-10 fadeRightSmall" data-anim="fadeRightSmall" data-delay="200">
-							<div class="b-img">
-								<img src="i/10/checklist-2.jpg" alt="">
-								<div class="b-num">7</div>
-							</div>
-							<p>Чек-лист: План идеальной<br>взятки за контакты</p>
-						</li>
-						<li class="b-instruct-10 fadeRightSmall" data-anim="fadeRightSmall" data-delay="400">
-							<div class="b-img">
-								<img src="i/10/checklist-3.jpg" alt="">
-								<div class="b-num">8</div>
-							</div>
-							<p>Чек-лист: подключение<br>Яндекс.Метрики<br>и настройка целей</p>
-						</li>
-						<li class="b-instruct-10 fadeRightSmall" data-anim="fadeRightSmall" data-delay="600">
-							<div class="b-img">
-								<img src="i/10/checklist-4.jpg" alt="">
-								<div class="b-num">9</div>
-							</div>
-							<p>Чек-лист: Составление<br>идеальной акции</p>
-						</li>
-						<li class="b-instruct-10 fadeRightSmall" data-anim="fadeRightSmall" data-delay="800">
-							<div class="b-img">
-								<img src="i/10/checklist-5.jpg" alt="">
-								<div class="b-num">10</div>
-							</div>
-							<p>Чек-лист: Проверки<br>тарифной сетки</p>
-						</li>
 					</ul>
 					<div class="b-note-purple">
-						<a href="#" class="b-purple-link" id="b-show-10"><b>Посмотреть</b> все 10 чек-листов</a>
+						<a href="#" class="b-purple-link" id="b-show-10">Посмотреть все чек-листы</a>
+					</div>
+					<div class="b-note-show-all">
+						<div class="b-show-all-block">
+							<ul>
+								<li>1. Чек-лист сегментации ЦА</li>
+								<li>2. Инструкция по разработке одноэкранных лендингов с конверсией до 40%</li>
+								<li>3. Алгоритм написания + чек-лист проверки продающих текстов</li>
+								<li>4. Пошаговый алгоритм как делегировать анализ конкурентов</li>
+								<li>5. Чек-лист составления заголовков по методике 4U</li>
+								<li>6. Полезная таблица стадий принятия решения о покупке</li>
+								<li>7. 250 заголовков, которые принесли создателям свыше 1 000 000$</li>
+								<li>8. Пример структуры Landing Page для подглядывания</li>
+								<li>9. Чек-лист мультилендинги и гиперсегментация без ошибок</li>
+								<li>10. Чек-лист “Как создать убойную акцию на сайте”</li>
+								<li>11. Пошаговая инструкция Как сделать идеальный Call to Action</li>
+							</ul>
+						</div>
+						<div class="b-show-all-block">
+							<ul>
+								<li>12. Чек-лист идеального оформления 1-го экрана</li>
+								<li>13. Алгоритм поиска + чек-лист контроля трафик-менеджера</li>
+								<li>14. Чек лист запуска рекламы. Как сделать все правильно. 3 уровня запуска рекламы</li>
+								<li>15. Исчерпывающая инструкция по созданию лендинга-квиза</li>
+								<li>16. Чек-лист создания идеального лид-магнита</li>
+								<li>17. Чек-лист е-mail-стратегии за 150 000 руб.</li>
+								<li>18. Чек-лист проверки дизайна и верстки</li>
+								<li>19. Пошаговая инструкция + чек-лист написания продающего видео</li>
+								<li>20. Чек-лист проверки тарифной сетки</li>
+								<li>21. Пошаговая инструкция внедрения воронки продаж в CRM-системе</li>
+								<li>22. Чек-лист 5 правил построения отдела продаж</li>
+							</ul>
+						</div>
+						<div class="b-note-purple">
+							<a href="#" class="b-purple-link" id="b-note-hide">Скрыть</a>
+						</div>
 					</div>
 				</div>
 				<div class="b-note-shadow"></div>
@@ -1390,23 +1389,20 @@ require_once("prices.php");
 			<h5 class="b-small">Мы расскажем вам о продажах все, что знаем сами:</h5>
 			<div class="b-videos">
 				<div class="b-video anim fadeDown" data-anim="fadeDown" data-cont=".b-12" data-delay="0">
-					<div class="b-video-block" style="background-image: url('i/2/video.jpg');">
-						<iframe src="https://www.youtube.com/embed/GmbyKuzOnLw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-						<a href='#' class="b-play"></a>
+					<div class="b-video-block">
+						<a href="i/12/img-1.png" class="fancy-img" ><img src="i/12/img-1.png" ></a>
 					</div>
 					<p>Как брать проекты по<br>360 000 -  900 000 рублей</p>
 				</div>
 				<div class="b-video anim fadeDown" data-anim="fadeDown" data-cont=".b-12" data-delay="200">
-					<div class="b-video-block" style="background-image: url('i/2/video.jpg');">
-						<iframe src="https://www.youtube.com/embed/GmbyKuzOnLw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-						<a href='#' class="b-play"></a>
+					<div class="b-video-block">
+						<a href="i/12/img-2.png" class="fancy-img" ><img src="i/12/img-2.png"></a>
 					</div>
 					<p>Как составлять матрицу<br>продуктов и тарифов</p>
 				</div>
 				<div class="b-video anim fadeDown" data-anim="fadeDown" data-cont=".b-12" data-delay="400">
-					<div class="b-video-block" style="background-image: url('i/2/video.jpg');">
-						<iframe src="https://www.youtube.com/embed/GmbyKuzOnLw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-						<a href='#' class="b-play"></a>
+					<div class="b-video-block">
+						<a href="i/12/img-3.png" class="fancy-img" ><img src="i/12/img-3.png"></a>
 					</div>
 					<p>Где брать клиентов?<br>14 бесплатных источников</p>
 				</div>
@@ -2015,7 +2011,7 @@ require_once("prices.php");
 					<p>Поддержка от маркетингового<br>агентства TFA (разработка<br>прототипа, дизайна, верстки).<br>12 специалистов работают<br>над вашим проектом</p>
 				</div>
 			</div>
-			<a href="#" class="b-btn b-btn-orange b-btn-one-line">
+			<a href="#b-popup-commerce" class="b-btn b-btn-orange b-btn-one-line fancy">
 				<p class="main">Получить коммерческое предложение</p>
 			</a>
 		</div>
@@ -2308,7 +2304,7 @@ require_once("prices.php");
 						</div>
 						<div class="b-input">
 							<div class="b-input-before">Введите ваш телефон <span class="for-access">(для получения доступа)</span></div>
-							<input type="text" name="phone" placeholder="+7 (___) ___-__-__" required>
+							<input type="text" name="phone" placeholder="+__________" required>
 						</div>
 					</div>
 
@@ -2325,7 +2321,7 @@ require_once("prices.php");
 	</div>
 	<? */ ?>
 
-	<div class="b b-16" data-offset="700">
+	<!-- <div class="b b-16" data-offset="700">
 		<div class="b-block">
 			<div class="b-first-step">
 				<h2 class="b-title">Сделайте первый шаг <b>прямо сейчас!</b></h2>
@@ -2344,10 +2340,10 @@ require_once("prices.php");
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	
 	<div class="b-overflow">
-		<div class="b b-18" data-offset="800">
+		<!-- <div class="b b-18" data-offset="800">
 			<div class="b-block">
 				<h2 class="b-title"><b>Мы уверены в эффективности</b> нашего онлайн-практикума</h2>
 				<h3 class="b-title">поэтому даем вам тройную гарантию</h3>
@@ -2370,15 +2366,15 @@ require_once("prices.php");
 					<div class="b-comment">*Для пакета VIP и Platinum<br>**Для пакета Platinum</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 
 		<div class="b b-18-a">
 			<div class="b-block">
-				<h2 class="b-title"><b>Любите коллектив?</b> Поможем<br>с трудоустройством в крутом агентстве или... </h2>
+				<h2 class="b-title"><b>Любите коллектив?</b> Поможем<br>с трудоустройством в крутом агентстве или крутой компании</h2>
 				<div class="b-sert-cont clearfix">
-					<div class="b-diploma" data-enllax-ratio=".12" data-enllax-type="foreground"></div>
+					<div class="b-photo" data-enllax-ratio=".12" data-enllax-type="foreground"></div>
 					<div class="b-sert-right">
-						<h5 class="b-small">Успешно сдайте экзамены, <b>и мы порекомендуем вас в агентства наших друзей и партнёров:</b></h5>
+						<h5 class="b-small">Успешно сдайте экзамены, <b>получите личный сертификат.</b> И мы порекомендуем вас в агенства наших друзей и партнёров:</b></h5>
 						<div class="b-logos"></div>
 					</div>
 				</div>
@@ -2677,7 +2673,6 @@ require_once("prices.php");
 					<? endforeach; ?>
 				</select>
 				<p class="b-form-price-label">Стоимость участия: <b class="b-form-price"><?=$prices["364139"]["VIEW_PRICE"]?></b></p>
-				<a href="#" class="cost-details">Узнать подробнее про пакеты</a>
 				<div class="b-center">
 					<div class="b-inputs-block">
 						<div class="b-input">
@@ -2690,7 +2685,7 @@ require_once("prices.php");
 						</div>
 						<div class="b-input">
 							<div class="b-input-before">Введите ваш телефон <span class="for-access">(для получения доступа)</span></div>
-							<input type="text" name="phone" placeholder="+7 (___) ___-__-__" required>
+							<input type="text" name="phone" placeholder="+__________" required>
 						</div>
 					</div>
 
@@ -2884,6 +2879,39 @@ require_once("prices.php");
 						<div class="b-vk-butt" id="senlerBtn-1518010629" data-vk_group_id="26225528" data-subscription_id="4710" data-text="Забрать подарки вконтакте" data-alt_text="Спасибо!"></div>
 					</div>
 				</a>
+			</div>
+		</div>
+		<div class="b-popup-commerce" id="b-popup-commerce">
+			<div class="b-form-content">
+				<a href="#" class="b-btn-close"></a>
+				<h3>Получите комплесный<br>маркетинг для вашего бизнеса<br>+ обучение команды</h3>
+				<p>Внимание. Чтобы получить коммерческое, Вы должны быть готовы инвестировать<br>в интернет-маркетинг минимум 590 т. р. в ближайшие 6 месяцев.</p>
+				<form id="b-commerce-form" class="b-cost-form" method="post" action="kitsend.php">
+					<div class="b-center">
+						<div class="b-inputs-block">
+							<div class="b-input">
+								<div class="b-input-before">Введите ваше имя</div>
+								<input type="text" name="name" placeholder="Владимир Сургай" required>
+							</div>
+							<div class="b-input">
+								<div class="b-input-before">Введите ваш E-mail</div>
+								<input type="text" name="email" placeholder="surgay@gmail.com" required>
+							</div>
+							<div class="b-input">
+								<div class="b-input-before">Введите ваш телефон</div>
+								<input type="text" name="phone" placeholder="+__________" required>
+							</div>
+						</div>
+
+						<input type="hidden" name="form_charset" id="form_charset" value=""><input type="hidden" name="form_id" value="37390"><input type="hidden" name="order_page_referer" id="order_page_referer" value="" />
+						<input type="hidden" name="subject" value="Заявка на бронирование курса">
+						<a href="#" class="not-ajax b-btn b-btn-orange b-cost-btn">Забронировать место</a>
+						<div class="b-checkbox">
+							<input type="checkbox" checked name="polytics" id="polytics-1">
+							<label for="polytics-1"><span></span>Я принимаю условия <a href="privacy_policy.pdf" target="_blank">передачи информации</a></label>
+						</div>
+					</div>
+				</form>
 			</div>
 		</div>
 	</div>
