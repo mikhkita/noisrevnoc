@@ -216,7 +216,7 @@ require_once("prices.php");
 			</div>
 			
 			<div class="b-new-record">
-				<h5 class="b-small"><b>Рекорд нашего ученика</b> Евгения Киселева<br> на данный момент: проект стоимостью 2 014 700 руб.<br> <span class="b-new-small"><b>Договор</b> был подписан в апреле 2018 года</span></h5>
+				<h5 class="b-small"><b>Рекорд нашего ученика</b> Евгения Киселева<br> на данный момент: проект стоимостью 2 014 700 рублей<br> <span class="b-new-small"><b>Договор</b> был подписан в апреле 2018 года</span></h5>
 				<img class= "new-quote" src="i/m/5/quote.svg">
 			
 				<h5 class="b-new-big">Хочешь научиться упаковывать бизнесы — <b>лучшей<br> программы сейчас на рынке нет.</b> Я думал, что знаю всё</h5>
@@ -308,27 +308,33 @@ require_once("prices.php");
 			<h5 class="b-small">Скоро вы будете уметь делать так же</h5>
 			<div class="b-count-cont" data-offset="250">
 				<div class="b-count b-count-start show">
-					<div class="b-count-item show anim fadeIn" data-anim="fadeIn" data-delay="0" data-cont=".b-7 .b-count-cont">
-						<div class="b-head">
-							<img src="i/3/1.jpg" alt="">
-							<h3>13 512<br>заявок</h3>
+					<a href="#" class="b-btn-case-1">
+						<div class="b-count-item show anim fadeIn" data-anim="fadeIn" data-delay="0" data-cont=".b-7 .b-count-cont">
+							<div class="b-head">
+								<img src="i/3/1.jpg" alt="">
+								<h3>13 512<br>заявок</h3>
+							</div>
+							<p>за год без учета<br> звонков для малого бизнеса</p>
 						</div>
-						<p>за год без учета<br> звонков для малого бизнеса</p>
-					</div>
-					<div class="b-count-item show anim fadeIn" data-anim="fadeIn" data-delay="100" data-cont=".b-7 .b-count-cont">
-						<div class="b-head">
-							<img src="i/3/2.jpg" alt="">
-							<h3>Свыше<br>140 000 000 <span class="icon-ruble"></span></h3>
+					</a>
+					<a href="#" class="b-btn-case-2">
+						<div class="b-count-item show anim fadeIn" data-anim="fadeIn" data-delay="100" data-cont=".b-7 .b-count-cont">
+							<div class="b-head">
+								<img src="i/3/2.jpg" alt="">
+								<h3>Свыше<br>140 000 000 <span class="icon-ruble"></span></h3>
+							</div>
+							<p>привлекли благодаря<br>одному продуманному LP</p>
 						</div>
-						<p>привлекли благодаря<br>одному продуманному LP</p>
-					</div>
-					<div class="b-count-item show anim fadeIn" data-anim="fadeIn" data-delay="200" data-cont=".b-7 .b-count-cont">
-						<div class="b-head">
-							<img src="i/3/3.jpg" alt="">
-							<h3>11 500 заявок<br>за год</h3>
+					</a>
+					<a href="#" class="b-btn-case-3">
+						<div class="b-count-item show anim fadeIn" data-anim="fadeIn" data-delay="200" data-cont=".b-7 .b-count-cont">
+							<div class="b-head">
+								<img src="i/3/3.jpg" alt="">
+								<h3>11 500 заявок<br>за год</h3>
+							</div>
+							<p>в автомобильной<br>тематике</p>
 						</div>
-						<p>в автомобильной<br>тематике</p>
-					</div>
+					</a>
 				</div>
 				<div class="b-note-shadow"></div>
 			</div>
@@ -352,7 +358,7 @@ require_once("prices.php");
 			<h2 class="b-title"><b>Аудиторию</b>, собранную со всех Landing Page <b>вы будете прогревать с помощью</b></h2>
 			<div class="b-land-tabs-wrap">
 				<ul class="b-tabs b-land-tabs" data-tabs=".b-land-tabs-cont">
-					<li class="active">Умные E-mail рассылок</li>
+					<li class="active">Умных E-mail рассылок</li>
 					<li>SMS-рассылок</li>
 					<li>Автодозвонов</li>
 					<li>Автоворонок через VK</li>
@@ -1000,6 +1006,32 @@ require_once("prices.php");
 				<p class="small">для своего бизнеса!</p>
 			</a>
 		</div> -->
+		<div class="b-block">
+			<div class="b-new-record b-new-review-block">
+				<h5 class="b-small"><b>Такой метод</b> внедрения маркетинговых<br> инструментов <b>позволяет расти<br>без вложений</b>
+
+				<p class="b-new-small"></p>
+
+				<h5 class="b-new-big"><b>Получили 180 заявок по 50 рублей.</b><br>Курс окупился за первый же день</h5>
+				<div class="b-new-record-inner b-new-slide clearfix">
+					<div class="b-video-block b-video-review" style="background-image: url('i/2/video.jpg');">
+						<iframe src="https://www.youtube.com/embed/5_kJ3dfynHI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						<a href='#' class="b-play"></a>
+					</div>
+					<img src="i/m/5/review.jpg">
+				</div>
+				<p class="b-new-small"></p>
+
+				<h5 class="b-new-big"><b>Получили 180 заявок по 50 рублей.</b><br>Курс окупился за первый же день</h5>
+				<div class="b-new-record-inner b-new-slide clearfix">
+					<div class="b-video-block b-video-review" style="background-image: url('i/2/video.jpg');">
+						<iframe src="https://www.youtube.com/embed/5_kJ3dfynHI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						<a href='#' class="b-play"></a>
+					</div>
+					<img src="i/m/5/review.jpg">
+				</div>
+			</div>
+		</div>
 	</div>
 
 	<div class="b b-13">
@@ -2550,7 +2582,40 @@ require_once("prices.php");
 			<h3>Чем больше у вас Landing Page,<br>тем больше у вас продаж</h3>
 		</div>
 	</div>
+	<div class="b-case-1">
+		<div class="b-case-1-content">
+			<a href="#" class="b-btn-close icon-close"></a>
+			<h4 class="b-case"><b>За 6 месяцев<br>мы на 290% увеличили<br>количество заказов с сайта,</b></h4>
+			<p>создав мультилендинг из 150 вариантов, проведя 9 А/В-тестов<br> и настроив новые рекламные кампании</p>
+			<img src="i/m/cases/1/1.jpg">
 
+		</div>
+	</div>
+	<div class="b-case-2">
+		<div class="b-case-2-content">
+			<a href="#" class="b-btn-close icon-close"></a>
+			<h4 class="b-case"><b>За 5 месяцев создали<br>Landing Page премиального<br>уровня, который привлек<br>свыше 140 000 000 рублей</b></h4>
+			<p>Сайт отражает каждый шаг в подходе компании 500lux.<br>В числе компаний-клиентов появились такие гиганты<br>как Транснефть, Крост, КД Аристократ</p>
+			<img src="i/m/cases/2/1.jpg">
+			<h4 class="b-case"><b>А также эта работа получила<br>признание у тренд-сеттеров<br>на Landing Page и ведущих<br>маркетологов в СНГ</b></h4>
+			<p>В частности, Михаил Дашкиев назвал эту работу<br> «произведением искусства»</p>
+			<div class="b-500lux-author-content">
+					<img src="i/500lux/pic-8.jpg">
+					<!-- <div class="b-line"></div> -->
+					<p>Видео мастер-класс Михаила Дашкиева<br> «Упаковка. У вас заклеен рот».</p>
+			</div>
+		</div>
+	</div>
+	<div class="b-case-3">
+		<div class="b-case-3-content">
+			<a href="#" class="b-btn-close icon-close"></a>
+			<h4 class="b-case"><b>После запуска лендинга<br>компания в течение 3 недель<br>распродала 100% кофе,<br>что был у них на складах</b></h4>
+			<p>Уже 2 года никто из конкурентов не может повторить<br> подобные показатели</p>
+			<img src="i/m/cases/3/1.jpg">
+			<p>За 3 месяца работы рекламной кампании<br>мы получили такие показатели:</p>
+			<img src="i/m/cases/3/2.jpg">
+		</div>
+	</div>
 	<div class="b-form">
 		<div class="b-form-content">
 			<a href="#" class="b-btn-close icon-close"></a>
