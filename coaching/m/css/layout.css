@@ -4810,13 +4810,16 @@ h5.b-small{
 			font-size: 50px;
 			line-height: 62px;
 			text-align: center;
-			font-family: 'Gilroy-Regular';
 		}
 		.b-popup-commerce p{
 			font-size: 15px;
 			line-height: 25px;
 		    text-align: center;
 		}
+			.b-popup-commerce .b-cost-form input{
+				background: #fcfbfa;
+				box-shadow: inset 1.414px 1.414px 6px 0px rgba(30, 30, 30, 0.1);
+			}
 			.b-popup-commerce .b-cost-form .b-input{
 				margin-bottom: 23px;
 			}
