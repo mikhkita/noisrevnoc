@@ -1471,7 +1471,7 @@ require_once("prices.php");
 		</div>
 	</div>
 
-	<div class="b b-12">
+	<!-- <div class="b b-12">
 		<div class="b-block">
 			<h2 class="b-title"><b>Посмотрите истории предпринимателей,</b> которые уже запустили такую маркетинговую систему в своём бизнесе</h2>
 			<div class="b-c" data-enllax-ratio=".12" data-enllax-type="foreground"></div>
@@ -1508,7 +1508,78 @@ require_once("prices.php");
 				</a>
 			</div>
 		</div>
-	</div>
+	</div> -->
+
+	<div class="b-block">
+			<div class="b-new-record b-new-review-block">
+				<h5 class="b-small"><b>Такой метод</b> внедрения маркетинговых<br> инструментов <b>позволяет расти<br>без вложений</b>
+				<p class="b-new-small"></p>
+				<h5 class="b-new-big"><b>212 000 рублей</b> в первую неделю<br>прохождения курса</h5>
+				<div class="b-new-record-inner b-new-slide clearfix">
+					<div class="b-video-block b-video-review" style="background-image: url('i/2/video.jpg');">
+						<iframe src="https://www.youtube.com/embed/5_kJ3dfynHI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						<a href='#' class="b-play"></a>
+					</div>
+					<img src="i/reviews/review-1.jpg">
+				</div>
+				<p class="b-new-small"></p>
+				<h5 class="b-new-big">Никогда не было таких результатов.<br><b>Сразу 11 заявок по 120 рублей</b> на кухни</h5>
+				<div class="b-new-record-inner b-new-slide clearfix">
+					<div class="b-video-block b-video-review" style="background-image: url('i/2/video.jpg');">
+						<iframe src="https://www.youtube.com/embed/5_kJ3dfynHI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						<a href='#' class="b-play"></a>
+					</div>
+					<img src="i/reviews/review-2.jpg">
+				</div>
+				<p class="b-new-small"></p>
+				<h5 class="b-new-big"><b>212 000 рублей</b> в первую неделю<br>прохождения курса</h5>
+				<div class="b-new-record-inner b-new-slide clearfix">
+					<div class="b-video-block b-video-review" style="background-image: url('i/2/video.jpg');">
+						<iframe src="https://www.youtube.com/embed/5_kJ3dfynHI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						<a href='#' class="b-play"></a>
+					</div>
+					<img src="i/reviews/review-3.jpg">
+				</div>
+				<div class="b-add-reviews hide-rev">
+					<p class="b-new-small"></p>
+					<h5 class="b-new-big"><b>Чек-листы это палочка-выручалочка.</b><br>Сократили стоимость заявки до 60 рублей.</h5>
+					<div class="b-new-record-inner b-new-slide clearfix">
+						<div class="b-video-block b-video-review" style="background-image: url('i/2/video.jpg');">
+							<iframe src="https://www.youtube.com/embed/5_kJ3dfynHI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+							<a href='#' class="b-play"></a>
+						</div>
+						<img src="i/reviews/review-4.jpg">
+					</div>
+					<p class="b-new-small"></p>
+					<h5 class="b-new-big">Запустили 3 сайта, цена лида от 79 рублей.<br><b>За 1 неделю окупил курс</b></h5>
+					<div class="b-new-record-inner b-new-slide clearfix">
+						<div class="b-video-block b-video-review" style="background-image: url('i/2/video.jpg');">
+							<iframe src="https://www.youtube.com/embed/5_kJ3dfynHI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+							<a href='#' class="b-play"></a>
+						</div>
+						<img src="i/reviews/review-5.jpg">
+					</div>
+					<p class="b-new-small"></p>
+					<h5 class="b-new-big">Никогда не было таких результатов.<br><b>Сразу 11 заявок по 120 рублей</b> на кухни</h5>
+					<div class="b-new-record-inner b-new-slide clearfix">
+						<div class="b-video-block b-video-review" style="background-image: url('i/2/video.jpg');">
+							<iframe src="https://www.youtube.com/embed/5_kJ3dfynHI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+							<a href='#' class="b-play"></a>
+						</div>
+						<img src="i/reviews/review-6.jpg">
+					</div>
+				<img class="review-image" src="i/reviews/pic.jpg">
+				</div>
+				<div class="b-note-btn">
+					<a href="#" class="b-btn b-btn-orange b-btn-form" style="padding: 30px 42px 34px 42px;">
+						<p class="main">Иду на программу!</p><br>
+					</a>
+				</div>
+				<div class="b-note-purple">
+					<a href="#" class="b-purple-link b-show-reviews"><b>Смотреть ещё отзывы</a>
+				</div>
+			</div>
+		</div>
 
 	<div class="b b-13">
 		<div class="b-block clearfix">
