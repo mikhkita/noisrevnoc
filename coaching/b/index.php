@@ -1701,6 +1701,7 @@ require_once("prices.php");
 		</div>
 	</div>
 
+	<? /* ?>
 	<div class="b b-cost">
 		<div class="b-block">
 			<h2 class="b-title-roman">Стоимость участия в программе<br>Взлом Конверсии</h2>
@@ -1742,6 +1743,7 @@ require_once("prices.php");
 			</form>
 		</div>
 	</div>
+	<? */ ?>
 
 	<div class="b b-16" data-offset="700">
 		<div class="b-block">
@@ -2421,6 +2423,7 @@ require_once("prices.php");
 		</div>
 	</div>
 
+<? /* ?>
 	<!--Комментарии-->
 	<div class="webinar_soc" style="width: 1000px; margin: auto; padding: 0px 0 30px 0; text-align: center; overflow:auto;">
 	
@@ -2446,6 +2449,7 @@ require_once("prices.php");
 
 				<div class="fb-comments" data-order-by="time" data-href="https://www.facebook.com/groups/1996793010569700/"  data-width="450" data-numposts="5" ></div>
 	</div>
+	<? */ ?>
 
 	<!-- <div class="b b-footer">
 		<div class="b-block">
@@ -2626,16 +2630,23 @@ require_once("prices.php");
 			<a href="#" class="b-btn-close icon-close"></a>
 			<h3>Стоимость участия в программе<br>Взлом Конверсии</h3>
 			<form id="b-cost-form" class="b-cost-form" method="post" action="kitsend.php">
-				<p>Стоимость участия:</p>
-				<ul class="b-radio">
+				<!-- <ul class="b-radio">
 					<? foreach ($prices as $value => $arPrice): ?>
 					<li>
 						<input id="<?=$arPrice["ID"]?>-radio-1" type="radio" name="tovar_id" value="<?=$value?>" data-form-id="37390" <? if( $arPrice["CHECKED"] ): ?>checked<? endif; ?>>
 						<label for="<?=$arPrice["ID"]?>-radio-1"><?=$arPrice["NAME"]?> — <?=$arPrice["VIEW_PRICE"]?>&#160;&#160;<span class="cost-old"><?=$arPrice["OLD_VIEW_PRICE"]?></span></label>
 					</li>
 					<? endforeach; ?>
-				</ul>
-				<a href="#" class="cost-details">Узнать подробнее про пакеты</a>
+				</ul> -->
+				<select name="tovar_id" id="type1">
+					<? foreach ($prices as $value => $arPrice): ?>
+					<li>
+						<option data-price="<?=$arPrice["VIEW_PRICE"]?>" data-id="<?=$arPrice["ID"]?>-radio-1" value="<?=$value?>" <? if($value == "364139"): ?>selected<? endif; ?>><?=$arPrice["NAME"]?></option>
+					</li>
+					<? endforeach; ?>
+				</select>
+				<p class="b-form-price-label">Стоимость участия: <b class="b-form-price"><?=$prices["364139"]["VIEW_PRICE"]?></b></p>
+				<!-- <a href="#" class="cost-details">Узнать подробнее про пакеты</a> -->
 				<div class="b-center">
 					<div class="b-inputs-block">
 						<div class="b-input">
