@@ -1656,12 +1656,12 @@ h5.b-small{
 			.b-7 .b-ipad-1{
 				left: -74px;
 				top: 320px;
-				background-image: url('../i/7/ipad-1.png');
+				background-image: url('../i/7/ipad-2.png');
 			}
 			.b-7 .b-ipad-2{
 				left: 292px;
 				top: 191px;
-				background-image: url('../i/7/ipad-2.png');
+				background-image: url('../i/7/ipad-1.png');
 			}
 			.b-7 .b-ipad-3{
 				left: 658px;
@@ -3347,8 +3347,8 @@ h5.b-small{
 				margin-top: 14px;
 				position: relative;
 				z-index: 3;
-				padding-top: 72px;
-				padding-left: 52px;
+				padding-top: 64px;
+				padding-left: 40px;
 			}
 				.b-14 .b-iphone-slider{
 					width: 210px;
@@ -3358,7 +3358,7 @@ h5.b-small{
 						background-position: 50% 50%;
 						background-repeat: no-repeat;
 						width: 210px;
-						height: 373px;
+						height: 427px;
 					}
 			.b-iphone-slider .slick-dots{
 				left: auto;
@@ -5591,6 +5591,36 @@ ol li:before {
 }
 .b-thanks h4{
 	margin-bottom: 36px;
+}
+
+.b-new-record .b-play,
+.b-500lux .b-play{
+	width: 106px;
+    height: 106px;
+    margin-left: -53px;
+    margin-top: -53px;
+}
+	.b-new-record .b-play:hover,
+	.b-500lux .b-play:hover{
+		box-shadow: 0px 30px 100px 0px rgba(94,74,187, 0.9);
+	    background-color: #5e4abb;
+	}
+	.b-new-record .b-play:before,
+	.b-500lux .b-play:before{
+	    width: 154px;
+	    height: 154px;
+	    margin-left: -77px;
+	    margin-top: -77px;
+	}
+	.b-new-record .b-play:after,
+	.b-500lux .b-play:after{
+	    border-width: 17px;
+	    border-left-width: 27px;
+	    margin-top: -17px;
+	    margin-left: -10px;
+	}
+.b-14 .slick-list.draggable{
+	border-radius: 10px 10px 25px 25px;
 }
 
 @media (-webkit-min-device-pixel-ratio: 1.5) {

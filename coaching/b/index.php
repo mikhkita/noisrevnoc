@@ -483,7 +483,7 @@ require_once("prices.php");
 			<h2 class="b-title">Поэтому <b>аудиторию</b>, собранную со всех Landing Page <b>вы будете прогревать с помощью</b></h2>
 			<div class="b-land-tabs-wrap">
 				<ul class="b-tabs b-land-tabs" data-tabs=".b-land-tabs-cont">
-					<li class="active">Умные E-mail рассылок</li>
+					<li class="active">Умных E-mail рассылок</li>
 					<li>SMS-рассылок</li>
 					<li>Автодозвонов</li>
 					<li>Автоворонок через VK</li>
