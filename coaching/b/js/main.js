@@ -147,7 +147,8 @@ $(document).ready(function(){
         infinite: true,
         cssEase: 'ease', 
         speed: 500,
-        arrows: false
+        arrows: false,
+        touchThreshold: 100
     }); 
 
     $(".b-atlant-slider").on('beforeChange', function(event, slick, currentSlide, nextSlide){
@@ -222,7 +223,8 @@ $(document).ready(function(){
         infinite: true,
         cssEase: 'ease', 
         speed: 500,
-        arrows: false
+        arrows: false,
+        touchThreshold: 100
     });
 
     $(".b-land-tabs-cont").on('beforeChange', function(event, slick, currentSlide, nextSlide){
@@ -252,7 +254,8 @@ $(document).ready(function(){
         arrows: true,
         prevArrow: '<div class="slick-arrow slick-prev icon-arrow-left-big"></div>',
         nextArrow: '<div class="slick-arrow slick-next icon-arrow-right-big"></div>',
-        adaptiveHeight: true
+        adaptiveHeight: true,
+        touchThreshold: 100
     });
 
     $(".b-lesson-tabs-cont .b-tab[data-slick-index='0']").find(".b-right-text").addClass("show");
@@ -277,7 +280,8 @@ $(document).ready(function(){
         infinite: true,
         cssEase: 'ease', 
         speed: 500,
-        arrows: false
+        arrows: false,
+        touchThreshold: 100
     });
 
     $(".b-temp-tabs-cont").on('beforeChange', function(event, slick, currentSlide, nextSlide){
@@ -301,7 +305,8 @@ $(document).ready(function(){
         arrows: true,
         prevArrow: '<div class="slick-arrow slick-prev icon-arrow-left-big"></div>',
         nextArrow: '<div class="slick-arrow slick-next icon-arrow-right-big"></div>',
-        adaptiveHeight: true
+        adaptiveHeight: true,
+        touchThreshold: 100
     });
 
     $(".b-big-reviews-slider").on('beforeChange', function(event, slick, currentSlide, nextSlide){
@@ -333,7 +338,8 @@ $(document).ready(function(){
         arrows: false,
         vertical: true,
         autoplay: true,
-        autoplaySpeed: 3000
+        autoplaySpeed: 3000,
+        touchThreshold: 100
     });
 
     $("#type").chosen({
@@ -343,6 +349,18 @@ $(document).ready(function(){
             click = $option.attr("data-id"),
             price = $option.attr("data-price");
         $(".b-19 h2.b-title span").text(price);
+
+        $(".b-pay-click").attr("data-id", $option.attr("data-id"));
+        return false;
+    });
+
+    $("#type1").chosen({
+        disable_search_threshold : 10
+    }).change(function(){
+        var $option = $(this).find("option[value='"+$(this).val()+"']");
+            click = $option.attr("data-id"),
+            price = $option.attr("data-price");
+        $(".b-form-price").text(price);
 
         $(".b-pay-click").attr("data-id", $option.attr("data-id"));
         return false;
@@ -392,13 +410,13 @@ $(document).ready(function(){
         return false;
     });
 
-    $(document).mouseleave(function(){
-        if(!$(".fancybox-slide .b-popup-leave").length && showLeave){
-            $(".b-btn-leave").click();
-            showLeave = false;
-            timerLeave = 0;
-        }
-    });
+    // $(document).mouseleave(function(){
+    //     if(!$(".fancybox-slide .b-popup-leave").length && showLeave){
+    //         $(".b-btn-leave").click();
+    //         showLeave = false;
+    //         timerLeave = 0;
+    //     }
+    // });
 
     $(".b-btn-500lux").on('click', function(){
         $(".b-500lux").addClass("show");
@@ -432,7 +450,11 @@ $(document).ready(function(){
         $(".b-menu-overlay").addClass("show");
         $("body").addClass("no-scroll");
         if( $(this).attr("data-id") ){
-            $("#"+$(this).attr("data-id")).click();
+            // $("#"+$(this).attr("data-id")).click();
+            var value = $("#type1").find("[data-id='"+$(this).attr("data-id")+"']").attr("value"),
+                price = $("#type1").find("[data-id='"+$(this).attr("data-id")+"']").attr("data-price");
+            $("#type1").val(value).trigger("chosen:updated");
+            $(".b-form-price").text(price);
         }else{
             $("#platinum-radio-1").click();
         }
@@ -497,6 +519,17 @@ $(document).ready(function(){
             $(".b-vk-e-link").click();
             console.log('Ошибка при запросе'); 
         } 
+    });
+
+    $(".price-add").slideUp();
+
+    $(".price-left").click(function(){
+        var $target = $(this).parents(".b-new-price-item").find(".price-add");
+        if($target.hasClass("show")){
+            $target.removeClass("show").slideUp();
+        }else{
+            $target.addClass("show").slideDown();
+        }
     });
 
     /*----------------------------------*/

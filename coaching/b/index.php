@@ -74,7 +74,7 @@ require_once("prices.php");
 				<div class="b-header-top-item">
 					<a href="index.html" class="b-header-top-logo"></a>
 					<div class="b-rounds"><div class="b-rounds-inner"></div></div>
-					<p>Взлом конверсии. Система<br>из 4-х прибыльных Landing Page</p>
+					<p>Взлом конверсии 2.0. Система<br>из 4-х прибыльных Landing Page</p>
 				</div>
 				<div class="b-header-top-item b-header-icon-cont">
 					<div class="b-header-icon b-header-top-course"></div>
@@ -96,8 +96,8 @@ require_once("prices.php");
 						<p>Первые заявки стоимостью от 39 до 420 руб. уже <b>на 3-м занятии</b></p>
 					</div>
 					<div class="b-header-content-item anim fadeDown" data-anim="fadeDown" data-delay="4000">
-						<img src="i/Tag.png" class="img-tag">
-						<p>Юридическая <b>гарантия 100%-й окупаемости</b> онлайн-практикума для тарифов Platinum и VIP</p>
+						<img src="i/hand.png" class="img-tag">
+						<p>Первые заявки стоимостью от 39 до 420р. уже на <b>3-м занятии</b></p>
 					</div>
 				</div>
 				<div class="b-header-content-right">
@@ -112,14 +112,14 @@ require_once("prices.php");
 							<p class="main">Забронировать место</p><br>
 							<p class="small">по специальной цене</p>
 						</a>
-						<div class="last-time">
+						<!-- <div class="last-time">
 							<img src="i/line-header.png">
 							<div class="last-time-text">
 								<p>Последний поток стартует</p>
 								<p><b>22 марта</b></p>
 							</div>
-						</div>
-						<img src="i/syrgai.png" class="syrgai-header">
+						</div> -->
+						<!-- <img src="i/syrgai.png" class="syrgai-header"> -->
 					</div>
 				</div>
 			</div>
@@ -409,24 +409,24 @@ require_once("prices.php");
 					</div>
 					<div class="b-adv-list right">
 						<div class="b-adv">
-							<h3>Подогревает трафик и за вас рас&shy;сказывает все преимущества</h3>
+							<h3><b>Подогревает трафик и за вас рас&shy;сказывает все преимущества</b></h3>
 							<p>человек, оставивший заявку, более осознанно захочет купить именно у вас. Это означает <b>более высокую конверcию</b> в оплату.</p>
 						</div>
 						<div class="b-adv">
-							<h3>Делает вас лидером рынка</h3>
+							<h3><b>Делает вас лидером рынка</b></h3>
 							<p>самой выгодной компанией в глазах целевой аудитории.</p>
 						</div>
 						<div class="b-adv">
-							<h3>Позволяет продавать дороже</h3>
+							<h3><b>Позволяет продавать дороже</b></h3>
 							<p>особенно если у вас большие комплексные услуги или продукты премиум-класса.</p>
 						</div>
 						<div class="b-adv">
-							<h3>Делает вас лидером рынка</h3>
-							<p>самой выгодной компанией в глазах целевой аудитории.</p>
+							<h3>Не только генерирует звонки и заявки, но и <b>выполняет имиджевые функции:</b></h3>
+							<p>АТЛАНТ может быть основной страницей о вашей компании в интернете. Которая <b>повысит ваш статус</b> в глазах сотрудников<br>и партнеров</p>
 						</div>
 						<div class="b-adv">
-							<h3>Делает вас лидером рынка</h3>
-							<p>самой выгодной компанией в глазах целевой аудитории.</p>
+							<h3><b>Позволяет легче находить сотрудников:</b></h3>
+							<p>Хорошие специалисты не готовы работать в компании с плохим сайтом</p>
 						</div>
 						<div class="b-adv-more-cont">
 							<a href="#" class="b-program-link b-show-adv-more"><span class="b-line"></span><div>Раскрыть все преимущества</div> <span class="icon-link"></span></a>
@@ -437,29 +437,95 @@ require_once("prices.php");
 			<div class="b-slide">
 				<div class="b-block clearfix">
 					<div class="b-imac">
-						<div class="b-screen"></div>
+						<div class="b-screen" style="background-image: url('i/7/screen-1.jpg');"></div>
 						<p class="b-title"><b>Пример «Лендинга-Атланта»</b><br>для компании 500lux</p>
 					</div>
 					<div class="b-adv-list right">
 						<div class="b-adv">
-							<h3>Подогревает трафик и за вас рас&shy;сказывает все преимущества</h3>
+							<h3><b>Подогревает трафик и за вас рас&shy;сказывает все преимущества</b></h3>
 							<p>человек, оставивший заявку, более осознанно захочет купить именно у вас. Это означает <b>более высокую конверcию</b> в оплату.</p>
 						</div>
 						<div class="b-adv">
-							<h3>Делает вас лидером рынка</h3>
+							<h3><b>Делает вас лидером рынка</b></h3>
 							<p>самой выгодной компанией в глазах целевой аудитории.</p>
 						</div>
 						<div class="b-adv">
-							<h3>Позволяет продавать дороже</h3>
+							<h3><b>Позволяет продавать дороже</b></h3>
 							<p>особенно если у вас большие комплексные услуги или продукты премиум-класса.</p>
 						</div>
 						<div class="b-adv">
-							<h3>Делает вас лидером рынка</h3>
+							<h3>Не только генерирует звонки и заявки, но и <b>выполняет имиджевые функции:</b></h3>
+							<p>АТЛАНТ может быть основной страницей о вашей компании в интернете. Которая <b>повысит ваш статус</b> в глазах сотрудников<br>и партнеров</p>
+						</div>
+						<div class="b-adv">
+							<h3><b>Позволяет легче находить сотрудников:</b></h3>
+							<p>Хорошие специалисты не готовы работать в компании с плохим сайтом</p>
+						</div>
+						<div class="b-adv-more-cont">
+							<a href="#" class="b-program-link b-show-adv-more"><span class="b-line"></span><div>Раскрыть все преимущества</div> <span class="icon-link"></span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="b-slide">
+				<div class="b-block clearfix">
+					<div class="b-imac">
+						<div class="b-screen" style="background-image: url('i/7/screen-2.jpg');"></div>
+						<p class="b-title"><b>Пример «Лендинга-Атланта»</b><br>для компании 500lux</p>
+					</div>
+					<div class="b-adv-list right">
+						<div class="b-adv">
+							<h3><b>Подогревает трафик и за вас рас&shy;сказывает все преимущества</b></h3>
+							<p>человек, оставивший заявку, более осознанно захочет купить именно у вас. Это означает <b>более высокую конверcию</b> в оплату.</p>
+						</div>
+						<div class="b-adv">
+							<h3><b>Делает вас лидером рынка</b></h3>
 							<p>самой выгодной компанией в глазах целевой аудитории.</p>
 						</div>
 						<div class="b-adv">
-							<h3>Делает вас лидером рынка</h3>
+							<h3><b>Позволяет продавать дороже</b></h3>
+							<p>особенно если у вас большие комплексные услуги или продукты премиум-класса.</p>
+						</div>
+						<div class="b-adv">
+							<h3>Не только генерирует звонки и заявки, но и <b>выполняет имиджевые функции:</b></h3>
+							<p>АТЛАНТ может быть основной страницей о вашей компании в интернете. Которая <b>повысит ваш статус</b> в глазах сотрудников<br>и партнеров</p>
+						</div>
+						<div class="b-adv">
+							<h3><b>Позволяет легче находить сотрудников:</b></h3>
+							<p>Хорошие специалисты не готовы работать в компании с плохим сайтом</p>
+						</div>
+						<div class="b-adv-more-cont">
+							<a href="#" class="b-program-link b-show-adv-more"><span class="b-line"></span><div>Раскрыть все преимущества</div> <span class="icon-link"></span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="b-slide">
+				<div class="b-block clearfix">
+					<div class="b-imac">
+						<div class="b-screen" style="top: 36px; background-image: url('i/7/screen-3.jpg');"></div>
+						<p class="b-title"><b>Пример «Лендинга-Атланта»</b><br>для компании 500lux</p>
+					</div>
+					<div class="b-adv-list right">
+						<div class="b-adv">
+							<h3><b>Подогревает трафик и за вас рас&shy;сказывает все преимущества</b></h3>
+							<p>человек, оставивший заявку, более осознанно захочет купить именно у вас. Это означает <b>более высокую конверcию</b> в оплату.</p>
+						</div>
+						<div class="b-adv">
+							<h3><b>Делает вас лидером рынка</b></h3>
 							<p>самой выгодной компанией в глазах целевой аудитории.</p>
+						</div>
+						<div class="b-adv">
+							<h3><b>Позволяет продавать дороже</b></h3>
+							<p>особенно если у вас большие комплексные услуги или продукты премиум-класса.</p>
+						</div>
+						<div class="b-adv">
+							<h3>Не только генерирует звонки и заявки, но и <b>выполняет имиджевые функции:</b></h3>
+							<p>АТЛАНТ может быть основной страницей о вашей компании в интернете. Которая <b>повысит ваш статус</b> в глазах сотрудников<br>и партнеров</p>
+						</div>
+						<div class="b-adv">
+							<h3><b>Позволяет легче находить сотрудников:</b></h3>
+							<p>Хорошие специалисты не готовы работать в компании с плохим сайтом</p>
 						</div>
 						<div class="b-adv-more-cont">
 							<a href="#" class="b-program-link b-show-adv-more"><span class="b-line"></span><div>Раскрыть все преимущества</div> <span class="icon-link"></span></a>
@@ -484,7 +550,7 @@ require_once("prices.php");
 			<h2 class="b-title">Поэтому <b>аудиторию</b>, собранную со всех Landing Page <b>вы будете прогревать с помощью</b></h2>
 			<div class="b-land-tabs-wrap">
 				<ul class="b-tabs b-land-tabs" data-tabs=".b-land-tabs-cont">
-					<li class="active">Умные E-mail рассылок</li>
+					<li class="active">Умных E-mail рассылок</li>
 					<li>SMS-рассылок</li>
 					<li>Автодозвонов</li>
 					<li>Автоворонок через VK</li>
@@ -1476,6 +1542,585 @@ require_once("prices.php");
 		</div>
 	</div>
 
+	<div class="b b-new-price">
+		<div class="b-block">
+			<h2 class="b-title"><b>Так сколько же стоит...</b></h2>
+			<div class="b-new-price-title-items clearfix">
+				<p class="b-left-triangle item-1">Получать клиентов до 7 раз дешевле<br>всего рынка следующие 3-5 лет</p>
+				<p class="b-left-triangle item-2">Уметь успешно запускать бизнес-идеи<br>в любой сфере и получать клиентов<br>за 1 день</p>
+				<p class="b-left-triangle item-3">Стать лидером рынка в глазах<br>аудитории в Интернете?</p>
+			</div>
+			<div class="b-new-price-content">
+				<div class="b-new-price-header">
+					<div class="price-header-item">
+						<h3><?=$prices["364138"]["NAME"]?></h3>
+						<h4>Полный курс и доведение<br>до 100%-й окупаемости</h4>
+						<p>(Вы + 3 сотрудника)</p>
+						<small>Личная докрута каждого<br>шага Владимиром</small>
+					</div>
+					<div class="price-header-item">
+						<h3><?=$prices["364142"]["NAME"]?></h3>
+						<h4>Полный курс и 4 месяца<br>обратной связи<br>по 60 минут</h4>
+						<p>(Вы + 1 сотрудника)</p>
+						<small>VIP мини-группа<br>3 разбора от Владимира</small>
+					</div>
+					<div class="price-header-item">
+						<h3><?=$prices["364141"]["NAME"]?></h3>
+						<h4>Полный курс и 3 месяца<br>обратной связи<br>по 30 минут</h4>
+						<p>Результаты с 3-го занятия</p>
+						<small>3 месяца занятий<br>+ 24 чек-листа, более<br>50 шаблонов, закрытый чат<br>+  доступ в сообщество</small>
+					</div>
+					<div class="price-header-item">
+						<h3><?=$prices["364139"]["NAME"]?></h3>
+						<h4>Запустите прибыльный<br>сайт на конструкторе!</h4>
+						<p>Необходимая база для<br>получения профессии<br>прототипировщика</p>
+						<small>2 месяца занятий без<br>обратной связи и без PDF<br>доп. материалов</small>
+					</div>
+				</div>
+				<div class="b-new-price-list">
+					<div class="b-new-price-item clearfix">
+						<div class="b-new-price-top">
+							<div class="price-left has-open-block">
+								<div class="price-left-content">
+									<b>Модуль 1</b><br>3 кита анализа<br>в интернет-маркетинге
+								</div>
+								<div class="price-open">
+									<div class="price-open-btn"></div>
+								</div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+						</div>
+						<div class="price-add clearfix">
+							<div class="price-add-left">
+								<div class="price-add-item">Анализ Целевой Аудитории.<br>Цепляем 100% платежеспособных</div>
+								<div class="price-add-item">Грамотный анализ того, что имеем.<br>Изучение компании</div>
+								<div class="price-add-item">Анализ конкурентов без ошибок</div>
+								<div class="price-add-item">Запуск сайта за 2 часа<br>с конверсией 5-40%</div>
+							</div>
+							<div class="price-add-right">
+								<h4>Результаты модуля</h4>
+								<ol>
+									<li>На эмоциональном уровне сможете цеплять нужных вам платежеспособных покупателей.</li>
+									<li>Поймете неочевидные слабые места конкурентов, и увидите, как легко стать лидером по ROI<br>(окупаемости рекламы).</li>
+									<li>Вся компания, её слабые и сильные места, будет как на ладони.</li>
+									<li>Запустите прибыльный сайт за 1 вечер и начнете получать первые заказы.</li>
+									<li>На эмоциональном уровне сможете цеплять нужных вам платежеспособных покупателей.</li>
+									<li>Поймете неочевидные слабые места конкурентов, и увидите, как легко стать лидером по ROI<br>(окупаемости рекламы).</li>
+									<li>Вся компания, её слабые и сильные места, будет как на ладони.</li>
+									<li>Запустите прибыльный сайт за 1 вечер и начнете получать первые заказы.</li>
+								</ol>
+							</div>
+						</div>
+					</div>
+					<div class="b-new-price-item clearfix">
+						<div class="b-new-price-top">
+							<div class="price-left has-open-block">
+								<div class="price-left-content">
+									<b>Модуль 2</b><br>Копирайтинг. УТП. <br>Продающая структура LP
+								</div>
+								<div class="price-open">
+									<div class="price-open-btn"></div>
+								</div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+						</div>
+						<div class="price-add clearfix">
+							<div class="price-add-left">
+								<div class="price-add-item">Взрывной копирайтинг.<br>Формула идеальной выгоды</div>
+								<div class="price-add-item">Разработка УТП и психология <br>влияния на пользователей</div>
+								<div class="price-add-item">Этапы принятия решения. Когда<br>4U не работает. 10 супер-формул</div>
+								<div class="price-add-item">Как доносить смысл? Заголовки<br>2-го и 3-го уровня. Продающая </div>
+								<div class="price-add-item">Мультилендинги и гиперсементация<br>трафика</div>
+							</div>
+							<div class="price-add-right">
+								<h4>Результаты модуля</h4>
+								<ol>
+									<li>Составите Уникальное Торговое Предложение, перед которым невозможно устоять.</li>
+									<li>Овладеете 11-ю супер-формулами для разработки офферов в любом бизнесе.</li>
+									<li>Научитесь доносить суть + ваши преимущества за 1 взгляд.</li>
+									<li>Разработаете продающую структуру главного Landing Page.</li>
+									<li>Подготовите ТЗ для подмены содержимого сайта под потребности ЦА.</li>
+								</ol>
+							</div>
+						</div>
+					</div>
+					<div class="b-new-price-item clearfix">
+						<div class="b-new-price-top">
+							<div class="price-left has-open-block">
+								<div class="price-left-content">
+									<b>Модуль 3</b><br>Прототип на 50 т. р.<br>Идеальные блоки
+								</div>
+								<div class="price-open">
+									<div class="price-open-btn"></div>
+								</div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+						</div>
+						<div class="price-add clearfix">
+							<div class="price-add-left">
+								<div class="price-add-item">Правильное оформление 1-го<br>и 2-го экранов</div>
+								<div class="price-add-item">Идеальное оформление отзывов.<br>Как доносить продающие посылы</div>
+								<div class="price-add-item">Идеальный Call to Action. Генерируем<br>горячих клиентов из Интернета</div>
+								<div class="price-add-item">Идеальная акция на сайте</div>
+								<div class="price-add-item">8 видов блоков для прототипа.<br>Линейка продуктов</div>
+								<div class="price-add-item">Рост среднего чека за счет<br>грамотного оформления тарифов</div>
+							</div>
+							<div class="price-add-right">
+								<h4>Результаты модуля</h4>
+								<ol>
+									<li>За 1 взгляд научитесь понимать, почему одни сайты приносят прибыль, а другие — пустой расход.</li>
+									<li>Составите по-настоящему взрывные акции.</li>
+									<li>Переработаете тарифную сетку (зачастую в ней скрывается 80% прибыли).</li>
+									<li>У вас на руках идеальный прототип Landing Page. Который<br>стоил бы в агентстве 50 000+</li>
+								</ol>
+							</div>
+						</div>
+					</div>
+					<div class="b-new-price-item clearfix">
+						<div class="b-new-price-top">
+							<div class="price-left has-open-block">
+								<div class="price-left-content">
+									<b>Модуль 4</b><br>Воплощение своими<br>руками без дизайнеров<br>и програмистов
+								</div>
+								<div class="price-open">
+									<div class="price-open-btn"></div>
+								</div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+						</div>
+						<div class="price-add clearfix">
+							<div class="price-add-left">
+								<div class="price-add-item">Продающие нюансы лендинга<br>на конструкторе</div>
+								<div class="price-add-item">Безошибочная реализация<br>своими руками. Магия exit-попапа</div>
+							</div>
+							<div class="price-add-right">
+								<h4>Результаты модуля</h4>
+								<ol>
+									<li>Запустите систему из 2-х прибыльных Landing Page на правильном конструкторе.</li>
+									<li>Сможете в любой момент воплотить ваши идеи в полноценный продающий сайт без программистов и дизайнеров.</li>
+								</ol>
+							</div>
+						</div>
+					</div>
+					<div class="b-new-price-item clearfix">
+						<div class="b-new-price-top">
+							<div class="price-left has-open-block">
+								<div class="price-left-content">
+									<b>Модуль 5</b><br>Хаки и деньги.<br>Квизы. Автоворонки.<br>E-mail стратегия
+								</div>
+								<div class="price-open">
+									<div class="price-open-btn"></div>
+								</div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-no-checked"></div>
+							</div>
+						</div>
+						<div class="price-add clearfix">
+							<div class="price-add-left">
+								<div class="price-add-item">Автоворонка для маркетологов.<br>Как гарантированно продавать<br>себя в соц.сетях</div>
+								<div class="price-add-item">Составление скрипта продаж.<br>Как продавать с конверсией<br>80% с заявки?</div>
+								<div class="price-add-item">6-ти кратный рост конверсии<br>через кивз-лендинги. Стратегия</div>
+								<div class="price-add-item">Утепляющие квиз-лендинги. <br>Реализация без ошибок</div>
+								<div class="price-add-item">Идеальный лид магнит. Конверсия<br>69%. Как выжать из трафика всё</div>
+								<div class="price-add-item">Email-стратегия на 150 000 рублей. <br>Автоматическое утепление обращений</div>
+							</div>
+							<div class="price-add-right">
+								<h4>Результаты модуля</h4>
+								<ol>
+									<li>Прототип нового вида продающих сайтов, конверсия которого<br>в 4-6 раз выше стандартных Landing Page.</li>
+									<li>Составите скрипт продаж с конверсией 30-80%.</li>
+									<li>Составите идеальный лид-магнит с конверсией до 69%.</li>
+									<li>Запустите автоворонку. Чужими руками напишите цепочку из 5-8 утепляющих писем и/или SMS.</li>
+									<li>Запустите автоворонку в мессенджерах (для В2С).</li>
+								</ol>
+							</div>
+						</div>
+					</div>
+					<div class="b-new-price-item clearfix">
+						<div class="b-new-price-top">
+							<div class="price-left has-open-block">
+								<div class="price-left-content">
+									<b>Модуль 6</b><br>Сбор команды и реализация<br>чужими руками. Управление<br>подрядчиками
+								</div>
+								<div class="price-open">
+									<div class="price-open-btn"></div>
+								</div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-no-checked"></div>
+							</div>
+						</div>
+						<div class="price-add clearfix">
+							<div class="price-add-left">
+								<div class="price-add-item">Трафик-менеджмент чужими руками</div>
+								<div class="price-add-item">Управление проектами в Интернете</div>
+								<div class="price-add-item">Как отличить продающий дизайн<br>от просто «Д». Алгоритм приёма<br>веб-дизайна и верстки</div>
+								<div class="price-add-item">Продающее фото и создание<br>сценария продающего видео</div>
+								<div class="price-add-item">А/В-тесты и оптимизация системы</div>
+								<div class="price-add-item">Максимальный профит<br>от CRM-системы: пошаговый план</div>
+							</div>
+							<div class="price-add-right">
+								<h4>Результаты модуля</h4>
+								<ol>
+									<li>Идеальный сценарий для продающего видео.</li>
+									<li>Научитесь находить, мотивировать и контролировать ЛЮБЫХ<br>подрядчиков в интернет-маркетинге.</li>
+									<li>Улучшите свои навыки в управлении проектами в интернете.</li>
+									<li>Получите чек-листы по контролю за трафиком.</li>
+									<li>Автоматизируете 80% задач по продажам.</li>
+								</ol>
+							</div>
+						</div>
+					</div>
+					<div class="b-new-price-item clearfix">
+						<div class="b-new-price-top">
+							<div class="price-left">
+								<div class="price-left-content">
+									40+ пополняющихся шаблонов<br>по прототипированию блоков<br>в Moqups для любой ниши
+								</div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-no-checked"></div>
+							</div>
+						</div>
+					</div>
+					<div class="b-new-price-item clearfix">
+						<div class="b-new-price-top">
+							<div class="price-left">
+								<div class="price-left-content">
+									<b>Доступ в закрытую группу<br>с материалами и чатом</b>
+								</div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-no-checked"></div>
+							</div>
+						</div>
+					</div>
+					<div class="b-new-price-item clearfix">
+						<div class="b-new-price-top">
+							<div class="price-left">
+								<div class="price-left-content">
+									<b>24 ценных файла:</b> чек-листы,<br>шаблоны и скринкасты<br>для быстрого анализа, <br>прототипирования, написания<br>текстов и контроля подрядчиков
+								</div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-no-checked"></div>
+							</div>
+						</div>
+					</div>
+					<div class="b-new-price-item clearfix">
+						<div class="b-new-price-top">
+							<div class="price-left">
+								<div class="price-left-content">
+									Аттестация и официальный<br>сертификат прохождения курса
+								</div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-no-checked"></div>
+							</div>
+						</div>
+					</div>
+					<div class="b-new-price-item clearfix">
+						<div class="b-new-price-top">
+							<div class="price-left">
+								<div class="price-left-content">
+									<b>100% проверка домашних <br>заданий кураторами</b>
+								</div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-no-checked"></div>
+							</div>
+						</div>
+					</div>
+					<div class="b-new-price-item clearfix">
+						<div class="b-new-price-top">
+							<div class="price-left">
+								<div class="price-left-content">
+									Аттестация и официальный<br>сертификат прохождения курса
+								</div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-no-checked"></div>
+							</div>
+						</div>
+					</div>
+					<div class="b-new-price-item clearfix">
+						<div class="b-new-price-top">
+							<div class="price-left">
+								<div class="price-left-content">
+									3 мастер-майнда<br>с Владимиром в VIP-группе<br>по ключевым темам
+								</div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-no-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-no-checked"></div>
+							</div>
+						</div>
+					</div>
+					<div class="b-new-price-item clearfix">
+						<div class="b-new-price-top">
+							<div class="price-left">
+								<div class="price-left-content">
+									<b>Личная докрутка каждого<br>шага Владимиром</b>
+								</div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-no-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-no-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-no-checked"></div>
+							</div>
+						</div>
+					</div>
+					<div class="b-new-price-item clearfix">
+						<div class="b-new-price-top">
+							<div class="price-left">
+								<div class="price-left-content">
+									<b>Доступы к списку<br>из 17 проверенных недорогих<br>подрядчиков</b>
+								</div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-no-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-no-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-no-checked"></div>
+							</div>
+						</div>
+					</div>
+					<div class="b-new-price-item clearfix">
+						<div class="b-new-price-top">
+							<div class="price-left">
+								<div class="price-left-content">
+									<b>Доведение за руку<br>до 100%-й окупаемости</b>
+								</div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-no-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-no-checked"></div>
+							</div>
+							<div class="price-item">
+								<div class="price-img price-no-checked"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="b-new-price-bottom clearfix">
+					<div class="price-bottom-item price-bottom-item-1">
+						<p class="price-bottom-new-price"><?=$prices["364138"]["VIEW_PRICE"]?></p>
+						<a href="#" class="b-btn b-btn-orange b-btn-form" data-id="<?=$prices["364138"]["ID"]?>-radio-1">
+							<p class="main">Выбрать пакет</p>
+							<p class="small">шаг 1 из 3</p>
+						</a>
+					</div>
+					<div class="box-shadow-cont">
+						<div class="price-bottom-item">
+							<div class="price-bottom-old-price"><div class="red-line"></div><p><?=$prices["364142"]["OLD_VIEW_PRICE"]?></p></div>
+							<p class="price-bottom-new-price"><?=$prices["364142"]["VIEW_PRICE"]?></p>
+							<div class="arrow-next"></div>
+							<small>Далее 10 пакетов </small>
+							<p class="next-price"><?=$prices["364142"]["FUTURE_PRICE"]?></p>
+							<a href="#" class="b-btn b-btn-orange b-btn-form" data-id="<?=$prices["364142"]["ID"]?>-radio-1">
+								<p class="main">Выбрать пакет</p>
+								<p class="small">шаг 1 из 3</p>
+							</a>
+							<div class="price-remainder">Осталось <span class="number-packs">7</span> пакетов<br>по этой цене</div>
+						</div>
+						<div class="price-bottom-item">
+							<div class="price-bottom-old-price"><div class="red-line"></div><p><?=$prices["364141"]["OLD_VIEW_PRICE"]?></p></div>
+							<p class="price-bottom-new-price"><?=$prices["364141"]["VIEW_PRICE"]?></p>
+							<div class="arrow-next"></div>
+							<small>Далее 20 пакетов </small>
+							<p class="next-price"><?=$prices["364141"]["FUTURE_PRICE"]?></p>
+							<a href="#" class="b-btn b-btn-orange b-btn-form" data-id="<?=$prices["364141"]["ID"]?>-radio-1">
+								<p class="main">Выбрать пакет</p>
+								<p class="small">шаг 1 из 3</p>
+							</a>
+							<div class="price-remainder">Осталось <span class="number-packs">12</span> пакетов<br>по этой цене</div>
+						</div>
+						<div class="price-bottom-item">
+							<div class="price-bottom-old-price"><div class="red-line"></div><p><?=$prices["364139"]["OLD_VIEW_PRICE"]?></p></div>
+							<p class="price-bottom-new-price"><?=$prices["364139"]["VIEW_PRICE"]?></p>
+							<div class="arrow-next"></div>
+							<small>Далее 25 пакетов </small>
+							<p class="next-price"><?=$prices["364139"]["FUTURE_PRICE"]?></p>
+							<a href="#" class="b-btn b-btn-orange b-btn-form" data-id="<?=$prices["364139"]["ID"]?>-radio-1">
+								<p class="main">Выбрать пакет</p>
+								<p class="small">шаг 1 из 3</p>
+							</a>
+							<div class="price-remainder">Осталось <span class="number-packs">4</span> пакета<br>по этой цене</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="b b-tariff">
+		<div class="b-block">
+			<h2 class="b-title"><b>Тариф «под ключ»</b></h2>
+			<h3 class="b-title">Делаем проект за вас + обучаем</h3>
+			<div class="b-tariff-list clearfix">
+				<div class="b-tariff-item b-tariff-item-1">
+					<img src="i/b-tariff/1.jpg" alt="">
+					<p><b>Прохождение курса Взлом<br>конверсии по максимальному<br>тарифу «Palatinum»</b><br>Обучаем всю команду:<br>Вы + 6 человек</p>
+				</div>
+				<div class="b-tariff-item b-tariff-item-2">
+					<img src="i/b-tariff/2.jpg" alt="">
+					<p><b>Выезд специалиста<br>маркетолога</b> на 1 день<br>к вам в офис для разбора<br>точек роста</p>
+				</div>
+				<div class="b-tariff-item b-tariff-item-3">
+					<img src="i/b-tariff/3.jpg" alt="">
+					<p>Поддержка от маркетингового<br>агентства TFA (разработка<br>прототипа, дизайна, верстки).<br>12 специалистов работают<br>над вашим проектом</p>
+				</div>
+			</div>
+			<a href="#" class="b-btn b-btn-orange b-btn-one-line">
+				<p class="main">Получить коммерческое предложение</p>
+			</a>
+		</div>
+	</div>
+
+	<? /* ?>
 	<div class="b b-price">
 		<div class="b-block">
 			<h2 class="b-title-roman">Так сколько же это стоит<br>и чему вы научитесь?</h2>
@@ -1777,6 +2422,7 @@ require_once("prices.php");
 			</form>
 		</div>
 	</div>
+	<? */ ?>
 
 <!-- 	<div class="b b-16" data-offset="700">
 		<div class="b-block">
@@ -1878,6 +2524,7 @@ require_once("prices.php");
 		</div>
 	</div>
 
+<? /* ?>
 	<!--Комментарии-->
 	<div class="webinar_soc" style="width: 1000px; margin: auto; padding: 0px 0 30px 0; text-align: center; overflow:auto;">
 	
@@ -1903,6 +2550,7 @@ require_once("prices.php");
 
 				<div class="fb-comments" data-order-by="time" data-href="https://www.facebook.com/groups/1996793010569700/"  data-width="450" data-numposts="5" ></div>
 	</div>
+	<? */ ?>
 
 	<!-- <div class="b b-footer">
 		<div class="b-block">
@@ -1996,7 +2644,10 @@ require_once("prices.php");
 					<div class="done-item-5">
 						<div class="done-item-img">
 							<span>5</span>
-							<img src="i/500lux/pic-5.jpg">
+							<div class="b-video-block" style="background-image: url('i/2/video.jpg');">
+								<iframe src="https://www.youtube.com/embed/xMM-ePMMi1Y?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+								<a href='#' class="b-play"></a>
+							</div>
 						</div>
 						<div class="done-text">
 							<h4>Видеосъемка: как донести огромный<br>пласт смыслов за 1,5 минуты</h4>
@@ -2038,16 +2689,16 @@ require_once("prices.php");
 					</div>
 					<div class="b-500lux-results-item">
 						<img src="i/500lux/small-pic-3.jpg">
-						<p>За 2 года с помощью Landing Page компания уже получила заказов на сумму свыше 170 000 000 рублей</p>
+						<p>За 2 года с помощью Landing Page компания уже получила заказов на сумму свыше 140 000 000 рублей</p>
 					</div>
 				</div>
 			</div>
 			<div class="b-500lux-author">
 				<h3>Работа получила признания<br>ведущих интернет-маркетологов<br>в СНГ</h3>
 				<div class="b-500lux-author-content">
-					<img src="i/500lux/small-man.jpg">
-					<div class="b-line"></div>
-					<p>Автор тренда на Landing Page в странах СНГ, известный маркетолог <b>Михаил Дашкиев</b> признал наш сайт <b>«произведением искусства»</b></p>
+					<img src="i/500lux/pic-8.jpg">
+					<!-- <div class="b-line"></div> -->
+					<p>Видео мастер-класс Михаила Дашкиева<br> «Упаковка. У вас заклеен рот».</p>
 				</div>
 			</div>
 			<div class="b-500lux-button">
@@ -2080,16 +2731,23 @@ require_once("prices.php");
 			<a href="#" class="b-btn-close icon-close"></a>
 			<h3>Стоимость участия в программе<br>Взлом Конверсии</h3>
 			<form id="b-cost-form" class="b-cost-form" method="post" action="kitsend.php">
-				<p>Стоимость участия:</p>
-				<ul class="b-radio">
+				<!-- <ul class="b-radio">
 					<? foreach ($prices as $value => $arPrice): ?>
 					<li>
 						<input id="<?=$arPrice["ID"]?>-radio-1" type="radio" name="tovar_id" value="<?=$value?>" data-form-id="37390" <? if( $arPrice["CHECKED"] ): ?>checked<? endif; ?>>
 						<label for="<?=$arPrice["ID"]?>-radio-1"><?=$arPrice["NAME"]?> — <?=$arPrice["VIEW_PRICE"]?>&#160;&#160;<span class="cost-old"><?=$arPrice["OLD_VIEW_PRICE"]?></span></label>
 					</li>
 					<? endforeach; ?>
-				</ul>
-				<a href="#" class="cost-details">Узнать подробнее про пакеты</a>
+				</ul> -->
+				<select name="tovar_id" id="type1">
+					<? foreach ($prices as $value => $arPrice): ?>
+					<li>
+						<option data-price="<?=$arPrice["VIEW_PRICE"]?>" data-id="<?=$arPrice["ID"]?>-radio-1" value="<?=$value?>" <? if($value == "364139"): ?>selected<? endif; ?>><?=$arPrice["NAME"]?></option>
+					</li>
+					<? endforeach; ?>
+				</select>
+				<p class="b-form-price-label">Стоимость участия: <b class="b-form-price"><?=$prices["364139"]["VIEW_PRICE"]?></b></p>
+				<!-- <a href="#" class="cost-details">Узнать подробнее про пакеты</a> -->
 				<div class="b-center">
 					<div class="b-inputs-block">
 						<div class="b-input">
@@ -2194,6 +2852,40 @@ require_once("prices.php");
 				<li>EMS-тренажеры</li>
 				<li>Фильтры для воды</li>
 				<li>Винтовые сваи</li>
+				<li>Кольцевые лампы</li>
+				<li>Английский язык</li>
+				<li>Организация VIP-юбилеев</li>
+				<li>Видеонаблюдение</li>
+				<li>Продажа джема</li>
+				<li>Ремонт тракторов</li>
+				<li>Сбор пожертвований на храмы</li>
+				<li>Поминовения онлайн</li>
+				<li>Криптовалютная биржа</li>
+				<li>Сервис по привлечению специалистов в стартапы</li>
+				<li>Сервис по привлечению инвестиций в стартапы</li>
+				<li>Лига финансовых консультантов</li>
+				<li>Франшизы по продаже автосвета</li>
+				<li>Франшизы по регулированию вывесок на домах "Законная вывеска"</li>
+				<li>Франшиза курсов по подготовке к ЕГЭ</li>
+				<li>Школа танцев для детей</li>
+				<li>Сервис по ремонту техники Apple</li>
+				<li>CRM для социальных сетей</li>
+				<li>Международный сервис для логистов (IT-проект)</li>
+				<li>Боксы в кузов для пикапов (физ. товар)</li>
+				<li>Интернет-магазин фармацевтических товаров</li>
+				<li>Частный психолог</li>
+				<li>Утепление домов </li>
+				<li>Агентство Недвижимости №1 в Ярославле</li>
+				<li>Uber. Подключение водителей (№1 в СПб)</li>
+				<li>Школа английского языка для детей</li>
+				<li>Продажа штор в розницу</li>
+				<li>Изготовление портретов-картин по фото </li>
+				<li>Допуски СРО</li>
+				<li>Дизайн-проекты домов и квартир</li>
+				<li>Продажа проставок для увеличения клиренса </li>
+				<li>Школа парных танцев для взрослых</li>
+				<li>Обучение пошиву костюмов класса Люкс </li>
+				<li>Обучение заработку на госзакупках</li>
 			</ol>
 		</div>
 	</div>
