@@ -76,21 +76,30 @@ $(document).ready(function(){
         return false;
     });
 
+    // $("#b-show-10").click(function(){
+    //     $(".b-instruct-10").each(function(){
+    //         var $this = $(this);
+
+    //         $this.css("display", "inline-block");
+    //         setTimeout(function(){
+    //             setTimeout(function(){
+    //                 $this.addClass($this.attr("data-anim")+"-show");
+    //             }, 10);
+    //         }, $this.attr("data-delay")*1);
+    //     });
+    //     $(this).hide();
+
+    //     return false;
+    // });
+
     $("#b-show-10").click(function(){
-        $(".b-instruct-10").each(function(){
-            var $this = $(this);
-
-            $this.css("display", "inline-block");
-            setTimeout(function(){
-                setTimeout(function(){
-                    $this.addClass($this.attr("data-anim")+"-show");
-                }, 10);
-            }, $this.attr("data-delay")*1);
-        });
-        $(this).hide();
-
+        $(".b-note-show-all").addClass("show-note");
         return false;
     });
+    $("#b-note-hide").click(function(){
+        $(".b-note-show-all").removeClass("show-note");
+        return false;
+    })
 
     customHandlers["onScroll"] = function(scroll){
         // alert(scroll);

@@ -775,7 +775,7 @@ h5.b-small{
 		.b-2 .b-man{
 			background-position: 0px;
 			background-repeat: no-repeat;
-			background-image: url('../i/2/man.svg');
+			background-image: url('../i/2/man.png');
 			width: 732px;
 			height: 1028px;
 			position: absolute;
@@ -2822,9 +2822,62 @@ h5.b-small{
 			}
 				.b-note-purple .b-purple-link{
 					font-family: "Tahoma-Regular";
+					letter-spacing: 1px;
 				}
 					.b-note-purple .b-purple-link b{
 					}
+			.b-note-show-all{
+				max-height: 0px;
+				opacity: 0;
+				position: relative;
+				background-color: #f2f2f3;
+			    margin: 60px auto 0;
+				max-width: 860px;
+				-webkit-transition: max-height .3s, opacity .3s ;
+				-moz-transition: max-height .3s, opacity .3s ;
+				-ms-transition: max-height .3s, opacity .3s ;
+				transition: max-height .3s, opacity .3s ;
+			}
+			.b-note-show-all.show-note{
+				max-height: 591px;
+				opacity: 1;
+			}
+				.b-show-all-block{
+					display: inline-block;
+					width: calc(100%/2 - 12px);
+					vertical-align: top;
+			        padding: 35px 0px 24px 31px;
+				}
+				.b-show-all-block:nth-child(2){
+					margin-left: 17px;
+				}
+					.b-show-all-block li{
+						font-family: 'Gilroy-Regular';
+						font-size: 15px;
+					    line-height: 20px;
+    					margin-bottom: 10px;
+					}
+				.b-note-show-all .b-note-purple{
+					margin-top: 0;
+					padding-bottom: 39px;
+				}
+					.b-note-show-all .b-purple-link{
+						font-family: "Tahoma-Regular";
+						text-align: center;
+					}
+			.b-note-show-all:after{
+				position: absolute;
+				background-color: #f2f2f3;
+				content: "";
+				width: 20px;
+				height: 20px;
+				left: 50%;
+				top: -10px;
+				-webkit-transform: translateX(-50%) rotate(45deg);
+				-moz-transform: translateX(-50%) rotate(45deg);
+				-ms-transform: translateX(-50%) rotate(45deg);
+				transform: translateX(-50%) rotate(45deg);
+			}
 		.b-note-btn{
 			text-align: center;
 		}
@@ -2941,17 +2994,28 @@ h5.b-small{
 		}
 			.b-12 .b-video{
 				display: inline-block;
-				width: calc( 100%/3 - 24px );
-				margin-right: 36px;
+				width: calc( 100%/3 - 50px );
+				margin-right: 75px;
 			}
 				.b-12 .b-video:last-child{
 					margin-right: 0px;
 				}
 				.b-12 .b-video-block{
 					width: 100%;
-					height: 205px;
+					height: 235px;
 					margin-bottom: 21px;
+					margin-top: 19px;
+					background-image:unset;
+					box-shadow: 0px 0px 40px 0px rgba(30, 27, 30, 0.15);
 				}
+					.b-12 .b-video-block img{
+						position: absolute;
+						left: 0;
+						top: 0;
+						width: 100%;
+						height: 100%;
+						padding: 19px 10px 14px;
+					}
 					.b-12 .b-video iframe{
 
 					}
@@ -3773,7 +3837,7 @@ h5.b-small{
 	.b-17 .b-block{
 
 	}
-		.b-17 h2.b-title{max-width: 800px;}
+		.b-17 h2.b-title{max-width: 1020px;}
 			.b-17 h2.b-title b{
 				font-size: 52px;
 			}
@@ -3828,18 +3892,18 @@ h5.b-small{
 	z-index: 2;
 }
 	.b-18-a h2.b-title{
-
+	    max-width: 1000px;
 	}
 		.b-18-a .b-sert-cont{
 			height: 621px;
 		}
-			.b-18-a .b-diploma{
+			.b-18-a .b-photo{
 				float: left;
 				margin-top: 30px;
 				margin-left: -27px;
 				background-position: 50% 50%;
 				background-repeat: no-repeat;
-				background-image: url('../i/m/22/diploma.jpg');
+				background-image: url('../i/m/22/photo.png');
 				width: 549px;
 				height: 620px;
 				margin-right: 34px;
@@ -3854,7 +3918,7 @@ h5.b-small{
 				.b-18-a .b-logos{
 					background-position: 50% 50%;
 					background-repeat: no-repeat;
-					background-image: url('../i/m/22/logos.jpg');
+					background-image: url('../i/m/22/logos.png');
 					width: 429px;
 					height: 149px;
 					margin-top: 27px;
@@ -4681,7 +4745,56 @@ h5.b-small{
     color: #0d0d10;
     background-color: transparent;
 }
-
+/*-----------b-popup-commerce-------------*/
+.b-popup-commerce{
+    width: 910px;
+    padding-bottom: 84px;
+}
+	.b-popup-commerce .b-form-content{
+		width: 100%;
+	}
+		.b-popup-commerce .b-form-content h3{
+			margin-top: 46px;
+			margin-bottom: 18px;
+			font-size: 50px;
+			line-height: 62px;
+			text-align: center;
+			font-family: 'Gilroy-Regular';
+		}
+		.b-popup-commerce p{
+			font-size: 15px;
+			line-height: 25px;
+		    text-align: center;
+		}
+			.b-popup-commerce .b-cost-form .b-input{
+				margin-bottom: 23px;
+			}
+			.b-popup-commerce .b-input-before{
+				margin-left: 30px;
+			}
+			.b-popup-commerce .b-input .b-input-before{
+				font-family: 'Tahoma-Regular';
+				font-size: 12px;
+				line-height: 18px;
+			}
+		.b-popup-commerce label{
+			font-size: 10.5px;
+			line-height: 15px;
+		}
+	.b-popup-commerce .b-cost-form{
+		width: 350px;
+	}
+		.b-popup-commerce .b-cost-form .b-checkbox{
+			margin-top: 10px;
+		}
+			.b-popup-commerce .b-checkbox input{
+				width: 30px;
+			}
+	.b-popup-commerce .fancybox-close-small:after{
+	    font-size: 18px;
+	    top: -1px;
+    	right: -7px;
+	}
 /*--------Стоимость участия---------*/
 
 .b-cost{

@@ -43,8 +43,8 @@ function fancyOpen(el){
 var customHandlers = [];
 
 $(document).ready(function(){	
-	var rePhone = /^\+\d \(\d{3}\) \d{3}-\d{2}-\d{2}$/,
-		tePhone = '+7 (999) 999-99-99';
+	var rePhone = /^\+\d+$/,
+		tePhone = '+9?9999999999999';
 
 	$.validator.addMethod('customPhone', function (value) {
 		return rePhone.test(value);
@@ -118,17 +118,17 @@ $(document).ready(function(){
 		});
 	});
 
-	var open = false;
-    $("body").on("mouseup", ".b-popup *, .b-popup", function(){
-        open = true;
-    });
-    $("body").on("mousedown", ".fancybox-slide", function() {
-        open = false;
-    }).on("mouseup", ".fancybox-slide", function(){
-        if( !open ){
-            $.fancybox.close();
-        }
-    });
+	// var open = false;
+ //    $("body").on("mouseup", ".b-popup *, .b-popup", function(){
+ //        open = true;
+ //    });
+    // $("body").on("mousedown", ".fancybox-slide", function() {
+    //     open = false;
+    // }).on("mouseup", ".fancybox-slide", function(){
+    //     if( !open ){
+    //         $.fancybox.close();
+    //     }
+    // });
 
 	$(".b-go").click(function(){
 		var block = $( $(this).attr("data-block") ),
