@@ -6253,11 +6253,15 @@ ol li:before {
 }
 	.b-new-review-block .b-new-small{
 		width: calc(100% - 80px);
+		margin-top: 44px;
 	}
 
 .b-new-review-block .b-new-small:after{
 	    top: 28px;
     left: calc(50% - 32px);
+}
+.review-image{
+	padding-top: 40px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5) {
 	.img-book .img{
