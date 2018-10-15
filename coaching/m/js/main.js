@@ -354,6 +354,27 @@ $(document).ready(function(){
         return false;
     });
 
+    $("#type2").chosen({
+        disable_search_threshold : 10
+    }).change(function(){
+        var $option = $(this).find("option[value='"+$(this).val()+"']");
+            click = $option.attr("data-id"),
+            name = $option.attr("data-name"),
+            price = $option.attr("data-price"),
+            oldPrice = $option.attr("data-old-price");
+
+        $(".b-footer-title b").text(price);
+        $(".b-footer-title span").text(oldPrice);
+        $(".b-footer-title div").text(name);
+
+        if( $option.attr("value") == "364138" ){
+            $(".b-footer-title span").hide();
+        }else{
+            $(".b-footer-title span").show();
+        }
+        return false;
+    });
+
     $(".b-pay-click").click(function(){
         return false;
     });
