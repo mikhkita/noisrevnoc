@@ -2378,14 +2378,18 @@ h5.b-small{
 								.b-autofun .b-ipad-cont div{
 									background-position: 50% 50%;
 									background-repeat: no-repeat;
-									width: 491px;
-									height: 353px;
+									width: 555px;
+									height: 399px;
 								}
 								.b-autofun .b-ipad-1{
 									background-image: url('../i/8/4/ipad-1.jpg');
+									position: relative;
+									left: -40px;
 								}
 								.b-autofun .b-ipad-2{
 									background-image: url('../i/8/4/ipad-2.jpg');
+									position: relative;
+									left: 40px;
 								}
 								.b-autofun .b-left-triangle{
 									margin-top: 39px;
@@ -2996,10 +3000,36 @@ h5.b-small{
 .b-11{
 	background-position: 50% 371px;
 	background-repeat: no-repeat;
-	background-image: url(../i/3/line.svg);
+	/*background-image: url(../i/3/line.svg);*/
 	padding-top: 88px;
-	padding-bottom: 100px;
+	/*padding-bottom: 100px;*/
 }
+	.b-11 .b-triangle-top{
+		position: absolute;
+		left: 46px;
+		top: 221px;
+		font-size: 20px;
+		line-height: 30px;
+		font-family: Gilroy-Regular;
+	}
+	.b-11 .b-new-review{
+		text-align: right;
+		position: relative;
+		left: 106px;
+	}
+	.b-11 .b-new-line{
+		position: absolute;
+		left: 0px  top: 0px  width:;
+		left: 130px;
+		top: 290px;
+		z-index: 30;
+	}
+	.b-11 .b-video-block{
+		background-color: #050c1b;
+		position: relative;
+	    width: 860px;
+	    height: 500px;
+	}
 	.b-11 .b-block{
 
 	}
@@ -5999,6 +6029,101 @@ ol li:before {
 	border-radius: 10px 10px 25px 25px;
 }
 
+.b-new-review-block h5.b-small{
+	width: 100%;
+	max-width: none;
+}
+.b-new-review-block h5{
+	font-size: 50px;
+	line-height: 62px;
+}
+.b-new-review-block .new-quote{
+	    top: 270px;
+}
+.b-new-review-block .b-new-big{
+	font-size: 35px;
+	line-height: 50px;
+	font-family: Gilroy-Regular;
+}
+.b-new-review-block .b-new-big b{
+	font-family: Gilroy-Bold;
+}
+.b-new-review-block{
+	margin-top: 110px;
+}
+	.b-new-review-block .b-new-small{
+		width: calc(100% - 80px);
+		margin-top: 44px;
+	}
+
+.b-new-review-block .b-new-small:after{
+	top: 28px;
+    left: calc(50% - 32px);
+}
+
+.b-video-review{
+    width: 570px;
+    height: 350px;
+    display: inline-block;
+}
+.b-new-big{
+	font-size: 35px;
+	line-height: 50px;
+	padding-top: 44px;
+	padding-left: 24px;
+}
+.b-new-small{
+  font-size: 15px;
+  font-family: "Gilroy-Regular";
+  /* position: absolute; */
+  text-align: center;
+  /* line-height: 0px; */
+  position:  relative;
+  top: -7px;
+  display: inline-block;
+  border-bottom: 1px solid rgba(13, 13, 16, 0.1);
+  width: 100%;
+  padding-bottom: 60px;
+}
+	.b-new-small:after{
+		content: " ";
+	    position: absolute;
+	    font-size: 0px;
+	    line-height: 0px;
+	    background-image: url(../i/m/5/quote.svg);
+	    width: 23px;
+	    height: 18px;
+	    padding: 24px;
+	    background-position: 50% 50%;
+	    background-repeat: no-repeat;
+	    background-color: #fff;
+	    top: 66px;
+	    left: calc(50% - 32px);
+	}
+.b-new-record{
+	/* background-image: url("../i/m/5/new-back.svg"); */
+	padding: 57px 0px 40px 0px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	box-shadow: 0px 10px 70px 0px rgba(13, 13, 16, 0.1);
+	position: relative;
+	margin-bottom: 100px;
+}
+.b-new-record-inner img{
+	width: 450px;
+	height: 350px;
+	margin-left: 16px;
+}
+.hide-rev{
+	display: none;
+}
+.show-rev{
+	display: block;
+}
+.b-new-review-block .b-btn{
+	margin-top: 40px;
+}
 @media (-webkit-min-device-pixel-ratio: 1.5) {
 	.img-book .img{
 		background-image: url('../i/book@2x.png');

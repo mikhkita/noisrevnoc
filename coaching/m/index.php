@@ -1008,66 +1008,70 @@ require_once("prices.php");
 		</div> -->
 		<div class="b-block">
 			<div class="b-new-record b-new-review-block">
-				<h5 class="b-small"><b>Такой метод</b> внедрения маркетинговых<br> инструментов <b>позволяет расти<br>без вложений</b>
+				<h5 class="b-small"><b>6 из 10 специалистов</b> окупают нашу<br> программу ещё во время прохождения</h5>
+				<p class="b-new-small"></p>
+				<h5 class="b-new-big"><b>Получили 180 заявок по 50 рублей.<br></b>Курс окупился за первый же день</h5>
+				<div class="b-new-record-inner b-new-slide clearfix">
+					<div class="b-video-block b-video-review" style="background-image: url('i/reviews/sapronov.jpg');">
+						<iframe src="https://www.youtube.com/embed/clb2cY9q5Og?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						<a href='#' class="b-play"></a>
+					</div>
+					<img src="i/reviews/review-1.jpg">
+				</div>
+				<p class="b-new-small"></p>
+				<h5 class="b-new-big">Продал сайт турецкой компании за 200 000 рублей.<br><b>Средний чек вырос в 4 раза</b></h5>
+				<div class="b-new-record-inner b-new-slide clearfix">
+					<div class="b-video-block b-video-review" style="background-image: url('i/reviews/goncharov.jpg');">
+						<iframe src="https://www.youtube.com/embed/JxoXHB9wSTE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						<a href='#' class="b-play"></a>
+					</div>
+					<img src="i/reviews/review-2.jpg">
+				</div>
 				<p class="b-new-small"></p>
 				<h5 class="b-new-big"><b>212 000 рублей</b> в первую неделю<br>прохождения курса</h5>
 				<div class="b-new-record-inner b-new-slide clearfix">
-					<div class="b-video-block b-video-review" style="background-image: url('i/2/video.jpg');">
-						<iframe src="https://www.youtube.com/embed/5_kJ3dfynHI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					<div class="b-video-block b-video-review" style="background-image: url('i/reviews/ohotsky.jpg');">
+						<iframe src="https://www.youtube.com/embed/ggLvqCFvVNg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 						<a href='#' class="b-play"></a>
 					</div>
-					<img src="i/m/5/review.jpg">
+					<img src="i/reviews/review-3.jpg">
 				</div>
-				<p class="b-new-small"></p>
-				<h5 class="b-new-big">Никогда не было таких результатов.<br><b>Сразу 11 заявок по 120 рублей</b> на кухни</h5>
-				<div class="b-new-record-inner b-new-slide clearfix">
-					<div class="b-video-block b-video-review" style="background-image: url('i/2/video.jpg');">
-						<iframe src="https://www.youtube.com/embed/5_kJ3dfynHI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-						<a href='#' class="b-play"></a>
+				<div class="b-add-reviews hide-rev">
+					<p class="b-new-small"></p>
+					<h5 class="b-new-big"><b>Чек-листы это палочка-выручалочка.</b><br>Сократили стоимость заявки до 60 рублей.</h5>
+					<div class="b-new-record-inner b-new-slide clearfix">
+						<div class="b-video-block b-video-review" style="background-image: url('i/reviews/shreiner.jpg');">
+							<iframe src="https://www.youtube.com/embed/5MbvIlXVnNk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+							<a href='#' class="b-play"></a>
+						</div>
+						<img src="i/reviews/review-4.jpg">
 					</div>
-					<img src="i/m/5/review.jpg">
-				</div>
-				<p class="b-new-small"></p>
-				<h5 class="b-new-big"><b>212 000 рублей</b> в первую неделю<br>прохождения курса</h5>
-				<div class="b-new-record-inner b-new-slide clearfix">
-					<div class="b-video-block b-video-review" style="background-image: url('i/2/video.jpg');">
-						<iframe src="https://www.youtube.com/embed/5_kJ3dfynHI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-						<a href='#' class="b-play"></a>
+					<p class="b-new-small"></p>
+					<h5 class="b-new-big">Запустили 3 сайта, цена лида от 79 рублей.<br><b>За 1 неделю окупил курс</b></h5>
+					<div class="b-new-record-inner b-new-slide clearfix">
+						<div class="b-video-block b-video-review" style="background-image: url('i/reviews/haerzamanov.jpg');">
+							<iframe src="https://www.youtube.com/embed/NOlNJYAuHvE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+							<a href='#' class="b-play"></a>
+						</div>
+						<img src="i/reviews/review-5.jpg">
 					</div>
-					<img src="i/m/5/review.jpg">
-				</div>
-				<p class="b-new-small"></p>
-				<h5 class="b-new-big"><b>Чек-листы это палочка-выручалочка.</b><br>Сократили стоимость заявки до 60 рублей.</h5>
-				<div class="b-new-record-inner b-new-slide clearfix">
-					<div class="b-video-block b-video-review" style="background-image: url('i/2/video.jpg');">
-						<iframe src="https://www.youtube.com/embed/5_kJ3dfynHI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-						<a href='#' class="b-play"></a>
+					<p class="b-new-small"></p>
+					<h5 class="b-new-big">Никогда не было таких результатов.<br><b>Сразу 11 заявок по 120 рублей</b> на кухни</h5>
+					<div class="b-new-record-inner b-new-slide clearfix">
+						<div class="b-video-block b-video-review" style="background-image: url('i/reviews/sheidakov.jpg');">
+							<iframe src="https://www.youtube.com/embed/809tKyXN6Q0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+							<a href='#' class="b-play"></a>
+						</div>
+						<img src="i/reviews/review-6.jpg">
 					</div>
-					<img src="i/m/5/review.jpg">
 				</div>
-				<p class="b-new-small"></p>
-				<h5 class="b-new-big">Запустили 3 сайта, цена лида от 79 рублей.<br><b>За 1 неделю окупил курс</b></h5>
-				<div class="b-new-record-inner b-new-slide clearfix">
-					<div class="b-video-block b-video-review" style="background-image: url('i/2/video.jpg');">
-						<iframe src="https://www.youtube.com/embed/5_kJ3dfynHI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-						<a href='#' class="b-play"></a>
-					</div>
-					<img src="i/m/5/review.jpg">
-				</div>
-				<p class="b-new-small"></p>
-				<h5 class="b-new-big">Никогда не было таких результатов.<br><b>Сразу 11 заявок по 120 рублей</b> на кухни</h5>
-				<div class="b-new-record-inner b-new-slide clearfix">
-					<div class="b-video-block b-video-review" style="background-image: url('i/2/video.jpg');">
-						<iframe src="https://www.youtube.com/embed/5_kJ3dfynHI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-						<a href='#' class="b-play"></a>
-					</div>
-					<img src="i/m/5/review.jpg">
-				</div>
-				<img class="review-image" src="i/reviews/pic.jpg">
 				<div class="b-note-btn">
-					<a href="#" class="b-btn b-btn-orange b-btn-form">
-						<p class="main">Иду на программу!</p><br>
+					<a href="#" class="b-btn b-btn-orange b-btn-form" style="padding: 30px 42px 34px 42px;">
+						<p class="main">Иду на взлом!</p><br>
 					</a>
+				</div>
+				<div class="b-note-purple">
+					<a href="#" class="b-purple-link b-show-reviews"><b>Смотреть ещё отзывы</a>
 				</div>
 			</div>
 		</div>
