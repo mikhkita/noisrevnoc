@@ -2891,15 +2891,15 @@ require_once("prices.php");
 						<div class="b-inputs-block">
 							<div class="b-input">
 								<div class="b-input-before">Введите ваше имя</div>
-								<input type="text" name="name" placeholder="Владимир Сургай" required>
+								<input type="text" name="name" placeholder="Михаил Иванов" required>
 							</div>
 							<div class="b-input">
 								<div class="b-input-before">Введите ваш E-mail</div>
-								<input type="text" name="email" placeholder="surgay@gmail.com" required>
+								<input type="text" name="email" placeholder="example@gmail.com" required>
 							</div>
 							<div class="b-input">
 								<div class="b-input-before">Введите ваш телефон</div>
-								<input type="text" name="phone" placeholder="+__________" required>
+								<input type="text" name="phone" placeholder="+" required>
 							</div>
 						</div>
 

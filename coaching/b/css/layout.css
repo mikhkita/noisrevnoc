@@ -4758,13 +4758,16 @@ h5.b-small{
 			font-size: 50px;
 			line-height: 62px;
 			text-align: center;
-			font-family: 'Gilroy-Regular';
 		}
 		.b-popup-commerce p{
 			font-size: 15px;
 			line-height: 25px;
 		    text-align: center;
 		}
+			.b-popup-commerce .b-cost-form input{
+				background: #fcfbfa;
+				box-shadow: inset 1.414px 1.414px 6px 0px rgba(30, 30, 30, 0.1);
+			}
 			.b-popup-commerce .b-cost-form .b-input{
 				margin-bottom: 23px;
 			}
@@ -4787,13 +4790,40 @@ h5.b-small{
 			margin-top: 10px;
 		}
 			.b-popup-commerce .b-checkbox input{
-				width: 30px;
+				width: 14px;
 			}
 	.b-popup-commerce .fancybox-close-small:after{
 	    font-size: 18px;
 	    top: -1px;
     	right: -7px;
 	}
+	.b-inputs-block .b-input:nth-child(1) input{
+		background-image: url(../i/form-icon-1.svg);
+	    background-repeat: no-repeat;
+	    background-position: 31px 24px;
+	    background-size: 16px 19px;
+	    padding-left: 68px;
+	}
+	.b-inputs-block .b-input:nth-child(2) input{
+		background-image: url(../i/form-icon-2.svg);
+	    background-repeat: no-repeat;
+        background-position: 31px 27px;
+	    background-size: 19px 14px;
+	    padding-left: 68px;
+	}
+	.b-inputs-block .b-input:nth-child(3) input{
+		background-image: url(../i/form-icon-3.svg);
+	    background-repeat: no-repeat;
+	    background-position: 31px 25px;
+	    background-size: 17px 17px;
+	    padding-left: 70px;
+	}
+.b-popup-commerce input::-webkit-input-placeholder {
+	color: #cfcfcd;
+}
+.b-popup-commerce input:-moz-placeholder {
+	color: #cfcfcd;
+}
 /*--------Стоимость участия---------*/
 
 .b-cost{
