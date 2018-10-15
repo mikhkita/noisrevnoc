@@ -74,7 +74,7 @@ require_once("prices.php");
 				<div class="b-header-top-item">
 					<a href="index.html" class="b-header-top-logo"></a>
 					<div class="b-rounds"><div class="b-rounds-inner"></div></div>
-					<p>Взлом конверсии. Система<br>из 4-х прибыльных Landing Page</p>
+					<p>Взлом конверсии 2.0. Система<br>из 4-х прибыльных Landing Page</p>
 				</div>
 				<div class="b-header-top-item b-header-icon-cont">
 					<div class="b-header-icon b-header-top-course"></div>
@@ -96,8 +96,8 @@ require_once("prices.php");
 						<p>Первые заявки стоимостью от 39 до 420 руб. уже <b>на 3-м занятии</b></p>
 					</div>
 					<div class="b-header-content-item anim fadeDown" data-anim="fadeDown" data-delay="4000">
-						<img src="i/Tag.png" class="img-tag">
-						<p>Юридическая <b>гарантия 100%-й окупаемости</b> онлайн-практикума для тарифов Platinum и VIP</p>
+						<img src="i/hand.png" class="img-tag">
+						<p>Первые заявки стоимостью от 39 до 420р. уже на <b>3-м занятии</b></p>
 					</div>
 				</div>
 				<div class="b-header-content-right">
@@ -111,14 +111,14 @@ require_once("prices.php");
 							<p class="main">Забронировать место</p><br>
 							<p class="small">по специальной цене</p>
 						</a>
-						<div class="last-time">
+						<!-- <div class="last-time">
 							<img src="i/line-header.png">
 							<div class="last-time-text">
 								<p>Последний поток стартует</p>
 								<p><b>22 марта</b></p>
 							</div>
-						</div>
-						<img src="i/syrgai.png" class="syrgai-header">
+						</div> -->
+						<!-- <img src="i/syrgai.png" class="syrgai-header"> -->
 					</div>
 				</div>
 			</div>
@@ -1961,7 +1961,10 @@ require_once("prices.php");
 					<div class="done-item-5">
 						<div class="done-item-img">
 							<span>5</span>
-							<img src="i/500lux/pic-5.jpg">
+							<div class="b-video-block" style="background-image: url('i/2/video.jpg');">
+								<iframe src="https://www.youtube.com/embed/xMM-ePMMi1Y?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+								<a href='#' class="b-play"></a>
+							</div>
 						</div>
 						<div class="done-text">
 							<h4>Видеосъемка: как донести огромный<br>пласт смыслов за 1,5 минуты</h4>
@@ -2003,16 +2006,16 @@ require_once("prices.php");
 					</div>
 					<div class="b-500lux-results-item">
 						<img src="i/500lux/small-pic-3.jpg">
-						<p>За 2 года с помощью Landing Page компания уже получила заказов на сумму свыше 170 000 000 рублей</p>
+						<p>За 2 года с помощью Landing Page компания уже получила заказов на сумму свыше 140 000 000 рублей</p>
 					</div>
 				</div>
 			</div>
 			<div class="b-500lux-author">
 				<h3>Работа получила признания<br>ведущих интернет-маркетологов<br>в СНГ</h3>
 				<div class="b-500lux-author-content">
-					<img src="i/500lux/small-man.jpg">
-					<div class="b-line"></div>
-					<p>Автор тренда на Landing Page в странах СНГ, известный маркетолог <b>Михаил Дашкиев</b> признал наш сайт <b>«произведением искусства»</b></p>
+					<img src="i/500lux/pic-8.jpg">
+					<!-- <div class="b-line"></div> -->
+					<p>Видео мастер-класс Михаила Дашкиева<br> «Упаковка. У вас заклеен рот».</p>
 				</div>
 			</div>
 			<div class="b-500lux-button">
@@ -2159,6 +2162,40 @@ require_once("prices.php");
 				<li>EMS-тренажеры</li>
 				<li>Фильтры для воды</li>
 				<li>Винтовые сваи</li>
+				<li>Кольцевые лампы</li>
+				<li>Английский язык</li>
+				<li>Организация VIP-юбилеев</li>
+				<li>Видеонаблюдение</li>
+				<li>Продажа джема</li>
+				<li>Ремонт тракторов</li>
+				<li>Сбор пожертвований на храмы</li>
+				<li>Поминовения онлайн</li>
+				<li>Криптовалютная биржа</li>
+				<li>Сервис по привлечению специалистов в стартапы</li>
+				<li>Сервис по привлечению инвестиций в стартапы</li>
+				<li>Лига финансовых консультантов</li>
+				<li>Франшизы по продаже автосвета</li>
+				<li>Франшизы по регулированию вывесок на домах "Законная вывеска"</li>
+				<li>Франшиза курсов по подготовке к ЕГЭ</li>
+				<li>Школа танцев для детей</li>
+				<li>Сервис по ремонту техники Apple</li>
+				<li>CRM для социальных сетей</li>
+				<li>Международный сервис для логистов (IT-проект)</li>
+				<li>Боксы в кузов для пикапов (физ. товар)</li>
+				<li>Интернет-магазин фармацевтических товаров</li>
+				<li>Частный психолог</li>
+				<li>Утепление домов </li>
+				<li>Агентство Недвижимости №1 в Ярославле</li>
+				<li>Uber. Подключение водителей (№1 в СПб)</li>
+				<li>Школа английского языка для детей</li>
+				<li>Продажа штор в розницу</li>
+				<li>Изготовление портретов-картин по фото </li>
+				<li>Допуски СРО</li>
+				<li>Дизайн-проекты домов и квартир</li>
+				<li>Продажа проставок для увеличения клиренса </li>
+				<li>Школа парных танцев для взрослых</li>
+				<li>Обучение пошиву костюмов класса Люкс </li>
+				<li>Обучение заработку на госзакупках</li>
 			</ol>
 		</div>
 	</div>

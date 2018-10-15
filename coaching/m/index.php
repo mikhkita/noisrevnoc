@@ -74,7 +74,7 @@ require_once("prices.php");
 				<div class="b-header-top-item">
 					<a href="index.html" class="b-header-top-logo"></a>
 					<div class="b-rounds"><div class="b-rounds-inner"></div></div>
-					<p>Взлом конверсии. Система<br>из 4-х прибыльных Landing Page</p>
+					<p>Взлом конверсии 2.0. Система<br>из 4-х прибыльных Landing Page</p>
 				</div>
 				<div class="b-header-top-item b-header-icon-cont">
 					<div class="b-header-icon b-header-top-course"></div>
@@ -89,15 +89,15 @@ require_once("prices.php");
 				<div class="b-header-content-left">
 					<div class="b-header-content-item anim fadeDown" data-anim="fadeDown" data-delay="2000">
 						<img src="i/Macbook.png" class="img-mac">
-						<p><b>Обеспечите себя заказами</b> на 6-10 месяцев вперед</p>
+						<p><b>Обеспечите себя заказами</b> на 1-3 месяца вперед</p>
 					</div>
 					<div class="b-header-content-item anim fadeDown" data-anim="fadeDown" data-delay="3000">
 						<img src="i/Money.png" class="img-money">
 						<p>Увеличите средний<br>чек на свои услуги<br><b>в 2 и более раз</b></p>
 					</div>
 					<div class="b-header-content-item anim fadeDown" data-anim="fadeDown" data-delay="4000">
-						<img src="i/Tag.png" class="img-tag">
-						<p>Юридическая <b>гарантия 100%-й окупаемости</b> онлайн-практикума для тарифов Platinum и VIP</p>
+						<img src="i/hand.png" class="img-tag">
+						<p>Первые заявки стоимостью от 39 до 420р. уже на <b>3-м занятии</b></p>
 					</div>
 				</div>
 				<div class="b-header-content-right">
@@ -111,14 +111,14 @@ require_once("prices.php");
 							<p class="main">Забронировать место</p><br>
 							<p class="small">по специальной цене</p>
 						</a>
-						<div class="last-time">
+						<!-- <div class="last-time">
 							<img src="i/line-header.png">
 							<div class="last-time-text">
 								<p>Последний поток стартует</p>
 								<p><b>22 марта</b></p>
 							</div>
-						</div>
-						<img src="i/syrgai.png" class="syrgai-header">
+						</div> -->
+						<!-- <img src="i/syrgai.png" class="syrgai-header"> -->
 					</div>
 				</div>
 			</div>
@@ -164,11 +164,7 @@ require_once("prices.php");
 			<div class="b-reason-cont clearfix">
 				<div class="b-reason clearfix b-reason-left">
 					<img src="i/m/3/1.jpg" alt="">
-					<p><b>Большинству клиентов</b><br>нужен комплексный маркетинг,<br>а не один Landing Page</p>
-				</div>
-				<div class="b-reason clearfix b-reason-right">
-					<img src="i/m/3/2.jpg" alt="">
-					<p>Если ваш средний чек<br>сегодня 30 т.р., <b>вы легко можете</b><br>брать проекты по...</p>
+					<p><b>Большинству клиентов</b> нужен комплексный маркетинг,<br> а не один Landing Page. Если ваш средний чек сегодня 30 т. р., <b>вы легко можете</b> брать проекты по 300 т. р. и более</p>
 				</div>
 			</div>
 			<div class="b-scheme">
@@ -184,19 +180,18 @@ require_once("prices.php");
 
 	<div class="b b-4" data-offset="800">
 		<div class="b-block">
-			<h2 class="b-title">Уже <b>десятки маркетологов и дизайнеров,</b> таких же как и вы, уже научились оказывать и продавать digital-услуги<br>для premium-аудитории</h2>
-			<div class="b-with-shadow">
-				<p class="b-with-quotes icon-icommas">
-				Вы сделали такой курс и такой контент, который оставляет подобные курсы курить в сторонке. <b>Не просто размазанная теория,</b> а действительно практика. 
-				</p>
-			</div>
+			<h2 class="b-title"><b>Десятки маркетологов и дизайнеров,</b> таких же как и вы, уже научились оказывать и продавать digital-услуги<br>для premium-аудитории</h2>
+			<p class="b-triangle-top anim fadeLeftSmall" data-anim="fadeLeftSmall" data-cont=".b-3">Посмотрите отзыв<br> участника курса<span class="b-line"></span></p>
+			<img class="b-new-line anim fadeLeftSmall" data-anim="fadeLeftSmall" data-cont=".b-3" src="i/new-line.svg">
+
+			<img class="b-new-review" src="i/4/review.jpg">
+
 			<div class="b-video-cont">
-				<img src="i/m/doc-1.jpg" alt="" class="b-list-back" data-enllax-ratio="-0.05" data-enllax-type="foreground">
+				<img src="i/m/doc-1.png" alt="" class="b-list-back">
 				<div class="b-video-block" style="background-image: url('i/m/4/video.jpg');">
-					<iframe src="https://www.youtube.com/embed/GmbyKuzOnLw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					<iframe src="https://www.youtube.com/embed/lXyVb7dx1tU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 					<a href='#' class="b-play"></a>
 				</div>
-				<img src="i/m/doc-2.png" alt="" class="b-list-front" data-enllax-ratio=".12" data-enllax-type="foreground">
 			</div>
 			<h5 class="b-small">По нашему опыту именно <b>веб-дизайнеры<br>и маркетологи «выстреливают»</b> за время курса быстрее всего</h5>
 		</div>
@@ -207,19 +202,32 @@ require_once("prices.php");
 			<h2 class="b-title">Вы сможете продавать и <b>разрабатывать любые комбинации,</b> начиная от 120 000 ₽<br>и заканчивая 860 000 ₽</h2>
 			<div class="b-ipads clearfix">
 				<div class="b-ipad-block left anim fadeDown" data-anim="fadeDown" data-cont=".b-5" data-delay="0">
-					<img src="i/m/5/doc.jpg" alt="">
+					<img src="i/m/5/doc-1.jpg" alt="">
 					<p class="b-left-triangle">Стоимость<br><b>120 000 ₽</b></p>
 				</div>
 				<div class="b-ipad-block left anim fadeDown" data-anim="fadeDown" data-cont=".b-5" data-delay="200">
-					<img src="i/m/5/doc.jpg" alt="">
+					<img src="i/m/5/doc-2.jpg" alt="">
 					<p class="b-left-triangle">Стоимость<br><b>470 000 ₽</b></p>
 				</div>
 				<div class="b-ipad-block left anim fadeDown" data-anim="fadeDown" data-cont=".b-5" data-delay="400">
-					<img src="i/m/5/doc.jpg" alt="">
+					<img src="i/m/5/doc-3.jpg" alt="">
 					<p class="b-left-triangle">Стоимость<br><b>860 000 ₽</b></p>
 				</div>
 			</div>
-			<h5 class="b-small"><b>Рекорд нашего ученика</b> Романа Твердохлеба на данный момент: проект стоимостью 1 970 000 ₽. Договор был подписан в ноябре 2017 года</h5>
+			
+			<div class="b-new-record">
+				<h5 class="b-small"><b>Рекорд нашего ученика</b> Евгения Киселева<br> на данный момент: проект стоимостью 2 014 700 руб.<br> <span class="b-new-small"><b>Договор</b> был подписан в апреле 2018 года</span></h5>
+				<img class= "new-quote" src="i/m/5/quote.svg">
+			
+				<h5 class="b-new-big">Хочешь научиться упаковывать бизнесы — <b>лучшей<br> программы сейчас на рынке нет.</b> Я думал, что знаю всё</h5>
+				<div class="b-new-record-inner clearfix">
+					<div class="b-video-block b-video-review" style="background-image: url('i/2/video.jpg');">
+						<iframe src="https://www.youtube.com/embed/5_kJ3dfynHI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						<a href='#' class="b-play"></a>
+					</div>
+					<img src="i/m/5/review.jpg">
+				</div>
+			</div>
 		</div>
 	</div>
 
@@ -303,9 +311,9 @@ require_once("prices.php");
 					<div class="b-count-item show anim fadeIn" data-anim="fadeIn" data-delay="0" data-cont=".b-7 .b-count-cont">
 						<div class="b-head">
 							<img src="i/3/1.jpg" alt="">
-							<h3>11 900<br>заявок</h3>
+							<h3>13 512<br>заявок</h3>
 						</div>
-						<p>звонки за год<br>в автомобильной тематике</p>
+						<p>за год без учета<br> звонков для малого бизнеса</p>
 					</div>
 					<div class="b-count-item show anim fadeIn" data-anim="fadeIn" data-delay="100" data-cont=".b-7 .b-count-cont">
 						<div class="b-head">
@@ -1878,7 +1886,10 @@ require_once("prices.php");
 					<div class="done-item-5">
 						<div class="done-item-img">
 							<span>5</span>
-							<img src="i/500lux/pic-5.jpg">
+							<div class="b-video-block" style="background-image: url('i/2/video.jpg');">
+								<iframe src="https://www.youtube.com/embed/xMM-ePMMi1Y?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+								<a href='#' class="b-play"></a>
+							</div>
 						</div>
 						<div class="done-text">
 							<h4>Видеосъемка: как донести огромный<br>пласт смыслов за 1,5 минуты</h4>
@@ -1920,22 +1931,22 @@ require_once("prices.php");
 					</div>
 					<div class="b-500lux-results-item">
 						<img src="i/500lux/small-pic-3.jpg">
-						<p>За 2 года с помощью Landing Page компания уже получила заказов на сумму свыше 170 000 000 рублей</p>
+						<p>За 2 года с помощью Landing Page компания уже получила заказов на сумму свыше 140 000 000 рублей</p>
 					</div>
 				</div>
 			</div>
 			<div class="b-500lux-author">
 				<h3>Работа получила признания<br>ведущих интернет-маркетологов<br>в СНГ</h3>
 				<div class="b-500lux-author-content">
-					<img src="i/500lux/small-man.jpg">
-					<div class="b-line"></div>
-					<p>Автор тренда на Landing Page в странах СНГ, известный маркетолог <b>Михаил Дашкиев</b> признал наш сайт <b>«произведением искусства»</b></p>
+					<img src="i/500lux/pic-8.jpg">
+					<!-- <div class="b-line"></div> -->
+					<p>Видео мастер-класс Михаила Дашкиева<br> «Упаковка. У вас заклеен рот».</p>
 				</div>
 			</div>
 			<div class="b-500lux-button">
 				<h3>Хотели бы вы <span class="orange">повторить<br>историю успеха</span> компании 500lux<br>и получать многомиллионные<br>заказы с Интернета?</h3>
 				<p>Жмите на кнопку «Забронировать место в программе» и начните получать заявки на свой продукт уже после первой недели.</p>
-				<div class="b-line"></div>
+			<!-- 	<div class="b-line"></div> -->
 				<a href="#" class="b-btn b-btn-orange b-btn-form">
 					<p class="main">Забронировать место</p><br>
 					<p class="small">в программе</p>
@@ -2076,6 +2087,40 @@ require_once("prices.php");
 				<li>EMS-тренажеры</li>
 				<li>Фильтры для воды</li>
 				<li>Винтовые сваи</li>
+				<li>Кольцевые лампы</li>
+				<li>Английский язык</li>
+				<li>Организация VIP-юбилеев</li>
+				<li>Видеонаблюдение</li>
+				<li>Продажа джема</li>
+				<li>Ремонт тракторов</li>
+				<li>Сбор пожертвований на храмы</li>
+				<li>Поминовения онлайн</li>
+				<li>Криптовалютная биржа</li>
+				<li>Сервис по привлечению специалистов в стартапы</li>
+				<li>Сервис по привлечению инвестиций в стартапы</li>
+				<li>Лига финансовых консультантов</li>
+				<li>Франшизы по продаже автосвета</li>
+				<li>Франшизы по регулированию вывесок на домах "Законная вывеска"</li>
+				<li>Франшиза курсов по подготовке к ЕГЭ</li>
+				<li>Школа танцев для детей</li>
+				<li>Сервис по ремонту техники Apple</li>
+				<li>CRM для социальных сетей</li>
+				<li>Международный сервис для логистов (IT-проект)</li>
+				<li>Боксы в кузов для пикапов (физ. товар)</li>
+				<li>Интернет-магазин фармацевтических товаров</li>
+				<li>Частный психолог</li>
+				<li>Утепление домов </li>
+				<li>Агентство Недвижимости №1 в Ярославле</li>
+				<li>Uber. Подключение водителей (№1 в СПб)</li>
+				<li>Школа английского языка для детей</li>
+				<li>Продажа штор в розницу</li>
+				<li>Изготовление портретов-картин по фото </li>
+				<li>Допуски СРО</li>
+				<li>Дизайн-проекты домов и квартир</li>
+				<li>Продажа проставок для увеличения клиренса </li>
+				<li>Школа парных танцев для взрослых</li>
+				<li>Обучение пошиву костюмов класса Люкс </li>
+				<li>Обучение заработку на госзакупках</li>
 			</ol>
 		</div>
 	</div>
