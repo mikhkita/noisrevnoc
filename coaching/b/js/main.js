@@ -138,7 +138,8 @@ $(document).ready(function(){
         infinite: true,
         cssEase: 'ease', 
         speed: 500,
-        arrows: false
+        arrows: false,
+        touchThreshold: 100
     }); 
 
     $(".b-atlant-slider").on('beforeChange', function(event, slick, currentSlide, nextSlide){
@@ -213,7 +214,8 @@ $(document).ready(function(){
         infinite: true,
         cssEase: 'ease', 
         speed: 500,
-        arrows: false
+        arrows: false,
+        touchThreshold: 100
     });
 
     $(".b-land-tabs-cont").on('beforeChange', function(event, slick, currentSlide, nextSlide){
@@ -243,7 +245,8 @@ $(document).ready(function(){
         arrows: true,
         prevArrow: '<div class="slick-arrow slick-prev icon-arrow-left-big"></div>',
         nextArrow: '<div class="slick-arrow slick-next icon-arrow-right-big"></div>',
-        adaptiveHeight: true
+        adaptiveHeight: true,
+        touchThreshold: 100
     });
 
     $(".b-lesson-tabs-cont .b-tab[data-slick-index='0']").find(".b-right-text").addClass("show");
@@ -268,7 +271,8 @@ $(document).ready(function(){
         infinite: true,
         cssEase: 'ease', 
         speed: 500,
-        arrows: false
+        arrows: false,
+        touchThreshold: 100
     });
 
     $(".b-temp-tabs-cont").on('beforeChange', function(event, slick, currentSlide, nextSlide){
@@ -292,7 +296,8 @@ $(document).ready(function(){
         arrows: true,
         prevArrow: '<div class="slick-arrow slick-prev icon-arrow-left-big"></div>',
         nextArrow: '<div class="slick-arrow slick-next icon-arrow-right-big"></div>',
-        adaptiveHeight: true
+        adaptiveHeight: true,
+        touchThreshold: 100
     });
 
     $(".b-big-reviews-slider").on('beforeChange', function(event, slick, currentSlide, nextSlide){
@@ -324,7 +329,8 @@ $(document).ready(function(){
         arrows: false,
         vertical: true,
         autoplay: true,
-        autoplaySpeed: 3000
+        autoplaySpeed: 3000,
+        touchThreshold: 100
     });
 
     $("#type").chosen({
