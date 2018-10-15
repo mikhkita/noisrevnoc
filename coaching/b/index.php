@@ -5,7 +5,7 @@ require_once("prices.php");
 ?><!DOCTYPE html>
 <html>
 <head>
-	<title>Взлом конверсии. Система из 4-х прибыльных Landing Page</title>
+	<title>Взлом Конверсии. Трехмесячный практикум</title>
 	<meta name="keywords" content=''>
 	<meta name="description" content=''>
  
@@ -2979,7 +2979,8 @@ require_once("prices.php");
 
 						<input type="hidden" name="form_charset" id="form_charset" value=""><input type="hidden" name="form_id" value="37390"><input type="hidden" name="order_page_referer" id="order_page_referer" value="" />
 						<input type="hidden" name="subject" value="Заявка на бронирование курса">
-						<a href="#" class="not-ajax b-btn b-btn-orange b-cost-btn">Забронировать место</a>
+						<a href="#" class="ajax b-btn b-btn-orange b-cost-btn">Забронировать место</a>
+						<a href="#b-popup-success" class="b-thanks-link fancy" style="display:none;"></a>
 						<div class="b-checkbox">
 							<input type="checkbox" checked name="polytics" id="polytics-1">
 							<label for="polytics-1"><span></span>Я принимаю условия <a href="privacy_policy.pdf" target="_blank">передачи информации</a></label>

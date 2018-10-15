@@ -6051,6 +6051,9 @@ ol li:before {
 .b-new-record h5{
 	
 }
+.b-btn-one-line{
+	padding: 30px 42px 32px 42px;
+}
 .b-new-small{
   font-size: 15px;
   font-family: "Gilroy-Regular";
