@@ -2378,14 +2378,18 @@ h5.b-small{
 								.b-autofun .b-ipad-cont div{
 									background-position: 50% 50%;
 									background-repeat: no-repeat;
-									width: 491px;
-									height: 353px;
+									width: 555px;
+									height: 399px;
 								}
 								.b-autofun .b-ipad-1{
 									background-image: url('../i/8/4/ipad-1.jpg');
+									position: relative;
+									left: -40px;
 								}
 								.b-autofun .b-ipad-2{
 									background-image: url('../i/8/4/ipad-2.jpg');
+									position: relative;
+									left: 40px;
 								}
 								.b-autofun .b-left-triangle{
 									margin-top: 39px;
