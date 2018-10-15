@@ -2634,7 +2634,6 @@ require_once("prices.php");
 					<? endforeach; ?>
 				</select>
 				<p class="b-form-price-label">Стоимость участия: <b class="b-form-price"><?=$prices["364139"]["VIEW_PRICE"]?></b></p>
-				<a href="#" class="cost-details">Узнать подробнее про пакеты</a>
 				<div class="b-center">
 					<div class="b-inputs-block">
 						<div class="b-input">
