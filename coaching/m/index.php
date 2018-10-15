@@ -2317,7 +2317,7 @@ require_once("prices.php");
 								<p class="main">Выбрать пакет</p>
 								<p class="small">шаг 1 из 3</p>
 							</a>
-							<div class="price-remainder">Осталось <span class="number-packs">4</span> пакетов<br>по этой цене</div>
+							<div class="price-remainder">Осталось <span class="number-packs">4</span> пакета<br>по этой цене</div>
 						</div>
 					</div>
 				</div>
