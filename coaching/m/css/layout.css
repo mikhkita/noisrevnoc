@@ -6112,7 +6112,11 @@ ol li:before {
 	line-height: 50px;
 	padding-top: 44px;
 	padding-left: 24px;
+	font-family: "Gilroy-Regular";
 }
+	.b-new-big b{
+		font-family: "Gilroy-Bold";		
+	}
 .b-new-record-inner{text-align: left;padding-top: 10px;padding-left: 51px;}
 .b-video-review{
 	width: 570px;

@@ -93,7 +93,7 @@ require_once("prices.php");
 					</div>
 					<div class="b-header-content-item anim fadeDown" data-anim="fadeDown" data-delay="3000">
 						<img src="i/Money.png" class="img-money">
-						<p>Первые заявки стоимостью от 39 до 420 руб. уже <b>на 3-м занятии</b></p>
+						<p>Увеличите средний<br>чек на свои услуги<br><b>в 2 и более раз</b></p>
 					</div>
 					<div class="b-header-content-item anim fadeDown" data-anim="fadeDown" data-delay="4000">
 						<img src="i/hand.png" class="img-tag">

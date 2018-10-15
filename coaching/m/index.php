@@ -219,7 +219,7 @@ require_once("prices.php");
 				<h5 class="b-small"><b>Рекорд нашего ученика</b> Евгения Киселева<br> на данный момент: проект стоимостью 2 014 700 рублей<br> <span class="b-new-small"><b>Договор</b> был подписан в апреле 2018 года</span></h5>
 				<img class= "new-quote" src="i/m/5/quote.svg">
 			
-				<h5 class="b-new-big">Хочешь научиться упаковывать бизнесы — <b>лучшей<br> программы сейчас на рынке нет.</b> Я думал, что знаю всё</h5>
+				<h5 class="b-new-big"><b>Хочешь научиться упаковывать бизнесы</b> — лучшей<br> программы сейчас на рынке нет. Я думал, что знаю всё</h5>
 				<div class="b-new-record-inner clearfix">
 					<div class="b-video-block b-video-review" style="background-image: url('i/2/video.jpg');">
 						<iframe src="https://www.youtube.com/embed/5_kJ3dfynHI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
