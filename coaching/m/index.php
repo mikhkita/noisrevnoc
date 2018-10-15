@@ -1022,7 +1022,7 @@ require_once("prices.php");
 				<h5 class="b-new-big">Никогда не было таких результатов.<br><b>Сразу 11 заявок по 120 рублей</b> на кухни</h5>
 				<div class="b-new-record-inner b-new-slide clearfix">
 					<div class="b-video-block b-video-review" style="background-image: url('i/2/video.jpg');">
-						<iframe src="https://www.youtube.com/embed/5_kJ3dfynHI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						<iframe src="https://www.youtube.com/embed/809tKyXN6Q0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 						<a href='#' class="b-play"></a>
 					</div>
 					<img src="i/reviews/review-2.jpg">
@@ -1031,7 +1031,7 @@ require_once("prices.php");
 				<h5 class="b-new-big"><b>212 000 рублей</b> в первую неделю<br>прохождения курса</h5>
 				<div class="b-new-record-inner b-new-slide clearfix">
 					<div class="b-video-block b-video-review" style="background-image: url('i/2/video.jpg');">
-						<iframe src="https://www.youtube.com/embed/5_kJ3dfynHI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						<iframe src="https://www.youtube.com/embed/U28mfY0raq0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 						<a href='#' class="b-play"></a>
 					</div>
 					<img src="i/reviews/review-3.jpg">
@@ -1041,7 +1041,7 @@ require_once("prices.php");
 					<h5 class="b-new-big"><b>Чек-листы это палочка-выручалочка.</b><br>Сократили стоимость заявки до 60 рублей.</h5>
 					<div class="b-new-record-inner b-new-slide clearfix">
 						<div class="b-video-block b-video-review" style="background-image: url('i/2/video.jpg');">
-							<iframe src="https://www.youtube.com/embed/5_kJ3dfynHI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+							<iframe src="https://www.youtube.com/embed/Ac_iMXo11D8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 							<a href='#' class="b-play"></a>
 						</div>
 						<img src="i/reviews/review-4.jpg">
@@ -1050,7 +1050,7 @@ require_once("prices.php");
 					<h5 class="b-new-big">Запустили 3 сайта, цена лида от 79 рублей.<br><b>За 1 неделю окупил курс</b></h5>
 					<div class="b-new-record-inner b-new-slide clearfix">
 						<div class="b-video-block b-video-review" style="background-image: url('i/2/video.jpg');">
-							<iframe src="https://www.youtube.com/embed/5_kJ3dfynHI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+							<iframe src="https://www.youtube.com/embed/KrSdOyjGMjY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 							<a href='#' class="b-play"></a>
 						</div>
 						<img src="i/reviews/review-5.jpg">
@@ -1059,7 +1059,7 @@ require_once("prices.php");
 					<h5 class="b-new-big">Никогда не было таких результатов.<br><b>Сразу 11 заявок по 120 рублей</b> на кухни</h5>
 					<div class="b-new-record-inner b-new-slide clearfix">
 						<div class="b-video-block b-video-review" style="background-image: url('i/2/video.jpg');">
-							<iframe src="https://www.youtube.com/embed/5_kJ3dfynHI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+							<iframe src="https://www.youtube.com/embed/ZKRX6vaJmq4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 							<a href='#' class="b-play"></a>
 						</div>
 						<img src="i/reviews/review-6.jpg">
