@@ -107,7 +107,6 @@ require_once("prices.php");
 						<p>И продавать <b class="orange">системы из 4 Landing<br>Page</b> за $4 500-$14 000</p>
 					</div>
 					<div class="b-header-book-it">
-						<a href="#b-popup-commerce" class="fancy">b-popup-commerce</a>
 						<a href="#" class="b-btn b-btn-orange b-btn-form">
 							<p class="main">Забронировать место</p><br>
 							<p class="small">по специальной цене</p>
@@ -1973,7 +1972,7 @@ require_once("prices.php");
 					<p>Поддержка от маркетингового<br>агентства TFA (разработка<br>прототипа, дизайна, верстки).<br>12 специалистов работают<br>над вашим проектом</p>
 				</div>
 			</div>
-			<a href="#" class="b-btn b-btn-orange b-btn-one-line">
+			<a href="#b-popup-commerce" class="b-btn b-btn-orange b-btn-one-line fancy">
 				<p class="main">Получить коммерческое предложение</p>
 			</a>
 		</div>
