@@ -199,19 +199,19 @@ require_once("prices.php");
 
 	<div class="b b-5" data-offset="500">
 		<div class="b-block">
-			<h2 class="b-title">Вы сможете продавать и <b>разрабатывать любые комбинации,</b> начиная от 120 000 ₽<br>и заканчивая 860 000 ₽</h2>
+			<h2 class="b-title">Вы сможете продавать и <b>разрабатывать любые комбинации,</b> начиная от 120 000 <span class="b-ruble">Р</span><br>и заканчивая 860 000 <span class="b-ruble">Р</span></h2>
 			<div class="b-ipads clearfix">
 				<div class="b-ipad-block left anim fadeDown" data-anim="fadeDown" data-cont=".b-5" data-delay="0">
 					<img src="i/m/5/doc-1.jpg" alt="">
-					<p class="b-left-triangle">Стоимость<br><b>120 000 ₽</b></p>
+					<p class="b-left-triangle">Стоимость<br><b>120 000 <span class="icon-ruble"></span></b></p>
 				</div>
 				<div class="b-ipad-block left anim fadeDown" data-anim="fadeDown" data-cont=".b-5" data-delay="200">
 					<img src="i/m/5/doc-2.jpg" alt="">
-					<p class="b-left-triangle">Стоимость<br><b>470 000 ₽</b></p>
+					<p class="b-left-triangle">Стоимость<br><b>470 000 <span class="icon-ruble"></span></b></p>
 				</div>
 				<div class="b-ipad-block left anim fadeDown" data-anim="fadeDown" data-cont=".b-5" data-delay="400">
 					<img src="i/m/5/doc-3.jpg" alt="">
-					<p class="b-left-triangle">Стоимость<br><b>860 000 ₽</b></p>
+					<p class="b-left-triangle">Стоимость<br><b>860 000 <span class="icon-ruble"></span></b></p>
 				</div>
 			</div>
 			
@@ -233,7 +233,7 @@ require_once("prices.php");
 
 	<div class="b b-6">
 		<div class="b-block">
-			<h2 class="b-title">Уделите 3 минуты — и вы поймете, почему предприниматели готовы платить вам 600 000 и даже <b>более 1 000 000 ₽</b></h2>
+			<h2 class="b-title">Уделите 3 минуты — и вы поймете, почему предприниматели готовы платить вам 600 000 и даже <b>более 1 000 000 <span class="icon-ruble"></span></b></h2>
 			<h5 class="b-small">за разработку такой системы</h5>
 			<a href='#' class="b-add-butt b-audio-butt">
 				<div class="icon-audio"></div>
@@ -318,7 +318,7 @@ require_once("prices.php");
 					<div class="b-count-item show anim fadeIn" data-anim="fadeIn" data-delay="100" data-cont=".b-7 .b-count-cont">
 						<div class="b-head">
 							<img src="i/3/2.jpg" alt="">
-							<h3>Свыше<br>140 000 000 ₽</h3>
+							<h3>Свыше<br>140 000 000 <span class="icon-ruble"></span></h3>
 						</div>
 						<p>привлекли благодаря<br>одному продуманному LP</p>
 					</div>
@@ -1632,6 +1632,7 @@ require_once("prices.php");
 		</div>
 	</div>
 
+	<? /* ?>
 	<div class="b b-cost">
 		<div class="b-block">
 			<h2 class="b-title-roman">Стоимость участия в программе<br>Взлом Конверсии</h2>
@@ -1673,6 +1674,7 @@ require_once("prices.php");
 			</form>
 		</div>
 	</div>
+	<? */ ?>
 
 	<div class="b b-16" data-offset="700">
 		<div class="b-block">
@@ -1769,6 +1771,7 @@ require_once("prices.php");
 		</div>
 	</div>
 
+	<? /* ?>
 	<!--Комментарии-->
 	<div class="webinar_soc" style="width: 1000px; margin: auto; padding: 0px 0 30px 0; text-align: center; overflow:auto;">
 	
@@ -1794,6 +1797,8 @@ require_once("prices.php");
 
 				<div class="fb-comments" data-order-by="time" data-href="https://www.facebook.com/groups/1996793010569700/"  data-width="450" data-numposts="5" ></div>
 	</div>
+	<? */ ?>
+
 	<!-- <div class="b b-footer">
 		<div class="b-block">
 			<div class="b-footer-top">
@@ -1973,7 +1978,7 @@ require_once("prices.php");
 			<a href="#" class="b-btn-close icon-close"></a>
 			<h3>Стоимость участия в программе<br>Взлом Конверсии</h3>
 			<form id="b-cost-form" class="b-cost-form" method="post" action="kitsend.php">
-				<p>Стоимость участия:</p>
+				<!-- <p>Стоимость участия:</p>
 				<ul class="b-radio">
 					<? foreach ($prices as $value => $arPrice): ?>
 					<li>
@@ -1981,7 +1986,15 @@ require_once("prices.php");
 						<label for="<?=$arPrice["ID"]?>-radio-1"><?=$arPrice["NAME"]?> — <?=$arPrice["VIEW_PRICE"]?>&#160;&#160;<span class="cost-old"><?=$arPrice["OLD_VIEW_PRICE"]?></span></label>
 					</li>
 					<? endforeach; ?>
-				</ul>
+				</ul> -->
+				<select name="tovar_id" id="type1">
+					<? foreach ($prices as $value => $arPrice): ?>
+					<li>
+						<option data-price="<?=$arPrice["VIEW_PRICE"]?>" data-id="<?=$arPrice["ID"]?>-radio-1" value="<?=$value?>" <? if($value == "364139"): ?>selected<? endif; ?>><?=$arPrice["NAME"]?></option>
+					</li>
+					<? endforeach; ?>
+				</select>
+				<p class="b-form-price-label">Стоимость участия: <b class="b-form-price"><?=$prices["364139"]["VIEW_PRICE"]?></b></p>
 				<a href="#" class="cost-details">Узнать подробнее про пакеты</a>
 				<div class="b-center">
 					<div class="b-inputs-block">

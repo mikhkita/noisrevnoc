@@ -4119,6 +4119,10 @@ h5.b-small{
 						border-radius: 100px;
 						width: 100%;
 					}
+					.b-cost-form .chosen-container{
+						float: none;
+						width: 100% !important;
+					}
 					.chosen-container .chosen-single{
 						border: 0px;
 						border-radius: 100px;
@@ -4811,6 +4815,12 @@ ol li:before {
 .b-form-content h3{
 	padding: 0px 40px;
 	margin-bottom: 24px;
+}
+.b-form-price{
+	font-size: 30px;
+}
+.b-form-price-label{
+	margin-top: 24px;
 }
 	.b-500lux-content,
 	.b-research-content,
