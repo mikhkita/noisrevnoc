@@ -2996,10 +2996,36 @@ h5.b-small{
 .b-11{
 	background-position: 50% 371px;
 	background-repeat: no-repeat;
-	background-image: url(../i/3/line.svg);
+	/*background-image: url(../i/3/line.svg);*/
 	padding-top: 88px;
-	padding-bottom: 100px;
+	/*padding-bottom: 100px;*/
 }
+	.b-11 .b-triangle-top{
+		position: absolute;
+		left: 46px;
+		top: 221px;
+		font-size: 20px;
+		line-height: 30px;
+		font-family: Gilroy-Regular;
+	}
+	.b-11 .b-new-review{
+		text-align: right;
+		position: relative;
+		left: 106px;
+	}
+	.b-11 .b-new-line{
+		position: absolute;
+		left: 0px  top: 0px  width:;
+		left: 130px;
+		top: 290px;
+		z-index: 30;
+	}
+	.b-11 .b-video-block{
+		background-color: #050c1b;
+		position: relative;
+	    width: 860px;
+	    height: 500px;
+	}
 	.b-11 .b-block{
 
 	}
