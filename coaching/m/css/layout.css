@@ -4891,7 +4891,8 @@ h5.b-small{
 		.b-cost-form .b-cost-btn{
 			width: 100%;
 			padding: 33px 42px 34px 42px;
-			font-family: "Tahoma-Bold";
+			font-family: "Gilroy-Heavy";
+			letter-spacing: 1px;
 			text-transform: uppercase;
 		}
 		.b-cost-form .b-checkbox{
