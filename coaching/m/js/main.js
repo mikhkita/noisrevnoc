@@ -333,6 +333,18 @@ $(document).ready(function(){
         return false;
     });
 
+    $("#type1").chosen({
+        disable_search_threshold : 10
+    }).change(function(){
+        var $option = $(this).find("option[value='"+$(this).val()+"']");
+            click = $option.attr("data-id"),
+            price = $option.attr("data-price");
+        $(".b-form-price").text(price);
+
+        $(".b-pay-click").attr("data-id", $option.attr("data-id"));
+        return false;
+    });
+
     $(".b-pay-click").click(function(){
         return false;
     });
@@ -443,7 +455,11 @@ $(document).ready(function(){
         $(".b-menu-overlay").addClass("show");
         $("body").addClass("no-scroll");
         if( $(this).attr("data-id") ){
-            $("#"+$(this).attr("data-id")).click();
+            // $("#"+$(this).attr("data-id")).click();
+            var value = $("#type1").find("[data-id='"+$(this).attr("data-id")+"']").attr("value"),
+                price = $("#type1").find("[data-id='"+$(this).attr("data-id")+"']").attr("data-price");
+            $("#type1").val(value).trigger("chosen:updated");
+            $(".b-form-price").text(price);
         }else{
             $("#platinum-radio-1").click();
         }
@@ -508,6 +524,17 @@ $(document).ready(function(){
             $(".b-vk-e-link").click();
             console.log('Ошибка при запросе'); 
         } 
+    });
+
+    $(".price-add").slideUp();
+
+    $(".price-left").click(function(){
+        var $target = $(this).parents(".b-new-price-item").find(".price-add");
+        if($target.hasClass("show")){
+            $target.removeClass("show").slideUp();
+        }else{
+            $target.addClass("show").slideDown();
+        }
     });
 
     /*----------------------------------*/
