@@ -243,6 +243,7 @@ input:-moz-placeholder {
 .b-19 .b-checkbox span:before,
 .b-cost .b-checkbox span:before,
 .b-form .b-checkbox span:before,
+.b-popup-commerce .b-checkbox span:before,
 .fancybox-close-small:after{
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
@@ -311,7 +312,8 @@ input:-moz-placeholder {
 .icon-check:before,
 .b-19 .b-checkbox span:before,
 .b-cost .b-checkbox span:before,
-.b-form .b-checkbox span:before{
+.b-form .b-checkbox span:before,
+.b-popup-commerce .b-checkbox span:before{
   content: "\e90f";
 }
 .icon-arrow-right:before {
@@ -3898,6 +3900,7 @@ h5.b-small{
 					margin-right: -10px;
 					margin-top: -3px;
 					margin-bottom: 17px;
+					max-width: 230px;
 				}
 				.b-17 .b-ipad-block .b-left-triangle{
 					font-size: 20px;
@@ -4085,26 +4088,30 @@ h5.b-small{
 					}
 					.b-19 .b-select-butt .b-checkbox,
 					.b-cost .b-select-butt .b-checkbox,
-					.b-form .b-select-butt .b-checkbox{
+					.b-form .b-select-butt .b-checkbox,
+					.b-popup-commerce .b-checkbox{
 						text-align: center;
 						padding-right: 23px;
 						margin-top: 20px;
 					}
 					.b-19 .b-checkbox input[type="checkbox"],
 					.b-cost .b-checkbox input[type="checkbox"],
-					.b-form .b-checkbox input[type="checkbox"]{
+					.b-form .b-checkbox input[type="checkbox"],
+					.b-popup-commerce .b-checkbox input[type="checkbox"]{
 						display: none;
 					}
 					.b-19 .b-checkbox label,
 					.b-cost .b-checkbox label,
-					.b-form .b-checkbox label{
+					.b-form .b-checkbox label,
+					.b-popup-commerce .b-checkbox label{
 						font-size: 11px;
 						color: rgba(0,0,0,0.59);
 						cursor: pointer;
 					}
 						.b-19 .b-checkbox span,
 						.b-cost .b-checkbox span,
-						.b-form .b-checkbox span{
+						.b-form .b-checkbox span,
+						.b-popup-commerce .b-checkbox span{
 							display: inline-block;
 							width: 13px;
 							margin-bottom: -2px;
@@ -4117,19 +4124,22 @@ h5.b-small{
 						}
 							.b-19 .b-checkbox span:hover,
 							.b-cost .b-checkbox span:hover,
-							.b-form .b-checkbox span:hover{
+							.b-form .b-checkbox span:hover,
+							.b-popup-commerce .b-checkbox span:hover{
 								border-color: #ffc887;
 								background: #ffc887;
 							}
 							.b-19 .b-checkbox span:active,
 							.b-cost .b-checkbox span:active,
-							.b-form .b-checkbox span:active{
+							.b-form .b-checkbox span:active,
+							.b-popup-commerce .b-checkbox span:active{
 								border-color: #d9d4f3;
 								background: #d9d4f3;
 							}
 							.b-19 .b-checkbox span:before,
 							.b-cost .b-checkbox span:before,
-							.b-form .b-checkbox span:before{
+							.b-form .b-checkbox span:before,
+							.b-popup-commerce .b-checkbox span:before{
 								font-size: 18px;
 								position: absolute;
 								left: 0px;
@@ -4138,7 +4148,8 @@ h5.b-small{
 							}
 							.b-19 .b-checkbox input[type="checkbox"]:checked + label span:before,
 							.b-cost .b-checkbox input[type="checkbox"]:checked + label span:before,
-							.b-form .b-checkbox input[type="checkbox"]:checked + label span:before{
+							.b-form .b-checkbox input[type="checkbox"]:checked + label span:before,
+							.b-popup-commerce .b-checkbox input[type="checkbox"]:checked + label span:before{
 								display: block;
 							}
 						.b-19 .b-checkbox a,
@@ -4758,18 +4769,24 @@ h5.b-small{
 			font-size: 50px;
 			line-height: 62px;
 			text-align: center;
-			font-family: 'Gilroy-Regular';
 		}
 		.b-popup-commerce p{
 			font-size: 15px;
 			line-height: 25px;
 		    text-align: center;
 		}
+			.b-popup-commerce .b-cost-form input{
+				background: #fcfbfa;
+				box-shadow: inset 1.414px 1.414px 6px 0px rgba(30, 30, 30, 0.1);
+			}
 			.b-popup-commerce .b-cost-form .b-input{
 				margin-bottom: 23px;
 			}
 			.b-popup-commerce .b-input-before{
 				margin-left: 30px;
+			}
+			.b-popup-commerce .b-cost-form .b-cost-btn{
+				padding: 33px 26px 34px 26px;
 			}
 			.b-popup-commerce .b-input .b-input-before{
 				font-family: 'Tahoma-Regular';
@@ -4787,13 +4804,40 @@ h5.b-small{
 			margin-top: 10px;
 		}
 			.b-popup-commerce .b-checkbox input{
-				width: 30px;
+				width: 14px;
 			}
 	.b-popup-commerce .fancybox-close-small:after{
 	    font-size: 18px;
 	    top: -1px;
     	right: -7px;
 	}
+	.b-inputs-block .b-input:nth-child(1) input{
+		background-image: url(../i/form-icon-1.svg);
+	    background-repeat: no-repeat;
+	    background-position: 31px 24px;
+	    background-size: 16px 19px;
+	    padding-left: 68px;
+	}
+	.b-inputs-block .b-input:nth-child(2) input{
+		background-image: url(../i/form-icon-2.svg);
+	    background-repeat: no-repeat;
+        background-position: 31px 27px;
+	    background-size: 19px 14px;
+	    padding-left: 68px;
+	}
+	.b-inputs-block .b-input:nth-child(3) input{
+		background-image: url(../i/form-icon-3.svg);
+	    background-repeat: no-repeat;
+	    background-position: 31px 25px;
+	    background-size: 17px 17px;
+	    padding-left: 70px;
+	}
+.b-popup-commerce input::-webkit-input-placeholder {
+	color: #cfcfcd;
+}
+.b-popup-commerce input:-moz-placeholder {
+	color: #cfcfcd;
+}
 /*--------Стоимость участия---------*/
 
 .b-cost{

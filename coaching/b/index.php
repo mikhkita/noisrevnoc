@@ -80,7 +80,7 @@ require_once("prices.php");
 					<div class="b-header-icon b-header-top-course"></div>
 					<p>Практический курс<br>для предпринимателей</p>
 				</div>
-				<a href="#" class="b-header-top-item b-header-icon-cont b-go" data-block=".b-man" data-offset="0">
+				<a href="#" class="b-header-top-item b-header-icon-cont b-go" data-block=".b-2 .b-man" data-offset="0">
 					<div class="b-header-icon b-header-top-more"></div>
 					<p><span><b>Больше узнать</b></span><br><span>о курсе</span></p>
 				</a>
@@ -93,7 +93,7 @@ require_once("prices.php");
 					</div>
 					<div class="b-header-content-item anim fadeDown" data-anim="fadeDown" data-delay="3000">
 						<img src="i/Money.png" class="img-money">
-						<p>Первые заявки стоимостью от 39 до 420 руб. уже <b>на 3-м занятии</b></p>
+						<p>Увеличите средний<br>чек на свои услуги<br><b>в 2 и более раз</b></p>
 					</div>
 					<div class="b-header-content-item anim fadeDown" data-anim="fadeDown" data-delay="4000">
 						<img src="i/hand.png" class="img-tag">
@@ -2528,7 +2528,7 @@ require_once("prices.php");
 					<p class="b-left-triangle">1 раз в месяц <b>мастер-<br>майнд</b> по ключевым темам<br>с участниками</p>
 				</div>
 				<div class="b-ipad-block left anim fadeDown" data-anim="fadeDown" data-cont=".b-17" data-delay="400">
-					<img src="i/17/pic-3.jpg" alt="">
+					<img src="i/17/gif.gif" alt="">
 					<p class="b-left-triangle">100% записей, доп.<br>материалы и задания всех<br>уроков доступны вам<br><b>навсегда</b></p>
 				</div>
 			</div>
@@ -3036,24 +3036,24 @@ require_once("prices.php");
 						<div class="b-inputs-block">
 							<div class="b-input">
 								<div class="b-input-before">Введите ваше имя</div>
-								<input type="text" name="name" placeholder="Владимир Сургай" required>
+								<input type="text" name="name" placeholder="Михаил Иванов" required>
 							</div>
 							<div class="b-input">
 								<div class="b-input-before">Введите ваш E-mail</div>
-								<input type="text" name="email" placeholder="surgay@gmail.com" required>
+								<input type="text" name="email" placeholder="example@gmail.com" required>
 							</div>
 							<div class="b-input">
 								<div class="b-input-before">Введите ваш телефон</div>
-								<input type="text" name="phone" placeholder="+__________" required>
+								<input type="text" name="phone" placeholder="+" required>
 							</div>
 						</div>
 
 						<input type="hidden" name="form_charset" id="form_charset" value=""><input type="hidden" name="form_id" value="37390"><input type="hidden" name="order_page_referer" id="order_page_referer" value="" />
-						<input type="hidden" name="subject" value="Заявка на бронирование курса">
-						<a href="#" class="not-ajax b-btn b-btn-orange b-cost-btn">Забронировать место</a>
+						<input type="hidden" name="subject" value="Заявка на коммерческое">
+						<a href="#" class="not-ajax b-btn b-btn-orange b-cost-btn">Получить коммерческое</a>
 						<div class="b-checkbox">
-							<input type="checkbox" checked name="polytics" id="polytics-1">
-							<label for="polytics-1"><span></span>Я принимаю условия <a href="privacy_policy.pdf" target="_blank">передачи информации</a></label>
+							<input type="checkbox" checked name="polytics" id="polytics-commerce">
+							<label for="polytics-commerce"><span></span>Я принимаю условия <a href="privacy_policy.pdf" target="_blank">передачи информации</a></label>
 						</div>
 					</div>
 				</form>
