@@ -1071,7 +1071,7 @@ require_once("prices.php");
 					</a>
 				</div>
 				<div class="b-note-purple">
-					<a href="#" class="b-purple-link b-show-reviews"><b>Смотреть ещё отзывы</a>
+					<a href="#" class="b-purple-link b-show-reviews"><b>Смотреть ещё отзывы</b></a>
 				</div>
 			</div>
 		</div>

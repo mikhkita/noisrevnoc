@@ -1460,8 +1460,8 @@ require_once("prices.php");
 			<img class="b-new-review" src="i/11/review.jpg">
 
 			<div class="b-video-cont">
-				<div class="b-video-block" style="background-image: url('i/m/4/video.jpg');">
-					<iframe src="https://www.youtube.com/embed/lXyVb7dx1tU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				<div class="b-video-block" style="background-image: url('i/reviews/zaycev.jpg');">
+					<iframe src="https://www.youtube.com/embed/SFvC2t1HNSc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 					<a href='#' class="b-play"></a>
 				</div>
 			</div>
@@ -1592,7 +1592,7 @@ require_once("prices.php");
 					</a>
 				</div>
 				<div class="b-note-purple">
-					<a href="#" class="b-purple-link b-show-reviews"><b>Смотреть ещё отзывы</a>
+					<a href="#" class="b-purple-link b-show-reviews"><b>Смотреть ещё отзывы</b></a>
 				</div>
 			</div>
 		</div>
