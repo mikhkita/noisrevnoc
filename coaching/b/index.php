@@ -25,11 +25,11 @@ require_once("prices.php");
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="stylesheet" href="css/reset.css" type="text/css">
 	<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css">
-	<link rel="stylesheet" href="css/chosen.css?1" type="text/css">
+	<link rel="stylesheet" href="css/chosen.css?3" type="text/css">
 	<link rel="stylesheet" href="css/mediaelementplayer.css" type="text/css">
-	<link rel="stylesheet" href="css/KitAnimate.css?1" type="text/css">
-	<link rel="stylesheet" href="css/slick.css?2" type="text/css">
-	<link rel="stylesheet" href="css/layout.css?2" type="text/css">
+	<link rel="stylesheet" href="css/KitAnimate.css?3" type="text/css">
+	<link rel="stylesheet" href="css/slick.css?3" type="text/css">
+	<link rel="stylesheet" href="css/layout.css?3" type="text/css">
 
 	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="favicon/apple-touch-icon-57x57.png" />
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicon/apple-touch-icon-114x114.png" />
@@ -3097,7 +3097,7 @@ require_once("prices.php");
 	<script type="text/javascript" src="js/slick.js"></script>
 	<script type="text/javascript" src="js/chosen.jquery.js"></script>
 	<script type="text/javascript" src="js/KitAnimate.js"></script>
-	<script type="text/javascript" src="js/KitSend.js?1"></script>
-	<script type="text/javascript" src="js/main.js?1"></script>
+	<script type="text/javascript" src="js/KitSend.js?3"></script>
+	<script type="text/javascript" src="js/main.js?3"></script>
 </body>
 </html>
