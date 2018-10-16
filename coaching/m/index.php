@@ -188,7 +188,7 @@ require_once("prices.php");
 
 			<div class="b-video-cont">
 				<img src="i/m/doc-1.png" alt="" class="b-list-back">
-				<div class="b-video-block" style="background-image: url('i/m/4/video.jpg');">
+				<div class="b-video-block" style="background-image: url('i/reviews/ostapenko.jpg');">
 					<iframe src="https://www.youtube.com/embed/lXyVb7dx1tU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 					<a href='#' class="b-play"></a>
 				</div>
@@ -221,7 +221,7 @@ require_once("prices.php");
 			
 				<h5 class="b-new-big"><b>Хочешь научиться упаковывать бизнесы</b> — лучшей<br> программы сейчас на рынке нет. Я думал, что знаю всё</h5>
 				<div class="b-new-record-inner clearfix">
-					<div class="b-video-block b-video-review" style="background-image: url('i/2/video.jpg');">
+					<div class="b-video-block b-video-review" style="background-image: url('i/reviews/kiselev.jpg');">
 						<iframe src="https://www.youtube.com/embed/5_kJ3dfynHI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 						<a href='#' class="b-play"></a>
 					</div>
@@ -1443,13 +1443,33 @@ require_once("prices.php");
 		</div>
 	</div>
 
+	<div class="b b-17" data-offset="600">
+		<div class="b-block">
+			<h2 class="b-title"><b>Удобный формат.</b> Проходите программу в комфортном для вас темпе!</h2>
+			<div class="b-ipads clearfix">
+				<div class="b-ipad-block left anim fadeDown" data-anim="fadeDown" data-cont=".b-17" data-delay="0">
+					<img src="i/17/pic-1.jpg" alt="">
+					<p class="b-left-triangle"><b>Формат:</b> Автотренинг<br>с проверкой 100% заданий<br>в видео-формате.</p>
+				</div>
+				<div class="b-ipad-block left anim fadeDown" data-anim="fadeDown" data-cont=".b-17" data-delay="200">
+					<img src="i/17/pic-2.jpg" alt="">
+					<p class="b-left-triangle">1 раз в месяц <b>мастер-<br>майнд</b> по ключевым темам<br>с участниками</p>
+				</div>
+				<div class="b-ipad-block left anim fadeDown" data-anim="fadeDown" data-cont=".b-17" data-delay="400">
+					<img src="i/17/gif.gif" alt="">
+					<p class="b-left-triangle">100% записей, доп.<br>материалы и задания всех<br>уроков доступны вам<br><b>навсегда</b></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<div class="b b-new-price">
 		<div class="b-block">
 			<h2 class="b-title"><b>Так сколько же стоит...</b></h2>
 			<div class="b-new-price-title-items clearfix">
-				<p class="b-left-triangle item-1">Получать клиентов до 7 раз дешевле<br>всего рынка следующие 3-5 лет</p>
-				<p class="b-left-triangle item-2">Уметь успешно запускать бизнес-идеи<br>в любой сфере и получать клиентов<br>за 1 день</p>
-				<p class="b-left-triangle item-3">Стать лидером рынка в глазах<br>аудитории в Интернете?</p>
+				<p class="b-left-triangle item-1">Научиться создавать<br> фантастически прибыльные сайты</p>
+				<p class="b-left-triangle item-2">Продавать свои услуги дорого</p>
+				<p class="b-left-triangle item-3">Открыть свое digital-агентство?</p>
 			</div>
 			<div class="b-new-price-content">
 				<div class="b-new-price-header">

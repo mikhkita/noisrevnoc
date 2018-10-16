@@ -429,11 +429,7 @@ $(document).ready(function(){
         if ($(".b-add-reviews").hasClass("hide-rev")) { 
             $(".b-add-reviews").removeClass("hide-rev")
             $(".b-add-reviews").addClass("show-rev");
-            $(".b-show-reviews b").text("Скрыть отзывы");
-        }else{
-            $(".b-add-reviews").removeClass("show-rev")
-            $(".b-add-reviews").addClass("hide-rev");
-            $(".b-show-reviews b").text("Смотреть ещё отзывы");
+            $(".b-show-reviews").remove();
         }
         return false;
     });

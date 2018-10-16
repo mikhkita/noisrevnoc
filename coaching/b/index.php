@@ -437,7 +437,7 @@ require_once("prices.php");
 				<div class="b-block clearfix">
 					<div class="b-imac">
 						<div class="b-screen" style="background-image: url('i/7/screen-1.jpg');"></div>
-						<p class="b-title"><b>Пример «Лендинга-Атланта»</b><br>для компании 500lux</p>
+						<p class="b-title"><b>Пример «Лендинга-Атланта»</b><br>для компании  TK Motors</p>
 					</div>
 					<div class="b-adv-list right">
 						<div class="b-adv">
@@ -470,7 +470,7 @@ require_once("prices.php");
 				<div class="b-block clearfix">
 					<div class="b-imac">
 						<div class="b-screen" style="background-image: url('i/7/screen-2.jpg');"></div>
-						<p class="b-title"><b>Пример «Лендинга-Атланта»</b><br>для компании 500lux</p>
+						<p class="b-title"><b>Пример «Лендинга-Атланта»</b><br>для компании Сок-Алоэ</p>
 					</div>
 					<div class="b-adv-list right">
 						<div class="b-adv">
@@ -503,7 +503,7 @@ require_once("prices.php");
 				<div class="b-block clearfix">
 					<div class="b-imac">
 						<div class="b-screen" style="top: 36px; background-image: url('i/7/screen-3.jpg');"></div>
-						<p class="b-title"><b>Пример «Лендинга-Атланта»</b><br>для компании 500lux</p>
+						<p class="b-title"><b>Пример «Лендинга-Атланта»</b><br>для компании 2D School</p>
 					</div>
 					<div class="b-adv-list right">
 						<div class="b-adv">
@@ -1548,7 +1548,7 @@ require_once("prices.php");
 					<img src="i/reviews/review-2.jpg">
 				</div>
 				<p class="b-new-small"></p>
-				<h5 class="b-new-big"><b>212 000 рублей</b> в первую неделю<br>прохождения курса</h5>
+				<h5 class="b-new-big">Была 281 заявка, в октябре <b>стало 501.</b><br> Все за счет Взлома Конверсии</h5>
 				<div class="b-new-record-inner b-new-slide clearfix">
 					<div class="b-video-block b-video-review" style="background-image: url('i/reviews/antonuk.jpg');">
 						<iframe src="https://www.youtube.com/embed/U28mfY0raq0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -1558,7 +1558,7 @@ require_once("prices.php");
 				</div>
 				<div class="b-add-reviews hide-rev">
 					<p class="b-new-small"></p>
-					<h5 class="b-new-big"><b>Чек-листы это палочка-выручалочка.</b><br>Сократили стоимость заявки до 60 рублей.</h5>
+					<h5 class="b-new-big">Набрали <b>30 студентов на первый курс.</b><br> Запрыгнули в последний вагон</h5>
 					<div class="b-new-record-inner b-new-slide clearfix">
 						<div class="b-video-block b-video-review" style="background-image: url('i/reviews/harlamov.jpg');">
 							<iframe src="https://www.youtube.com/embed/Ac_iMXo11D8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -1567,7 +1567,7 @@ require_once("prices.php");
 						<img src="i/reviews/review-4.jpg">
 					</div>
 					<p class="b-new-small"></p>
-					<h5 class="b-new-big">Запустили 3 сайта, цена лида от 79 рублей.<br><b>За 1 неделю окупил курс</b></h5>
+					<h5 class="b-new-big">Создала лендинг-квиз за 40 минут.<br> Начали получать по <b>6-7 каждый день по 140 рублей</b></h5>
 					<div class="b-new-record-inner b-new-slide clearfix">
 						<div class="b-video-block b-video-review" style="background-image: url('i/reviews/rusak.jpg');">
 							<iframe src="https://www.youtube.com/embed/KrSdOyjGMjY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -1576,7 +1576,7 @@ require_once("prices.php");
 						<img src="i/reviews/review-5.jpg">
 					</div>
 					<p class="b-new-small"></p>
-					<h5 class="b-new-big">Никогда не было таких результатов.<br><b>Сразу 11 заявок по 120 рублей</b> на кухни</h5>
+					<h5 class="b-new-big">Увеличили прибыль компании в 2 раза,<br> <b>благодаря фишке от Владимира</b></h5>
 					<div class="b-new-record-inner b-new-slide clearfix">
 						<div class="b-video-block b-video-review" style="background-image: url('i/reviews/tsay.jpg');">
 							<iframe src="https://www.youtube.com/embed/ZKRX6vaJmq4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

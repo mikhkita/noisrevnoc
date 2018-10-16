@@ -2286,12 +2286,12 @@ h5.b-small{
 								.b-autofun .b-ipad-1{
 									background-image: url('../i/8/4/ipad-1.jpg');
 									position: relative;
-									left: -40px;
+									left: -60px;
 								}
 								.b-autofun .b-ipad-2{
 									background-image: url('../i/8/4/ipad-2.jpg');
 									position: relative;
-									left: 40px;
+									left: 0px;
 								}
 								.b-autofun .b-left-triangle{
 									margin-top: 39px;
@@ -2620,6 +2620,7 @@ h5.b-small{
 .b-10{
 	padding-top: 199px;
 	padding-bottom: 100px;
+	overflow: hidden;
 }
 	.b-10 .b-block{
 
@@ -3886,7 +3887,11 @@ h5.b-small{
 					vertical-align: top;
 					margin-left: 24px;
 				}
-.b-17{padding-top: 35px;margin-bottom: -19px;}
+.b-17{
+	padding-top: 35px;
+	margin-bottom: -19px;
+    padding-bottom: 116px;
+}
 	.b-17 .b-block{
 
 	}
@@ -4930,6 +4935,9 @@ h5.b-small{
 			color: #6d6d6d;
 		}
 
+		#b-commerce-form .b-cost-btn{
+			padding: 33px 26px 34px 26px;
+		}
 		.b-cost-form .b-cost-btn{
 			width: 100%;
 			padding: 33px 42px 34px 42px;
@@ -6093,7 +6101,7 @@ ol li:before {
 	
 }
 .b-btn-one-line{
-	padding: 30px 42px 32px 42px;
+	padding: 30px 40px 32px 40px;
 }
 .b-new-small{
   font-size: 15px;

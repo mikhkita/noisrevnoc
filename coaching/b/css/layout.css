@@ -1627,7 +1627,8 @@ h5.b-small{
 	background: #000;
 	z-index: 99999;
 }
-.b-7{overflow: hidden;padding-bottom: 89px;}
+.b-7{overflow: hidden;
+	padding-bottom: 89px;}
 	.b-7 .b-block{
 		position: relative;
 		z-index: 2;
@@ -1802,6 +1803,9 @@ h5.b-small{
 				.b-500lux .b-adv-list{
 					text-align: left;
 					width: 420px;
+				}
+				.b-7 .b-adv-list{
+					min-height: 660px;
 				}
 					.b-7 .b-adv,
 					.b-500lux .b-adv{
@@ -2384,12 +2388,12 @@ h5.b-small{
 								.b-autofun .b-ipad-1{
 									background-image: url('../i/8/4/ipad-1.jpg');
 									position: relative;
-									left: -40px;
+									left: -60px;
 								}
 								.b-autofun .b-ipad-2{
 									background-image: url('../i/8/4/ipad-2.jpg');
 									position: relative;
-									left: 40px;
+									left: 0px;
 								}
 								.b-autofun .b-left-triangle{
 									margin-top: 39px;
@@ -2696,6 +2700,7 @@ h5.b-small{
 .b-10{
 	padding-top: 154px;
 	padding-bottom: 100px;
+	/*overflow: hidden;*/
 }
 	.b-10 .b-block{
 
@@ -3285,7 +3290,7 @@ h5.b-small{
 				width: 350px;
 			}
 			.b-btn-one-line{
-				padding: 30px 42px 32px 42px;
+				padding: 30px 40px 32px 40px;
 			}
 		.b-big-reviews-count{
 			position: absolute;
@@ -4919,6 +4924,10 @@ h5.b-small{
 			font-family: "Gilroy-Heavy";
 			letter-spacing: 1px;
 			text-transform: uppercase;
+		}
+		
+		#b-commerce-form .b-cost-btn{
+			padding: 33px 26px 34px 26px;
 		}
 		.b-cost-form .b-checkbox{
 			margin-top: 22px;
