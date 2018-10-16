@@ -1567,7 +1567,7 @@ require_once("prices.php");
 						<img src="i/reviews/review-4.jpg">
 					</div>
 					<p class="b-new-small"></p>
-					<h5 class="b-new-big">Создала лендинг-квиз за 40 минут.<br> Начали получать по <b>6-7 каждый день по 140 рублей</b></h5>
+					<h5 class="b-new-big">Создала лендинг-квиз за 40 минут.<br> Начали получать <b>6-7 заявок каждый день по 140 рублей</b></h5>
 					<div class="b-new-record-inner b-new-slide clearfix">
 						<div class="b-video-block b-video-review" style="background-image: url('i/reviews/rusak.jpg');">
 							<iframe src="https://www.youtube.com/embed/KrSdOyjGMjY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
